@@ -65,7 +65,8 @@
 }
 
 #real-accessability a#real-accessability-btn i.real-accessability-icon:before {
-	content: "\e907";	
+	content: "\e907";
+	content: "\e907" / "";	
 }
 
 #real-accessability a#real-accessability-btn i.real-accessability-loading {
@@ -74,6 +75,7 @@
 
 #real-accessability a#real-accessability-btn i.real-accessability-loading:before {
 	content: "\e908";
+	content: "\e908" / "";
 	font-size: 20px;
     -webkit-animation-name: spin;
     -webkit-animation-duration: 2500ms;
@@ -147,30 +149,37 @@
 
 #real-accessability ul li a#real-accessability-biggerFont:before {
 	content: "\e901";
+	content: "\e901" / "";
 }
 
 #real-accessability ul li a#real-accessability-smallerFont:before {
 	content: "\e902";
+	content: "\e902" / "";
 }
 
 #real-accessability ul li a#real-accessability-invert:before {
-	content: "\e904";	
+	content: "\e904";
+	content: "\e904" / "";	
 }
 
 #real-accessability ul li a#real-accessability-grayscale:before {
 	content: "\e903";
+	content: "\e903" / "";
 }
 
 #real-accessability ul li a#real-accessability-linkHighlight:before {
 	content: "\e906";
+	content: "\e906" / "";
 }
 
 #real-accessability ul li a#real-accessability-regularFont:before {
 	content: "\e900";
+	content: "\e900" / "";
 }
 
 #real-accessability ul li a#real-accessability-reset:before {
 	content: "\e905";
+	content: "\e905" / "";
 }
 
 #real-accessability ul li a:hover:before,
@@ -197,17 +206,36 @@
 	font-size: 13px;
 }
 
-#real-accessability-copyright a {
+#real-accessability-copyright span {
 	background: #eaedf2;
 	color: #424e5f;
-	display: block; 
+	display: block;
 	padding: 8px 10px;
 }
 
-#real-accessability-copyright a:hover {
-	background: #355f9d;
-	text-decoration: underline;
-	color: #fff;
+/* Closed toolbar - keep its items out of the keyboard tab order */
+#real-accessability-panel {
+	visibility: hidden;
+	-webkit-transition: visibility 0s linear 0.2s;
+	transition: visibility 0s linear 0.2s;
+}
+
+#real-accessability.open #real-accessability-panel {
+	visibility: visible;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+/* Visible keyboard focus */
+#real-accessability a:focus,
+#real-accessability button:focus {
+	outline: 2px solid #063d8d;
+	outline-offset: -2px;
+}
+
+#real-accessability a#real-accessability-btn:focus {
+	outline: 3px solid #f2a900;
+	outline-offset: 0;
 }
 
 #real-accessability-player {
@@ -223,25 +251,67 @@
     padding-top:12px;
     padding-bottom:12px;
 }
+#real-accessability-player[hidden] {
+    display: none;
+}
 #real-accessability-player span{
     display:block;
     font-size:15px;
     color:#424e5f;
+}
+#real-accessability #real-accessability-player button,
+#real-accessability #real-accessability-player a {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    min-width: 0;
+    height: auto;
+    min-height: 0;
+    margin: 0 2px;
+    padding: 3px;
+    border: 0;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+    line-height: 0;
+    cursor: pointer;
+}
+#real-accessability #real-accessability-player img {
+    display: inline-block;
+    max-width: none;
 }
 
 
 /* Effects */
 
 .real-accessability-grayscale {
-    filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale");
-    filter: gray;
-    -webkit-filter: grayscale(100%);	
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 .real-accessability-invert {
     -webkit-filter: invert(100%);
-    filter: invert(100%);	
+    filter: invert(100%);
     color: #000;
+}
+
+/* A filter on <body> breaks position: fixed (the toolbar scrolls away), so filter <html> where supported */
+@supports selector(html:has(body)) {
+    body.real-accessability-grayscale,
+    body.real-accessability-invert {
+        -webkit-filter: none;
+        filter: none;
+    }
+
+    html:has(> body.real-accessability-grayscale) {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+
+    html:has(> body.real-accessability-invert) {
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
 }
 
 .real-accessability-linkHighlight a {
