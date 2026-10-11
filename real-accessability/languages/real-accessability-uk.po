@@ -1,0 +1,1119 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Real Accessibility 2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-accessability/\n"
+"PO-Revision-Date: 2026-10-11 12:00+0300\n"
+"Last-Translator: REALMEDIA <office@realmedia.co.il>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2));\n"
+"X-Domain: real-accessability\n"
+
+#. Plugin URI of the plugin
+#: real-accessability.php
+msgid "https://wordpress.org/plugins/real-accessability/"
+msgstr "https://wordpress.org/plugins/real-accessability/"
+
+#. Description of the plugin
+#: real-accessability.php
+msgid ""
+"An accessibility menu for your website - ready-made profiles, contrast "
+"modes, text size and spacing, readable font, reading guide and more, styled "
+"in your brand color."
+msgstr ""
+"Меню доступності для сайту у вашому фірмовому кольорі: готові профілі, "
+"режими контрасту, розмір тексту та інтервали, розбірливий шрифт, лінійка для"
+" читання та багато іншого."
+
+#. Author of the plugin
+#: real-accessability.php
+msgid "REALMEDIA"
+msgstr "REALMEDIA"
+
+#. Author URI of the plugin
+#: real-accessability.php
+msgid "https://realmedia.co.il"
+msgstr "https://realmedia.co.il"
+
+#: includes/class-real-accessability-admin.php:37
+#: includes/class-real-accessability-admin.php:55
+#: includes/class-real-accessability-admin.php:74
+#: includes/class-real-accessability-admin.php:515
+msgid "Sorry, you are not allowed to do that."
+msgstr "На жаль, вам не дозволено це робити."
+
+#: includes/class-real-accessability-admin.php:106
+msgid "Accessibility menu on the site"
+msgstr "Меню доступності на сайті"
+
+#: includes/class-real-accessability-admin.php:109
+msgid "On"
+msgstr "Увімкнено"
+
+#: includes/class-real-accessability-admin.php:109
+msgid "Off"
+msgstr "Вимкнено"
+
+#: includes/class-real-accessability-admin.php:140
+msgid "The accessibility menu is off."
+msgstr "Меню доступності вимкнено."
+
+#: includes/class-real-accessability-admin.php:141
+msgid "Visitors do not see it."
+msgstr "Відвідувачі його не бачать."
+
+#: includes/class-real-accessability-admin.php:142
+#: includes/class-real-accessability-admin.php:631
+#: includes/class-real-accessability-admin.php:643
+msgid "Turn on the accessibility menu"
+msgstr "Увімкнути меню доступності"
+
+#: includes/class-real-accessability-admin.php:194
+msgid ""
+"Real Accessibility 2.0 is ready. Set the brand color and the button "
+"position, and choose whether to show the plugin credit."
+msgstr ""
+"Real Accessibility 2.0 готовий до роботи. Задайте фірмовий колір і "
+"розташування кнопки та вирішіть, чи показувати згадку про плагін."
+
+#: includes/class-real-accessability-admin.php:195
+msgid "Open Real Accessibility"
+msgstr "Відкрити Real Accessibility"
+
+#: includes/class-real-accessability-admin.php:206
+msgid ""
+"Show a small credit with a link to the plugin page on WordPress.org at the "
+"bottom of the accessibility menu? It helps keep the plugin free."
+msgstr ""
+"Показувати внизу меню доступності невелику згадку про плагін із посиланням "
+"на його сторінку на WordPress.org? Це допомагає плагіну залишатися "
+"безкоштовним."
+
+#: includes/class-real-accessability-admin.php:207
+#: includes/class-real-accessability-admin.php:651
+msgid "Approve"
+msgstr "Підтвердити"
+
+#: includes/class-real-accessability-admin.php:208
+msgid "No thanks"
+msgstr "Ні, дякую"
+
+#: includes/class-real-accessability-admin.php:244
+msgid "Load WooCommerce stores in 249ms"
+msgstr "Завантажуйте магазини WooCommerce за 249 мс"
+
+#: includes/class-real-accessability-admin.php:248
+msgid "Load WordPress sites in as fast as 37ms"
+msgstr "Завантажуйте сайти WordPress лише за 37 мс"
+
+#: includes/class-real-accessability-admin.php:255
+msgid "(opens in a new tab)"
+msgstr "(відкривається у новій вкладці)"
+
+#: includes/class-real-accessability-admin.php:274
+msgid "Starting from $500"
+msgstr "Від $500"
+
+#: includes/class-real-accessability-admin.php:304
+msgid "Professional accessibility audit"
+msgstr "Професійний аудит доступності"
+
+#: includes/class-real-accessability-admin.php:305
+msgid "A report of every issue and how to fix it"
+msgstr "Звіт про кожну проблему та спосіб її виправити"
+
+#: includes/class-real-accessability-admin.php:309
+msgid "Your request was sent. We will be in touch soon."
+msgstr "Запит надіслано. Ми незабаром зв’яжемося з вами."
+
+#: includes/class-real-accessability-admin.php:311
+msgid "Get a quote"
+msgstr "Дізнатися вартість"
+
+#: includes/class-real-accessability-admin.php:326
+#: includes/class-real-accessability-admin.php:331
+msgid "A clear report of every issue, with how to fix it"
+msgstr "Зрозумілий звіт про кожну проблему з порадами щодо виправлення"
+
+#: includes/class-real-accessability-admin.php:327
+#: includes/class-real-accessability-admin.php:332
+msgid "Help with your accessibility statement and with the fixes"
+msgstr "Допомога із заявою про доступність і з виправленнями"
+
+#: includes/class-real-accessability-admin.php:328
+#: includes/class-real-accessability-admin.php:333
+msgid "A reply within one business day"
+msgstr "Відповідь протягом одного робочого дня"
+
+#: includes/class-real-accessability-admin.php:330
+msgid "Manual and automated testing against WCAG 2.2 AA"
+msgstr "Ручне й автоматизоване тестування на відповідність WCAG 2.2 AA"
+
+#: includes/class-real-accessability-admin.php:338
+msgid "An accessibility menu alone is not enough"
+msgstr "Самого меню доступності недостатньо"
+
+#: includes/class-real-accessability-admin.php:344
+msgid ""
+"To meet WCAG 2.2 AA and laws such as the ADA, the code and content of the "
+"site need to be accessible too. Our experts audit your site and show you "
+"exactly what to fix."
+msgstr ""
+"Щоб відповідати WCAG 2.2 AA і таким законам, як ADA, доступними мають бути "
+"також код і вміст сайту. Наші експерти перевірять ваш сайт і покажуть, що "
+"саме треба виправити."
+
+#: includes/class-real-accessability-admin.php:359
+msgid "Your request was sent."
+msgstr "Запит надіслано."
+
+#: includes/class-real-accessability-admin.php:359
+msgid "We will get back to you as soon as possible."
+msgstr "Ми відповімо вам якнайшвидше."
+
+#: includes/class-real-accessability-admin.php:363
+msgid "Get a free quote for an accessibility audit"
+msgstr "Отримайте безкоштовний розрахунок вартості аудиту доступності"
+
+#: includes/class-real-accessability-admin.php:364
+msgid "We will get back to you with a quote for your site."
+msgstr "Ми зв’яжемося з вами й назвемо вартість для вашого сайту."
+
+#: includes/class-real-accessability-admin.php:370
+msgid "Leave this field empty"
+msgstr "Залиште це поле порожнім"
+
+#: includes/class-real-accessability-admin.php:374
+msgid "Full name"
+msgstr "Ім’я та прізвище"
+
+#: includes/class-real-accessability-admin.php:379
+msgid "Phone"
+msgstr "Телефон"
+
+#: includes/class-real-accessability-admin.php:381
+#: includes/class-real-accessability-admin.php:761
+msgid "Country code"
+msgstr "Код країни"
+
+#: includes/class-real-accessability-admin.php:392
+msgid "Email"
+msgstr "Email"
+
+#: includes/class-real-accessability-admin.php:405
+msgid "Sending..."
+msgstr "Надсилання…"
+
+#: includes/class-real-accessability-admin.php:405
+msgid "Request a quote"
+msgstr "Запитати розрахунок"
+
+#. translators: %s: the "privacy policy" link.
+#: includes/class-real-accessability-admin.php:421
+#, php-format
+msgid ""
+"I agree that these details will be sent to Real Media Ltd. so they can "
+"contact me about an accessibility audit, in accordance with the %s."
+msgstr ""
+"Я даю згоду на передачу цих даних компанії Real Media Ltd., щоб зі мною "
+"зв’язалися щодо аудиту доступності, відповідно до %s."
+
+#: includes/class-real-accessability-admin.php:423
+msgctxt "link inside the consent sentence"
+msgid "privacy policy"
+msgstr "політики конфіденційності"
+
+#: includes/class-real-accessability-admin.php:430
+msgid "Who we are"
+msgstr "Хто ми"
+
+#: includes/class-real-accessability-admin.php:431
+msgid ""
+"This form is operated by Real Media Ltd., the developer of Real "
+"Accessibility. This policy explains what happens to the details you send "
+"through it. It follows the Israeli Protection of Privacy Law, 5741-1981, "
+"including Amendment 13."
+msgstr ""
+"Оператором цієї форми є компанія Real Media Ltd., розробник Real "
+"Accessibility. Ця політика пояснює, що відбувається з даними, які ви "
+"надсилаєте через цю форму. Вона складена відповідно до ізраїльського Закону "
+"про захист приватності, 5741-1981, включно з поправкою № 13."
+
+#: includes/class-real-accessability-admin.php:434
+msgid "What we collect"
+msgstr "Які дані ми збираємо"
+
+#: includes/class-real-accessability-admin.php:435
+msgid ""
+"Only what you type into the form: full name, phone and email, together with "
+"your site's address, your consent, the plugin version and the time of "
+"sending."
+msgstr ""
+"Лише те, що ви вводите у форму: ім’я та прізвище, телефон і адресу "
+"електронної пошти, а також адресу вашого сайту, вашу згоду, версію плагіна "
+"та час надсилання."
+
+#: includes/class-real-accessability-admin.php:436
+msgid ""
+"Your details are sent only when you click the button, together with the "
+"language and price shown here. Nothing else from your site is sent."
+msgstr ""
+"Ваші дані надсилаються лише після натискання кнопки, разом із мовою та "
+"ціною, зазначеними тут. Жодні інші дані з вашого сайту не надсилаються."
+
+#: includes/class-real-accessability-admin.php:439
+msgid "What we use it for"
+msgstr "Для чого ми їх використовуємо"
+
+#: includes/class-real-accessability-admin.php:440
+msgid ""
+"To get back to you about your request and send you a quote for an "
+"accessibility audit. We will not send you marketing messages unless you "
+"agree to receive them separately."
+msgstr ""
+"Щоб відповісти на ваш запит і надіслати вам розрахунок вартості аудиту "
+"доступності. Ми не надсилатимемо вам рекламних повідомлень, якщо ви окремо "
+"не погодитеся їх отримувати."
+
+#: includes/class-real-accessability-admin.php:443
+msgid "Do you have to give it"
+msgstr "Чи зобов’язані ви їх надавати"
+
+#: includes/class-real-accessability-admin.php:444
+msgid ""
+"You are not required by law to give us these details. Without them, we "
+"cannot get back to you about your request."
+msgstr ""
+"Закон не зобов’язує вас надавати нам ці дані. Без них ми не зможемо "
+"відповісти на ваш запит."
+
+#: includes/class-real-accessability-admin.php:447
+msgid "Who receives it"
+msgstr "Хто їх отримує"
+
+#: includes/class-real-accessability-admin.php:448
+msgid ""
+"The details are sent to Real Media Ltd., so it can get back to you with a "
+"quote."
+msgstr ""
+"Дані надсилаються компанії Real Media Ltd., щоб вона могла зв’язатися з вами"
+" й надіслати розрахунок вартості."
+
+#: includes/class-real-accessability-admin.php:451
+msgid "How long we keep it"
+msgstr "Як довго ми їх зберігаємо"
+
+#: includes/class-real-accessability-admin.php:452
+msgid ""
+"For as long as needed to handle your request, and for up to 24 months after "
+"our last contact, unless the law requires otherwise."
+msgstr ""
+"Стільки, скільки потрібно для обробки вашого запиту, і до 24 місяців після "
+"нашого останнього контакту, якщо закон не вимагає іншого."
+
+#: includes/class-real-accessability-admin.php:455
+msgid "Security"
+msgstr "Безпека"
+
+#: includes/class-real-accessability-admin.php:456
+msgid ""
+"We use up-to-date measures to protect the details. No system is completely "
+"immune to unauthorized access, so we cannot guarantee absolute protection."
+msgstr ""
+"Ми застосовуємо сучасні заходи для захисту даних. Жодна система не захищена "
+"повністю від несанкціонованого доступу, тому ми не можемо гарантувати "
+"абсолютний захист."
+
+#: includes/class-real-accessability-admin.php:459
+msgid "Your rights"
+msgstr "Ваші права"
+
+#. translators: %s: email address for privacy requests.
+#: includes/class-real-accessability-admin.php:461
+#, php-format
+msgid ""
+"You can ask at any time to see, correct or delete your details, or to "
+"withdraw your consent, by writing to %s."
+msgstr ""
+"Ви можете будь-коли запросити доступ до своїх даних, їх виправлення чи "
+"видалення, а також відкликати свою згоду, написавши на адресу %s."
+
+#: includes/class-real-accessability-admin.php:467
+msgid "Privacy policy for audit requests"
+msgstr "Політика конфіденційності для запитів на аудит"
+
+#: includes/class-real-accessability-admin.php:468
+#: includes/class-real-accessability-admin.php:477
+#: includes/class-real-accessability-admin.php:644
+msgid "Close"
+msgstr "Закрити"
+
+#: includes/class-real-accessability-admin.php:523
+msgid ""
+"You already sent a request in the last 24 hours. We will be in touch soon."
+msgstr ""
+"Ви вже надсилали запит протягом останніх 24 годин. Ми незабаром зв’яжемося з"
+" вами."
+
+#: includes/class-real-accessability-admin.php:538
+#: includes/class-real-accessability-admin.php:574
+#: includes/class-real-accessability-admin.php:604
+#: includes/class-real-accessability-admin.php:757
+msgid "The request could not be sent. Please try again later."
+msgstr "Не вдалося надіслати запит. Будь ласка, спробуйте пізніше."
+
+#: includes/class-real-accessability-admin.php:556
+msgid "Please fill in all the required fields."
+msgstr "Будь ласка, заповніть усі обов’язкові поля."
+
+#: includes/class-real-accessability-admin.php:559
+#: includes/class-real-accessability-admin.php:763
+msgid "Please enter a valid email address."
+msgstr "Будь ласка, введіть правильну адресу email."
+
+#: includes/class-real-accessability-admin.php:567
+#: includes/class-real-accessability-admin.php:764
+msgid "Please enter a valid phone number."
+msgstr "Будь ласка, введіть правильний номер телефону."
+
+#: includes/class-real-accessability-admin.php:570
+#: includes/class-real-accessability-admin.php:765
+msgid "Please agree to send your details."
+msgstr "Будь ласка, підтвердьте згоду на передачу ваших даних."
+
+#: includes/class-real-accessability-admin.php:615
+msgid "Disclaimer:"
+msgstr "Відмова від відповідальності:"
+
+#: includes/class-real-accessability-admin.php:616
+msgid ""
+"Real Accessibility adds an accessibility menu that helps visitors adjust how"
+" the site is displayed. On its own, it does not make a website accessible or"
+" compliant with any accessibility law or standard (such as WCAG or Israeli "
+"Standard 5568). The site owner remains solely responsible for the "
+"accessibility of the site's code and content and for meeting the legal "
+"requirements. The plugin is provided \"as is\", without warranty of any "
+"kind, and the plugin's authors are not liable for any damage resulting from "
+"its use."
+msgstr ""
+"Real Accessibility додає меню доступності, яке допомагає відвідувачам "
+"налаштувати відображення сайту. Сам по собі плагін не робить сайт доступним "
+"і не забезпечує його відповідності жодному закону чи стандарту у сфері "
+"доступності (наприклад, WCAG або ізраїльському стандарту 5568). Власник "
+"сайту й надалі несе виключну відповідальність за доступність коду та вмісту "
+"сайту і за виконання вимог законодавства. Плагін надається «як є», без будь-"
+"яких гарантій, і автори плагіна не несуть відповідальності за будь-яку "
+"шкоду, заподіяну внаслідок його використання."
+
+#: includes/class-real-accessability-admin.php:628
+msgid "Your accessibility menu is ready"
+msgstr "Ваше меню доступності готове"
+
+#: includes/class-real-accessability-admin.php:629
+msgid ""
+"Set the color and the position below, then turn the menu on. You can keep "
+"changing the settings after it is live."
+msgstr ""
+"Задайте нижче колір і розташування, а потім увімкніть меню. Змінювати "
+"налаштування можна й після того, як меню запрацює на сайті."
+
+#: includes/class-real-accessability-admin.php:647
+msgid ""
+"Approving turns the menu on and shows a small credit at its bottom, with a "
+"link to the plugin page on WordPress.org."
+msgstr ""
+"Після підтвердження меню увімкнеться, а внизу з’явиться невелика згадка про "
+"плагін із посиланням на його сторінку на WordPress.org."
+
+#: includes/class-real-accessability-admin.php:648
+msgid ""
+"Real Accessibility is free, and the credit helps other site owners find it."
+msgstr ""
+"Real Accessibility безкоштовний, а згадка допомагає іншим власникам сайтів "
+"знайти його."
+
+#: includes/class-real-accessability-admin.php:652
+#: includes/class-real-accessability-admin.php:1117
+#: includes/class-real-accessability-admin.php:1251
+#: includes/class-real-accessability-admin.php:1349
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: includes/class-real-accessability-admin.php:653
+msgid "You can also turn it on without the credit"
+msgstr "Можна увімкнути й без згадки"
+
+#: includes/class-real-accessability-admin.php:677
+#: includes/class-real-accessability-admin.php:998
+#: includes/class-real-accessability-admin.php:1006
+msgid "Button and menu"
+msgstr "Кнопка та меню"
+
+#: includes/class-real-accessability-admin.php:678
+msgid "Features"
+msgstr "Функції"
+
+#: includes/class-real-accessability-admin.php:679
+msgid "Languages"
+msgstr "Мови"
+
+#: includes/class-real-accessability-admin.php:680
+#: includes/class-real-accessability-i18n.php:86
+msgid "Accessibility statement"
+msgstr "Заява про доступність"
+
+#: includes/class-real-accessability-admin.php:681
+msgid "Accessibility audit"
+msgstr "Аудит доступності"
+
+#: includes/class-real-accessability-admin.php:693
+#: includes/class-real-accessability-admin.php:809
+msgid "Real Accessibility"
+msgstr "Real Accessibility"
+
+#: includes/class-real-accessability-admin.php:694
+msgctxt "admin menu label"
+msgid "Real Accessibility"
+msgstr "Real Accessibility"
+
+#. translators: %s: contrast ratio, for example 1.8.
+#: includes/class-real-accessability-admin.php:755
+#, php-format
+msgid "Low contrast %s:1"
+msgstr "Низький контраст %s:1"
+
+#: includes/class-real-accessability-admin.php:756
+msgid "You have unsaved changes."
+msgstr "У вас є незбережені зміни."
+
+#: includes/class-real-accessability-admin.php:762
+msgid "This field is required."
+msgstr "Це поле обов’язкове."
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:769
+#: includes/class-real-accessability-admin.php:1297
+#, php-format
+msgid "Flag for %s"
+msgstr "Прапор: %s"
+
+#: includes/class-real-accessability-admin.php:770
+msgid "Choose a flag"
+msgstr "Виберіть прапор"
+
+#: includes/class-real-accessability-admin.php:771
+msgid "Search for a country"
+msgstr "Пошук країни"
+
+#: includes/class-real-accessability-admin.php:772
+msgid "Suggested"
+msgstr "Рекомендовані"
+
+#: includes/class-real-accessability-admin.php:773
+msgid "All countries"
+msgstr "Усі країни"
+
+#: includes/class-real-accessability-admin.php:774
+msgid "No country found"
+msgstr "Країну не знайдено"
+
+#. translators: %d: number of languages shown in the menu.
+#: includes/class-real-accessability-admin.php:789
+#, php-format
+msgid "%d language in the menu"
+msgid_plural "%d languages in the menu"
+msgstr[0] "%d мова в меню"
+msgstr[1] "%d мови в меню"
+msgstr[2] "%d мов у меню"
+
+#: includes/class-real-accessability-admin.php:813
+msgid "Settings sections"
+msgstr "Розділи налаштувань"
+
+#: includes/class-real-accessability-admin.php:815
+msgid "Legal compliance"
+msgstr "Відповідність закону"
+
+#: includes/class-real-accessability-admin.php:825
+msgid ""
+"Thank you! The credit is shown at the bottom of the accessibility menu."
+msgstr ""
+"Дякуємо! Згадка про плагін тепер відображається внизу меню доступності."
+
+#: includes/class-real-accessability-admin.php:832
+msgid ""
+"The accessibility menu is live on your site, with the credit at the bottom. "
+"Thank you!"
+msgstr ""
+"Меню доступності працює на вашому сайті, а внизу відображається згадка про "
+"плагін. Дякуємо!"
+
+#: includes/class-real-accessability-admin.php:833
+msgid "The accessibility menu is live on your site!"
+msgstr "Меню доступності працює на вашому сайті!"
+
+#: includes/class-real-accessability-admin.php:834
+msgid "View the site"
+msgstr "Відвідати сайт"
+
+#: includes/class-real-accessability-admin.php:896
+msgid "Desktop"
+msgstr "Комп’ютер"
+
+#: includes/class-real-accessability-admin.php:897
+msgid "Show the accessibility button on desktop"
+msgstr "Показувати кнопку доступності на комп’ютерах"
+
+#: includes/class-real-accessability-admin.php:900
+msgid "Tablet"
+msgstr "Планшет"
+
+#: includes/class-real-accessability-admin.php:901
+msgid "Show the accessibility button on tablets"
+msgstr "Показувати кнопку доступності на планшетах"
+
+#: includes/class-real-accessability-admin.php:904
+msgid "Mobile"
+msgstr "Мобільний"
+
+#: includes/class-real-accessability-admin.php:905
+msgid "Show the accessibility button on mobile"
+msgstr "Показувати кнопку доступності на мобільних пристроях"
+
+#: includes/class-real-accessability-admin.php:909
+msgid "Top left"
+msgstr "Вгорі ліворуч"
+
+#: includes/class-real-accessability-admin.php:910
+msgid "Top center"
+msgstr "Вгорі по центру"
+
+#: includes/class-real-accessability-admin.php:911
+msgid "Top right"
+msgstr "Вгорі праворуч"
+
+#: includes/class-real-accessability-admin.php:912
+msgid "Middle left"
+msgstr "Ліворуч посередині"
+
+#: includes/class-real-accessability-admin.php:913
+msgid "Center"
+msgstr "По центру"
+
+#: includes/class-real-accessability-admin.php:914
+msgid "Middle right"
+msgstr "Праворуч посередині"
+
+#: includes/class-real-accessability-admin.php:915
+msgid "Bottom left"
+msgstr "Внизу ліворуч"
+
+#: includes/class-real-accessability-admin.php:916
+msgid "Bottom center"
+msgstr "Внизу по центру"
+
+#: includes/class-real-accessability-admin.php:917
+msgid "Bottom right"
+msgstr "Внизу праворуч"
+
+#: includes/class-real-accessability-admin.php:920
+msgid "From the left"
+msgstr "Зліва"
+
+#: includes/class-real-accessability-admin.php:921
+msgid "From the right"
+msgstr "Справа"
+
+#: includes/class-real-accessability-admin.php:922
+msgid "From the bottom"
+msgstr "Знизу"
+
+#: includes/class-real-accessability-admin.php:925
+#: includes/class-real-accessability-admin.php:1051
+msgid "Circle"
+msgstr "Коло"
+
+#: includes/class-real-accessability-admin.php:926
+msgid "Rounded"
+msgstr "Заокруглений"
+
+#: includes/class-real-accessability-admin.php:927
+#: includes/class-real-accessability-admin.php:1051
+msgid "Square"
+msgstr "Квадрат"
+
+#: includes/class-real-accessability-admin.php:937
+msgid "Device"
+msgstr "Пристрій"
+
+#: includes/class-real-accessability-admin.php:942
+msgid "hidden"
+msgstr "прихована"
+
+#: includes/class-real-accessability-admin.php:953
+msgid "Color"
+msgstr "Колір"
+
+#: includes/class-real-accessability-admin.php:958
+msgid "Brand color"
+msgstr "Фірмовий колір"
+
+#: includes/class-real-accessability-admin.php:959
+msgid "All the menu and button colors come from it."
+msgstr "Усі кольори меню та кнопки будуються на його основі."
+
+#: includes/class-real-accessability-admin.php:964
+msgid "Pick the brand color"
+msgstr "Вибрати фірмовий колір"
+
+#: includes/class-real-accessability-admin.php:969
+msgid "Button icon color"
+msgstr "Колір іконки кнопки"
+
+#: includes/class-real-accessability-admin.php:970
+msgid "Automatic picks white or black, whichever has more contrast."
+msgstr ""
+"У режимі «Авто» вибирається білий або чорний, залежно від того, який із них "
+"контрастніший."
+
+#: includes/class-real-accessability-admin.php:975
+msgid "Custom icon color"
+msgstr "Власний колір іконки"
+
+#: includes/class-real-accessability-admin.php:976
+msgid "Pick the icon color"
+msgstr "Вибрати колір іконки"
+
+#: includes/class-real-accessability-admin.php:979
+msgid "Automatic"
+msgstr "Авто"
+
+#: includes/class-real-accessability-admin.php:980
+msgid "Custom"
+msgstr "Власний"
+
+#: includes/class-real-accessability-admin.php:1000
+msgid "Show the button on"
+msgstr "Показувати кнопку на"
+
+#: includes/class-real-accessability-admin.php:1009
+#: includes/class-real-accessability-admin.php:1024
+msgid "Button position"
+msgstr "Розташування кнопки"
+
+#: includes/class-real-accessability-admin.php:1010
+msgid "Shape and size"
+msgstr "Форма і розмір"
+
+#: includes/class-real-accessability-admin.php:1011
+msgid "The menu"
+msgstr "Меню"
+
+#: includes/class-real-accessability-admin.php:1019
+msgid ""
+"The button is hidden on this device. Turn it back on with the icons above."
+msgstr ""
+"На цьому пристрої кнопку приховано. Увімкнути її знову можна іконками вище."
+
+#: includes/class-real-accessability-admin.php:1036
+msgid "Distance from the edge - horizontal"
+msgstr "Відступ від краю по горизонталі"
+
+#: includes/class-real-accessability-admin.php:1036
+#: includes/class-real-accessability-admin.php:1037
+msgid "Attached"
+msgstr "Впритул"
+
+#: includes/class-real-accessability-admin.php:1037
+msgid "Distance from the edge - vertical"
+msgstr "Відступ від краю по вертикалі"
+
+#: includes/class-real-accessability-admin.php:1044
+msgid "Shape"
+msgstr "Форма"
+
+#: includes/class-real-accessability-admin.php:1050
+msgid "Button size"
+msgstr "Розмір кнопки"
+
+#: includes/class-real-accessability-admin.php:1051
+msgid "Corner radius"
+msgstr "Заокруглення кутів"
+
+#: includes/class-real-accessability-admin.php:1056
+msgid "Opens from the edge of the screen, wherever the button is."
+msgstr "Відкривається від краю екрана, хоч би де була кнопка."
+
+#: includes/class-real-accessability-admin.php:1058
+msgid "Menu opens from"
+msgstr "Звідки відкривається меню"
+
+#: includes/class-real-accessability-admin.php:1067
+msgid "Menu corner radius"
+msgstr "Заокруглення кутів меню"
+
+#: includes/class-real-accessability-admin.php:1079
+#: includes/class-real-accessability-admin.php:1080
+#: includes/class-real-accessability-admin.php:1235
+#: includes/class-real-accessability-admin.php:1330
+msgid "Preview"
+msgstr "Попередній перегляд"
+
+#: includes/class-real-accessability-admin.php:1081
+msgid "Button"
+msgstr "Кнопка"
+
+#: includes/class-real-accessability-admin.php:1082
+msgid "Menu open"
+msgstr "Меню відкрито"
+
+#: includes/class-real-accessability-admin.php:1095
+#: includes/class-real-accessability-i18n.php:32
+msgid "Accessibility"
+msgstr "Доступність"
+
+#: includes/class-real-accessability-admin.php:1104
+msgid "The button is hidden on this device."
+msgstr "На цьому пристрої кнопку приховано."
+
+#: includes/class-real-accessability-admin.php:1116
+#: includes/class-real-accessability-admin.php:1250
+#: includes/class-real-accessability-admin.php:1348
+msgid "Save changes"
+msgstr "Зберегти зміни"
+
+#: includes/class-real-accessability-admin.php:1118
+#: includes/class-real-accessability-admin.php:1252
+#: includes/class-real-accessability-admin.php:1350
+msgid "You have unsaved changes"
+msgstr "Є незбережені зміни"
+
+#: includes/class-real-accessability-admin.php:1193
+msgid ""
+"Choose what visitors see in the accessibility menu. Sections without any "
+"option are not shown."
+msgstr ""
+"Виберіть, що відвідувачі бачитимуть у меню доступності. Розділи без жодної "
+"увімкненої функції не показуються."
+
+#: includes/class-real-accessability-admin.php:1222
+msgid "Menu footer"
+msgstr "Нижня частина меню"
+
+#: includes/class-real-accessability-admin.php:1225
+msgid "Hide button"
+msgstr "Кнопка «Сховати»"
+
+#: includes/class-real-accessability-admin.php:1225
+msgid "Hides the accessibility button until the visitor's next visit"
+msgstr "Приховує кнопку доступності до наступного візиту відвідувача"
+
+#: includes/class-real-accessability-admin.php:1226
+msgid "Plugin credit"
+msgstr "Згадка про плагін"
+
+#: includes/class-real-accessability-admin.php:1226
+msgid ""
+"A small credit at the bottom of the menu, with a link to the plugin page on "
+"WordPress.org"
+msgstr ""
+"Невелика згадка внизу меню з посиланням на сторінку плагіна на WordPress.org"
+
+#: includes/class-real-accessability-admin.php:1237
+msgid "Preview of the accessibility menu"
+msgstr "Попередній перегляд меню доступності"
+
+#: includes/class-real-accessability-admin.php:1276
+msgid "Menu languages"
+msgstr "Мови меню"
+
+#: includes/class-real-accessability-admin.php:1281
+msgid "Search languages"
+msgstr "Пошук мов"
+
+#: includes/class-real-accessability-admin.php:1283
+msgid "No language found"
+msgstr "Мову не знайдено"
+
+#: includes/class-real-accessability-admin.php:1293
+msgid "Drag to reorder"
+msgstr "Перетягніть, щоб змінити порядок"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1315
+#, php-format
+msgid "Make %s the default"
+msgstr "Зробити мовою за замовчуванням: %s"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1316
+msgid "Default"
+msgstr "За замовчуванням"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1319
+#, php-format
+msgid "Show %s in the menu"
+msgstr "Показувати в меню: %s"
+
+#: includes/class-real-accessability-admin.php:1362
+msgid "Statement page"
+msgstr "Сторінка заяви"
+
+#: includes/class-real-accessability-admin.php:1370
+msgid "- Select a page -"
+msgstr "- Виберіть сторінку -"
+
+#: includes/class-real-accessability-admin.php:1377
+msgid "View page"
+msgstr "Переглянути сторінку"
+
+#: includes/class-real-accessability-admin.php:1379
+msgid ""
+"The page on your site with the accessibility statement. The \"Accessibility "
+"statement\" button in the menu links to it."
+msgstr ""
+"Сторінка вашого сайту із заявою про доступність. На неї веде кнопка «Заява "
+"про доступність» у меню."
+
+#: includes/class-real-accessability-admin.php:1383
+msgid "Statement button"
+msgstr "Кнопка заяви"
+
+#: includes/class-real-accessability-admin.php:1385
+msgid "Show the \"Accessibility statement\" button in the menu"
+msgstr "Показувати в меню кнопку «Заява про доступність»"
+
+#: includes/class-real-accessability-i18n.php:33
+msgid "Accessibility menu"
+msgstr "Меню доступності"
+
+#: includes/class-real-accessability-i18n.php:34
+msgid "Open accessibility menu"
+msgstr "Відкрити меню доступності"
+
+#: includes/class-real-accessability-i18n.php:35
+msgid "Close accessibility menu (Esc)"
+msgstr "Закрити меню доступності (Esc)"
+
+#: includes/class-real-accessability-i18n.php:36
+msgid "Menu language"
+msgstr "Мова меню"
+
+#: includes/class-real-accessability-i18n.php:37
+msgid "Choose language"
+msgstr "Вибір мови"
+
+#: includes/class-real-accessability-i18n.php:38
+msgid "No adjustments active"
+msgstr "Немає активних налаштувань"
+
+#: includes/class-real-accessability-i18n.php:39
+msgid "Ready-made profiles"
+msgstr "Готові профілі"
+
+#: includes/class-real-accessability-i18n.php:40
+msgid "Seizure safe"
+msgstr "Безпечно при епілепсії"
+
+#: includes/class-real-accessability-i18n.php:41
+msgid "Stops animations and flashing and dims colors"
+msgstr "Зупиняє анімацію та мерехтіння, приглушує кольори"
+
+#: includes/class-real-accessability-i18n.php:42
+msgid "Vision impaired"
+msgstr "Порушення зору"
+
+#: includes/class-real-accessability-i18n.php:43
+msgid "High contrast, large text and emphasized headings"
+msgstr "Високий контраст, великий текст і виділені заголовки"
+
+#: includes/class-real-accessability-i18n.php:44
+msgid "ADHD and focus"
+msgstr "СДУГ і концентрація"
+
+#: includes/class-real-accessability-i18n.php:45
+msgid "Fewer distractions, reading guide and line spacing"
+msgstr "Менше відволікань, лінійка для читання та міжрядковий інтервал"
+
+#: includes/class-real-accessability-i18n.php:46
+msgid "Dyslexia"
+msgstr "Дислексія"
+
+#: includes/class-real-accessability-i18n.php:47
+msgid "Readable font, letter spacing and reading guide"
+msgstr "Розбірливий шрифт, міжлітерний інтервал і лінійка для читання"
+
+#: includes/class-real-accessability-i18n.php:48
+msgid "Motor impaired"
+msgstr "Рухові порушення"
+
+#: includes/class-real-accessability-i18n.php:49
+msgid "Keyboard navigation, large cursor and larger text"
+msgstr "Навігація клавіатурою, великий курсор і більший текст"
+
+#: includes/class-real-accessability-i18n.php:50
+msgid "Screen reader"
+msgstr "Зчитувач екрана"
+
+#: includes/class-real-accessability-i18n.php:51
+msgid "Keyboard navigation and emphasized links and headings"
+msgstr "Навігація клавіатурою, виділені посилання та заголовки"
+
+#: includes/class-real-accessability-i18n.php:52
+msgid "Seniors"
+msgstr "Літні люди"
+
+#: includes/class-real-accessability-i18n.php:53
+msgid "Large text, large cursor and clear links"
+msgstr "Великий текст, великий курсор і помітні посилання"
+
+#: includes/class-real-accessability-i18n.php:54
+msgid "Display"
+msgstr "Відображення"
+
+#: includes/class-real-accessability-i18n.php:55
+msgid "Contrast"
+msgstr "Контраст"
+
+#: includes/class-real-accessability-i18n.php:56
+msgid "High contrast"
+msgstr "Високий контраст"
+
+#: includes/class-real-accessability-i18n.php:57
+msgid "Inverted contrast"
+msgstr "Інверсія кольорів"
+
+#: includes/class-real-accessability-i18n.php:58
+msgid "Grayscale"
+msgstr "Відтінки сірого"
+
+#: includes/class-real-accessability-i18n.php:59
+msgid "Readable font"
+msgstr "Розбірливий шрифт"
+
+#: includes/class-real-accessability-i18n.php:60
+msgid "Highlight links"
+msgstr "Виділити посилання"
+
+#: includes/class-real-accessability-i18n.php:61
+msgid "Highlight headings"
+msgstr "Виділити заголовки"
+
+#: includes/class-real-accessability-i18n.php:62
+msgid "Large cursor"
+msgstr "Великий курсор"
+
+#: includes/class-real-accessability-i18n.php:63
+msgid "Hide images"
+msgstr "Сховати зображення"
+
+#: includes/class-real-accessability-i18n.php:64
+msgid "Magnifier"
+msgstr "Лупа"
+
+#: includes/class-real-accessability-i18n.php:65
+msgid "Text align"
+msgstr "Вирівняти текст"
+
+#: includes/class-real-accessability-i18n.php:66
+msgid "Align center"
+msgstr "По центру"
+
+#: includes/class-real-accessability-i18n.php:67
+msgid "Align right"
+msgstr "По правому краю"
+
+#: includes/class-real-accessability-i18n.php:68
+msgid "Align left"
+msgstr "По лівому краю"
+
+#: includes/class-real-accessability-i18n.php:69
+msgid "Text"
+msgstr "Текст"
+
+#: includes/class-real-accessability-i18n.php:70
+msgid "Text size"
+msgstr "Розмір тексту"
+
+#: includes/class-real-accessability-i18n.php:71
+msgid "Line spacing"
+msgstr "Міжрядковий інтервал"
+
+#: includes/class-real-accessability-i18n.php:72
+msgid "Letter spacing"
+msgstr "Міжлітерний інтервал"
+
+#: includes/class-real-accessability-i18n.php:73
+msgctxt "spacing level"
+msgid "Regular"
+msgstr "Типовий"
+
+#. translators: %s: setting name, for example "Text size".
+#: includes/class-real-accessability-i18n.php:75
+#, php-format
+msgid "Decrease %s"
+msgstr "Зменшити: %s"
+
+#. translators: %s: setting name, for example "Text size".
+#: includes/class-real-accessability-i18n.php:77
+#, php-format
+msgid "Increase %s"
+msgstr "Збільшити: %s"
+
+#: includes/class-real-accessability-i18n.php:78
+msgid "Reading and navigation"
+msgstr "Читання та навігація"
+
+#: includes/class-real-accessability-i18n.php:79
+msgid "Reading guide"
+msgstr "Лінійка для читання"
+
+#: includes/class-real-accessability-i18n.php:80
+msgid "A highlight bar that follows the pointer"
+msgstr "Підсвічена смуга, що рухається за курсором"
+
+#: includes/class-real-accessability-i18n.php:81
+msgid "Stop animations"
+msgstr "Зупинити анімацію"
+
+#: includes/class-real-accessability-i18n.php:82
+msgid "Stops motion, flashing and video"
+msgstr "Зупиняє рух, мерехтіння та відео"
+
+#: includes/class-real-accessability-i18n.php:83
+msgid "Keyboard navigation"
+msgstr "Навігація клавіатурою"
+
+#: includes/class-real-accessability-i18n.php:84
+msgid "A prominent focus frame on every move"
+msgstr "Помітна рамка фокуса на кожному кроці"
+
+#: includes/class-real-accessability-i18n.php:85
+msgid "Reset"
+msgstr "Скинути"
+
+#: includes/class-real-accessability-i18n.php:87
+msgid "Hide"
+msgstr "Сховати"
+
+#: includes/class-real-accessability-i18n.php:88
+msgid "Accessibility plugin"
+msgstr "Плагін доступності"
+
+#. translators: %d: number of active accessibility adjustments.
+#: includes/class-real-accessability-i18n.php:94
+#, php-format
+msgid "%d adjustment active"
+msgid_plural "%d adjustments active"
+msgstr[0] "%d активне налаштування"
+msgstr[1] "%d активні налаштування"
+msgstr[2] "%d активних налаштувань"
+
+#: real-accessability.php:103
+msgid "Settings"
+msgstr "Налаштування"

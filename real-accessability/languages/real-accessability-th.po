@@ -1,0 +1,1110 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Real Accessibility 2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-accessability/\n"
+"PO-Revision-Date: 2026-10-11 12:00+0300\n"
+"Last-Translator: REALMEDIA <office@realmedia.co.il>\n"
+"Language-Team: Thai\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=(0);\n"
+"X-Domain: real-accessability\n"
+
+#. Plugin URI of the plugin
+#: real-accessability.php
+msgid "https://wordpress.org/plugins/real-accessability/"
+msgstr "https://wordpress.org/plugins/real-accessability/"
+
+#. Description of the plugin
+#: real-accessability.php
+msgid ""
+"An accessibility menu for your website - ready-made profiles, contrast "
+"modes, text size and spacing, readable font, reading guide and more, styled "
+"in your brand color."
+msgstr ""
+"เมนูการช่วยการเข้าถึงสำหรับเว็บไซต์ของคุณ พร้อมโปรไฟล์สำเร็จรูป "
+"โหมดคอนทราสต์ ขนาดและระยะห่างของข้อความ ฟอนต์อ่านง่าย แถบช่วยอ่าน และอื่น ๆ "
+"ในดีไซน์ตามสีแบรนด์ของคุณ"
+
+#. Author of the plugin
+#: real-accessability.php
+msgid "REALMEDIA"
+msgstr "REALMEDIA"
+
+#. Author URI of the plugin
+#: real-accessability.php
+msgid "https://realmedia.co.il"
+msgstr "https://realmedia.co.il"
+
+#: includes/class-real-accessability-admin.php:37
+#: includes/class-real-accessability-admin.php:55
+#: includes/class-real-accessability-admin.php:74
+#: includes/class-real-accessability-admin.php:515
+msgid "Sorry, you are not allowed to do that."
+msgstr "ขออภัย คุณไม่ได้รับอนุญาตให้ทำสิ่งนั้น"
+
+#: includes/class-real-accessability-admin.php:106
+msgid "Accessibility menu on the site"
+msgstr "เมนูการช่วยการเข้าถึงบนเว็บไซต์"
+
+#: includes/class-real-accessability-admin.php:109
+msgid "On"
+msgstr "เปิด"
+
+#: includes/class-real-accessability-admin.php:109
+msgid "Off"
+msgstr "ปิด"
+
+#: includes/class-real-accessability-admin.php:140
+msgid "The accessibility menu is off."
+msgstr "เมนูการช่วยการเข้าถึงปิดอยู่"
+
+#: includes/class-real-accessability-admin.php:141
+msgid "Visitors do not see it."
+msgstr "ผู้เยี่ยมชมจะมองไม่เห็นเมนูนี้"
+
+#: includes/class-real-accessability-admin.php:142
+#: includes/class-real-accessability-admin.php:631
+#: includes/class-real-accessability-admin.php:643
+msgid "Turn on the accessibility menu"
+msgstr "เปิดใช้เมนูการช่วยการเข้าถึง"
+
+#: includes/class-real-accessability-admin.php:194
+msgid ""
+"Real Accessibility 2.0 is ready. Set the brand color and the button "
+"position, and choose whether to show the plugin credit."
+msgstr ""
+"Real Accessibility 2.0 พร้อมใช้งานแล้ว กำหนดสีแบรนด์และตำแหน่งปุ่ม "
+"แล้วเลือกว่าจะแสดงเครดิตของปลั๊กอินหรือไม่"
+
+#: includes/class-real-accessability-admin.php:195
+msgid "Open Real Accessibility"
+msgstr "เปิด Real Accessibility"
+
+#: includes/class-real-accessability-admin.php:206
+msgid ""
+"Show a small credit with a link to the plugin page on WordPress.org at the "
+"bottom of the accessibility menu? It helps keep the plugin free."
+msgstr ""
+"แสดงเครดิตเล็ก ๆ พร้อมลิงก์ไปยังหน้าปลั๊กอินบน WordPress.org "
+"ที่ด้านล่างของเมนูการช่วยการเข้าถึงหรือไม่ "
+"เครดิตนี้ช่วยให้ปลั๊กอินยังคงใช้งานได้ฟรี"
+
+#: includes/class-real-accessability-admin.php:207
+#: includes/class-real-accessability-admin.php:651
+msgid "Approve"
+msgstr "ยอมรับ"
+
+#: includes/class-real-accessability-admin.php:208
+msgid "No thanks"
+msgstr "ไม่ล่ะ ขอบคุณ"
+
+#: includes/class-real-accessability-admin.php:244
+msgid "Load WooCommerce stores in 249ms"
+msgstr "โหลดร้านค้า WooCommerce ได้ใน 249ms"
+
+#: includes/class-real-accessability-admin.php:248
+msgid "Load WordPress sites in as fast as 37ms"
+msgstr "โหลดเว็บไซต์ WordPress ได้เร็วสุดเพียง 37ms"
+
+#: includes/class-real-accessability-admin.php:255
+msgid "(opens in a new tab)"
+msgstr "(เปิดในแท็บใหม่)"
+
+#: includes/class-real-accessability-admin.php:274
+msgid "Starting from $500"
+msgstr "เริ่มต้นที่ $500"
+
+#: includes/class-real-accessability-admin.php:304
+msgid "Professional accessibility audit"
+msgstr "การตรวจสอบการเข้าถึงโดยผู้เชี่ยวชาญ"
+
+#: includes/class-real-accessability-admin.php:305
+msgid "A report of every issue and how to fix it"
+msgstr "รายงานทุกปัญหาพร้อมวิธีแก้ไข"
+
+#: includes/class-real-accessability-admin.php:309
+msgid "Your request was sent. We will be in touch soon."
+msgstr "ส่งคำขอของคุณแล้ว เราจะติดต่อกลับโดยเร็ว"
+
+#: includes/class-real-accessability-admin.php:311
+msgid "Get a quote"
+msgstr "รับใบเสนอราคา"
+
+#: includes/class-real-accessability-admin.php:326
+#: includes/class-real-accessability-admin.php:331
+msgid "A clear report of every issue, with how to fix it"
+msgstr "รายงานที่ชัดเจนของทุกปัญหา พร้อมวิธีแก้ไข"
+
+#: includes/class-real-accessability-admin.php:327
+#: includes/class-real-accessability-admin.php:332
+msgid "Help with your accessibility statement and with the fixes"
+msgstr "ช่วยเหลือเรื่องคำชี้แจงการเข้าถึงและการแก้ไข"
+
+#: includes/class-real-accessability-admin.php:328
+#: includes/class-real-accessability-admin.php:333
+msgid "A reply within one business day"
+msgstr "ตอบกลับภายใน 1 วันทำการ"
+
+#: includes/class-real-accessability-admin.php:330
+msgid "Manual and automated testing against WCAG 2.2 AA"
+msgstr "ทดสอบทั้งแบบแมนนวลและแบบอัตโนมัติตาม WCAG 2.2 AA"
+
+#: includes/class-real-accessability-admin.php:338
+msgid "An accessibility menu alone is not enough"
+msgstr "เมนูการช่วยการเข้าถึงเพียงอย่างเดียวยังไม่เพียงพอ"
+
+#: includes/class-real-accessability-admin.php:344
+msgid ""
+"To meet WCAG 2.2 AA and laws such as the ADA, the code and content of the "
+"site need to be accessible too. Our experts audit your site and show you "
+"exactly what to fix."
+msgstr ""
+"หากต้องการให้เป็นไปตาม WCAG 2.2 AA และกฎหมายอย่าง ADA "
+"โค้ดและเนื้อหาของเว็บไซต์ก็ต้องเข้าถึงได้ด้วย "
+"ผู้เชี่ยวชาญของเราจะตรวจสอบเว็บไซต์ของคุณและบอกอย่างชัดเจนว่าต้องแก้ไขอะไรบ้าง"
+
+#: includes/class-real-accessability-admin.php:359
+msgid "Your request was sent."
+msgstr "ส่งคำขอของคุณแล้ว"
+
+#: includes/class-real-accessability-admin.php:359
+msgid "We will get back to you as soon as possible."
+msgstr "เราจะติดต่อกลับโดยเร็วที่สุด"
+
+#: includes/class-real-accessability-admin.php:363
+msgid "Get a free quote for an accessibility audit"
+msgstr "ขอใบเสนอราคาการตรวจสอบการเข้าถึงฟรี"
+
+#: includes/class-real-accessability-admin.php:364
+msgid "We will get back to you with a quote for your site."
+msgstr "เราจะติดต่อกลับพร้อมใบเสนอราคาสำหรับเว็บไซต์ของคุณ"
+
+#: includes/class-real-accessability-admin.php:370
+msgid "Leave this field empty"
+msgstr "เว้นช่องนี้ว่างไว้"
+
+#: includes/class-real-accessability-admin.php:374
+msgid "Full name"
+msgstr "ชื่อ-นามสกุล"
+
+#: includes/class-real-accessability-admin.php:379
+msgid "Phone"
+msgstr "โทรศัพท์"
+
+#: includes/class-real-accessability-admin.php:381
+#: includes/class-real-accessability-admin.php:761
+msgid "Country code"
+msgstr "รหัสประเทศ"
+
+#: includes/class-real-accessability-admin.php:392
+msgid "Email"
+msgstr "อีเมล"
+
+#: includes/class-real-accessability-admin.php:405
+msgid "Sending..."
+msgstr "กำลังส่ง..."
+
+#: includes/class-real-accessability-admin.php:405
+msgid "Request a quote"
+msgstr "ขอใบเสนอราคา"
+
+#. translators: %s: the "privacy policy" link.
+#: includes/class-real-accessability-admin.php:421
+#, php-format
+msgid ""
+"I agree that these details will be sent to Real Media Ltd. so they can "
+"contact me about an accessibility audit, in accordance with the %s."
+msgstr ""
+"ข้าพเจ้ายินยอมให้ส่งข้อมูลเหล่านี้ไปยัง Real Media Ltd. "
+"เพื่อให้ติดต่อข้าพเจ้าเกี่ยวกับการตรวจสอบการเข้าถึง โดยเป็นไปตาม%s"
+
+#: includes/class-real-accessability-admin.php:423
+msgctxt "link inside the consent sentence"
+msgid "privacy policy"
+msgstr "นโยบายความเป็นส่วนตัว"
+
+#: includes/class-real-accessability-admin.php:430
+msgid "Who we are"
+msgstr "เราคือใคร"
+
+#: includes/class-real-accessability-admin.php:431
+msgid ""
+"This form is operated by Real Media Ltd., the developer of Real "
+"Accessibility. This policy explains what happens to the details you send "
+"through it. It follows the Israeli Protection of Privacy Law, 5741-1981, "
+"including Amendment 13."
+msgstr ""
+"แบบฟอร์มนี้ดำเนินการโดย Real Media Ltd. ผู้พัฒนา Real Accessibility "
+"นโยบายนี้อธิบายว่าข้อมูลที่คุณส่งผ่านแบบฟอร์มนี้จะได้รับการจัดการอย่างไร "
+"และเป็นไปตามกฎหมายคุ้มครองความเป็นส่วนตัวของอิสราเอล 5741-1981 "
+"รวมถึงการแก้ไขเพิ่มเติมครั้งที่ 13"
+
+#: includes/class-real-accessability-admin.php:434
+msgid "What we collect"
+msgstr "ข้อมูลที่เราเก็บรวบรวม"
+
+#: includes/class-real-accessability-admin.php:435
+msgid ""
+"Only what you type into the form: full name, phone and email, together with "
+"your site's address, your consent, the plugin version and the time of "
+"sending."
+msgstr ""
+"เฉพาะข้อมูลที่คุณกรอกในแบบฟอร์มเท่านั้น ได้แก่ ชื่อ-นามสกุล โทรศัพท์ "
+"และอีเมล พร้อมด้วยที่อยู่เว็บไซต์ของคุณ ความยินยอมของคุณ เวอร์ชันของปลั๊กอิน"
+" และเวลาที่ส่ง"
+
+#: includes/class-real-accessability-admin.php:436
+msgid ""
+"Your details are sent only when you click the button, together with the "
+"language and price shown here. Nothing else from your site is sent."
+msgstr ""
+"ข้อมูลของคุณจะถูกส่งเฉพาะเมื่อคุณคลิกปุ่มเท่านั้น "
+"โดยส่งไปพร้อมกับภาษาและราคาที่แสดงอยู่ที่นี่ "
+"ไม่มีข้อมูลอื่นใดจากเว็บไซต์ของคุณถูกส่งไป"
+
+#: includes/class-real-accessability-admin.php:439
+msgid "What we use it for"
+msgstr "วัตถุประสงค์ในการใช้ข้อมูล"
+
+#: includes/class-real-accessability-admin.php:440
+msgid ""
+"To get back to you about your request and send you a quote for an "
+"accessibility audit. We will not send you marketing messages unless you "
+"agree to receive them separately."
+msgstr ""
+"เพื่อติดต่อกลับเกี่ยวกับคำขอของคุณ "
+"และส่งใบเสนอราคาการตรวจสอบการเข้าถึงให้คุณ "
+"เราจะไม่ส่งข้อความทางการตลาดถึงคุณ "
+"เว้นแต่คุณจะให้ความยินยอมรับข้อความดังกล่าวแยกต่างหาก"
+
+#: includes/class-real-accessability-admin.php:443
+msgid "Do you have to give it"
+msgstr "คุณจำเป็นต้องให้ข้อมูลหรือไม่"
+
+#: includes/class-real-accessability-admin.php:444
+msgid ""
+"You are not required by law to give us these details. Without them, we "
+"cannot get back to you about your request."
+msgstr ""
+"คุณไม่มีหน้าที่ตามกฎหมายที่ต้องให้ข้อมูลเหล่านี้แก่เรา "
+"แต่หากไม่มีข้อมูลดังกล่าว เราจะไม่สามารถติดต่อกลับเกี่ยวกับคำขอของคุณได้"
+
+#: includes/class-real-accessability-admin.php:447
+msgid "Who receives it"
+msgstr "ผู้รับข้อมูล"
+
+#: includes/class-real-accessability-admin.php:448
+msgid ""
+"The details are sent to Real Media Ltd., so it can get back to you with a "
+"quote."
+msgstr "ข้อมูลจะถูกส่งไปยัง Real Media Ltd. เพื่อให้ติดต่อกลับพร้อมใบเสนอราคา"
+
+#: includes/class-real-accessability-admin.php:451
+msgid "How long we keep it"
+msgstr "ระยะเวลาการเก็บรักษา"
+
+#: includes/class-real-accessability-admin.php:452
+msgid ""
+"For as long as needed to handle your request, and for up to 24 months after "
+"our last contact, unless the law requires otherwise."
+msgstr ""
+"เก็บไว้ตราบเท่าที่จำเป็นในการดำเนินการตามคำขอของคุณ และไม่เกิน 24 "
+"เดือนนับจากการติดต่อครั้งล่าสุด เว้นแต่กฎหมายจะกำหนดไว้เป็นอย่างอื่น"
+
+#: includes/class-real-accessability-admin.php:455
+msgid "Security"
+msgstr "ความปลอดภัย"
+
+#: includes/class-real-accessability-admin.php:456
+msgid ""
+"We use up-to-date measures to protect the details. No system is completely "
+"immune to unauthorized access, so we cannot guarantee absolute protection."
+msgstr ""
+"เราใช้มาตรการที่ทันสมัยในการปกป้องข้อมูล อย่างไรก็ตาม "
+"ไม่มีระบบใดที่ป้องกันการเข้าถึงโดยไม่ได้รับอนุญาตได้อย่างสมบูรณ์ "
+"เราจึงไม่อาจรับประกันการปกป้องได้อย่างเด็ดขาด"
+
+#: includes/class-real-accessability-admin.php:459
+msgid "Your rights"
+msgstr "สิทธิของคุณ"
+
+#. translators: %s: email address for privacy requests.
+#: includes/class-real-accessability-admin.php:461
+#, php-format
+msgid ""
+"You can ask at any time to see, correct or delete your details, or to "
+"withdraw your consent, by writing to %s."
+msgstr ""
+"คุณสามารถขอดู แก้ไข หรือลบข้อมูลของคุณ หรือเพิกถอนความยินยอมได้ตลอดเวลา "
+"โดยส่งอีเมลถึง %s"
+
+#: includes/class-real-accessability-admin.php:467
+msgid "Privacy policy for audit requests"
+msgstr "นโยบายความเป็นส่วนตัวสำหรับคำขอตรวจสอบ"
+
+#: includes/class-real-accessability-admin.php:468
+#: includes/class-real-accessability-admin.php:477
+#: includes/class-real-accessability-admin.php:644
+msgid "Close"
+msgstr "ปิด"
+
+#: includes/class-real-accessability-admin.php:523
+msgid ""
+"You already sent a request in the last 24 hours. We will be in touch soon."
+msgstr "คุณได้ส่งคำขอไปแล้วภายใน 24 ชั่วโมงที่ผ่านมา เราจะติดต่อกลับโดยเร็ว"
+
+#: includes/class-real-accessability-admin.php:538
+#: includes/class-real-accessability-admin.php:574
+#: includes/class-real-accessability-admin.php:604
+#: includes/class-real-accessability-admin.php:757
+msgid "The request could not be sent. Please try again later."
+msgstr "ไม่สามารถส่งคำขอได้ โปรดลองอีกครั้งในภายหลัง"
+
+#: includes/class-real-accessability-admin.php:556
+msgid "Please fill in all the required fields."
+msgstr "โปรดกรอกข้อมูลในช่องที่จำเป็นให้ครบถ้วน"
+
+#: includes/class-real-accessability-admin.php:559
+#: includes/class-real-accessability-admin.php:763
+msgid "Please enter a valid email address."
+msgstr "โปรดกรอกที่อยู่อีเมลที่ถูกต้อง"
+
+#: includes/class-real-accessability-admin.php:567
+#: includes/class-real-accessability-admin.php:764
+msgid "Please enter a valid phone number."
+msgstr "โปรดกรอกหมายเลขโทรศัพท์ที่ถูกต้อง"
+
+#: includes/class-real-accessability-admin.php:570
+#: includes/class-real-accessability-admin.php:765
+msgid "Please agree to send your details."
+msgstr "โปรดให้ความยินยอมในการส่งข้อมูลของคุณ"
+
+#: includes/class-real-accessability-admin.php:615
+msgid "Disclaimer:"
+msgstr "ข้อจำกัดความรับผิดชอบ:"
+
+#: includes/class-real-accessability-admin.php:616
+msgid ""
+"Real Accessibility adds an accessibility menu that helps visitors adjust how"
+" the site is displayed. On its own, it does not make a website accessible or"
+" compliant with any accessibility law or standard (such as WCAG or Israeli "
+"Standard 5568). The site owner remains solely responsible for the "
+"accessibility of the site's code and content and for meeting the legal "
+"requirements. The plugin is provided \"as is\", without warranty of any "
+"kind, and the plugin's authors are not liable for any damage resulting from "
+"its use."
+msgstr ""
+"Real Accessibility "
+"เพิ่มเมนูการช่วยการเข้าถึงที่ช่วยให้ผู้เยี่ยมชมปรับการแสดงผลของเว็บไซต์ได้ "
+"ปลั๊กอินนี้เพียงอย่างเดียวไม่ได้ทำให้เว็บไซต์เข้าถึงได้ "
+"หรือเป็นไปตามกฎหมายหรือมาตรฐานด้านการเข้าถึงใด ๆ (เช่น WCAG "
+"หรือมาตรฐานอิสราเอล 5568) "
+"เจ้าของเว็บไซต์ยังคงเป็นผู้รับผิดชอบแต่เพียงผู้เดียวต่อการเข้าถึงได้ของโค้ดและเนื้อหาของเว็บไซต์"
+" และต่อการปฏิบัติตามข้อกำหนดทางกฎหมาย ปลั๊กอินนี้จัดให้ “ตามสภาพ” "
+"โดยไม่มีการรับประกันใด ๆ ทั้งสิ้น "
+"และผู้สร้างปลั๊กอินไม่ต้องรับผิดต่อความเสียหายใด ๆ "
+"ที่เกิดจากการใช้งานปลั๊กอิน"
+
+#: includes/class-real-accessability-admin.php:628
+msgid "Your accessibility menu is ready"
+msgstr "เมนูการช่วยการเข้าถึงของคุณพร้อมแล้ว"
+
+#: includes/class-real-accessability-admin.php:629
+msgid ""
+"Set the color and the position below, then turn the menu on. You can keep "
+"changing the settings after it is live."
+msgstr ""
+"ตั้งค่าสีและตำแหน่งด้านล่าง แล้วเปิดใช้เมนู "
+"คุณยังเปลี่ยนการตั้งค่าได้ตลอดแม้เมนูจะแสดงบนเว็บไซต์แล้ว"
+
+#: includes/class-real-accessability-admin.php:647
+msgid ""
+"Approving turns the menu on and shows a small credit at its bottom, with a "
+"link to the plugin page on WordPress.org."
+msgstr ""
+"เมื่อยอมรับ เมนูจะเปิดใช้งาน และจะแสดงเครดิตเล็ก ๆ ที่ด้านล่างของเมนู "
+"พร้อมลิงก์ไปยังหน้าปลั๊กอินบน WordPress.org"
+
+#: includes/class-real-accessability-admin.php:648
+msgid ""
+"Real Accessibility is free, and the credit helps other site owners find it."
+msgstr ""
+"Real Accessibility ใช้งานได้ฟรี และเครดิตนี้ช่วยให้เจ้าของเว็บไซต์คนอื่น ๆ "
+"ค้นพบปลั๊กอินนี้"
+
+#: includes/class-real-accessability-admin.php:652
+#: includes/class-real-accessability-admin.php:1117
+#: includes/class-real-accessability-admin.php:1251
+#: includes/class-real-accessability-admin.php:1349
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: includes/class-real-accessability-admin.php:653
+msgid "You can also turn it on without the credit"
+msgstr "หรือเปิดใช้โดยไม่แสดงเครดิตก็ได้"
+
+#: includes/class-real-accessability-admin.php:677
+#: includes/class-real-accessability-admin.php:998
+#: includes/class-real-accessability-admin.php:1006
+msgid "Button and menu"
+msgstr "ปุ่มและเมนู"
+
+#: includes/class-real-accessability-admin.php:678
+msgid "Features"
+msgstr "ฟีเจอร์"
+
+#: includes/class-real-accessability-admin.php:679
+msgid "Languages"
+msgstr "ภาษา"
+
+#: includes/class-real-accessability-admin.php:680
+#: includes/class-real-accessability-i18n.php:86
+msgid "Accessibility statement"
+msgstr "คำชี้แจงการเข้าถึง"
+
+#: includes/class-real-accessability-admin.php:681
+msgid "Accessibility audit"
+msgstr "การตรวจสอบการเข้าถึง"
+
+#: includes/class-real-accessability-admin.php:693
+#: includes/class-real-accessability-admin.php:809
+msgid "Real Accessibility"
+msgstr "Real Accessibility"
+
+#: includes/class-real-accessability-admin.php:694
+msgctxt "admin menu label"
+msgid "Real Accessibility"
+msgstr "Real Accessibility"
+
+#. translators: %s: contrast ratio, for example 1.8.
+#: includes/class-real-accessability-admin.php:755
+#, php-format
+msgid "Low contrast %s:1"
+msgstr "คอนทราสต์ต่ำ %s:1"
+
+#: includes/class-real-accessability-admin.php:756
+msgid "You have unsaved changes."
+msgstr "คุณมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก"
+
+#: includes/class-real-accessability-admin.php:762
+msgid "This field is required."
+msgstr "จำเป็นต้องกรอกช่องนี้"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:769
+#: includes/class-real-accessability-admin.php:1297
+#, php-format
+msgid "Flag for %s"
+msgstr "ธงสำหรับ %s"
+
+#: includes/class-real-accessability-admin.php:770
+msgid "Choose a flag"
+msgstr "เลือกธง"
+
+#: includes/class-real-accessability-admin.php:771
+msgid "Search for a country"
+msgstr "ค้นหาประเทศ"
+
+#: includes/class-real-accessability-admin.php:772
+msgid "Suggested"
+msgstr "แนะนำ"
+
+#: includes/class-real-accessability-admin.php:773
+msgid "All countries"
+msgstr "ทุกประเทศ"
+
+#: includes/class-real-accessability-admin.php:774
+msgid "No country found"
+msgstr "ไม่พบประเทศ"
+
+#. translators: %d: number of languages shown in the menu.
+#: includes/class-real-accessability-admin.php:789
+#, php-format
+msgid "%d language in the menu"
+msgid_plural "%d languages in the menu"
+msgstr[0] "มี %d ภาษาในเมนู"
+
+#: includes/class-real-accessability-admin.php:813
+msgid "Settings sections"
+msgstr "ส่วนการตั้งค่า"
+
+#: includes/class-real-accessability-admin.php:815
+msgid "Legal compliance"
+msgstr "ปฏิบัติตามกฎหมาย"
+
+#: includes/class-real-accessability-admin.php:825
+msgid ""
+"Thank you! The credit is shown at the bottom of the accessibility menu."
+msgstr "ขอบคุณ! เครดิตจะแสดงที่ด้านล่างของเมนูการช่วยการเข้าถึง"
+
+#: includes/class-real-accessability-admin.php:832
+msgid ""
+"The accessibility menu is live on your site, with the credit at the bottom. "
+"Thank you!"
+msgstr ""
+"เมนูการช่วยการเข้าถึงแสดงบนเว็บไซต์ของคุณแล้ว พร้อมเครดิตที่ด้านล่าง ขอบคุณ!"
+
+#: includes/class-real-accessability-admin.php:833
+msgid "The accessibility menu is live on your site!"
+msgstr "เมนูการช่วยการเข้าถึงแสดงบนเว็บไซต์ของคุณแล้ว!"
+
+#: includes/class-real-accessability-admin.php:834
+msgid "View the site"
+msgstr "ดูเว็บไซต์"
+
+#: includes/class-real-accessability-admin.php:896
+msgid "Desktop"
+msgstr "เดสก์ท็อป"
+
+#: includes/class-real-accessability-admin.php:897
+msgid "Show the accessibility button on desktop"
+msgstr "แสดงปุ่มการช่วยการเข้าถึงบนเดสก์ท็อป"
+
+#: includes/class-real-accessability-admin.php:900
+msgid "Tablet"
+msgstr "แท็บเล็ต"
+
+#: includes/class-real-accessability-admin.php:901
+msgid "Show the accessibility button on tablets"
+msgstr "แสดงปุ่มการช่วยการเข้าถึงบนแท็บเล็ต"
+
+#: includes/class-real-accessability-admin.php:904
+msgid "Mobile"
+msgstr "มือถือ"
+
+#: includes/class-real-accessability-admin.php:905
+msgid "Show the accessibility button on mobile"
+msgstr "แสดงปุ่มการช่วยการเข้าถึงบนมือถือ"
+
+#: includes/class-real-accessability-admin.php:909
+msgid "Top left"
+msgstr "ซ้ายบน"
+
+#: includes/class-real-accessability-admin.php:910
+msgid "Top center"
+msgstr "กลางบน"
+
+#: includes/class-real-accessability-admin.php:911
+msgid "Top right"
+msgstr "ขวาบน"
+
+#: includes/class-real-accessability-admin.php:912
+msgid "Middle left"
+msgstr "ซ้ายกลาง"
+
+#: includes/class-real-accessability-admin.php:913
+msgid "Center"
+msgstr "กึ่งกลาง"
+
+#: includes/class-real-accessability-admin.php:914
+msgid "Middle right"
+msgstr "ขวากลาง"
+
+#: includes/class-real-accessability-admin.php:915
+msgid "Bottom left"
+msgstr "ซ้ายล่าง"
+
+#: includes/class-real-accessability-admin.php:916
+msgid "Bottom center"
+msgstr "กลางล่าง"
+
+#: includes/class-real-accessability-admin.php:917
+msgid "Bottom right"
+msgstr "ขวาล่าง"
+
+#: includes/class-real-accessability-admin.php:920
+msgid "From the left"
+msgstr "จากด้านซ้าย"
+
+#: includes/class-real-accessability-admin.php:921
+msgid "From the right"
+msgstr "จากด้านขวา"
+
+#: includes/class-real-accessability-admin.php:922
+msgid "From the bottom"
+msgstr "จากด้านล่าง"
+
+#: includes/class-real-accessability-admin.php:925
+#: includes/class-real-accessability-admin.php:1051
+msgid "Circle"
+msgstr "วงกลม"
+
+#: includes/class-real-accessability-admin.php:926
+msgid "Rounded"
+msgstr "มุมมน"
+
+#: includes/class-real-accessability-admin.php:927
+#: includes/class-real-accessability-admin.php:1051
+msgid "Square"
+msgstr "สี่เหลี่ยม"
+
+#: includes/class-real-accessability-admin.php:937
+msgid "Device"
+msgstr "อุปกรณ์"
+
+#: includes/class-real-accessability-admin.php:942
+msgid "hidden"
+msgstr "ซ่อนอยู่"
+
+#: includes/class-real-accessability-admin.php:953
+msgid "Color"
+msgstr "สี"
+
+#: includes/class-real-accessability-admin.php:958
+msgid "Brand color"
+msgstr "สีแบรนด์"
+
+#: includes/class-real-accessability-admin.php:959
+msgid "All the menu and button colors come from it."
+msgstr "สีทั้งหมดของเมนูและปุ่มจะสร้างจากสีนี้"
+
+#: includes/class-real-accessability-admin.php:964
+msgid "Pick the brand color"
+msgstr "เลือกสีแบรนด์"
+
+#: includes/class-real-accessability-admin.php:969
+msgid "Button icon color"
+msgstr "สีไอคอนบนปุ่ม"
+
+#: includes/class-real-accessability-admin.php:970
+msgid "Automatic picks white or black, whichever has more contrast."
+msgstr "“อัตโนมัติ” จะเลือกสีขาวหรือสีดำ ตามสีที่ให้คอนทราสต์มากกว่า"
+
+#: includes/class-real-accessability-admin.php:975
+msgid "Custom icon color"
+msgstr "สีไอคอนแบบกำหนดเอง"
+
+#: includes/class-real-accessability-admin.php:976
+msgid "Pick the icon color"
+msgstr "เลือกสีไอคอน"
+
+#: includes/class-real-accessability-admin.php:979
+msgid "Automatic"
+msgstr "อัตโนมัติ"
+
+#: includes/class-real-accessability-admin.php:980
+msgid "Custom"
+msgstr "กำหนดเอง"
+
+#: includes/class-real-accessability-admin.php:1000
+msgid "Show the button on"
+msgstr "แสดงปุ่มบน"
+
+#: includes/class-real-accessability-admin.php:1009
+#: includes/class-real-accessability-admin.php:1024
+msgid "Button position"
+msgstr "ตำแหน่งปุ่ม"
+
+#: includes/class-real-accessability-admin.php:1010
+msgid "Shape and size"
+msgstr "รูปทรงและขนาด"
+
+#: includes/class-real-accessability-admin.php:1011
+msgid "The menu"
+msgstr "เมนู"
+
+#: includes/class-real-accessability-admin.php:1019
+msgid ""
+"The button is hidden on this device. Turn it back on with the icons above."
+msgstr "ปุ่มถูกซ่อนบนอุปกรณ์นี้ แสดงปุ่มอีกครั้งได้จากไอคอนด้านบน"
+
+#: includes/class-real-accessability-admin.php:1036
+msgid "Distance from the edge - horizontal"
+msgstr "ระยะห่างจากขอบ - แนวนอน"
+
+#: includes/class-real-accessability-admin.php:1036
+#: includes/class-real-accessability-admin.php:1037
+msgid "Attached"
+msgstr "ชิดขอบ"
+
+#: includes/class-real-accessability-admin.php:1037
+msgid "Distance from the edge - vertical"
+msgstr "ระยะห่างจากขอบ - แนวตั้ง"
+
+#: includes/class-real-accessability-admin.php:1044
+msgid "Shape"
+msgstr "รูปทรง"
+
+#: includes/class-real-accessability-admin.php:1050
+msgid "Button size"
+msgstr "ขนาดปุ่ม"
+
+#: includes/class-real-accessability-admin.php:1051
+msgid "Corner radius"
+msgstr "ความโค้งของมุม"
+
+#: includes/class-real-accessability-admin.php:1056
+msgid "Opens from the edge of the screen, wherever the button is."
+msgstr "เปิดจากขอบหน้าจอ ไม่ว่าปุ่มจะอยู่ที่ใด"
+
+#: includes/class-real-accessability-admin.php:1058
+msgid "Menu opens from"
+msgstr "เมนูเปิดจาก"
+
+#: includes/class-real-accessability-admin.php:1067
+msgid "Menu corner radius"
+msgstr "ความโค้งของมุมเมนู"
+
+#: includes/class-real-accessability-admin.php:1079
+#: includes/class-real-accessability-admin.php:1080
+#: includes/class-real-accessability-admin.php:1235
+#: includes/class-real-accessability-admin.php:1330
+msgid "Preview"
+msgstr "ตัวอย่าง"
+
+#: includes/class-real-accessability-admin.php:1081
+msgid "Button"
+msgstr "ปุ่ม"
+
+#: includes/class-real-accessability-admin.php:1082
+msgid "Menu open"
+msgstr "เมนูเปิด"
+
+#: includes/class-real-accessability-admin.php:1095
+#: includes/class-real-accessability-i18n.php:32
+msgid "Accessibility"
+msgstr "การช่วยการเข้าถึง"
+
+#: includes/class-real-accessability-admin.php:1104
+msgid "The button is hidden on this device."
+msgstr "ปุ่มถูกซ่อนบนอุปกรณ์นี้"
+
+#: includes/class-real-accessability-admin.php:1116
+#: includes/class-real-accessability-admin.php:1250
+#: includes/class-real-accessability-admin.php:1348
+msgid "Save changes"
+msgstr "บันทึกการเปลี่ยนแปลง"
+
+#: includes/class-real-accessability-admin.php:1118
+#: includes/class-real-accessability-admin.php:1252
+#: includes/class-real-accessability-admin.php:1350
+msgid "You have unsaved changes"
+msgstr "คุณมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก"
+
+#: includes/class-real-accessability-admin.php:1193
+msgid ""
+"Choose what visitors see in the accessibility menu. Sections without any "
+"option are not shown."
+msgstr ""
+"เลือกสิ่งที่ผู้เยี่ยมชมจะเห็นในเมนูการช่วยการเข้าถึง "
+"ส่วนที่ไม่มีตัวเลือกเปิดอยู่เลยจะไม่แสดง"
+
+#: includes/class-real-accessability-admin.php:1222
+msgid "Menu footer"
+msgstr "ส่วนท้ายของเมนู"
+
+#: includes/class-real-accessability-admin.php:1225
+msgid "Hide button"
+msgstr "ปุ่มซ่อน"
+
+#: includes/class-real-accessability-admin.php:1225
+msgid "Hides the accessibility button until the visitor's next visit"
+msgstr "ซ่อนปุ่มการช่วยการเข้าถึงจนกว่าผู้เยี่ยมชมจะเข้ามาครั้งถัดไป"
+
+#: includes/class-real-accessability-admin.php:1226
+msgid "Plugin credit"
+msgstr "เครดิตปลั๊กอิน"
+
+#: includes/class-real-accessability-admin.php:1226
+msgid ""
+"A small credit at the bottom of the menu, with a link to the plugin page on "
+"WordPress.org"
+msgstr ""
+"เครดิตเล็ก ๆ ที่ด้านล่างของเมนู พร้อมลิงก์ไปยังหน้าปลั๊กอินบน WordPress.org"
+
+#: includes/class-real-accessability-admin.php:1237
+msgid "Preview of the accessibility menu"
+msgstr "ตัวอย่างเมนูการช่วยการเข้าถึง"
+
+#: includes/class-real-accessability-admin.php:1276
+msgid "Menu languages"
+msgstr "ภาษาของเมนู"
+
+#: includes/class-real-accessability-admin.php:1281
+msgid "Search languages"
+msgstr "ค้นหาภาษา"
+
+#: includes/class-real-accessability-admin.php:1283
+msgid "No language found"
+msgstr "ไม่พบภาษา"
+
+#: includes/class-real-accessability-admin.php:1293
+msgid "Drag to reorder"
+msgstr "ลากเพื่อจัดลำดับใหม่"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1315
+#, php-format
+msgid "Make %s the default"
+msgstr "ตั้ง %s เป็นค่าเริ่มต้น"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1316
+msgid "Default"
+msgstr "ค่าเริ่มต้น"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1319
+#, php-format
+msgid "Show %s in the menu"
+msgstr "แสดง %s ในเมนู"
+
+#: includes/class-real-accessability-admin.php:1362
+msgid "Statement page"
+msgstr "หน้าคำชี้แจง"
+
+#: includes/class-real-accessability-admin.php:1370
+msgid "- Select a page -"
+msgstr "- เลือกหน้า -"
+
+#: includes/class-real-accessability-admin.php:1377
+msgid "View page"
+msgstr "ดูหน้า"
+
+#: includes/class-real-accessability-admin.php:1379
+msgid ""
+"The page on your site with the accessibility statement. The \"Accessibility "
+"statement\" button in the menu links to it."
+msgstr ""
+"หน้าในเว็บไซต์ของคุณที่มีคำชี้แจงการเข้าถึง ปุ่ม “คำชี้แจงการเข้าถึง” "
+"ในเมนูจะลิงก์ไปยังหน้านี้"
+
+#: includes/class-real-accessability-admin.php:1383
+msgid "Statement button"
+msgstr "ปุ่มคำชี้แจง"
+
+#: includes/class-real-accessability-admin.php:1385
+msgid "Show the \"Accessibility statement\" button in the menu"
+msgstr "แสดงปุ่ม “คำชี้แจงการเข้าถึง” ในเมนู"
+
+#: includes/class-real-accessability-i18n.php:33
+msgid "Accessibility menu"
+msgstr "เมนูการช่วยการเข้าถึง"
+
+#: includes/class-real-accessability-i18n.php:34
+msgid "Open accessibility menu"
+msgstr "เปิดเมนูการช่วยการเข้าถึง"
+
+#: includes/class-real-accessability-i18n.php:35
+msgid "Close accessibility menu (Esc)"
+msgstr "ปิดเมนูการช่วยการเข้าถึง (Esc)"
+
+#: includes/class-real-accessability-i18n.php:36
+msgid "Menu language"
+msgstr "ภาษาของเมนู"
+
+#: includes/class-real-accessability-i18n.php:37
+msgid "Choose language"
+msgstr "เลือกภาษา"
+
+#: includes/class-real-accessability-i18n.php:38
+msgid "No adjustments active"
+msgstr "ยังไม่ได้เปิดใช้การปรับแต่ง"
+
+#: includes/class-real-accessability-i18n.php:39
+msgid "Ready-made profiles"
+msgstr "โปรไฟล์สำเร็จรูป"
+
+#: includes/class-real-accessability-i18n.php:40
+msgid "Seizure safe"
+msgstr "ป้องกันอาการชัก"
+
+#: includes/class-real-accessability-i18n.php:41
+msgid "Stops animations and flashing and dims colors"
+msgstr "หยุดภาพเคลื่อนไหวและแสงกะพริบ พร้อมลดความสดของสี"
+
+#: includes/class-real-accessability-i18n.php:42
+msgid "Vision impaired"
+msgstr "สายตาเลือนราง"
+
+#: includes/class-real-accessability-i18n.php:43
+msgid "High contrast, large text and emphasized headings"
+msgstr "คอนทราสต์สูง ข้อความขนาดใหญ่ และเน้นหัวข้อ"
+
+#: includes/class-real-accessability-i18n.php:44
+msgid "ADHD and focus"
+msgstr "สมาธิสั้นและการจดจ่อ"
+
+#: includes/class-real-accessability-i18n.php:45
+msgid "Fewer distractions, reading guide and line spacing"
+msgstr "ลดสิ่งรบกวน แถบช่วยอ่าน และระยะห่างบรรทัด"
+
+#: includes/class-real-accessability-i18n.php:46
+msgid "Dyslexia"
+msgstr "บกพร่องทางการอ่าน"
+
+#: includes/class-real-accessability-i18n.php:47
+msgid "Readable font, letter spacing and reading guide"
+msgstr "ฟอนต์อ่านง่าย ระยะห่างตัวอักษร และแถบช่วยอ่าน"
+
+#: includes/class-real-accessability-i18n.php:48
+msgid "Motor impaired"
+msgstr "บกพร่องทางการเคลื่อนไหว"
+
+#: includes/class-real-accessability-i18n.php:49
+msgid "Keyboard navigation, large cursor and larger text"
+msgstr "การนำทางด้วยแป้นพิมพ์ เคอร์เซอร์ขนาดใหญ่ และข้อความที่ใหญ่ขึ้น"
+
+#: includes/class-real-accessability-i18n.php:50
+msgid "Screen reader"
+msgstr "โปรแกรมอ่านหน้าจอ"
+
+#: includes/class-real-accessability-i18n.php:51
+msgid "Keyboard navigation and emphasized links and headings"
+msgstr "การนำทางด้วยแป้นพิมพ์ พร้อมเน้นลิงก์และหัวข้อ"
+
+#: includes/class-real-accessability-i18n.php:52
+msgid "Seniors"
+msgstr "ผู้สูงอายุ"
+
+#: includes/class-real-accessability-i18n.php:53
+msgid "Large text, large cursor and clear links"
+msgstr "ข้อความขนาดใหญ่ เคอร์เซอร์ขนาดใหญ่ และลิงก์ที่ชัดเจน"
+
+#: includes/class-real-accessability-i18n.php:54
+msgid "Display"
+msgstr "การแสดงผล"
+
+#: includes/class-real-accessability-i18n.php:55
+msgid "Contrast"
+msgstr "คอนทราสต์"
+
+#: includes/class-real-accessability-i18n.php:56
+msgid "High contrast"
+msgstr "คอนทราสต์สูง"
+
+#: includes/class-real-accessability-i18n.php:57
+msgid "Inverted contrast"
+msgstr "กลับสี"
+
+#: includes/class-real-accessability-i18n.php:58
+msgid "Grayscale"
+msgstr "ระดับสีเทา"
+
+#: includes/class-real-accessability-i18n.php:59
+msgid "Readable font"
+msgstr "ฟอนต์อ่านง่าย"
+
+#: includes/class-real-accessability-i18n.php:60
+msgid "Highlight links"
+msgstr "เน้นลิงก์"
+
+#: includes/class-real-accessability-i18n.php:61
+msgid "Highlight headings"
+msgstr "เน้นหัวข้อ"
+
+#: includes/class-real-accessability-i18n.php:62
+msgid "Large cursor"
+msgstr "เคอร์เซอร์ขนาดใหญ่"
+
+#: includes/class-real-accessability-i18n.php:63
+msgid "Hide images"
+msgstr "ซ่อนรูปภาพ"
+
+#: includes/class-real-accessability-i18n.php:64
+msgid "Magnifier"
+msgstr "แว่นขยาย"
+
+#: includes/class-real-accessability-i18n.php:65
+msgid "Text align"
+msgstr "จัดแนวข้อความ"
+
+#: includes/class-real-accessability-i18n.php:66
+msgid "Align center"
+msgstr "จัดกึ่งกลาง"
+
+#: includes/class-real-accessability-i18n.php:67
+msgid "Align right"
+msgstr "จัดชิดขวา"
+
+#: includes/class-real-accessability-i18n.php:68
+msgid "Align left"
+msgstr "จัดชิดซ้าย"
+
+#: includes/class-real-accessability-i18n.php:69
+msgid "Text"
+msgstr "ข้อความ"
+
+#: includes/class-real-accessability-i18n.php:70
+msgid "Text size"
+msgstr "ขนาดข้อความ"
+
+#: includes/class-real-accessability-i18n.php:71
+msgid "Line spacing"
+msgstr "ระยะห่างบรรทัด"
+
+#: includes/class-real-accessability-i18n.php:72
+msgid "Letter spacing"
+msgstr "ระยะห่างตัวอักษร"
+
+#: includes/class-real-accessability-i18n.php:73
+msgctxt "spacing level"
+msgid "Regular"
+msgstr "ปกติ"
+
+#. translators: %s: setting name, for example "Text size".
+#: includes/class-real-accessability-i18n.php:75
+#, php-format
+msgid "Decrease %s"
+msgstr "ลด%s"
+
+#. translators: %s: setting name, for example "Text size".
+#: includes/class-real-accessability-i18n.php:77
+#, php-format
+msgid "Increase %s"
+msgstr "เพิ่ม%s"
+
+#: includes/class-real-accessability-i18n.php:78
+msgid "Reading and navigation"
+msgstr "การอ่านและการนำทาง"
+
+#: includes/class-real-accessability-i18n.php:79
+msgid "Reading guide"
+msgstr "แถบช่วยอ่าน"
+
+#: includes/class-real-accessability-i18n.php:80
+msgid "A highlight bar that follows the pointer"
+msgstr "แถบไฮไลต์ที่เลื่อนตามตัวชี้"
+
+#: includes/class-real-accessability-i18n.php:81
+msgid "Stop animations"
+msgstr "หยุดภาพเคลื่อนไหว"
+
+#: includes/class-real-accessability-i18n.php:82
+msgid "Stops motion, flashing and video"
+msgstr "หยุดการเคลื่อนไหว แสงกะพริบ และวิดีโอ"
+
+#: includes/class-real-accessability-i18n.php:83
+msgid "Keyboard navigation"
+msgstr "การนำทางด้วยแป้นพิมพ์"
+
+#: includes/class-real-accessability-i18n.php:84
+msgid "A prominent focus frame on every move"
+msgstr "กรอบโฟกัสที่เห็นชัดทุกครั้งที่เลื่อน"
+
+#: includes/class-real-accessability-i18n.php:85
+msgid "Reset"
+msgstr "รีเซ็ต"
+
+#: includes/class-real-accessability-i18n.php:87
+msgid "Hide"
+msgstr "ซ่อน"
+
+#: includes/class-real-accessability-i18n.php:88
+msgid "Accessibility plugin"
+msgstr "ปลั๊กอินการช่วยการเข้าถึง"
+
+#. translators: %d: number of active accessibility adjustments.
+#: includes/class-real-accessability-i18n.php:94
+#, php-format
+msgid "%d adjustment active"
+msgid_plural "%d adjustments active"
+msgstr[0] "เปิดใช้การปรับแต่ง %d รายการ"
+
+#: real-accessability.php:103
+msgid "Settings"
+msgstr "การตั้งค่า"

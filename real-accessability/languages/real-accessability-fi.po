@@ -1,0 +1,1120 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Real Accessibility 2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-accessability/\n"
+"PO-Revision-Date: 2026-10-11 12:00+0300\n"
+"Last-Translator: REALMEDIA <office@realmedia.co.il>\n"
+"Language-Team: Finnish\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: real-accessability\n"
+
+#. Plugin URI of the plugin
+#: real-accessability.php
+msgid "https://wordpress.org/plugins/real-accessability/"
+msgstr "https://wordpress.org/plugins/real-accessability/"
+
+#. Description of the plugin
+#: real-accessability.php
+msgid ""
+"An accessibility menu for your website - ready-made profiles, contrast "
+"modes, text size and spacing, readable font, reading guide and more, styled "
+"in your brand color."
+msgstr ""
+"Saavutettavuusvalikko verkkosivustollesi: valmiit profiilit, kontrastitilat,"
+" tekstin koko ja välistys, selkeä fontti, lukuviivain ja paljon muuta, "
+"brändisi väriin sovitettuna."
+
+#. Author of the plugin
+#: real-accessability.php
+msgid "REALMEDIA"
+msgstr "REALMEDIA"
+
+#. Author URI of the plugin
+#: real-accessability.php
+msgid "https://realmedia.co.il"
+msgstr "https://realmedia.co.il"
+
+#: includes/class-real-accessability-admin.php:37
+#: includes/class-real-accessability-admin.php:55
+#: includes/class-real-accessability-admin.php:74
+#: includes/class-real-accessability-admin.php:515
+msgid "Sorry, you are not allowed to do that."
+msgstr "Sinulla ei ole oikeutta tehdä tätä."
+
+#: includes/class-real-accessability-admin.php:106
+msgid "Accessibility menu on the site"
+msgstr "Saavutettavuusvalikko sivustolla"
+
+#: includes/class-real-accessability-admin.php:109
+msgid "On"
+msgstr "Päällä"
+
+#: includes/class-real-accessability-admin.php:109
+msgid "Off"
+msgstr "Pois"
+
+#: includes/class-real-accessability-admin.php:140
+msgid "The accessibility menu is off."
+msgstr "Saavutettavuusvalikko on pois päältä."
+
+#: includes/class-real-accessability-admin.php:141
+msgid "Visitors do not see it."
+msgstr "Kävijät eivät näe sitä."
+
+#: includes/class-real-accessability-admin.php:142
+#: includes/class-real-accessability-admin.php:631
+#: includes/class-real-accessability-admin.php:643
+msgid "Turn on the accessibility menu"
+msgstr "Ota saavutettavuusvalikko käyttöön"
+
+#: includes/class-real-accessability-admin.php:194
+msgid ""
+"Real Accessibility 2.0 is ready. Set the brand color and the button "
+"position, and choose whether to show the plugin credit."
+msgstr ""
+"Real Accessibility 2.0 on valmis. Määritä brändiväri ja painikkeen sijainti "
+"ja valitse, näytetäänkö lisäosan maininta."
+
+#: includes/class-real-accessability-admin.php:195
+msgid "Open Real Accessibility"
+msgstr "Avaa Real Accessibility"
+
+#: includes/class-real-accessability-admin.php:206
+msgid ""
+"Show a small credit with a link to the plugin page on WordPress.org at the "
+"bottom of the accessibility menu? It helps keep the plugin free."
+msgstr ""
+"Näytetäänkö saavutettavuusvalikon alareunassa pieni maininta, jossa on "
+"linkki lisäosan sivulle WordPress.orgissa? Se auttaa pitämään lisäosan "
+"ilmaisena."
+
+#: includes/class-real-accessability-admin.php:207
+#: includes/class-real-accessability-admin.php:651
+msgid "Approve"
+msgstr "Hyväksy"
+
+#: includes/class-real-accessability-admin.php:208
+msgid "No thanks"
+msgstr "Ei kiitos"
+
+#: includes/class-real-accessability-admin.php:244
+msgid "Load WooCommerce stores in 249ms"
+msgstr "WooCommerce-kaupat latautuvat 249 millisekunnissa"
+
+#: includes/class-real-accessability-admin.php:248
+msgid "Load WordPress sites in as fast as 37ms"
+msgstr "WordPress-sivustot latautuvat jopa 37 millisekunnissa"
+
+#: includes/class-real-accessability-admin.php:255
+msgid "(opens in a new tab)"
+msgstr "(avaa uuden välilehden)"
+
+#: includes/class-real-accessability-admin.php:274
+msgid "Starting from $500"
+msgstr "Alkaen $500"
+
+#: includes/class-real-accessability-admin.php:304
+msgid "Professional accessibility audit"
+msgstr "Ammattimainen saavutettavuusarviointi"
+
+#: includes/class-real-accessability-admin.php:305
+msgid "A report of every issue and how to fix it"
+msgstr "Raportti jokaisesta ongelmasta ja sen korjaamisesta"
+
+#: includes/class-real-accessability-admin.php:309
+msgid "Your request was sent. We will be in touch soon."
+msgstr "Pyyntösi on lähetetty. Otamme sinuun pian yhteyttä."
+
+#: includes/class-real-accessability-admin.php:311
+msgid "Get a quote"
+msgstr "Pyydä tarjous"
+
+#: includes/class-real-accessability-admin.php:326
+#: includes/class-real-accessability-admin.php:331
+msgid "A clear report of every issue, with how to fix it"
+msgstr "Selkeä raportti jokaisesta ongelmasta korjausohjeineen"
+
+#: includes/class-real-accessability-admin.php:327
+#: includes/class-real-accessability-admin.php:332
+msgid "Help with your accessibility statement and with the fixes"
+msgstr "Apua saavutettavuusselosteen ja korjausten kanssa"
+
+#: includes/class-real-accessability-admin.php:328
+#: includes/class-real-accessability-admin.php:333
+msgid "A reply within one business day"
+msgstr "Vastaus yhden arkipäivän kuluessa"
+
+#: includes/class-real-accessability-admin.php:330
+msgid "Manual and automated testing against WCAG 2.2 AA"
+msgstr "Manuaalinen ja automaattinen testaus WCAG 2.2 AA -vaatimusten mukaan"
+
+#: includes/class-real-accessability-admin.php:338
+msgid "An accessibility menu alone is not enough"
+msgstr "Pelkkä saavutettavuusvalikko ei riitä"
+
+#: includes/class-real-accessability-admin.php:344
+msgid ""
+"To meet WCAG 2.2 AA and laws such as the ADA, the code and content of the "
+"site need to be accessible too. Our experts audit your site and show you "
+"exactly what to fix."
+msgstr ""
+"Jotta sivusto täyttäisi WCAG 2.2 AA -vaatimukset ja ADA-lain kaltaisten "
+"lakien vaatimukset, myös sen koodin ja sisällön on oltava saavutettavia. "
+"Asiantuntijamme arvioivat sivustosi ja näyttävät tarkalleen, mitä pitää "
+"korjata."
+
+#: includes/class-real-accessability-admin.php:359
+msgid "Your request was sent."
+msgstr "Pyyntösi on lähetetty."
+
+#: includes/class-real-accessability-admin.php:359
+msgid "We will get back to you as soon as possible."
+msgstr "Palaamme asiaan mahdollisimman pian."
+
+#: includes/class-real-accessability-admin.php:363
+msgid "Get a free quote for an accessibility audit"
+msgstr "Pyydä maksuton tarjous saavutettavuusarvioinnista"
+
+#: includes/class-real-accessability-admin.php:364
+msgid "We will get back to you with a quote for your site."
+msgstr "Lähetämme sinulle sivustoasi koskevan tarjouksen."
+
+#: includes/class-real-accessability-admin.php:370
+msgid "Leave this field empty"
+msgstr "Jätä tämä kenttä tyhjäksi"
+
+#: includes/class-real-accessability-admin.php:374
+msgid "Full name"
+msgstr "Koko nimi"
+
+#: includes/class-real-accessability-admin.php:379
+msgid "Phone"
+msgstr "Puhelin"
+
+#: includes/class-real-accessability-admin.php:381
+#: includes/class-real-accessability-admin.php:761
+msgid "Country code"
+msgstr "Maatunnus"
+
+#: includes/class-real-accessability-admin.php:392
+msgid "Email"
+msgstr "Sähköposti"
+
+#: includes/class-real-accessability-admin.php:405
+msgid "Sending..."
+msgstr "Lähetetään..."
+
+#: includes/class-real-accessability-admin.php:405
+msgid "Request a quote"
+msgstr "Pyydä tarjous"
+
+#. translators: %s: the "privacy policy" link.
+#: includes/class-real-accessability-admin.php:421
+#, php-format
+msgid ""
+"I agree that these details will be sent to Real Media Ltd. so they can "
+"contact me about an accessibility audit, in accordance with the %s."
+msgstr ""
+"Hyväksyn, että nämä tiedot lähetetään %s mukaisesti yritykselle Real Media "
+"Ltd., jotta se voi ottaa minuun yhteyttä saavutettavuusarviointiin liittyen."
+
+#: includes/class-real-accessability-admin.php:423
+msgctxt "link inside the consent sentence"
+msgid "privacy policy"
+msgstr "tietosuojaselosteen"
+
+#: includes/class-real-accessability-admin.php:430
+msgid "Who we are"
+msgstr "Keitä olemme"
+
+#: includes/class-real-accessability-admin.php:431
+msgid ""
+"This form is operated by Real Media Ltd., the developer of Real "
+"Accessibility. This policy explains what happens to the details you send "
+"through it. It follows the Israeli Protection of Privacy Law, 5741-1981, "
+"including Amendment 13."
+msgstr ""
+"Tätä lomaketta ylläpitää Real Media Ltd., joka on kehittänyt Real "
+"Accessibility -lisäosan. Tämä seloste kertoo, mitä lomakkeen kautta "
+"lähettämillesi tiedoille tapahtuu. Se noudattaa Israelin yksityisyyden "
+"suojaa koskevaa lakia 5741-1981, mukaan lukien lain muutos 13."
+
+#: includes/class-real-accessability-admin.php:434
+msgid "What we collect"
+msgstr "Mitä tietoja keräämme"
+
+#: includes/class-real-accessability-admin.php:435
+msgid ""
+"Only what you type into the form: full name, phone and email, together with "
+"your site's address, your consent, the plugin version and the time of "
+"sending."
+msgstr ""
+"Vain lomakkeeseen kirjoittamasi tiedot: koko nimi, puhelinnumero ja "
+"sähköpostiosoite sekä sivustosi osoite, suostumuksesi, lisäosan versio ja "
+"lähetysajankohta."
+
+#: includes/class-real-accessability-admin.php:436
+msgid ""
+"Your details are sent only when you click the button, together with the "
+"language and price shown here. Nothing else from your site is sent."
+msgstr ""
+"Tietosi lähetetään vain, kun napsautat painiketta, ja niiden mukana "
+"lähetetään tässä näkyvät kieli ja hinta. Sivustoltasi ei lähetetä mitään "
+"muuta."
+
+#: includes/class-real-accessability-admin.php:439
+msgid "What we use it for"
+msgstr "Mihin käytämme tietoja"
+
+#: includes/class-real-accessability-admin.php:440
+msgid ""
+"To get back to you about your request and send you a quote for an "
+"accessibility audit. We will not send you marketing messages unless you "
+"agree to receive them separately."
+msgstr ""
+"Käytämme tietoja vastataksemme pyyntöösi ja lähettääksemme sinulle "
+"tarjouksen saavutettavuusarvioinnista. Emme lähetä sinulle "
+"markkinointiviestejä, ellet erikseen suostu vastaanottamaan niitä."
+
+#: includes/class-real-accessability-admin.php:443
+msgid "Do you have to give it"
+msgstr "Onko tietojen antaminen pakollista?"
+
+#: includes/class-real-accessability-admin.php:444
+msgid ""
+"You are not required by law to give us these details. Without them, we "
+"cannot get back to you about your request."
+msgstr ""
+"Laki ei velvoita sinua antamaan meille näitä tietoja. Ilman niitä emme voi "
+"vastata pyyntöösi."
+
+#: includes/class-real-accessability-admin.php:447
+msgid "Who receives it"
+msgstr "Kuka saa tiedot"
+
+#: includes/class-real-accessability-admin.php:448
+msgid ""
+"The details are sent to Real Media Ltd., so it can get back to you with a "
+"quote."
+msgstr ""
+"Tiedot lähetetään yritykselle Real Media Ltd., jotta se voi vastata sinulle "
+"tarjouksella."
+
+#: includes/class-real-accessability-admin.php:451
+msgid "How long we keep it"
+msgstr "Kuinka kauan säilytämme tietoja"
+
+#: includes/class-real-accessability-admin.php:452
+msgid ""
+"For as long as needed to handle your request, and for up to 24 months after "
+"our last contact, unless the law requires otherwise."
+msgstr ""
+"Niin kauan kuin pyyntösi käsittely edellyttää ja enintään 24 kuukautta "
+"viimeisimmän yhteydenpitomme jälkeen, ellei laki vaadi muuta."
+
+#: includes/class-real-accessability-admin.php:455
+msgid "Security"
+msgstr "Tietoturva"
+
+#: includes/class-real-accessability-admin.php:456
+msgid ""
+"We use up-to-date measures to protect the details. No system is completely "
+"immune to unauthorized access, so we cannot guarantee absolute protection."
+msgstr ""
+"Käytämme tietojen suojaamiseen ajanmukaisia menetelmiä. Mikään järjestelmä "
+"ei ole täysin suojassa luvattomalta pääsyltä, joten emme voi taata ehdotonta"
+" suojaa."
+
+#: includes/class-real-accessability-admin.php:459
+msgid "Your rights"
+msgstr "Oikeutesi"
+
+#. translators: %s: email address for privacy requests.
+#: includes/class-real-accessability-admin.php:461
+#, php-format
+msgid ""
+"You can ask at any time to see, correct or delete your details, or to "
+"withdraw your consent, by writing to %s."
+msgstr ""
+"Voit milloin tahansa pyytää tietojesi tarkastamista, korjaamista tai "
+"poistamista tai suostumuksesi peruuttamista kirjoittamalla osoitteeseen %s."
+
+#: includes/class-real-accessability-admin.php:467
+msgid "Privacy policy for audit requests"
+msgstr "Arviointipyyntöjen tietosuojaseloste"
+
+#: includes/class-real-accessability-admin.php:468
+#: includes/class-real-accessability-admin.php:477
+#: includes/class-real-accessability-admin.php:644
+msgid "Close"
+msgstr "Sulje"
+
+#: includes/class-real-accessability-admin.php:523
+msgid ""
+"You already sent a request in the last 24 hours. We will be in touch soon."
+msgstr ""
+"Olet jo lähettänyt pyynnön viimeisten 24 tunnin aikana. Otamme sinuun pian "
+"yhteyttä."
+
+#: includes/class-real-accessability-admin.php:538
+#: includes/class-real-accessability-admin.php:574
+#: includes/class-real-accessability-admin.php:604
+#: includes/class-real-accessability-admin.php:757
+msgid "The request could not be sent. Please try again later."
+msgstr "Pyyntöä ei voitu lähettää. Yritä myöhemmin uudelleen."
+
+#: includes/class-real-accessability-admin.php:556
+msgid "Please fill in all the required fields."
+msgstr "Täytä kaikki pakolliset kentät."
+
+#: includes/class-real-accessability-admin.php:559
+#: includes/class-real-accessability-admin.php:763
+msgid "Please enter a valid email address."
+msgstr "Syötä kelvollinen sähköpostiosoite."
+
+#: includes/class-real-accessability-admin.php:567
+#: includes/class-real-accessability-admin.php:764
+msgid "Please enter a valid phone number."
+msgstr "Syötä kelvollinen puhelinnumero."
+
+#: includes/class-real-accessability-admin.php:570
+#: includes/class-real-accessability-admin.php:765
+msgid "Please agree to send your details."
+msgstr "Hyväksy tietojesi lähettäminen."
+
+#: includes/class-real-accessability-admin.php:615
+msgid "Disclaimer:"
+msgstr "Vastuuvapauslauseke:"
+
+#: includes/class-real-accessability-admin.php:616
+msgid ""
+"Real Accessibility adds an accessibility menu that helps visitors adjust how"
+" the site is displayed. On its own, it does not make a website accessible or"
+" compliant with any accessibility law or standard (such as WCAG or Israeli "
+"Standard 5568). The site owner remains solely responsible for the "
+"accessibility of the site's code and content and for meeting the legal "
+"requirements. The plugin is provided \"as is\", without warranty of any "
+"kind, and the plugin's authors are not liable for any damage resulting from "
+"its use."
+msgstr ""
+"Real Accessibility lisää sivustolle saavutettavuusvalikon, jonka avulla "
+"kävijät voivat muokata sivuston esitystapaa. Se ei yksinään tee "
+"verkkosivustosta saavutettavaa eikä minkään saavutettavuutta koskevan lain "
+"tai standardin (kuten WCAG-ohjeiden tai Israelin standardin 5568) mukaista. "
+"Sivuston omistaja on edelleen yksin vastuussa sivuston koodin ja sisällön "
+"saavutettavuudesta sekä lakisääteisten vaatimusten täyttämisestä. Lisäosa "
+"toimitetaan ”sellaisenaan” ilman minkäänlaista takuuta, eivätkä lisäosan "
+"tekijät vastaa mistään sen käytöstä aiheutuvista vahingoista."
+
+#: includes/class-real-accessability-admin.php:628
+msgid "Your accessibility menu is ready"
+msgstr "Saavutettavuusvalikkosi on valmis"
+
+#: includes/class-real-accessability-admin.php:629
+msgid ""
+"Set the color and the position below, then turn the menu on. You can keep "
+"changing the settings after it is live."
+msgstr ""
+"Määritä väri ja sijainti alla ja ota sitten valikko käyttöön. Voit muuttaa "
+"asetuksia myös sen jälkeen, kun valikko on käytössä."
+
+#: includes/class-real-accessability-admin.php:647
+msgid ""
+"Approving turns the menu on and shows a small credit at its bottom, with a "
+"link to the plugin page on WordPress.org."
+msgstr ""
+"Kun hyväksyt, valikko otetaan käyttöön ja sen alareunaan lisätään pieni "
+"maininta, jossa on linkki lisäosan sivulle WordPress.orgissa."
+
+#: includes/class-real-accessability-admin.php:648
+msgid ""
+"Real Accessibility is free, and the credit helps other site owners find it."
+msgstr ""
+"Real Accessibility on ilmainen, ja maininta auttaa muita sivustojen "
+"omistajia löytämään sen."
+
+#: includes/class-real-accessability-admin.php:652
+#: includes/class-real-accessability-admin.php:1117
+#: includes/class-real-accessability-admin.php:1251
+#: includes/class-real-accessability-admin.php:1349
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: includes/class-real-accessability-admin.php:653
+msgid "You can also turn it on without the credit"
+msgstr "Voit ottaa sen käyttöön myös ilman mainintaa"
+
+#: includes/class-real-accessability-admin.php:677
+#: includes/class-real-accessability-admin.php:998
+#: includes/class-real-accessability-admin.php:1006
+msgid "Button and menu"
+msgstr "Painike ja valikko"
+
+#: includes/class-real-accessability-admin.php:678
+msgid "Features"
+msgstr "Ominaisuudet"
+
+#: includes/class-real-accessability-admin.php:679
+msgid "Languages"
+msgstr "Kielet"
+
+#: includes/class-real-accessability-admin.php:680
+#: includes/class-real-accessability-i18n.php:86
+msgid "Accessibility statement"
+msgstr "Saavutettavuusseloste"
+
+#: includes/class-real-accessability-admin.php:681
+msgid "Accessibility audit"
+msgstr "Saavutettavuusarviointi"
+
+#: includes/class-real-accessability-admin.php:693
+#: includes/class-real-accessability-admin.php:809
+msgid "Real Accessibility"
+msgstr "Real Accessibility"
+
+#: includes/class-real-accessability-admin.php:694
+msgctxt "admin menu label"
+msgid "Real Accessibility"
+msgstr "Real Accessibility"
+
+#. translators: %s: contrast ratio, for example 1.8.
+#: includes/class-real-accessability-admin.php:755
+#, php-format
+msgid "Low contrast %s:1"
+msgstr "Heikko kontrasti %s:1"
+
+#: includes/class-real-accessability-admin.php:756
+msgid "You have unsaved changes."
+msgstr "Sinulla on tallentamattomia muutoksia."
+
+#: includes/class-real-accessability-admin.php:762
+msgid "This field is required."
+msgstr "Tämä kenttä on pakollinen."
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:769
+#: includes/class-real-accessability-admin.php:1297
+#, php-format
+msgid "Flag for %s"
+msgstr "Kielen lippu: %s"
+
+#: includes/class-real-accessability-admin.php:770
+msgid "Choose a flag"
+msgstr "Valitse lippu"
+
+#: includes/class-real-accessability-admin.php:771
+msgid "Search for a country"
+msgstr "Hae maata"
+
+#: includes/class-real-accessability-admin.php:772
+msgid "Suggested"
+msgstr "Ehdotetut"
+
+#: includes/class-real-accessability-admin.php:773
+msgid "All countries"
+msgstr "Kaikki maat"
+
+#: includes/class-real-accessability-admin.php:774
+msgid "No country found"
+msgstr "Maata ei löytynyt"
+
+#. translators: %d: number of languages shown in the menu.
+#: includes/class-real-accessability-admin.php:789
+#, php-format
+msgid "%d language in the menu"
+msgid_plural "%d languages in the menu"
+msgstr[0] "%d kieli valikossa"
+msgstr[1] "%d kieltä valikossa"
+
+#: includes/class-real-accessability-admin.php:813
+msgid "Settings sections"
+msgstr "Asetusosiot"
+
+#: includes/class-real-accessability-admin.php:815
+msgid "Legal compliance"
+msgstr "Lakivaatimukset"
+
+#: includes/class-real-accessability-admin.php:825
+msgid ""
+"Thank you! The credit is shown at the bottom of the accessibility menu."
+msgstr "Kiitos! Maininta näkyy saavutettavuusvalikon alareunassa."
+
+#: includes/class-real-accessability-admin.php:832
+msgid ""
+"The accessibility menu is live on your site, with the credit at the bottom. "
+"Thank you!"
+msgstr ""
+"Saavutettavuusvalikko on nyt käytössä sivustollasi, ja maininta näkyy sen "
+"alareunassa. Kiitos!"
+
+#: includes/class-real-accessability-admin.php:833
+msgid "The accessibility menu is live on your site!"
+msgstr "Saavutettavuusvalikko on nyt käytössä sivustollasi!"
+
+#: includes/class-real-accessability-admin.php:834
+msgid "View the site"
+msgstr "Näytä sivusto"
+
+#: includes/class-real-accessability-admin.php:896
+msgid "Desktop"
+msgstr "Tietokone"
+
+#: includes/class-real-accessability-admin.php:897
+msgid "Show the accessibility button on desktop"
+msgstr "Näytä saavutettavuuspainike tietokoneilla"
+
+#: includes/class-real-accessability-admin.php:900
+msgid "Tablet"
+msgstr "Tabletti"
+
+#: includes/class-real-accessability-admin.php:901
+msgid "Show the accessibility button on tablets"
+msgstr "Näytä saavutettavuuspainike tableteilla"
+
+#: includes/class-real-accessability-admin.php:904
+msgid "Mobile"
+msgstr "Mobiili"
+
+#: includes/class-real-accessability-admin.php:905
+msgid "Show the accessibility button on mobile"
+msgstr "Näytä saavutettavuuspainike mobiililaitteilla"
+
+#: includes/class-real-accessability-admin.php:909
+msgid "Top left"
+msgstr "Ylhäällä vasemmalla"
+
+#: includes/class-real-accessability-admin.php:910
+msgid "Top center"
+msgstr "Ylhäällä keskellä"
+
+#: includes/class-real-accessability-admin.php:911
+msgid "Top right"
+msgstr "Ylhäällä oikealla"
+
+#: includes/class-real-accessability-admin.php:912
+msgid "Middle left"
+msgstr "Keskellä vasemmalla"
+
+#: includes/class-real-accessability-admin.php:913
+msgid "Center"
+msgstr "Keskellä"
+
+#: includes/class-real-accessability-admin.php:914
+msgid "Middle right"
+msgstr "Keskellä oikealla"
+
+#: includes/class-real-accessability-admin.php:915
+msgid "Bottom left"
+msgstr "Alhaalla vasemmalla"
+
+#: includes/class-real-accessability-admin.php:916
+msgid "Bottom center"
+msgstr "Alhaalla keskellä"
+
+#: includes/class-real-accessability-admin.php:917
+msgid "Bottom right"
+msgstr "Alhaalla oikealla"
+
+#: includes/class-real-accessability-admin.php:920
+msgid "From the left"
+msgstr "Vasemmalta"
+
+#: includes/class-real-accessability-admin.php:921
+msgid "From the right"
+msgstr "Oikealta"
+
+#: includes/class-real-accessability-admin.php:922
+msgid "From the bottom"
+msgstr "Alhaalta"
+
+#: includes/class-real-accessability-admin.php:925
+#: includes/class-real-accessability-admin.php:1051
+msgid "Circle"
+msgstr "Ympyrä"
+
+#: includes/class-real-accessability-admin.php:926
+msgid "Rounded"
+msgstr "Pyöristetty"
+
+#: includes/class-real-accessability-admin.php:927
+#: includes/class-real-accessability-admin.php:1051
+msgid "Square"
+msgstr "Neliö"
+
+#: includes/class-real-accessability-admin.php:937
+msgid "Device"
+msgstr "Laite"
+
+#: includes/class-real-accessability-admin.php:942
+msgid "hidden"
+msgstr "piilotettu"
+
+#: includes/class-real-accessability-admin.php:953
+msgid "Color"
+msgstr "Väri"
+
+#: includes/class-real-accessability-admin.php:958
+msgid "Brand color"
+msgstr "Brändiväri"
+
+#: includes/class-real-accessability-admin.php:959
+msgid "All the menu and button colors come from it."
+msgstr "Kaikki valikon ja painikkeen värit johdetaan siitä."
+
+#: includes/class-real-accessability-admin.php:964
+msgid "Pick the brand color"
+msgstr "Valitse brändiväri"
+
+#: includes/class-real-accessability-admin.php:969
+msgid "Button icon color"
+msgstr "Painikkeen kuvakkeen väri"
+
+#: includes/class-real-accessability-admin.php:970
+msgid "Automatic picks white or black, whichever has more contrast."
+msgstr ""
+"Automaattinen valitsee valkoisen tai mustan sen mukaan, kummalla on suurempi"
+" kontrasti."
+
+#: includes/class-real-accessability-admin.php:975
+msgid "Custom icon color"
+msgstr "Mukautettu kuvakkeen väri"
+
+#: includes/class-real-accessability-admin.php:976
+msgid "Pick the icon color"
+msgstr "Valitse kuvakkeen väri"
+
+#: includes/class-real-accessability-admin.php:979
+msgid "Automatic"
+msgstr "Automaattinen"
+
+#: includes/class-real-accessability-admin.php:980
+msgid "Custom"
+msgstr "Mukautettu"
+
+#: includes/class-real-accessability-admin.php:1000
+msgid "Show the button on"
+msgstr "Näytä painike laitteilla"
+
+#: includes/class-real-accessability-admin.php:1009
+#: includes/class-real-accessability-admin.php:1024
+msgid "Button position"
+msgstr "Painikkeen sijainti"
+
+#: includes/class-real-accessability-admin.php:1010
+msgid "Shape and size"
+msgstr "Muoto ja koko"
+
+#: includes/class-real-accessability-admin.php:1011
+msgid "The menu"
+msgstr "Valikko"
+
+#: includes/class-real-accessability-admin.php:1019
+msgid ""
+"The button is hidden on this device. Turn it back on with the icons above."
+msgstr ""
+"Painike on piilotettu tällä laitteella. Ota se uudelleen käyttöön yllä "
+"olevista kuvakkeista."
+
+#: includes/class-real-accessability-admin.php:1036
+msgid "Distance from the edge - horizontal"
+msgstr "Etäisyys reunasta - vaakasuunta"
+
+#: includes/class-real-accessability-admin.php:1036
+#: includes/class-real-accessability-admin.php:1037
+msgid "Attached"
+msgstr "Reunassa"
+
+#: includes/class-real-accessability-admin.php:1037
+msgid "Distance from the edge - vertical"
+msgstr "Etäisyys reunasta - pystysuunta"
+
+#: includes/class-real-accessability-admin.php:1044
+msgid "Shape"
+msgstr "Muoto"
+
+#: includes/class-real-accessability-admin.php:1050
+msgid "Button size"
+msgstr "Painikkeen koko"
+
+#: includes/class-real-accessability-admin.php:1051
+msgid "Corner radius"
+msgstr "Kulmien pyöristys"
+
+#: includes/class-real-accessability-admin.php:1056
+msgid "Opens from the edge of the screen, wherever the button is."
+msgstr "Avautuu näytön reunasta riippumatta siitä, missä painike on."
+
+#: includes/class-real-accessability-admin.php:1058
+msgid "Menu opens from"
+msgstr "Valikko avautuu"
+
+#: includes/class-real-accessability-admin.php:1067
+msgid "Menu corner radius"
+msgstr "Valikon kulmien pyöristys"
+
+#: includes/class-real-accessability-admin.php:1079
+#: includes/class-real-accessability-admin.php:1080
+#: includes/class-real-accessability-admin.php:1235
+#: includes/class-real-accessability-admin.php:1330
+msgid "Preview"
+msgstr "Esikatselu"
+
+#: includes/class-real-accessability-admin.php:1081
+msgid "Button"
+msgstr "Painike"
+
+#: includes/class-real-accessability-admin.php:1082
+msgid "Menu open"
+msgstr "Valikko auki"
+
+#: includes/class-real-accessability-admin.php:1095
+#: includes/class-real-accessability-i18n.php:32
+msgid "Accessibility"
+msgstr "Saavutettavuus"
+
+#: includes/class-real-accessability-admin.php:1104
+msgid "The button is hidden on this device."
+msgstr "Painike on piilotettu tällä laitteella."
+
+#: includes/class-real-accessability-admin.php:1116
+#: includes/class-real-accessability-admin.php:1250
+#: includes/class-real-accessability-admin.php:1348
+msgid "Save changes"
+msgstr "Tallenna muutokset"
+
+#: includes/class-real-accessability-admin.php:1118
+#: includes/class-real-accessability-admin.php:1252
+#: includes/class-real-accessability-admin.php:1350
+msgid "You have unsaved changes"
+msgstr "Sinulla on tallentamattomia muutoksia"
+
+#: includes/class-real-accessability-admin.php:1193
+msgid ""
+"Choose what visitors see in the accessibility menu. Sections without any "
+"option are not shown."
+msgstr ""
+"Valitse, mitä kävijät näkevät saavutettavuusvalikossa. Osioita, joissa ei "
+"ole yhtään vaihtoehtoa, ei näytetä."
+
+#: includes/class-real-accessability-admin.php:1222
+msgid "Menu footer"
+msgstr "Valikon alatunniste"
+
+#: includes/class-real-accessability-admin.php:1225
+msgid "Hide button"
+msgstr "Piilotuspainike"
+
+#: includes/class-real-accessability-admin.php:1225
+msgid "Hides the accessibility button until the visitor's next visit"
+msgstr "Piilottaa saavutettavuuspainikkeen kävijän seuraavaan käyntiin asti"
+
+#: includes/class-real-accessability-admin.php:1226
+msgid "Plugin credit"
+msgstr "Lisäosan maininta"
+
+#: includes/class-real-accessability-admin.php:1226
+msgid ""
+"A small credit at the bottom of the menu, with a link to the plugin page on "
+"WordPress.org"
+msgstr ""
+"Pieni maininta valikon alareunassa ja linkki lisäosan sivulle "
+"WordPress.orgissa"
+
+#: includes/class-real-accessability-admin.php:1237
+msgid "Preview of the accessibility menu"
+msgstr "Saavutettavuusvalikon esikatselu"
+
+#: includes/class-real-accessability-admin.php:1276
+msgid "Menu languages"
+msgstr "Valikon kielet"
+
+#: includes/class-real-accessability-admin.php:1281
+msgid "Search languages"
+msgstr "Hae kieliä"
+
+#: includes/class-real-accessability-admin.php:1283
+msgid "No language found"
+msgstr "Kieltä ei löytynyt"
+
+#: includes/class-real-accessability-admin.php:1293
+msgid "Drag to reorder"
+msgstr "Järjestä vetämällä"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1315
+#, php-format
+msgid "Make %s the default"
+msgstr "Aseta oletukseksi: %s"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1316
+msgid "Default"
+msgstr "Oletus"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1319
+#, php-format
+msgid "Show %s in the menu"
+msgstr "Näytä valikossa: %s"
+
+#: includes/class-real-accessability-admin.php:1362
+msgid "Statement page"
+msgstr "Selosteen sivu"
+
+#: includes/class-real-accessability-admin.php:1370
+msgid "- Select a page -"
+msgstr "- Valitse sivu -"
+
+#: includes/class-real-accessability-admin.php:1377
+msgid "View page"
+msgstr "Näytä sivu"
+
+#: includes/class-real-accessability-admin.php:1379
+msgid ""
+"The page on your site with the accessibility statement. The \"Accessibility "
+"statement\" button in the menu links to it."
+msgstr ""
+"Sivustosi sivu, jolla saavutettavuusseloste on. Valikon "
+"”Saavutettavuusseloste”-painike linkittää siihen."
+
+#: includes/class-real-accessability-admin.php:1383
+msgid "Statement button"
+msgstr "Selosteen painike"
+
+#: includes/class-real-accessability-admin.php:1385
+msgid "Show the \"Accessibility statement\" button in the menu"
+msgstr "Näytä ”Saavutettavuusseloste”-painike valikossa"
+
+#: includes/class-real-accessability-i18n.php:33
+msgid "Accessibility menu"
+msgstr "Saavutettavuusvalikko"
+
+#: includes/class-real-accessability-i18n.php:34
+msgid "Open accessibility menu"
+msgstr "Avaa saavutettavuusvalikko"
+
+#: includes/class-real-accessability-i18n.php:35
+msgid "Close accessibility menu (Esc)"
+msgstr "Sulje saavutettavuusvalikko (Esc)"
+
+#: includes/class-real-accessability-i18n.php:36
+msgid "Menu language"
+msgstr "Valikon kieli"
+
+#: includes/class-real-accessability-i18n.php:37
+msgid "Choose language"
+msgstr "Valitse kieli"
+
+#: includes/class-real-accessability-i18n.php:38
+msgid "No adjustments active"
+msgstr "Ei säätöjä käytössä"
+
+#: includes/class-real-accessability-i18n.php:39
+msgid "Ready-made profiles"
+msgstr "Valmiit profiilit"
+
+#: includes/class-real-accessability-i18n.php:40
+msgid "Seizure safe"
+msgstr "Epilepsia"
+
+#: includes/class-real-accessability-i18n.php:41
+msgid "Stops animations and flashing and dims colors"
+msgstr "Pysäyttää animaatiot ja välähdykset sekä himmentää värejä"
+
+#: includes/class-real-accessability-i18n.php:42
+msgid "Vision impaired"
+msgstr "Heikko näkö"
+
+#: includes/class-real-accessability-i18n.php:43
+msgid "High contrast, large text and emphasized headings"
+msgstr "Suuri kontrasti, iso teksti ja korostetut otsikot"
+
+#: includes/class-real-accessability-i18n.php:44
+msgid "ADHD and focus"
+msgstr "ADHD ja keskittyminen"
+
+#: includes/class-real-accessability-i18n.php:45
+msgid "Fewer distractions, reading guide and line spacing"
+msgstr "Vähemmän häiriötekijöitä, lukuviivain ja riviväli"
+
+#: includes/class-real-accessability-i18n.php:46
+msgid "Dyslexia"
+msgstr "Lukivaikeus"
+
+#: includes/class-real-accessability-i18n.php:47
+msgid "Readable font, letter spacing and reading guide"
+msgstr "Selkeä fontti, merkkiväli ja lukuviivain"
+
+#: includes/class-real-accessability-i18n.php:48
+msgid "Motor impaired"
+msgstr "Motoriset rajoitteet"
+
+#: includes/class-real-accessability-i18n.php:49
+msgid "Keyboard navigation, large cursor and larger text"
+msgstr "Näppäimistönavigointi, iso osoitin ja isompi teksti"
+
+#: includes/class-real-accessability-i18n.php:50
+msgid "Screen reader"
+msgstr "Ruudunlukija"
+
+#: includes/class-real-accessability-i18n.php:51
+msgid "Keyboard navigation and emphasized links and headings"
+msgstr "Näppäimistönavigointi sekä korostetut linkit ja otsikot"
+
+#: includes/class-real-accessability-i18n.php:52
+msgid "Seniors"
+msgstr "Ikääntyneet"
+
+#: includes/class-real-accessability-i18n.php:53
+msgid "Large text, large cursor and clear links"
+msgstr "Iso teksti, iso osoitin ja korostetut linkit"
+
+#: includes/class-real-accessability-i18n.php:54
+msgid "Display"
+msgstr "Ulkoasu"
+
+#: includes/class-real-accessability-i18n.php:55
+msgid "Contrast"
+msgstr "Kontrasti"
+
+#: includes/class-real-accessability-i18n.php:56
+msgid "High contrast"
+msgstr "Suuri kontrasti"
+
+#: includes/class-real-accessability-i18n.php:57
+msgid "Inverted contrast"
+msgstr "Käänteinen kontrasti"
+
+#: includes/class-real-accessability-i18n.php:58
+msgid "Grayscale"
+msgstr "Harmaasävy"
+
+#: includes/class-real-accessability-i18n.php:59
+msgid "Readable font"
+msgstr "Selkeä fontti"
+
+#: includes/class-real-accessability-i18n.php:60
+msgid "Highlight links"
+msgstr "Korosta linkit"
+
+#: includes/class-real-accessability-i18n.php:61
+msgid "Highlight headings"
+msgstr "Korosta otsikot"
+
+#: includes/class-real-accessability-i18n.php:62
+msgid "Large cursor"
+msgstr "Iso osoitin"
+
+#: includes/class-real-accessability-i18n.php:63
+msgid "Hide images"
+msgstr "Piilota kuvat"
+
+#: includes/class-real-accessability-i18n.php:64
+msgid "Magnifier"
+msgstr "Luuppi"
+
+#: includes/class-real-accessability-i18n.php:65
+msgid "Text align"
+msgstr "Tekstin tasaus"
+
+#: includes/class-real-accessability-i18n.php:66
+msgid "Align center"
+msgstr "Keskitetty"
+
+#: includes/class-real-accessability-i18n.php:67
+msgid "Align right"
+msgstr "Oikea tasaus"
+
+#: includes/class-real-accessability-i18n.php:68
+msgid "Align left"
+msgstr "Vasen tasaus"
+
+#: includes/class-real-accessability-i18n.php:69
+msgid "Text"
+msgstr "Teksti"
+
+#: includes/class-real-accessability-i18n.php:70
+msgid "Text size"
+msgstr "Tekstin koko"
+
+#: includes/class-real-accessability-i18n.php:71
+msgid "Line spacing"
+msgstr "Riviväli"
+
+#: includes/class-real-accessability-i18n.php:72
+msgid "Letter spacing"
+msgstr "Merkkiväli"
+
+#: includes/class-real-accessability-i18n.php:73
+msgctxt "spacing level"
+msgid "Regular"
+msgstr "Normaali"
+
+#. translators: %s: setting name, for example "Text size".
+#: includes/class-real-accessability-i18n.php:75
+#, php-format
+msgid "Decrease %s"
+msgstr "Pienennä: %s"
+
+#. translators: %s: setting name, for example "Text size".
+#: includes/class-real-accessability-i18n.php:77
+#, php-format
+msgid "Increase %s"
+msgstr "Suurenna: %s"
+
+#: includes/class-real-accessability-i18n.php:78
+msgid "Reading and navigation"
+msgstr "Lukeminen ja navigointi"
+
+#: includes/class-real-accessability-i18n.php:79
+msgid "Reading guide"
+msgstr "Lukuviivain"
+
+#: includes/class-real-accessability-i18n.php:80
+msgid "A highlight bar that follows the pointer"
+msgstr "Korostettu palkki, joka seuraa osoitinta"
+
+#: includes/class-real-accessability-i18n.php:81
+msgid "Stop animations"
+msgstr "Pysäytä animaatiot"
+
+#: includes/class-real-accessability-i18n.php:82
+msgid "Stops motion, flashing and video"
+msgstr "Pysäyttää liikkeen, välähdykset ja videot"
+
+#: includes/class-real-accessability-i18n.php:83
+msgid "Keyboard navigation"
+msgstr "Näppäimistönavigointi"
+
+#: includes/class-real-accessability-i18n.php:84
+msgid "A prominent focus frame on every move"
+msgstr "Selkeä kohdistuskehys jokaisella siirrolla"
+
+#: includes/class-real-accessability-i18n.php:85
+msgid "Reset"
+msgstr "Nollaa"
+
+#: includes/class-real-accessability-i18n.php:87
+msgid "Hide"
+msgstr "Piilota"
+
+#: includes/class-real-accessability-i18n.php:88
+msgid "Accessibility plugin"
+msgstr "Saavutettavuuslisäosa"
+
+#. translators: %d: number of active accessibility adjustments.
+#: includes/class-real-accessability-i18n.php:94
+#, php-format
+msgid "%d adjustment active"
+msgid_plural "%d adjustments active"
+msgstr[0] "%d säätö käytössä"
+msgstr[1] "%d säätöä käytössä"
+
+#: real-accessability.php:103
+msgid "Settings"
+msgstr "Asetukset"

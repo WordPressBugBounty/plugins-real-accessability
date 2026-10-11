@@ -1,0 +1,1116 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Real Accessibility 2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-accessability/\n"
+"PO-Revision-Date: 2026-10-11 12:00+0300\n"
+"Last-Translator: REALMEDIA <office@realmedia.co.il>\n"
+"Language-Team: Slovak\n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2));\n"
+"X-Domain: real-accessability\n"
+
+#. Plugin URI of the plugin
+#: real-accessability.php
+msgid "https://wordpress.org/plugins/real-accessability/"
+msgstr "https://wordpress.org/plugins/real-accessability/"
+
+#. Description of the plugin
+#: real-accessability.php
+msgid ""
+"An accessibility menu for your website - ready-made profiles, contrast "
+"modes, text size and spacing, readable font, reading guide and more, styled "
+"in your brand color."
+msgstr ""
+"Ponuka prístupnosti pre váš web: pripravené profily, režimy kontrastu, "
+"veľkosť textu a medzery, čitateľné písmo, čítacie pravítko a ďalšie, všetko "
+"vo farbe vašej značky."
+
+#. Author of the plugin
+#: real-accessability.php
+msgid "REALMEDIA"
+msgstr "REALMEDIA"
+
+#. Author URI of the plugin
+#: real-accessability.php
+msgid "https://realmedia.co.il"
+msgstr "https://realmedia.co.il"
+
+#: includes/class-real-accessability-admin.php:37
+#: includes/class-real-accessability-admin.php:55
+#: includes/class-real-accessability-admin.php:74
+#: includes/class-real-accessability-admin.php:515
+msgid "Sorry, you are not allowed to do that."
+msgstr "Nemáte oprávnenie to urobiť."
+
+#: includes/class-real-accessability-admin.php:106
+msgid "Accessibility menu on the site"
+msgstr "Ponuka prístupnosti na webe"
+
+#: includes/class-real-accessability-admin.php:109
+msgid "On"
+msgstr "Zapnuté"
+
+#: includes/class-real-accessability-admin.php:109
+msgid "Off"
+msgstr "Vypnuté"
+
+#: includes/class-real-accessability-admin.php:140
+msgid "The accessibility menu is off."
+msgstr "Ponuka prístupnosti je vypnutá."
+
+#: includes/class-real-accessability-admin.php:141
+msgid "Visitors do not see it."
+msgstr "Návštevníci ju nevidia."
+
+#: includes/class-real-accessability-admin.php:142
+#: includes/class-real-accessability-admin.php:631
+#: includes/class-real-accessability-admin.php:643
+msgid "Turn on the accessibility menu"
+msgstr "Zapnúť ponuku prístupnosti"
+
+#: includes/class-real-accessability-admin.php:194
+msgid ""
+"Real Accessibility 2.0 is ready. Set the brand color and the button "
+"position, and choose whether to show the plugin credit."
+msgstr ""
+"Plugin Real Accessibility 2.0 je pripravený. Nastavte farbu značky a pozíciu"
+" tlačidla a zvoľte, či sa má zobrazovať zmienka o plugine."
+
+#: includes/class-real-accessability-admin.php:195
+msgid "Open Real Accessibility"
+msgstr "Otvoriť Real Accessibility"
+
+#: includes/class-real-accessability-admin.php:206
+msgid ""
+"Show a small credit with a link to the plugin page on WordPress.org at the "
+"bottom of the accessibility menu? It helps keep the plugin free."
+msgstr ""
+"Zobrazovať v spodnej časti ponuky prístupnosti malú zmienku s odkazom na "
+"stránku pluginu na WordPress.org? Pomôžete tým udržať plugin bezplatný."
+
+#: includes/class-real-accessability-admin.php:207
+#: includes/class-real-accessability-admin.php:651
+msgid "Approve"
+msgstr "Schváliť"
+
+#: includes/class-real-accessability-admin.php:208
+msgid "No thanks"
+msgstr "Nie, ďakujem"
+
+#: includes/class-real-accessability-admin.php:244
+msgid "Load WooCommerce stores in 249ms"
+msgstr "Načítanie obchodov WooCommerce za 249 ms"
+
+#: includes/class-real-accessability-admin.php:248
+msgid "Load WordPress sites in as fast as 37ms"
+msgstr "Načítanie webov WordPress už za 37 ms"
+
+#: includes/class-real-accessability-admin.php:255
+msgid "(opens in a new tab)"
+msgstr "(otvára sa na novej karte)"
+
+#: includes/class-real-accessability-admin.php:274
+msgid "Starting from $500"
+msgstr "Od $500"
+
+#: includes/class-real-accessability-admin.php:304
+msgid "Professional accessibility audit"
+msgstr "Profesionálny audit prístupnosti"
+
+#: includes/class-real-accessability-admin.php:305
+msgid "A report of every issue and how to fix it"
+msgstr "Správa o všetkých problémoch a o tom, ako ich opraviť"
+
+#: includes/class-real-accessability-admin.php:309
+msgid "Your request was sent. We will be in touch soon."
+msgstr "Žiadosť bola odoslaná. Čoskoro sa vám ozveme."
+
+#: includes/class-real-accessability-admin.php:311
+msgid "Get a quote"
+msgstr "Získať ponuku"
+
+#: includes/class-real-accessability-admin.php:326
+#: includes/class-real-accessability-admin.php:331
+msgid "A clear report of every issue, with how to fix it"
+msgstr ""
+"Prehľadná správa o všetkých problémoch vrátane postupu, ako ich opraviť"
+
+#: includes/class-real-accessability-admin.php:327
+#: includes/class-real-accessability-admin.php:332
+msgid "Help with your accessibility statement and with the fixes"
+msgstr "Pomoc s vyhlásením o prístupnosti aj s opravami"
+
+#: includes/class-real-accessability-admin.php:328
+#: includes/class-real-accessability-admin.php:333
+msgid "A reply within one business day"
+msgstr "Odpoveď do jedného pracovného dňa"
+
+#: includes/class-real-accessability-admin.php:330
+msgid "Manual and automated testing against WCAG 2.2 AA"
+msgstr "Manuálne aj automatizované testovanie podľa WCAG 2.2 AA"
+
+#: includes/class-real-accessability-admin.php:338
+msgid "An accessibility menu alone is not enough"
+msgstr "Samotná ponuka prístupnosti nestačí"
+
+#: includes/class-real-accessability-admin.php:344
+msgid ""
+"To meet WCAG 2.2 AA and laws such as the ADA, the code and content of the "
+"site need to be accessible too. Our experts audit your site and show you "
+"exactly what to fix."
+msgstr ""
+"Aby web spĺňal WCAG 2.2 AA a zákony, ako je ADA, musí byť prístupný aj jeho "
+"kód a obsah. Naši odborníci váš web preveria a ukážu vám, čo presne treba "
+"opraviť."
+
+#: includes/class-real-accessability-admin.php:359
+msgid "Your request was sent."
+msgstr "Žiadosť bola odoslaná."
+
+#: includes/class-real-accessability-admin.php:359
+msgid "We will get back to you as soon as possible."
+msgstr "Ozveme sa vám čo najskôr."
+
+#: includes/class-real-accessability-admin.php:363
+msgid "Get a free quote for an accessibility audit"
+msgstr "Cenová ponuka na audit prístupnosti zdarma"
+
+#: includes/class-real-accessability-admin.php:364
+msgid "We will get back to you with a quote for your site."
+msgstr "Ozveme sa vám s cenovou ponukou pre váš web."
+
+#: includes/class-real-accessability-admin.php:370
+msgid "Leave this field empty"
+msgstr "Toto pole nechajte prázdne"
+
+#: includes/class-real-accessability-admin.php:374
+msgid "Full name"
+msgstr "Meno a priezvisko"
+
+#: includes/class-real-accessability-admin.php:379
+msgid "Phone"
+msgstr "Telefón"
+
+#: includes/class-real-accessability-admin.php:381
+#: includes/class-real-accessability-admin.php:761
+msgid "Country code"
+msgstr "Predvoľba krajiny"
+
+#: includes/class-real-accessability-admin.php:392
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/class-real-accessability-admin.php:405
+msgid "Sending..."
+msgstr "Odosiela sa..."
+
+#: includes/class-real-accessability-admin.php:405
+msgid "Request a quote"
+msgstr "Požiadať o ponuku"
+
+#. translators: %s: the "privacy policy" link.
+#: includes/class-real-accessability-admin.php:421
+#, php-format
+msgid ""
+"I agree that these details will be sent to Real Media Ltd. so they can "
+"contact me about an accessibility audit, in accordance with the %s."
+msgstr ""
+"Súhlasím so zaslaním týchto údajov spoločnosti Real Media Ltd., aby ma mohla"
+" kontaktovať v súvislosti s auditom prístupnosti, v súlade so %s."
+
+#: includes/class-real-accessability-admin.php:423
+msgctxt "link inside the consent sentence"
+msgid "privacy policy"
+msgstr "zásadami ochrany osobných údajov"
+
+#: includes/class-real-accessability-admin.php:430
+msgid "Who we are"
+msgstr "Kto sme"
+
+#: includes/class-real-accessability-admin.php:431
+msgid ""
+"This form is operated by Real Media Ltd., the developer of Real "
+"Accessibility. This policy explains what happens to the details you send "
+"through it. It follows the Israeli Protection of Privacy Law, 5741-1981, "
+"including Amendment 13."
+msgstr ""
+"Tento formulár prevádzkuje spoločnosť Real Media Ltd., vývojár pluginu Real "
+"Accessibility. Tieto zásady vysvetľujú, čo sa deje s údajmi, ktoré "
+"prostredníctvom formulára odošlete. Riadia sa izraelským zákonom o ochrane "
+"súkromia 5741-1981 vrátane novely č. 13."
+
+#: includes/class-real-accessability-admin.php:434
+msgid "What we collect"
+msgstr "Aké údaje zhromažďujeme"
+
+#: includes/class-real-accessability-admin.php:435
+msgid ""
+"Only what you type into the form: full name, phone and email, together with "
+"your site's address, your consent, the plugin version and the time of "
+"sending."
+msgstr ""
+"Iba to, čo zadáte do formulára: meno a priezvisko, telefón a e-mail, spolu s"
+" adresou vášho webu, vaším súhlasom, verziou pluginu a časom odoslania."
+
+#: includes/class-real-accessability-admin.php:436
+msgid ""
+"Your details are sent only when you click the button, together with the "
+"language and price shown here. Nothing else from your site is sent."
+msgstr ""
+"Vaše údaje sa odošlú iba po kliknutí na tlačidlo, spolu s jazykom a cenou, "
+"ktoré sú tu zobrazené. Nič iné z vášho webu sa neodosiela."
+
+#: includes/class-real-accessability-admin.php:439
+msgid "What we use it for"
+msgstr "Na čo ich používame"
+
+#: includes/class-real-accessability-admin.php:440
+msgid ""
+"To get back to you about your request and send you a quote for an "
+"accessibility audit. We will not send you marketing messages unless you "
+"agree to receive them separately."
+msgstr ""
+"Aby sme vám mohli odpovedať na vašu žiadosť a zaslať vám cenovú ponuku na "
+"audit prístupnosti. Marketingové správy vám nebudeme posielať, pokiaľ s ich "
+"zasielaním samostatne nevyjadríte súhlas."
+
+#: includes/class-real-accessability-admin.php:443
+msgid "Do you have to give it"
+msgstr "Dobrovoľnosť poskytnutia údajov"
+
+#: includes/class-real-accessability-admin.php:444
+msgid ""
+"You are not required by law to give us these details. Without them, we "
+"cannot get back to you about your request."
+msgstr ""
+"Zo zákona nie ste povinní nám tieto údaje poskytnúť. Bez nich vám však na "
+"vašu žiadosť nemôžeme odpovedať."
+
+#: includes/class-real-accessability-admin.php:447
+msgid "Who receives it"
+msgstr "Kto údaje dostane"
+
+#: includes/class-real-accessability-admin.php:448
+msgid ""
+"The details are sent to Real Media Ltd., so it can get back to you with a "
+"quote."
+msgstr ""
+"Údaje sa odosielajú spoločnosti Real Media Ltd., aby vám mohla zaslať cenovú"
+" ponuku."
+
+#: includes/class-real-accessability-admin.php:451
+msgid "How long we keep it"
+msgstr "Ako dlho údaje uchovávame"
+
+#: includes/class-real-accessability-admin.php:452
+msgid ""
+"For as long as needed to handle your request, and for up to 24 months after "
+"our last contact, unless the law requires otherwise."
+msgstr ""
+"Počas doby potrebnej na vybavenie vašej žiadosti a až 24 mesiacov od nášho "
+"posledného kontaktu, ak zákon neustanovuje inak."
+
+#: includes/class-real-accessability-admin.php:455
+msgid "Security"
+msgstr "Zabezpečenie"
+
+#: includes/class-real-accessability-admin.php:456
+msgid ""
+"We use up-to-date measures to protect the details. No system is completely "
+"immune to unauthorized access, so we cannot guarantee absolute protection."
+msgstr ""
+"Na ochranu údajov používame aktuálne opatrenia. Žiadny systém však nie je "
+"úplne odolný voči neoprávnenému prístupu, preto nemôžeme zaručiť absolútnu "
+"ochranu."
+
+#: includes/class-real-accessability-admin.php:459
+msgid "Your rights"
+msgstr "Vaše práva"
+
+#. translators: %s: email address for privacy requests.
+#: includes/class-real-accessability-admin.php:461
+#, php-format
+msgid ""
+"You can ask at any time to see, correct or delete your details, or to "
+"withdraw your consent, by writing to %s."
+msgstr ""
+"Kedykoľvek môžete požiadať o prístup k svojim údajom, ich opravu alebo "
+"vymazanie, prípadne odvolať svoj súhlas, a to správou na adresu %s."
+
+#: includes/class-real-accessability-admin.php:467
+msgid "Privacy policy for audit requests"
+msgstr "Zásady ochrany osobných údajov pre žiadosti o audit"
+
+#: includes/class-real-accessability-admin.php:468
+#: includes/class-real-accessability-admin.php:477
+#: includes/class-real-accessability-admin.php:644
+msgid "Close"
+msgstr "Zatvoriť"
+
+#: includes/class-real-accessability-admin.php:523
+msgid ""
+"You already sent a request in the last 24 hours. We will be in touch soon."
+msgstr ""
+"Žiadosť ste už odoslali počas posledných 24 hodín. Čoskoro sa vám ozveme."
+
+#: includes/class-real-accessability-admin.php:538
+#: includes/class-real-accessability-admin.php:574
+#: includes/class-real-accessability-admin.php:604
+#: includes/class-real-accessability-admin.php:757
+msgid "The request could not be sent. Please try again later."
+msgstr "Žiadosť sa nepodarilo odoslať. Skúste to znova neskôr."
+
+#: includes/class-real-accessability-admin.php:556
+msgid "Please fill in all the required fields."
+msgstr "Vyplňte všetky povinné polia."
+
+#: includes/class-real-accessability-admin.php:559
+#: includes/class-real-accessability-admin.php:763
+msgid "Please enter a valid email address."
+msgstr "Zadajte platnú e-mailovú adresu."
+
+#: includes/class-real-accessability-admin.php:567
+#: includes/class-real-accessability-admin.php:764
+msgid "Please enter a valid phone number."
+msgstr "Zadajte platné telefónne číslo."
+
+#: includes/class-real-accessability-admin.php:570
+#: includes/class-real-accessability-admin.php:765
+msgid "Please agree to send your details."
+msgstr "Potvrďte súhlas s odoslaním údajov."
+
+#: includes/class-real-accessability-admin.php:615
+msgid "Disclaimer:"
+msgstr "Vylúčenie zodpovednosti:"
+
+#: includes/class-real-accessability-admin.php:616
+msgid ""
+"Real Accessibility adds an accessibility menu that helps visitors adjust how"
+" the site is displayed. On its own, it does not make a website accessible or"
+" compliant with any accessibility law or standard (such as WCAG or Israeli "
+"Standard 5568). The site owner remains solely responsible for the "
+"accessibility of the site's code and content and for meeting the legal "
+"requirements. The plugin is provided \"as is\", without warranty of any "
+"kind, and the plugin's authors are not liable for any damage resulting from "
+"its use."
+msgstr ""
+"Real Accessibility pridáva ponuku prístupnosti, ktorá návštevníkom pomáha "
+"upraviť zobrazenie webu. Plugin sám osebe nezabezpečí, aby bol web prístupný"
+" alebo v súlade s akýmkoľvek zákonom či normou o prístupnosti (napríklad "
+"WCAG alebo izraelskou normou 5568). Výhradnú zodpovednosť za prístupnosť "
+"kódu a obsahu webu a za splnenie právnych požiadaviek naďalej nesie vlastník"
+" webu. Plugin sa poskytuje „tak, ako je“, bez akejkoľvek záruky, a autori "
+"pluginu nezodpovedajú za žiadne škody vzniknuté v dôsledku jeho používania."
+
+#: includes/class-real-accessability-admin.php:628
+msgid "Your accessibility menu is ready"
+msgstr "Vaša ponuka prístupnosti je pripravená"
+
+#: includes/class-real-accessability-admin.php:629
+msgid ""
+"Set the color and the position below, then turn the menu on. You can keep "
+"changing the settings after it is live."
+msgstr ""
+"Nižšie nastavte farbu a pozíciu a potom ponuku zapnite. Nastavenia môžete "
+"meniť aj po jej spustení."
+
+#: includes/class-real-accessability-admin.php:647
+msgid ""
+"Approving turns the menu on and shows a small credit at its bottom, with a "
+"link to the plugin page on WordPress.org."
+msgstr ""
+"Schválením sa ponuka zapne a v jej spodnej časti sa zobrazí malá zmienka s "
+"odkazom na stránku pluginu na WordPress.org."
+
+#: includes/class-real-accessability-admin.php:648
+msgid ""
+"Real Accessibility is free, and the credit helps other site owners find it."
+msgstr ""
+"Plugin Real Accessibility je bezplatný a zmienka pomáha ďalším majiteľom "
+"webov ho nájsť."
+
+#: includes/class-real-accessability-admin.php:652
+#: includes/class-real-accessability-admin.php:1117
+#: includes/class-real-accessability-admin.php:1251
+#: includes/class-real-accessability-admin.php:1349
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: includes/class-real-accessability-admin.php:653
+msgid "You can also turn it on without the credit"
+msgstr "Môžete ju zapnúť aj bez zmienky"
+
+#: includes/class-real-accessability-admin.php:677
+#: includes/class-real-accessability-admin.php:998
+#: includes/class-real-accessability-admin.php:1006
+msgid "Button and menu"
+msgstr "Tlačidlo a ponuka"
+
+#: includes/class-real-accessability-admin.php:678
+msgid "Features"
+msgstr "Funkcie"
+
+#: includes/class-real-accessability-admin.php:679
+msgid "Languages"
+msgstr "Jazyky"
+
+#: includes/class-real-accessability-admin.php:680
+#: includes/class-real-accessability-i18n.php:86
+msgid "Accessibility statement"
+msgstr "Vyhlásenie o prístupnosti"
+
+#: includes/class-real-accessability-admin.php:681
+msgid "Accessibility audit"
+msgstr "Audit prístupnosti"
+
+#: includes/class-real-accessability-admin.php:693
+#: includes/class-real-accessability-admin.php:809
+msgid "Real Accessibility"
+msgstr "Real Accessibility"
+
+#: includes/class-real-accessability-admin.php:694
+msgctxt "admin menu label"
+msgid "Real Accessibility"
+msgstr "Real Accessibility"
+
+#. translators: %s: contrast ratio, for example 1.8.
+#: includes/class-real-accessability-admin.php:755
+#, php-format
+msgid "Low contrast %s:1"
+msgstr "Nízky kontrast %s:1"
+
+#: includes/class-real-accessability-admin.php:756
+msgid "You have unsaved changes."
+msgstr "Máte neuložené zmeny."
+
+#: includes/class-real-accessability-admin.php:762
+msgid "This field is required."
+msgstr "Toto pole je povinné."
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:769
+#: includes/class-real-accessability-admin.php:1297
+#, php-format
+msgid "Flag for %s"
+msgstr "Vlajka pre jazyk %s"
+
+#: includes/class-real-accessability-admin.php:770
+msgid "Choose a flag"
+msgstr "Výber vlajky"
+
+#: includes/class-real-accessability-admin.php:771
+msgid "Search for a country"
+msgstr "Hľadať krajinu"
+
+#: includes/class-real-accessability-admin.php:772
+msgid "Suggested"
+msgstr "Odporúčané"
+
+#: includes/class-real-accessability-admin.php:773
+msgid "All countries"
+msgstr "Všetky krajiny"
+
+#: includes/class-real-accessability-admin.php:774
+msgid "No country found"
+msgstr "Nenašla sa žiadna krajina"
+
+#. translators: %d: number of languages shown in the menu.
+#: includes/class-real-accessability-admin.php:789
+#, php-format
+msgid "%d language in the menu"
+msgid_plural "%d languages in the menu"
+msgstr[0] "%d jazyk v ponuke"
+msgstr[1] "%d jazyky v ponuke"
+msgstr[2] "%d jazykov v ponuke"
+
+#: includes/class-real-accessability-admin.php:813
+msgid "Settings sections"
+msgstr "Sekcie nastavení"
+
+#: includes/class-real-accessability-admin.php:815
+msgid "Legal compliance"
+msgstr "Súlad so zákonom"
+
+#: includes/class-real-accessability-admin.php:825
+msgid ""
+"Thank you! The credit is shown at the bottom of the accessibility menu."
+msgstr "Ďakujeme! Zmienka sa zobrazuje v spodnej časti ponuky prístupnosti."
+
+#: includes/class-real-accessability-admin.php:832
+msgid ""
+"The accessibility menu is live on your site, with the credit at the bottom. "
+"Thank you!"
+msgstr ""
+"Ponuka prístupnosti je na vašom webe spustená a v jej spodnej časti je "
+"zmienka. Ďakujeme!"
+
+#: includes/class-real-accessability-admin.php:833
+msgid "The accessibility menu is live on your site!"
+msgstr "Ponuka prístupnosti je na vašom webe spustená!"
+
+#: includes/class-real-accessability-admin.php:834
+msgid "View the site"
+msgstr "Zobraziť web"
+
+#: includes/class-real-accessability-admin.php:896
+msgid "Desktop"
+msgstr "Počítač"
+
+#: includes/class-real-accessability-admin.php:897
+msgid "Show the accessibility button on desktop"
+msgstr "Zobraziť tlačidlo prístupnosti na počítačoch"
+
+#: includes/class-real-accessability-admin.php:900
+msgid "Tablet"
+msgstr "Tablet"
+
+#: includes/class-real-accessability-admin.php:901
+msgid "Show the accessibility button on tablets"
+msgstr "Zobraziť tlačidlo prístupnosti na tabletoch"
+
+#: includes/class-real-accessability-admin.php:904
+msgid "Mobile"
+msgstr "Mobil"
+
+#: includes/class-real-accessability-admin.php:905
+msgid "Show the accessibility button on mobile"
+msgstr "Zobraziť tlačidlo prístupnosti na mobilných telefónoch"
+
+#: includes/class-real-accessability-admin.php:909
+msgid "Top left"
+msgstr "Vľavo hore"
+
+#: includes/class-real-accessability-admin.php:910
+msgid "Top center"
+msgstr "Hore v strede"
+
+#: includes/class-real-accessability-admin.php:911
+msgid "Top right"
+msgstr "Vpravo hore"
+
+#: includes/class-real-accessability-admin.php:912
+msgid "Middle left"
+msgstr "Vľavo v strede"
+
+#: includes/class-real-accessability-admin.php:913
+msgid "Center"
+msgstr "V strede"
+
+#: includes/class-real-accessability-admin.php:914
+msgid "Middle right"
+msgstr "Vpravo v strede"
+
+#: includes/class-real-accessability-admin.php:915
+msgid "Bottom left"
+msgstr "Vľavo dole"
+
+#: includes/class-real-accessability-admin.php:916
+msgid "Bottom center"
+msgstr "Dole v strede"
+
+#: includes/class-real-accessability-admin.php:917
+msgid "Bottom right"
+msgstr "Vpravo dole"
+
+#: includes/class-real-accessability-admin.php:920
+msgid "From the left"
+msgstr "Zľava"
+
+#: includes/class-real-accessability-admin.php:921
+msgid "From the right"
+msgstr "Sprava"
+
+#: includes/class-real-accessability-admin.php:922
+msgid "From the bottom"
+msgstr "Zdola"
+
+#: includes/class-real-accessability-admin.php:925
+#: includes/class-real-accessability-admin.php:1051
+msgid "Circle"
+msgstr "Kruh"
+
+#: includes/class-real-accessability-admin.php:926
+msgid "Rounded"
+msgstr "Zaoblený"
+
+#: includes/class-real-accessability-admin.php:927
+#: includes/class-real-accessability-admin.php:1051
+msgid "Square"
+msgstr "Štvorec"
+
+#: includes/class-real-accessability-admin.php:937
+msgid "Device"
+msgstr "Zariadenie"
+
+#: includes/class-real-accessability-admin.php:942
+msgid "hidden"
+msgstr "skryté"
+
+#: includes/class-real-accessability-admin.php:953
+msgid "Color"
+msgstr "Farba"
+
+#: includes/class-real-accessability-admin.php:958
+msgid "Brand color"
+msgstr "Farba značky"
+
+#: includes/class-real-accessability-admin.php:959
+msgid "All the menu and button colors come from it."
+msgstr "Odvodzujú sa z nej všetky farby ponuky a tlačidla."
+
+#: includes/class-real-accessability-admin.php:964
+msgid "Pick the brand color"
+msgstr "Vybrať farbu značky"
+
+#: includes/class-real-accessability-admin.php:969
+msgid "Button icon color"
+msgstr "Farba ikony tlačidla"
+
+#: includes/class-real-accessability-admin.php:970
+msgid "Automatic picks white or black, whichever has more contrast."
+msgstr ""
+"V automatickom režime sa použije biela alebo čierna podľa toho, ktorá má "
+"väčší kontrast."
+
+#: includes/class-real-accessability-admin.php:975
+msgid "Custom icon color"
+msgstr "Vlastná farba ikony"
+
+#: includes/class-real-accessability-admin.php:976
+msgid "Pick the icon color"
+msgstr "Vybrať farbu ikony"
+
+#: includes/class-real-accessability-admin.php:979
+msgid "Automatic"
+msgstr "Automatická"
+
+#: includes/class-real-accessability-admin.php:980
+msgid "Custom"
+msgstr "Vlastná"
+
+#: includes/class-real-accessability-admin.php:1000
+msgid "Show the button on"
+msgstr "Zobraziť tlačidlo na"
+
+#: includes/class-real-accessability-admin.php:1009
+#: includes/class-real-accessability-admin.php:1024
+msgid "Button position"
+msgstr "Pozícia tlačidla"
+
+#: includes/class-real-accessability-admin.php:1010
+msgid "Shape and size"
+msgstr "Tvar a veľkosť"
+
+#: includes/class-real-accessability-admin.php:1011
+msgid "The menu"
+msgstr "Ponuka"
+
+#: includes/class-real-accessability-admin.php:1019
+msgid ""
+"The button is hidden on this device. Turn it back on with the icons above."
+msgstr ""
+"Tlačidlo je na tomto zariadení skryté. Znova ho zapnete pomocou ikon vyššie."
+
+#: includes/class-real-accessability-admin.php:1036
+msgid "Distance from the edge - horizontal"
+msgstr "Vodorovná vzdialenosť od okraja"
+
+#: includes/class-real-accessability-admin.php:1036
+#: includes/class-real-accessability-admin.php:1037
+msgid "Attached"
+msgstr "Pri okraji"
+
+#: includes/class-real-accessability-admin.php:1037
+msgid "Distance from the edge - vertical"
+msgstr "Zvislá vzdialenosť od okraja"
+
+#: includes/class-real-accessability-admin.php:1044
+msgid "Shape"
+msgstr "Tvar"
+
+#: includes/class-real-accessability-admin.php:1050
+msgid "Button size"
+msgstr "Veľkosť tlačidla"
+
+#: includes/class-real-accessability-admin.php:1051
+msgid "Corner radius"
+msgstr "Zaoblenie rohov"
+
+#: includes/class-real-accessability-admin.php:1056
+msgid "Opens from the edge of the screen, wherever the button is."
+msgstr "Otvára sa od okraja obrazovky bez ohľadu na umiestnenie tlačidla."
+
+#: includes/class-real-accessability-admin.php:1058
+msgid "Menu opens from"
+msgstr "Ponuka sa otvára"
+
+#: includes/class-real-accessability-admin.php:1067
+msgid "Menu corner radius"
+msgstr "Zaoblenie rohov ponuky"
+
+#: includes/class-real-accessability-admin.php:1079
+#: includes/class-real-accessability-admin.php:1080
+#: includes/class-real-accessability-admin.php:1235
+#: includes/class-real-accessability-admin.php:1330
+msgid "Preview"
+msgstr "Náhľad"
+
+#: includes/class-real-accessability-admin.php:1081
+msgid "Button"
+msgstr "Tlačidlo"
+
+#: includes/class-real-accessability-admin.php:1082
+msgid "Menu open"
+msgstr "Otvorená ponuka"
+
+#: includes/class-real-accessability-admin.php:1095
+#: includes/class-real-accessability-i18n.php:32
+msgid "Accessibility"
+msgstr "Prístupnosť"
+
+#: includes/class-real-accessability-admin.php:1104
+msgid "The button is hidden on this device."
+msgstr "Tlačidlo je na tomto zariadení skryté."
+
+#: includes/class-real-accessability-admin.php:1116
+#: includes/class-real-accessability-admin.php:1250
+#: includes/class-real-accessability-admin.php:1348
+msgid "Save changes"
+msgstr "Uložiť zmeny"
+
+#: includes/class-real-accessability-admin.php:1118
+#: includes/class-real-accessability-admin.php:1252
+#: includes/class-real-accessability-admin.php:1350
+msgid "You have unsaved changes"
+msgstr "Máte neuložené zmeny"
+
+#: includes/class-real-accessability-admin.php:1193
+msgid ""
+"Choose what visitors see in the accessibility menu. Sections without any "
+"option are not shown."
+msgstr ""
+"Vyberte, čo návštevníci uvidia v ponuke prístupnosti. Sekcie bez zapnutých "
+"možností sa nezobrazia."
+
+#: includes/class-real-accessability-admin.php:1222
+msgid "Menu footer"
+msgstr "Päta ponuky"
+
+#: includes/class-real-accessability-admin.php:1225
+msgid "Hide button"
+msgstr "Tlačidlo „Skryť“"
+
+#: includes/class-real-accessability-admin.php:1225
+msgid "Hides the accessibility button until the visitor's next visit"
+msgstr "Skryje tlačidlo prístupnosti až do ďalšej návštevy"
+
+#: includes/class-real-accessability-admin.php:1226
+msgid "Plugin credit"
+msgstr "Zmienka o plugine"
+
+#: includes/class-real-accessability-admin.php:1226
+msgid ""
+"A small credit at the bottom of the menu, with a link to the plugin page on "
+"WordPress.org"
+msgstr ""
+"Malá zmienka v spodnej časti ponuky s odkazom na stránku pluginu na "
+"WordPress.org"
+
+#: includes/class-real-accessability-admin.php:1237
+msgid "Preview of the accessibility menu"
+msgstr "Náhľad ponuky prístupnosti"
+
+#: includes/class-real-accessability-admin.php:1276
+msgid "Menu languages"
+msgstr "Jazyky ponuky"
+
+#: includes/class-real-accessability-admin.php:1281
+msgid "Search languages"
+msgstr "Hľadať jazyky"
+
+#: includes/class-real-accessability-admin.php:1283
+msgid "No language found"
+msgstr "Nenašiel sa žiadny jazyk"
+
+#: includes/class-real-accessability-admin.php:1293
+msgid "Drag to reorder"
+msgstr "Presunutím zmeníte poradie"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1315
+#, php-format
+msgid "Make %s the default"
+msgstr "Nastaviť jazyk %s ako predvolený"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1316
+msgid "Default"
+msgstr "Predvolený"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1319
+#, php-format
+msgid "Show %s in the menu"
+msgstr "Zobraziť jazyk %s v ponuke"
+
+#: includes/class-real-accessability-admin.php:1362
+msgid "Statement page"
+msgstr "Stránka s vyhlásením"
+
+#: includes/class-real-accessability-admin.php:1370
+msgid "- Select a page -"
+msgstr "- Vyberte stránku -"
+
+#: includes/class-real-accessability-admin.php:1377
+msgid "View page"
+msgstr "Zobraziť stránku"
+
+#: includes/class-real-accessability-admin.php:1379
+msgid ""
+"The page on your site with the accessibility statement. The \"Accessibility "
+"statement\" button in the menu links to it."
+msgstr ""
+"Stránka na vašom webe s vyhlásením o prístupnosti. Odkazuje na ňu tlačidlo "
+"„Vyhlásenie o prístupnosti“ v ponuke."
+
+#: includes/class-real-accessability-admin.php:1383
+msgid "Statement button"
+msgstr "Tlačidlo vyhlásenia"
+
+#: includes/class-real-accessability-admin.php:1385
+msgid "Show the \"Accessibility statement\" button in the menu"
+msgstr "Zobraziť v ponuke tlačidlo „Vyhlásenie o prístupnosti“"
+
+#: includes/class-real-accessability-i18n.php:33
+msgid "Accessibility menu"
+msgstr "Ponuka prístupnosti"
+
+#: includes/class-real-accessability-i18n.php:34
+msgid "Open accessibility menu"
+msgstr "Otvoriť ponuku prístupnosti"
+
+#: includes/class-real-accessability-i18n.php:35
+msgid "Close accessibility menu (Esc)"
+msgstr "Zavrieť ponuku prístupnosti (Esc)"
+
+#: includes/class-real-accessability-i18n.php:36
+msgid "Menu language"
+msgstr "Jazyk ponuky"
+
+#: includes/class-real-accessability-i18n.php:37
+msgid "Choose language"
+msgstr "Výber jazyka"
+
+#: includes/class-real-accessability-i18n.php:38
+msgid "No adjustments active"
+msgstr "Žiadne aktívne úpravy"
+
+#: includes/class-real-accessability-i18n.php:39
+msgid "Ready-made profiles"
+msgstr "Pripravené profily"
+
+#: includes/class-real-accessability-i18n.php:40
+msgid "Seizure safe"
+msgstr "Ochrana pred záchvatmi"
+
+#: includes/class-real-accessability-i18n.php:41
+msgid "Stops animations and flashing and dims colors"
+msgstr "Zastaví animácie aj blikanie a stlmí farby"
+
+#: includes/class-real-accessability-i18n.php:42
+msgid "Vision impaired"
+msgstr "Zrakové postihnutie"
+
+#: includes/class-real-accessability-i18n.php:43
+msgid "High contrast, large text and emphasized headings"
+msgstr "Vysoký kontrast, veľký text a zvýraznené nadpisy"
+
+#: includes/class-real-accessability-i18n.php:44
+msgid "ADHD and focus"
+msgstr "ADHD a sústredenie"
+
+#: includes/class-real-accessability-i18n.php:45
+msgid "Fewer distractions, reading guide and line spacing"
+msgstr "Menej rušivých prvkov, čítacie pravítko a riadkovanie"
+
+#: includes/class-real-accessability-i18n.php:46
+msgid "Dyslexia"
+msgstr "Dyslexia"
+
+#: includes/class-real-accessability-i18n.php:47
+msgid "Readable font, letter spacing and reading guide"
+msgstr "Čitateľné písmo, medzery medzi písmenami a čítacie pravítko"
+
+#: includes/class-real-accessability-i18n.php:48
+msgid "Motor impaired"
+msgstr "Pohybové postihnutie"
+
+#: includes/class-real-accessability-i18n.php:49
+msgid "Keyboard navigation, large cursor and larger text"
+msgstr "Navigácia klávesnicou, veľký kurzor a väčší text"
+
+#: includes/class-real-accessability-i18n.php:50
+msgid "Screen reader"
+msgstr "Čítačka obrazovky"
+
+#: includes/class-real-accessability-i18n.php:51
+msgid "Keyboard navigation and emphasized links and headings"
+msgstr "Navigácia klávesnicou, zvýraznené odkazy a nadpisy"
+
+#: includes/class-real-accessability-i18n.php:52
+msgid "Seniors"
+msgstr "Seniori"
+
+#: includes/class-real-accessability-i18n.php:53
+msgid "Large text, large cursor and clear links"
+msgstr "Veľký text, veľký kurzor a výrazné odkazy"
+
+#: includes/class-real-accessability-i18n.php:54
+msgid "Display"
+msgstr "Zobrazenie"
+
+#: includes/class-real-accessability-i18n.php:55
+msgid "Contrast"
+msgstr "Kontrast"
+
+#: includes/class-real-accessability-i18n.php:56
+msgid "High contrast"
+msgstr "Vysoký kontrast"
+
+#: includes/class-real-accessability-i18n.php:57
+msgid "Inverted contrast"
+msgstr "Inverzné farby"
+
+#: includes/class-real-accessability-i18n.php:58
+msgid "Grayscale"
+msgstr "Odtiene sivej"
+
+#: includes/class-real-accessability-i18n.php:59
+msgid "Readable font"
+msgstr "Čitateľné písmo"
+
+#: includes/class-real-accessability-i18n.php:60
+msgid "Highlight links"
+msgstr "Zvýrazniť odkazy"
+
+#: includes/class-real-accessability-i18n.php:61
+msgid "Highlight headings"
+msgstr "Zvýrazniť nadpisy"
+
+#: includes/class-real-accessability-i18n.php:62
+msgid "Large cursor"
+msgstr "Veľký kurzor"
+
+#: includes/class-real-accessability-i18n.php:63
+msgid "Hide images"
+msgstr "Skryť obrázky"
+
+#: includes/class-real-accessability-i18n.php:64
+msgid "Magnifier"
+msgstr "Lupa"
+
+#: includes/class-real-accessability-i18n.php:65
+msgid "Text align"
+msgstr "Zarovnanie textu"
+
+#: includes/class-real-accessability-i18n.php:66
+msgid "Align center"
+msgstr "Zarovnanie na stred"
+
+#: includes/class-real-accessability-i18n.php:67
+msgid "Align right"
+msgstr "Zarovnanie doprava"
+
+#: includes/class-real-accessability-i18n.php:68
+msgid "Align left"
+msgstr "Zarovnanie doľava"
+
+#: includes/class-real-accessability-i18n.php:69
+msgid "Text"
+msgstr "Text"
+
+#: includes/class-real-accessability-i18n.php:70
+msgid "Text size"
+msgstr "Veľkosť textu"
+
+#: includes/class-real-accessability-i18n.php:71
+msgid "Line spacing"
+msgstr "Riadkovanie"
+
+#: includes/class-real-accessability-i18n.php:72
+msgid "Letter spacing"
+msgstr "Medzery medzi písmenami"
+
+#: includes/class-real-accessability-i18n.php:73
+msgctxt "spacing level"
+msgid "Regular"
+msgstr "Normálne"
+
+#. translators: %s: setting name, for example "Text size".
+#: includes/class-real-accessability-i18n.php:75
+#, php-format
+msgid "Decrease %s"
+msgstr "Zmenšiť: %s"
+
+#. translators: %s: setting name, for example "Text size".
+#: includes/class-real-accessability-i18n.php:77
+#, php-format
+msgid "Increase %s"
+msgstr "Zväčšiť: %s"
+
+#: includes/class-real-accessability-i18n.php:78
+msgid "Reading and navigation"
+msgstr "Čítanie a navigácia"
+
+#: includes/class-real-accessability-i18n.php:79
+msgid "Reading guide"
+msgstr "Čítacie pravítko"
+
+#: includes/class-real-accessability-i18n.php:80
+msgid "A highlight bar that follows the pointer"
+msgstr "Zvýraznený pruh, ktorý sleduje kurzor"
+
+#: includes/class-real-accessability-i18n.php:81
+msgid "Stop animations"
+msgstr "Zastaviť animácie"
+
+#: includes/class-real-accessability-i18n.php:82
+msgid "Stops motion, flashing and video"
+msgstr "Zastaví pohyb, blikanie a videá"
+
+#: includes/class-real-accessability-i18n.php:83
+msgid "Keyboard navigation"
+msgstr "Navigácia klávesnicou"
+
+#: includes/class-real-accessability-i18n.php:84
+msgid "A prominent focus frame on every move"
+msgstr "Výrazný rámček zamerania pri každom kroku"
+
+#: includes/class-real-accessability-i18n.php:85
+msgid "Reset"
+msgstr "Resetovať"
+
+#: includes/class-real-accessability-i18n.php:87
+msgid "Hide"
+msgstr "Skryť"
+
+#: includes/class-real-accessability-i18n.php:88
+msgid "Accessibility plugin"
+msgstr "Plugin prístupnosti"
+
+#. translators: %d: number of active accessibility adjustments.
+#: includes/class-real-accessability-i18n.php:94
+#, php-format
+msgid "%d adjustment active"
+msgid_plural "%d adjustments active"
+msgstr[0] "%d aktívna úprava"
+msgstr[1] "%d aktívne úpravy"
+msgstr[2] "%d aktívnych úprav"
+
+#: real-accessability.php:103
+msgid "Settings"
+msgstr "Nastavenia"

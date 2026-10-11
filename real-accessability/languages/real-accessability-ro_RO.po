@@ -1,0 +1,1126 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Real Accessibility 2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-accessability/\n"
+"PO-Revision-Date: 2026-10-11 12:00+0300\n"
+"Last-Translator: REALMEDIA <office@realmedia.co.il>\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2));\n"
+"X-Domain: real-accessability\n"
+
+#. Plugin URI of the plugin
+#: real-accessability.php
+msgid "https://wordpress.org/plugins/real-accessability/"
+msgstr "https://wordpress.org/plugins/real-accessability/"
+
+#. Description of the plugin
+#: real-accessability.php
+msgid ""
+"An accessibility menu for your website - ready-made profiles, contrast "
+"modes, text size and spacing, readable font, reading guide and more, styled "
+"in your brand color."
+msgstr ""
+"Un meniu de accesibilitate pentru site-ul tău: profiluri predefinite, moduri"
+" de contrast, dimensiunea și spațierea textului, font lizibil, ghid de "
+"citire și multe altele, în culoarea brandului tău."
+
+#. Author of the plugin
+#: real-accessability.php
+msgid "REALMEDIA"
+msgstr "REALMEDIA"
+
+#. Author URI of the plugin
+#: real-accessability.php
+msgid "https://realmedia.co.il"
+msgstr "https://realmedia.co.il"
+
+#: includes/class-real-accessability-admin.php:37
+#: includes/class-real-accessability-admin.php:55
+#: includes/class-real-accessability-admin.php:74
+#: includes/class-real-accessability-admin.php:515
+msgid "Sorry, you are not allowed to do that."
+msgstr "Regret, nu ai voie să faci asta."
+
+#: includes/class-real-accessability-admin.php:106
+msgid "Accessibility menu on the site"
+msgstr "Meniul de accesibilitate pe site"
+
+#: includes/class-real-accessability-admin.php:109
+msgid "On"
+msgstr "Activat"
+
+#: includes/class-real-accessability-admin.php:109
+msgid "Off"
+msgstr "Dezactivat"
+
+#: includes/class-real-accessability-admin.php:140
+msgid "The accessibility menu is off."
+msgstr "Meniul de accesibilitate este dezactivat."
+
+#: includes/class-real-accessability-admin.php:141
+msgid "Visitors do not see it."
+msgstr "Vizitatorii nu îl văd."
+
+#: includes/class-real-accessability-admin.php:142
+#: includes/class-real-accessability-admin.php:631
+#: includes/class-real-accessability-admin.php:643
+msgid "Turn on the accessibility menu"
+msgstr "Activează meniul de accesibilitate"
+
+#: includes/class-real-accessability-admin.php:194
+msgid ""
+"Real Accessibility 2.0 is ready. Set the brand color and the button "
+"position, and choose whether to show the plugin credit."
+msgstr ""
+"Real Accessibility 2.0 este gata. Setează culoarea brandului și poziția "
+"butonului și alege dacă vrei să afișezi mențiunea modulului."
+
+#: includes/class-real-accessability-admin.php:195
+msgid "Open Real Accessibility"
+msgstr "Deschide Real Accessibility"
+
+#: includes/class-real-accessability-admin.php:206
+msgid ""
+"Show a small credit with a link to the plugin page on WordPress.org at the "
+"bottom of the accessibility menu? It helps keep the plugin free."
+msgstr ""
+"Vrei să afișezi în partea de jos a meniului de accesibilitate o mică "
+"mențiune cu link către pagina modulului de pe WordPress.org? Astfel ajuți "
+"modulul să rămână gratuit."
+
+#: includes/class-real-accessability-admin.php:207
+#: includes/class-real-accessability-admin.php:651
+msgid "Approve"
+msgstr "Aprobă"
+
+#: includes/class-real-accessability-admin.php:208
+msgid "No thanks"
+msgstr "Nu, mulțumesc"
+
+#: includes/class-real-accessability-admin.php:244
+msgid "Load WooCommerce stores in 249ms"
+msgstr "Magazine WooCommerce care se încarcă în 249 ms"
+
+#: includes/class-real-accessability-admin.php:248
+msgid "Load WordPress sites in as fast as 37ms"
+msgstr "Site-uri WordPress care se încarcă în doar 37 ms"
+
+#: includes/class-real-accessability-admin.php:255
+msgid "(opens in a new tab)"
+msgstr "(se deschide într-o filă nouă)"
+
+#: includes/class-real-accessability-admin.php:274
+msgid "Starting from $500"
+msgstr "De la $500"
+
+#: includes/class-real-accessability-admin.php:304
+msgid "Professional accessibility audit"
+msgstr "Audit profesionist de accesibilitate"
+
+#: includes/class-real-accessability-admin.php:305
+msgid "A report of every issue and how to fix it"
+msgstr "Un raport cu fiecare problemă și modul de remediere"
+
+#: includes/class-real-accessability-admin.php:309
+msgid "Your request was sent. We will be in touch soon."
+msgstr "Solicitarea ta a fost trimisă. Te vom contacta în curând."
+
+#: includes/class-real-accessability-admin.php:311
+msgid "Get a quote"
+msgstr "Obține o ofertă"
+
+#: includes/class-real-accessability-admin.php:326
+#: includes/class-real-accessability-admin.php:331
+msgid "A clear report of every issue, with how to fix it"
+msgstr "Un raport clar cu fiecare problemă și modul de remediere"
+
+#: includes/class-real-accessability-admin.php:327
+#: includes/class-real-accessability-admin.php:332
+msgid "Help with your accessibility statement and with the fixes"
+msgstr "Ajutor cu declarația de accesibilitate și cu remedierile"
+
+#: includes/class-real-accessability-admin.php:328
+#: includes/class-real-accessability-admin.php:333
+msgid "A reply within one business day"
+msgstr "Răspuns în cel mult o zi lucrătoare"
+
+#: includes/class-real-accessability-admin.php:330
+msgid "Manual and automated testing against WCAG 2.2 AA"
+msgstr "Testare manuală și automată conform WCAG 2.2 AA"
+
+#: includes/class-real-accessability-admin.php:338
+msgid "An accessibility menu alone is not enough"
+msgstr "Doar un meniu de accesibilitate nu este de ajuns"
+
+#: includes/class-real-accessability-admin.php:344
+msgid ""
+"To meet WCAG 2.2 AA and laws such as the ADA, the code and content of the "
+"site need to be accessible too. Our experts audit your site and show you "
+"exactly what to fix."
+msgstr ""
+"Pentru a respecta WCAG 2.2 AA și legi precum ADA, trebuie să fie accesibile "
+"și codul, și conținutul site-ului. Experții noștri îți auditează site-ul și "
+"îți arată exact ce trebuie remediat."
+
+#: includes/class-real-accessability-admin.php:359
+msgid "Your request was sent."
+msgstr "Solicitarea ta a fost trimisă."
+
+#: includes/class-real-accessability-admin.php:359
+msgid "We will get back to you as soon as possible."
+msgstr "Îți vom răspunde cât mai curând posibil."
+
+#: includes/class-real-accessability-admin.php:363
+msgid "Get a free quote for an accessibility audit"
+msgstr "Cere o ofertă gratuită pentru un audit de accesibilitate"
+
+#: includes/class-real-accessability-admin.php:364
+msgid "We will get back to you with a quote for your site."
+msgstr "Te vom contacta cu o ofertă pentru site-ul tău."
+
+#: includes/class-real-accessability-admin.php:370
+msgid "Leave this field empty"
+msgstr "Lasă acest câmp gol"
+
+#: includes/class-real-accessability-admin.php:374
+msgid "Full name"
+msgstr "Nume complet"
+
+#: includes/class-real-accessability-admin.php:379
+msgid "Phone"
+msgstr "Telefon"
+
+#: includes/class-real-accessability-admin.php:381
+#: includes/class-real-accessability-admin.php:761
+msgid "Country code"
+msgstr "Prefixul țării"
+
+#: includes/class-real-accessability-admin.php:392
+msgid "Email"
+msgstr "Email"
+
+#: includes/class-real-accessability-admin.php:405
+msgid "Sending..."
+msgstr "Se trimite..."
+
+#: includes/class-real-accessability-admin.php:405
+msgid "Request a quote"
+msgstr "Solicită o ofertă"
+
+#. translators: %s: the "privacy policy" link.
+#: includes/class-real-accessability-admin.php:421
+#, php-format
+msgid ""
+"I agree that these details will be sent to Real Media Ltd. so they can "
+"contact me about an accessibility audit, in accordance with the %s."
+msgstr ""
+"Sunt de acord ca aceste date să fie trimise către Real Media Ltd., pentru a "
+"mă putea contacta în legătură cu un audit de accesibilitate, în conformitate"
+" cu %s."
+
+#: includes/class-real-accessability-admin.php:423
+msgctxt "link inside the consent sentence"
+msgid "privacy policy"
+msgstr "politica de confidențialitate"
+
+#: includes/class-real-accessability-admin.php:430
+msgid "Who we are"
+msgstr "Cine suntem"
+
+#: includes/class-real-accessability-admin.php:431
+msgid ""
+"This form is operated by Real Media Ltd., the developer of Real "
+"Accessibility. This policy explains what happens to the details you send "
+"through it. It follows the Israeli Protection of Privacy Law, 5741-1981, "
+"including Amendment 13."
+msgstr ""
+"Acest formular este operat de Real Media Ltd., dezvoltatorul Real "
+"Accessibility. Această politică explică ce se întâmplă cu datele pe care le "
+"trimiți prin intermediul formularului. Respectă Legea israeliană privind "
+"protecția vieții private, 5741-1981, inclusiv Amendamentul 13."
+
+#: includes/class-real-accessability-admin.php:434
+msgid "What we collect"
+msgstr "Ce date colectăm"
+
+#: includes/class-real-accessability-admin.php:435
+msgid ""
+"Only what you type into the form: full name, phone and email, together with "
+"your site's address, your consent, the plugin version and the time of "
+"sending."
+msgstr ""
+"Doar ce introduci în formular: numele complet, telefonul și emailul, "
+"împreună cu adresa site-ului tău, acordul tău, versiunea modulului și "
+"momentul trimiterii."
+
+#: includes/class-real-accessability-admin.php:436
+msgid ""
+"Your details are sent only when you click the button, together with the "
+"language and price shown here. Nothing else from your site is sent."
+msgstr ""
+"Datele tale sunt trimise doar când dai clic pe buton, împreună cu limba și "
+"prețul afișate aici. Nu se trimite nimic altceva de pe site-ul tău."
+
+#: includes/class-real-accessability-admin.php:439
+msgid "What we use it for"
+msgstr "Pentru ce le folosim"
+
+#: includes/class-real-accessability-admin.php:440
+msgid ""
+"To get back to you about your request and send you a quote for an "
+"accessibility audit. We will not send you marketing messages unless you "
+"agree to receive them separately."
+msgstr ""
+"Pentru a-ți răspunde la solicitare și a-ți trimite o ofertă pentru un audit "
+"de accesibilitate. Nu îți vom trimite mesaje de marketing decât dacă îți dai"
+" separat acordul pentru a le primi."
+
+#: includes/class-real-accessability-admin.php:443
+msgid "Do you have to give it"
+msgstr "Obligativitatea furnizării datelor"
+
+#: includes/class-real-accessability-admin.php:444
+msgid ""
+"You are not required by law to give us these details. Without them, we "
+"cannot get back to you about your request."
+msgstr ""
+"Nu ai obligația legală de a ne furniza aceste date. Fără ele însă, nu îți "
+"putem răspunde la solicitare."
+
+#: includes/class-real-accessability-admin.php:447
+msgid "Who receives it"
+msgstr "Cine primește datele"
+
+#: includes/class-real-accessability-admin.php:448
+msgid ""
+"The details are sent to Real Media Ltd., so it can get back to you with a "
+"quote."
+msgstr ""
+"Datele sunt trimise către Real Media Ltd., pentru a-ți putea răspunde cu o "
+"ofertă."
+
+#: includes/class-real-accessability-admin.php:451
+msgid "How long we keep it"
+msgstr "Cât timp păstrăm datele"
+
+#: includes/class-real-accessability-admin.php:452
+msgid ""
+"For as long as needed to handle your request, and for up to 24 months after "
+"our last contact, unless the law requires otherwise."
+msgstr ""
+"Atât timp cât este necesar pentru gestionarea solicitării tale și până la 24"
+" de luni după ultimul nostru contact, cu excepția cazului în care legea "
+"prevede altfel."
+
+#: includes/class-real-accessability-admin.php:455
+msgid "Security"
+msgstr "Securitate"
+
+#: includes/class-real-accessability-admin.php:456
+msgid ""
+"We use up-to-date measures to protect the details. No system is completely "
+"immune to unauthorized access, so we cannot guarantee absolute protection."
+msgstr ""
+"Folosim măsuri de securitate actuale pentru a proteja datele. Niciun sistem "
+"nu este complet imun la accesul neautorizat, așa că nu putem garanta o "
+"protecție absolută."
+
+#: includes/class-real-accessability-admin.php:459
+msgid "Your rights"
+msgstr "Drepturile tale"
+
+#. translators: %s: email address for privacy requests.
+#: includes/class-real-accessability-admin.php:461
+#, php-format
+msgid ""
+"You can ask at any time to see, correct or delete your details, or to "
+"withdraw your consent, by writing to %s."
+msgstr ""
+"Poți solicita oricând accesul la datele tale, corectarea sau ștergerea lor "
+"ori retragerea acordului, scriind la %s."
+
+#: includes/class-real-accessability-admin.php:467
+msgid "Privacy policy for audit requests"
+msgstr "Politica de confidențialitate pentru solicitările de audit"
+
+#: includes/class-real-accessability-admin.php:468
+#: includes/class-real-accessability-admin.php:477
+#: includes/class-real-accessability-admin.php:644
+msgid "Close"
+msgstr "Închide"
+
+#: includes/class-real-accessability-admin.php:523
+msgid ""
+"You already sent a request in the last 24 hours. We will be in touch soon."
+msgstr ""
+"Ai trimis deja o solicitare în ultimele 24 de ore. Te vom contacta în "
+"curând."
+
+#: includes/class-real-accessability-admin.php:538
+#: includes/class-real-accessability-admin.php:574
+#: includes/class-real-accessability-admin.php:604
+#: includes/class-real-accessability-admin.php:757
+msgid "The request could not be sent. Please try again later."
+msgstr ""
+"Solicitarea nu a putut fi trimisă. Te rog să încerci din nou mai târziu."
+
+#: includes/class-real-accessability-admin.php:556
+msgid "Please fill in all the required fields."
+msgstr "Te rog să completezi toate câmpurile obligatorii."
+
+#: includes/class-real-accessability-admin.php:559
+#: includes/class-real-accessability-admin.php:763
+msgid "Please enter a valid email address."
+msgstr "Te rog să introduci o adresă de email validă."
+
+#: includes/class-real-accessability-admin.php:567
+#: includes/class-real-accessability-admin.php:764
+msgid "Please enter a valid phone number."
+msgstr "Te rog să introduci un număr de telefon valid."
+
+#: includes/class-real-accessability-admin.php:570
+#: includes/class-real-accessability-admin.php:765
+msgid "Please agree to send your details."
+msgstr "Te rog să îți dai acordul pentru trimiterea datelor."
+
+#: includes/class-real-accessability-admin.php:615
+msgid "Disclaimer:"
+msgstr "Declinarea responsabilității:"
+
+#: includes/class-real-accessability-admin.php:616
+msgid ""
+"Real Accessibility adds an accessibility menu that helps visitors adjust how"
+" the site is displayed. On its own, it does not make a website accessible or"
+" compliant with any accessibility law or standard (such as WCAG or Israeli "
+"Standard 5568). The site owner remains solely responsible for the "
+"accessibility of the site's code and content and for meeting the legal "
+"requirements. The plugin is provided \"as is\", without warranty of any "
+"kind, and the plugin's authors are not liable for any damage resulting from "
+"its use."
+msgstr ""
+"Real Accessibility adaugă un meniu de accesibilitate care îi ajută pe "
+"vizitatori să ajusteze modul de afișare a site-ului. Prin el însuși, modulul"
+" nu face un site accesibil sau conform cu vreo lege ori vreun standard de "
+"accesibilitate (cum ar fi WCAG sau Standardul israelian 5568). Proprietarul "
+"site-ului rămâne singurul responsabil pentru accesibilitatea codului și a "
+"conținutului site-ului și pentru îndeplinirea cerințelor legale. Modulul "
+"este furnizat „ca atare”, fără niciun fel de garanție, iar autorii modulului"
+" nu răspund pentru niciun prejudiciu rezultat din utilizarea acestuia."
+
+#: includes/class-real-accessability-admin.php:628
+msgid "Your accessibility menu is ready"
+msgstr "Meniul tău de accesibilitate este gata"
+
+#: includes/class-real-accessability-admin.php:629
+msgid ""
+"Set the color and the position below, then turn the menu on. You can keep "
+"changing the settings after it is live."
+msgstr ""
+"Setează mai jos culoarea și poziția, apoi activează meniul. Poți modifica "
+"setările și după ce meniul este activ."
+
+#: includes/class-real-accessability-admin.php:647
+msgid ""
+"Approving turns the menu on and shows a small credit at its bottom, with a "
+"link to the plugin page on WordPress.org."
+msgstr ""
+"Aprobarea activează meniul și afișează în partea lui de jos o mică mențiune,"
+" cu link către pagina modulului de pe WordPress.org."
+
+#: includes/class-real-accessability-admin.php:648
+msgid ""
+"Real Accessibility is free, and the credit helps other site owners find it."
+msgstr ""
+"Real Accessibility este gratuit, iar mențiunea îi ajută pe alți proprietari "
+"de site-uri să îl găsească."
+
+#: includes/class-real-accessability-admin.php:652
+#: includes/class-real-accessability-admin.php:1117
+#: includes/class-real-accessability-admin.php:1251
+#: includes/class-real-accessability-admin.php:1349
+msgid "Cancel"
+msgstr "Anulează"
+
+#: includes/class-real-accessability-admin.php:653
+msgid "You can also turn it on without the credit"
+msgstr "Îl poți activa și fără mențiune"
+
+#: includes/class-real-accessability-admin.php:677
+#: includes/class-real-accessability-admin.php:998
+#: includes/class-real-accessability-admin.php:1006
+msgid "Button and menu"
+msgstr "Buton și meniu"
+
+#: includes/class-real-accessability-admin.php:678
+msgid "Features"
+msgstr "Funcționalități"
+
+#: includes/class-real-accessability-admin.php:679
+msgid "Languages"
+msgstr "Limbi"
+
+#: includes/class-real-accessability-admin.php:680
+#: includes/class-real-accessability-i18n.php:86
+msgid "Accessibility statement"
+msgstr "Declarație de accesibilitate"
+
+#: includes/class-real-accessability-admin.php:681
+msgid "Accessibility audit"
+msgstr "Audit de accesibilitate"
+
+#: includes/class-real-accessability-admin.php:693
+#: includes/class-real-accessability-admin.php:809
+msgid "Real Accessibility"
+msgstr "Real Accessibility"
+
+#: includes/class-real-accessability-admin.php:694
+msgctxt "admin menu label"
+msgid "Real Accessibility"
+msgstr "Real Accessibility"
+
+#. translators: %s: contrast ratio, for example 1.8.
+#: includes/class-real-accessability-admin.php:755
+#, php-format
+msgid "Low contrast %s:1"
+msgstr "Contrast scăzut %s:1"
+
+#: includes/class-real-accessability-admin.php:756
+msgid "You have unsaved changes."
+msgstr "Ai modificări nesalvate."
+
+#: includes/class-real-accessability-admin.php:762
+msgid "This field is required."
+msgstr "Acest câmp este obligatoriu."
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:769
+#: includes/class-real-accessability-admin.php:1297
+#, php-format
+msgid "Flag for %s"
+msgstr "Steag pentru %s"
+
+#: includes/class-real-accessability-admin.php:770
+msgid "Choose a flag"
+msgstr "Alege un steag"
+
+#: includes/class-real-accessability-admin.php:771
+msgid "Search for a country"
+msgstr "Caută o țară"
+
+#: includes/class-real-accessability-admin.php:772
+msgid "Suggested"
+msgstr "Sugerate"
+
+#: includes/class-real-accessability-admin.php:773
+msgid "All countries"
+msgstr "Toate țările"
+
+#: includes/class-real-accessability-admin.php:774
+msgid "No country found"
+msgstr "Nu s-a găsit nicio țară"
+
+#. translators: %d: number of languages shown in the menu.
+#: includes/class-real-accessability-admin.php:789
+#, php-format
+msgid "%d language in the menu"
+msgid_plural "%d languages in the menu"
+msgstr[0] "%d limbă în meniu"
+msgstr[1] "%d limbi în meniu"
+msgstr[2] "%d de limbi în meniu"
+
+#: includes/class-real-accessability-admin.php:813
+msgid "Settings sections"
+msgstr "Secțiuni de setări"
+
+#: includes/class-real-accessability-admin.php:815
+msgid "Legal compliance"
+msgstr "Conformitate legală"
+
+#: includes/class-real-accessability-admin.php:825
+msgid ""
+"Thank you! The credit is shown at the bottom of the accessibility menu."
+msgstr ""
+"Mulțumim! Mențiunea este afișată în partea de jos a meniului de "
+"accesibilitate."
+
+#: includes/class-real-accessability-admin.php:832
+msgid ""
+"The accessibility menu is live on your site, with the credit at the bottom. "
+"Thank you!"
+msgstr ""
+"Meniul de accesibilitate este activ pe site-ul tău, cu mențiunea în partea "
+"de jos. Mulțumim!"
+
+#: includes/class-real-accessability-admin.php:833
+msgid "The accessibility menu is live on your site!"
+msgstr "Meniul de accesibilitate este activ pe site-ul tău!"
+
+#: includes/class-real-accessability-admin.php:834
+msgid "View the site"
+msgstr "Vezi site-ul"
+
+#: includes/class-real-accessability-admin.php:896
+msgid "Desktop"
+msgstr "Desktop"
+
+#: includes/class-real-accessability-admin.php:897
+msgid "Show the accessibility button on desktop"
+msgstr "Afișează butonul de accesibilitate pe desktop"
+
+#: includes/class-real-accessability-admin.php:900
+msgid "Tablet"
+msgstr "Tabletă"
+
+#: includes/class-real-accessability-admin.php:901
+msgid "Show the accessibility button on tablets"
+msgstr "Afișează butonul de accesibilitate pe tablete"
+
+#: includes/class-real-accessability-admin.php:904
+msgid "Mobile"
+msgstr "Mobil"
+
+#: includes/class-real-accessability-admin.php:905
+msgid "Show the accessibility button on mobile"
+msgstr "Afișează butonul de accesibilitate pe mobil"
+
+#: includes/class-real-accessability-admin.php:909
+msgid "Top left"
+msgstr "Stânga sus"
+
+#: includes/class-real-accessability-admin.php:910
+msgid "Top center"
+msgstr "Sus la centru"
+
+#: includes/class-real-accessability-admin.php:911
+msgid "Top right"
+msgstr "Dreapta sus"
+
+#: includes/class-real-accessability-admin.php:912
+msgid "Middle left"
+msgstr "Stânga la mijloc"
+
+#: includes/class-real-accessability-admin.php:913
+msgid "Center"
+msgstr "Centru"
+
+#: includes/class-real-accessability-admin.php:914
+msgid "Middle right"
+msgstr "Dreapta la mijloc"
+
+#: includes/class-real-accessability-admin.php:915
+msgid "Bottom left"
+msgstr "Stânga jos"
+
+#: includes/class-real-accessability-admin.php:916
+msgid "Bottom center"
+msgstr "Jos la centru"
+
+#: includes/class-real-accessability-admin.php:917
+msgid "Bottom right"
+msgstr "Dreapta jos"
+
+#: includes/class-real-accessability-admin.php:920
+msgid "From the left"
+msgstr "Din stânga"
+
+#: includes/class-real-accessability-admin.php:921
+msgid "From the right"
+msgstr "Din dreapta"
+
+#: includes/class-real-accessability-admin.php:922
+msgid "From the bottom"
+msgstr "De jos"
+
+#: includes/class-real-accessability-admin.php:925
+#: includes/class-real-accessability-admin.php:1051
+msgid "Circle"
+msgstr "Cerc"
+
+#: includes/class-real-accessability-admin.php:926
+msgid "Rounded"
+msgstr "Rotunjit"
+
+#: includes/class-real-accessability-admin.php:927
+#: includes/class-real-accessability-admin.php:1051
+msgid "Square"
+msgstr "Pătrat"
+
+#: includes/class-real-accessability-admin.php:937
+msgid "Device"
+msgstr "Dispozitiv"
+
+#: includes/class-real-accessability-admin.php:942
+msgid "hidden"
+msgstr "ascuns"
+
+#: includes/class-real-accessability-admin.php:953
+msgid "Color"
+msgstr "Culoare"
+
+#: includes/class-real-accessability-admin.php:958
+msgid "Brand color"
+msgstr "Culoarea brandului"
+
+#: includes/class-real-accessability-admin.php:959
+msgid "All the menu and button colors come from it."
+msgstr "Toate culorile meniului și ale butonului derivă din ea."
+
+#: includes/class-real-accessability-admin.php:964
+msgid "Pick the brand color"
+msgstr "Alege culoarea brandului"
+
+#: includes/class-real-accessability-admin.php:969
+msgid "Button icon color"
+msgstr "Culoarea pictogramei butonului"
+
+#: includes/class-real-accessability-admin.php:970
+msgid "Automatic picks white or black, whichever has more contrast."
+msgstr ""
+"În modul automat se alege dintre alb și negru culoarea cu contrastul mai "
+"mare."
+
+#: includes/class-real-accessability-admin.php:975
+msgid "Custom icon color"
+msgstr "Culoare personalizată pentru pictogramă"
+
+#: includes/class-real-accessability-admin.php:976
+msgid "Pick the icon color"
+msgstr "Alege culoarea pictogramei"
+
+#: includes/class-real-accessability-admin.php:979
+msgid "Automatic"
+msgstr "Automată"
+
+#: includes/class-real-accessability-admin.php:980
+msgid "Custom"
+msgstr "Personalizată"
+
+#: includes/class-real-accessability-admin.php:1000
+msgid "Show the button on"
+msgstr "Afișează butonul pe"
+
+#: includes/class-real-accessability-admin.php:1009
+#: includes/class-real-accessability-admin.php:1024
+msgid "Button position"
+msgstr "Poziția butonului"
+
+#: includes/class-real-accessability-admin.php:1010
+msgid "Shape and size"
+msgstr "Formă și dimensiune"
+
+#: includes/class-real-accessability-admin.php:1011
+msgid "The menu"
+msgstr "Meniul"
+
+#: includes/class-real-accessability-admin.php:1019
+msgid ""
+"The button is hidden on this device. Turn it back on with the icons above."
+msgstr ""
+"Butonul este ascuns pe acest dispozitiv. Îl poți reactiva din pictogramele "
+"de mai sus."
+
+#: includes/class-real-accessability-admin.php:1036
+msgid "Distance from the edge - horizontal"
+msgstr "Distanța orizontală față de margine"
+
+#: includes/class-real-accessability-admin.php:1036
+#: includes/class-real-accessability-admin.php:1037
+msgid "Attached"
+msgstr "Lipit de margine"
+
+#: includes/class-real-accessability-admin.php:1037
+msgid "Distance from the edge - vertical"
+msgstr "Distanța verticală față de margine"
+
+#: includes/class-real-accessability-admin.php:1044
+msgid "Shape"
+msgstr "Formă"
+
+#: includes/class-real-accessability-admin.php:1050
+msgid "Button size"
+msgstr "Dimensiunea butonului"
+
+#: includes/class-real-accessability-admin.php:1051
+msgid "Corner radius"
+msgstr "Rotunjirea colțurilor"
+
+#: includes/class-real-accessability-admin.php:1056
+msgid "Opens from the edge of the screen, wherever the button is."
+msgstr "Se deschide de la marginea ecranului, oriunde s-ar afla butonul."
+
+#: includes/class-real-accessability-admin.php:1058
+msgid "Menu opens from"
+msgstr "Meniul se deschide"
+
+#: includes/class-real-accessability-admin.php:1067
+msgid "Menu corner radius"
+msgstr "Rotunjirea colțurilor meniului"
+
+#: includes/class-real-accessability-admin.php:1079
+#: includes/class-real-accessability-admin.php:1080
+#: includes/class-real-accessability-admin.php:1235
+#: includes/class-real-accessability-admin.php:1330
+msgid "Preview"
+msgstr "Previzualizare"
+
+#: includes/class-real-accessability-admin.php:1081
+msgid "Button"
+msgstr "Buton"
+
+#: includes/class-real-accessability-admin.php:1082
+msgid "Menu open"
+msgstr "Meniu deschis"
+
+#: includes/class-real-accessability-admin.php:1095
+#: includes/class-real-accessability-i18n.php:32
+msgid "Accessibility"
+msgstr "Accesibilitate"
+
+#: includes/class-real-accessability-admin.php:1104
+msgid "The button is hidden on this device."
+msgstr "Butonul este ascuns pe acest dispozitiv."
+
+#: includes/class-real-accessability-admin.php:1116
+#: includes/class-real-accessability-admin.php:1250
+#: includes/class-real-accessability-admin.php:1348
+msgid "Save changes"
+msgstr "Salvează modificările"
+
+#: includes/class-real-accessability-admin.php:1118
+#: includes/class-real-accessability-admin.php:1252
+#: includes/class-real-accessability-admin.php:1350
+msgid "You have unsaved changes"
+msgstr "Ai modificări nesalvate"
+
+#: includes/class-real-accessability-admin.php:1193
+msgid ""
+"Choose what visitors see in the accessibility menu. Sections without any "
+"option are not shown."
+msgstr ""
+"Alege ce văd vizitatorii în meniul de accesibilitate. Secțiunile fără nicio "
+"opțiune activă nu sunt afișate."
+
+#: includes/class-real-accessability-admin.php:1222
+msgid "Menu footer"
+msgstr "Subsolul meniului"
+
+#: includes/class-real-accessability-admin.php:1225
+msgid "Hide button"
+msgstr "Butonul „Ascunde”"
+
+#: includes/class-real-accessability-admin.php:1225
+msgid "Hides the accessibility button until the visitor's next visit"
+msgstr ""
+"Ascunde butonul de accesibilitate până când vizitatorul revine pe site"
+
+#: includes/class-real-accessability-admin.php:1226
+msgid "Plugin credit"
+msgstr "Mențiunea modulului"
+
+#: includes/class-real-accessability-admin.php:1226
+msgid ""
+"A small credit at the bottom of the menu, with a link to the plugin page on "
+"WordPress.org"
+msgstr ""
+"O mică mențiune în partea de jos a meniului, cu link către pagina modulului "
+"de pe WordPress.org"
+
+#: includes/class-real-accessability-admin.php:1237
+msgid "Preview of the accessibility menu"
+msgstr "Previzualizarea meniului de accesibilitate"
+
+#: includes/class-real-accessability-admin.php:1276
+msgid "Menu languages"
+msgstr "Limbile meniului"
+
+#: includes/class-real-accessability-admin.php:1281
+msgid "Search languages"
+msgstr "Caută limbi"
+
+#: includes/class-real-accessability-admin.php:1283
+msgid "No language found"
+msgstr "Nu s-a găsit nicio limbă"
+
+#: includes/class-real-accessability-admin.php:1293
+msgid "Drag to reorder"
+msgstr "Trage pentru a reordona"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1315
+#, php-format
+msgid "Make %s the default"
+msgstr "Setează %s ca limbă implicită"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1316
+msgid "Default"
+msgstr "Implicită"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1319
+#, php-format
+msgid "Show %s in the menu"
+msgstr "Afișează %s în meniu"
+
+#: includes/class-real-accessability-admin.php:1362
+msgid "Statement page"
+msgstr "Pagina declarației"
+
+#: includes/class-real-accessability-admin.php:1370
+msgid "- Select a page -"
+msgstr "- Selectează o pagină -"
+
+#: includes/class-real-accessability-admin.php:1377
+msgid "View page"
+msgstr "Vezi pagina"
+
+#: includes/class-real-accessability-admin.php:1379
+msgid ""
+"The page on your site with the accessibility statement. The \"Accessibility "
+"statement\" button in the menu links to it."
+msgstr ""
+"Pagina de pe site-ul tău cu declarația de accesibilitate. Butonul "
+"„Declarație de accesibilitate” din meniu duce la ea."
+
+#: includes/class-real-accessability-admin.php:1383
+msgid "Statement button"
+msgstr "Butonul declarației"
+
+#: includes/class-real-accessability-admin.php:1385
+msgid "Show the \"Accessibility statement\" button in the menu"
+msgstr "Afișează butonul „Declarație de accesibilitate” în meniu"
+
+#: includes/class-real-accessability-i18n.php:33
+msgid "Accessibility menu"
+msgstr "Meniu de accesibilitate"
+
+#: includes/class-real-accessability-i18n.php:34
+msgid "Open accessibility menu"
+msgstr "Deschide meniul de accesibilitate"
+
+#: includes/class-real-accessability-i18n.php:35
+msgid "Close accessibility menu (Esc)"
+msgstr "Închide meniul de accesibilitate (Esc)"
+
+#: includes/class-real-accessability-i18n.php:36
+msgid "Menu language"
+msgstr "Limba meniului"
+
+#: includes/class-real-accessability-i18n.php:37
+msgid "Choose language"
+msgstr "Alege limba"
+
+#: includes/class-real-accessability-i18n.php:38
+msgid "No adjustments active"
+msgstr "Nicio ajustare activă"
+
+#: includes/class-real-accessability-i18n.php:39
+msgid "Ready-made profiles"
+msgstr "Profiluri predefinite"
+
+#: includes/class-real-accessability-i18n.php:40
+msgid "Seizure safe"
+msgstr "Sigur pentru epilepsie"
+
+#: includes/class-real-accessability-i18n.php:41
+msgid "Stops animations and flashing and dims colors"
+msgstr "Oprește animațiile și clipirile, atenuează culorile"
+
+#: includes/class-real-accessability-i18n.php:42
+msgid "Vision impaired"
+msgstr "Deficiențe de vedere"
+
+#: includes/class-real-accessability-i18n.php:43
+msgid "High contrast, large text and emphasized headings"
+msgstr "Contrast ridicat, text mare și titluri evidențiate"
+
+#: includes/class-real-accessability-i18n.php:44
+msgid "ADHD and focus"
+msgstr "ADHD și concentrare"
+
+#: includes/class-real-accessability-i18n.php:45
+msgid "Fewer distractions, reading guide and line spacing"
+msgstr "Mai puține distrageri, ghid de citire și spațiere între rânduri"
+
+#: includes/class-real-accessability-i18n.php:46
+msgid "Dyslexia"
+msgstr "Dislexie"
+
+#: includes/class-real-accessability-i18n.php:47
+msgid "Readable font, letter spacing and reading guide"
+msgstr "Font lizibil, spațiere între litere și ghid de citire"
+
+#: includes/class-real-accessability-i18n.php:48
+msgid "Motor impaired"
+msgstr "Deficiențe motorii"
+
+#: includes/class-real-accessability-i18n.php:49
+msgid "Keyboard navigation, large cursor and larger text"
+msgstr "Navigare cu tastatura, cursor mare și text mai mare"
+
+#: includes/class-real-accessability-i18n.php:50
+msgid "Screen reader"
+msgstr "Cititor de ecran"
+
+#: includes/class-real-accessability-i18n.php:51
+msgid "Keyboard navigation and emphasized links and headings"
+msgstr "Navigare cu tastatura, linkuri și titluri evidențiate"
+
+#: includes/class-real-accessability-i18n.php:52
+msgid "Seniors"
+msgstr "Persoane vârstnice"
+
+#: includes/class-real-accessability-i18n.php:53
+msgid "Large text, large cursor and clear links"
+msgstr "Text mare, cursor mare și linkuri clare"
+
+#: includes/class-real-accessability-i18n.php:54
+msgid "Display"
+msgstr "Afișare"
+
+#: includes/class-real-accessability-i18n.php:55
+msgid "Contrast"
+msgstr "Contrast"
+
+#: includes/class-real-accessability-i18n.php:56
+msgid "High contrast"
+msgstr "Contrast ridicat"
+
+#: includes/class-real-accessability-i18n.php:57
+msgid "Inverted contrast"
+msgstr "Culori inversate"
+
+#: includes/class-real-accessability-i18n.php:58
+msgid "Grayscale"
+msgstr "Tonuri de gri"
+
+#: includes/class-real-accessability-i18n.php:59
+msgid "Readable font"
+msgstr "Font lizibil"
+
+#: includes/class-real-accessability-i18n.php:60
+msgid "Highlight links"
+msgstr "Evidențiază linkurile"
+
+#: includes/class-real-accessability-i18n.php:61
+msgid "Highlight headings"
+msgstr "Evidențiază titlurile"
+
+#: includes/class-real-accessability-i18n.php:62
+msgid "Large cursor"
+msgstr "Cursor mare"
+
+#: includes/class-real-accessability-i18n.php:63
+msgid "Hide images"
+msgstr "Ascunde imaginile"
+
+#: includes/class-real-accessability-i18n.php:64
+msgid "Magnifier"
+msgstr "Lupă"
+
+#: includes/class-real-accessability-i18n.php:65
+msgid "Text align"
+msgstr "Aliniere text"
+
+#: includes/class-real-accessability-i18n.php:66
+msgid "Align center"
+msgstr "Aliniere la centru"
+
+#: includes/class-real-accessability-i18n.php:67
+msgid "Align right"
+msgstr "Aliniere la dreapta"
+
+#: includes/class-real-accessability-i18n.php:68
+msgid "Align left"
+msgstr "Aliniere la stânga"
+
+#: includes/class-real-accessability-i18n.php:69
+msgid "Text"
+msgstr "Text"
+
+#: includes/class-real-accessability-i18n.php:70
+msgid "Text size"
+msgstr "Dimensiune text"
+
+#: includes/class-real-accessability-i18n.php:71
+msgid "Line spacing"
+msgstr "Spațiere între rânduri"
+
+#: includes/class-real-accessability-i18n.php:72
+msgid "Letter spacing"
+msgstr "Spațiere între litere"
+
+#: includes/class-real-accessability-i18n.php:73
+msgctxt "spacing level"
+msgid "Regular"
+msgstr "Normală"
+
+#. translators: %s: setting name, for example "Text size".
+#: includes/class-real-accessability-i18n.php:75
+#, php-format
+msgid "Decrease %s"
+msgstr "Micșorează: %s"
+
+#. translators: %s: setting name, for example "Text size".
+#: includes/class-real-accessability-i18n.php:77
+#, php-format
+msgid "Increase %s"
+msgstr "Mărește: %s"
+
+#: includes/class-real-accessability-i18n.php:78
+msgid "Reading and navigation"
+msgstr "Citire și navigare"
+
+#: includes/class-real-accessability-i18n.php:79
+msgid "Reading guide"
+msgstr "Ghid de citire"
+
+#: includes/class-real-accessability-i18n.php:80
+msgid "A highlight bar that follows the pointer"
+msgstr "O bară evidențiată care urmărește cursorul"
+
+#: includes/class-real-accessability-i18n.php:81
+msgid "Stop animations"
+msgstr "Oprește animațiile"
+
+#: includes/class-real-accessability-i18n.php:82
+msgid "Stops motion, flashing and video"
+msgstr "Oprește mișcarea, clipirile și videoclipurile"
+
+#: includes/class-real-accessability-i18n.php:83
+msgid "Keyboard navigation"
+msgstr "Navigare cu tastatura"
+
+#: includes/class-real-accessability-i18n.php:84
+msgid "A prominent focus frame on every move"
+msgstr "Un chenar de focalizare bine vizibil la fiecare pas"
+
+#: includes/class-real-accessability-i18n.php:85
+msgid "Reset"
+msgstr "Resetează"
+
+#: includes/class-real-accessability-i18n.php:87
+msgid "Hide"
+msgstr "Ascunde"
+
+#: includes/class-real-accessability-i18n.php:88
+msgid "Accessibility plugin"
+msgstr "Modul de accesibilitate"
+
+#. translators: %d: number of active accessibility adjustments.
+#: includes/class-real-accessability-i18n.php:94
+#, php-format
+msgid "%d adjustment active"
+msgid_plural "%d adjustments active"
+msgstr[0] "%d ajustare activă"
+msgstr[1] "%d ajustări active"
+msgstr[2] "%d de ajustări active"
+
+#: real-accessability.php:103
+msgid "Settings"
+msgstr "Setări"

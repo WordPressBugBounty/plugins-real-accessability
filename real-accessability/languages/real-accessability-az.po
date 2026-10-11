@@ -1,0 +1,1120 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Real Accessibility 2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-accessability/\n"
+"PO-Revision-Date: 2026-10-11 12:00+0300\n"
+"Last-Translator: REALMEDIA <office@realmedia.co.il>\n"
+"Language-Team: Azerbaijani\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: real-accessability\n"
+
+#. Plugin URI of the plugin
+#: real-accessability.php
+msgid "https://wordpress.org/plugins/real-accessability/"
+msgstr "https://wordpress.org/plugins/real-accessability/"
+
+#. Description of the plugin
+#: real-accessability.php
+msgid ""
+"An accessibility menu for your website - ready-made profiles, contrast "
+"modes, text size and spacing, readable font, reading guide and more, styled "
+"in your brand color."
+msgstr ""
+"Saytınız üçün əlçatımlılıq menyusu: hazır profillər, kontrast rejimləri, "
+"mətn ölçüsü və aralıqlar, oxunaqlı şrift, oxu xətkeşi və daha çoxu, hamısı "
+"brendinizin rəngində."
+
+#. Author of the plugin
+#: real-accessability.php
+msgid "REALMEDIA"
+msgstr "REALMEDIA"
+
+#. Author URI of the plugin
+#: real-accessability.php
+msgid "https://realmedia.co.il"
+msgstr "https://realmedia.co.il"
+
+#: includes/class-real-accessability-admin.php:37
+#: includes/class-real-accessability-admin.php:55
+#: includes/class-real-accessability-admin.php:74
+#: includes/class-real-accessability-admin.php:515
+msgid "Sorry, you are not allowed to do that."
+msgstr "Üzr istəyirik, bunu etməyə icazəniz yoxdur."
+
+#: includes/class-real-accessability-admin.php:106
+msgid "Accessibility menu on the site"
+msgstr "Saytda əlçatımlılıq menyusu"
+
+#: includes/class-real-accessability-admin.php:109
+msgid "On"
+msgstr "Aktiv"
+
+#: includes/class-real-accessability-admin.php:109
+msgid "Off"
+msgstr "Qeyri-aktiv"
+
+#: includes/class-real-accessability-admin.php:140
+msgid "The accessibility menu is off."
+msgstr "Əlçatımlılıq menyusu aktiv deyil."
+
+#: includes/class-real-accessability-admin.php:141
+msgid "Visitors do not see it."
+msgstr "Ziyarətçilər onu görmür."
+
+#: includes/class-real-accessability-admin.php:142
+#: includes/class-real-accessability-admin.php:631
+#: includes/class-real-accessability-admin.php:643
+msgid "Turn on the accessibility menu"
+msgstr "Əlçatımlılıq menyusunu aktivləşdir"
+
+#: includes/class-real-accessability-admin.php:194
+msgid ""
+"Real Accessibility 2.0 is ready. Set the brand color and the button "
+"position, and choose whether to show the plugin credit."
+msgstr ""
+"Real Accessibility 2.0 hazırdır. Brend rəngini və düymənin yerini təyin "
+"edin, sonra qoşmaya istinadın göstərilib-göstərilməyəcəyini seçin."
+
+#: includes/class-real-accessability-admin.php:195
+msgid "Open Real Accessibility"
+msgstr "Real Accessibility parametrlərinə keç"
+
+#: includes/class-real-accessability-admin.php:206
+msgid ""
+"Show a small credit with a link to the plugin page on WordPress.org at the "
+"bottom of the accessibility menu? It helps keep the plugin free."
+msgstr ""
+"Əlçatımlılıq menyusunun aşağısında WordPress.org saytındakı qoşma səhifəsinə"
+" keçidi olan kiçik istinad göstərilsinmi? Bu, qoşmanın pulsuz qalmasına "
+"kömək edir."
+
+#: includes/class-real-accessability-admin.php:207
+#: includes/class-real-accessability-admin.php:651
+msgid "Approve"
+msgstr "Təsdiqlə"
+
+#: includes/class-real-accessability-admin.php:208
+msgid "No thanks"
+msgstr "Xeyr, təşəkkürlər"
+
+#: includes/class-real-accessability-admin.php:244
+msgid "Load WooCommerce stores in 249ms"
+msgstr "WooCommerce mağazalarını 249 ms-də yükləyin"
+
+#: includes/class-real-accessability-admin.php:248
+msgid "Load WordPress sites in as fast as 37ms"
+msgstr "WordPress saytlarını cəmi 37 ms-də yükləyin"
+
+#: includes/class-real-accessability-admin.php:255
+msgid "(opens in a new tab)"
+msgstr "(yeni tabda açılır)"
+
+#: includes/class-real-accessability-admin.php:274
+msgid "Starting from $500"
+msgstr "$500-dan başlayaraq"
+
+#: includes/class-real-accessability-admin.php:304
+msgid "Professional accessibility audit"
+msgstr "Peşəkar əlçatımlılıq auditi"
+
+#: includes/class-real-accessability-admin.php:305
+msgid "A report of every issue and how to fix it"
+msgstr "Bütün problemləri və onların həlli yollarını göstərən hesabat"
+
+#: includes/class-real-accessability-admin.php:309
+msgid "Your request was sent. We will be in touch soon."
+msgstr "Müraciətiniz göndərildi. Tezliklə sizinlə əlaqə saxlayacağıq."
+
+#: includes/class-real-accessability-admin.php:311
+msgid "Get a quote"
+msgstr "Qiymət təklifi alın"
+
+#: includes/class-real-accessability-admin.php:326
+#: includes/class-real-accessability-admin.php:331
+msgid "A clear report of every issue, with how to fix it"
+msgstr "Hər problemi və onun necə düzəldiləcəyini aydın göstərən hesabat"
+
+#: includes/class-real-accessability-admin.php:327
+#: includes/class-real-accessability-admin.php:332
+msgid "Help with your accessibility statement and with the fixes"
+msgstr "Əlçatımlılıq bəyanatı və düzəlişlər üzrə dəstək"
+
+#: includes/class-real-accessability-admin.php:328
+#: includes/class-real-accessability-admin.php:333
+msgid "A reply within one business day"
+msgstr "Bir iş günü ərzində cavab"
+
+#: includes/class-real-accessability-admin.php:330
+msgid "Manual and automated testing against WCAG 2.2 AA"
+msgstr "WCAG 2.2 AA üzrə əl ilə və avtomatlaşdırılmış yoxlama"
+
+#: includes/class-real-accessability-admin.php:338
+msgid "An accessibility menu alone is not enough"
+msgstr "Təkcə əlçatımlılıq menyusu kifayət deyil"
+
+#: includes/class-real-accessability-admin.php:344
+msgid ""
+"To meet WCAG 2.2 AA and laws such as the ADA, the code and content of the "
+"site need to be accessible too. Our experts audit your site and show you "
+"exactly what to fix."
+msgstr ""
+"WCAG 2.2 AA tələblərinə və ADA kimi qanunlara cavab vermək üçün saytın kodu "
+"və məzmunu da əlçatımlı olmalıdır. Ekspertlərimiz saytınızı audit edir və "
+"nəyi düzəltməli olduğunuzu dəqiq göstərir."
+
+#: includes/class-real-accessability-admin.php:359
+msgid "Your request was sent."
+msgstr "Müraciətiniz göndərildi."
+
+#: includes/class-real-accessability-admin.php:359
+msgid "We will get back to you as soon as possible."
+msgstr "Ən qısa zamanda sizinlə əlaqə saxlayacağıq."
+
+#: includes/class-real-accessability-admin.php:363
+msgid "Get a free quote for an accessibility audit"
+msgstr "Əlçatımlılıq auditi üçün pulsuz qiymət təklifi alın"
+
+#: includes/class-real-accessability-admin.php:364
+msgid "We will get back to you with a quote for your site."
+msgstr "Saytınız üçün qiymət təklifini sizə göndərəcəyik."
+
+#: includes/class-real-accessability-admin.php:370
+msgid "Leave this field empty"
+msgstr "Bu sahəni boş saxlayın"
+
+#: includes/class-real-accessability-admin.php:374
+msgid "Full name"
+msgstr "Ad və soyad"
+
+#: includes/class-real-accessability-admin.php:379
+msgid "Phone"
+msgstr "Telefon"
+
+#: includes/class-real-accessability-admin.php:381
+#: includes/class-real-accessability-admin.php:761
+msgid "Country code"
+msgstr "Ölkə kodu"
+
+#: includes/class-real-accessability-admin.php:392
+msgid "Email"
+msgstr "E-poçt"
+
+#: includes/class-real-accessability-admin.php:405
+msgid "Sending..."
+msgstr "Göndərilir..."
+
+#: includes/class-real-accessability-admin.php:405
+msgid "Request a quote"
+msgstr "Qiymət təklifi istəyin"
+
+#. translators: %s: the "privacy policy" link.
+#: includes/class-real-accessability-admin.php:421
+#, php-format
+msgid ""
+"I agree that these details will be sent to Real Media Ltd. so they can "
+"contact me about an accessibility audit, in accordance with the %s."
+msgstr ""
+"Bu məlumatların əlçatımlılıq auditi ilə bağlı mənimlə əlaqə saxlanılması "
+"üçün %s uyğun olaraq Real Media Ltd. şirkətinə göndərilməsinə razıyam."
+
+#: includes/class-real-accessability-admin.php:423
+msgctxt "link inside the consent sentence"
+msgid "privacy policy"
+msgstr "məxfilik siyasətinə"
+
+#: includes/class-real-accessability-admin.php:430
+msgid "Who we are"
+msgstr "Biz kimik"
+
+#: includes/class-real-accessability-admin.php:431
+msgid ""
+"This form is operated by Real Media Ltd., the developer of Real "
+"Accessibility. This policy explains what happens to the details you send "
+"through it. It follows the Israeli Protection of Privacy Law, 5741-1981, "
+"including Amendment 13."
+msgstr ""
+"Bu forma Real Accessibility-nin tərtibatçısı olan Real Media Ltd. tərəfindən"
+" idarə olunur. Bu siyasət forma vasitəsilə göndərdiyiniz məlumatlarla nə baş"
+" verdiyini izah edir. Siyasət 13 saylı Düzəliş daxil olmaqla İsrailin "
+"Məxfiliyin Qorunması Qanununun (5741-1981) tələblərinə uyğundur."
+
+#: includes/class-real-accessability-admin.php:434
+msgid "What we collect"
+msgstr "Topladığımız məlumatlar"
+
+#: includes/class-real-accessability-admin.php:435
+msgid ""
+"Only what you type into the form: full name, phone and email, together with "
+"your site's address, your consent, the plugin version and the time of "
+"sending."
+msgstr ""
+"Yalnız formaya daxil etdikləriniz: ad və soyad, telefon və e-poçt, həmçinin "
+"saytınızın ünvanı, razılığınız, qoşmanın versiyası və göndərilmə vaxtı."
+
+#: includes/class-real-accessability-admin.php:436
+msgid ""
+"Your details are sent only when you click the button, together with the "
+"language and price shown here. Nothing else from your site is sent."
+msgstr ""
+"Məlumatlarınız yalnız düyməni kliklədikdə, burada göstərilən dil və qiymətlə"
+" birlikdə göndərilir. Saytınızdan başqa heç nə göndərilmir."
+
+#: includes/class-real-accessability-admin.php:439
+msgid "What we use it for"
+msgstr "İstifadə məqsədi"
+
+#: includes/class-real-accessability-admin.php:440
+msgid ""
+"To get back to you about your request and send you a quote for an "
+"accessibility audit. We will not send you marketing messages unless you "
+"agree to receive them separately."
+msgstr ""
+"Müraciətinizlə bağlı sizinlə əlaqə saxlamaq və sizə əlçatımlılıq auditi üçün"
+" qiymət təklifi göndərmək. Marketinq mesajlarını almağa ayrıca razılıq "
+"vermədiyiniz halda sizə belə mesajlar göndərməyəcəyik."
+
+#: includes/class-real-accessability-admin.php:443
+msgid "Do you have to give it"
+msgstr "Məlumat vermək öhdəliyi"
+
+#: includes/class-real-accessability-admin.php:444
+msgid ""
+"You are not required by law to give us these details. Without them, we "
+"cannot get back to you about your request."
+msgstr ""
+"Qanuna görə bu məlumatları bizə verməyə borclu deyilsiniz. Onlar olmadan "
+"müraciətinizlə bağlı sizinlə əlaqə saxlaya bilmərik."
+
+#: includes/class-real-accessability-admin.php:447
+msgid "Who receives it"
+msgstr "Məlumatları kim alır"
+
+#: includes/class-real-accessability-admin.php:448
+msgid ""
+"The details are sent to Real Media Ltd., so it can get back to you with a "
+"quote."
+msgstr ""
+"Məlumatlar Real Media Ltd. şirkətinə göndərilir ki, şirkət sizə qiymət "
+"təklifi göndərə bilsin."
+
+#: includes/class-real-accessability-admin.php:451
+msgid "How long we keep it"
+msgstr "Saxlama müddəti"
+
+#: includes/class-real-accessability-admin.php:452
+msgid ""
+"For as long as needed to handle your request, and for up to 24 months after "
+"our last contact, unless the law requires otherwise."
+msgstr ""
+"Qanun başqa cür tələb etmədikcə, məlumatları müraciətinizə baxılması üçün "
+"lazım olan müddət ərzində və son əlaqəmizdən sonra 24 aya qədər saxlayırıq."
+
+#: includes/class-real-accessability-admin.php:455
+msgid "Security"
+msgstr "Təhlükəsizlik"
+
+#: includes/class-real-accessability-admin.php:456
+msgid ""
+"We use up-to-date measures to protect the details. No system is completely "
+"immune to unauthorized access, so we cannot guarantee absolute protection."
+msgstr ""
+"Məlumatları qorumaq üçün müasir tədbirlərdən istifadə edirik. Heç bir sistem"
+" icazəsiz girişdən tam qorunmadığı üçün mütləq qorunmaya zəmanət verə "
+"bilmərik."
+
+#: includes/class-real-accessability-admin.php:459
+msgid "Your rights"
+msgstr "Hüquqlarınız"
+
+#. translators: %s: email address for privacy requests.
+#: includes/class-real-accessability-admin.php:461
+#, php-format
+msgid ""
+"You can ask at any time to see, correct or delete your details, or to "
+"withdraw your consent, by writing to %s."
+msgstr ""
+"İstənilən vaxt %s ünvanına yazaraq məlumatlarınızla tanış olmağı, onlara "
+"düzəliş edilməsini və ya onların silinməsini, yaxud razılığınızı geri "
+"götürməyi tələb edə bilərsiniz."
+
+#: includes/class-real-accessability-admin.php:467
+msgid "Privacy policy for audit requests"
+msgstr "Audit müraciətləri üçün məxfilik siyasəti"
+
+#: includes/class-real-accessability-admin.php:468
+#: includes/class-real-accessability-admin.php:477
+#: includes/class-real-accessability-admin.php:644
+msgid "Close"
+msgstr "Bağla"
+
+#: includes/class-real-accessability-admin.php:523
+msgid ""
+"You already sent a request in the last 24 hours. We will be in touch soon."
+msgstr ""
+"Son 24 saat ərzində artıq müraciət göndərmisiniz. Tezliklə sizinlə əlaqə "
+"saxlayacağıq."
+
+#: includes/class-real-accessability-admin.php:538
+#: includes/class-real-accessability-admin.php:574
+#: includes/class-real-accessability-admin.php:604
+#: includes/class-real-accessability-admin.php:757
+msgid "The request could not be sent. Please try again later."
+msgstr ""
+"Müraciət göndərilə bilmədi. Zəhmət olmasa, bir az sonra yenidən cəhd edin."
+
+#: includes/class-real-accessability-admin.php:556
+msgid "Please fill in all the required fields."
+msgstr "Zəhmət olmasa, bütün məcburi sahələri doldurun."
+
+#: includes/class-real-accessability-admin.php:559
+#: includes/class-real-accessability-admin.php:763
+msgid "Please enter a valid email address."
+msgstr "Zəhmət olmasa, düzgün e-poçt ünvanı daxil edin."
+
+#: includes/class-real-accessability-admin.php:567
+#: includes/class-real-accessability-admin.php:764
+msgid "Please enter a valid phone number."
+msgstr "Zəhmət olmasa, düzgün telefon nömrəsi daxil edin."
+
+#: includes/class-real-accessability-admin.php:570
+#: includes/class-real-accessability-admin.php:765
+msgid "Please agree to send your details."
+msgstr "Zəhmət olmasa, məlumatlarınızın göndərilməsinə razılıq verin."
+
+#: includes/class-real-accessability-admin.php:615
+msgid "Disclaimer:"
+msgstr "Məsuliyyətdən imtina:"
+
+#: includes/class-real-accessability-admin.php:616
+msgid ""
+"Real Accessibility adds an accessibility menu that helps visitors adjust how"
+" the site is displayed. On its own, it does not make a website accessible or"
+" compliant with any accessibility law or standard (such as WCAG or Israeli "
+"Standard 5568). The site owner remains solely responsible for the "
+"accessibility of the site's code and content and for meeting the legal "
+"requirements. The plugin is provided \"as is\", without warranty of any "
+"kind, and the plugin's authors are not liable for any damage resulting from "
+"its use."
+msgstr ""
+"Real Accessibility ziyarətçilərə saytın görünüşünü tənzimləməyə kömək edən "
+"əlçatımlılıq menyusu əlavə edir. Qoşma təkbaşına saytı əlçatımlı etmir və "
+"onu heç bir əlçatımlılıq qanununa və ya standartına (məsələn, WCAG və ya "
+"İsrail Standartı 5568) uyğun hala gətirmir. Saytın kodunun və məzmununun "
+"əlçatımlılığına, habelə qanun tələblərinin yerinə yetirilməsinə görə yalnız "
+"sayt sahibi məsuliyyət daşımağa davam edir. Qoşma heç bir növ zəmanət "
+"verilmədən “olduğu kimi” təqdim olunur və qoşmanın müəllifləri onun "
+"istifadəsi nəticəsində yaranan heç bir zərərə görə məsuliyyət daşımır."
+
+#: includes/class-real-accessability-admin.php:628
+msgid "Your accessibility menu is ready"
+msgstr "Əlçatımlılıq menyunuz hazırdır"
+
+#: includes/class-real-accessability-admin.php:629
+msgid ""
+"Set the color and the position below, then turn the menu on. You can keep "
+"changing the settings after it is live."
+msgstr ""
+"Aşağıda rəngi və yeri təyin edin, sonra menyunu aktivləşdirin. Menyu saytda "
+"işə düşdükdən sonra da parametrləri dəyişməyə davam edə bilərsiniz."
+
+#: includes/class-real-accessability-admin.php:647
+msgid ""
+"Approving turns the menu on and shows a small credit at its bottom, with a "
+"link to the plugin page on WordPress.org."
+msgstr ""
+"Təsdiq etdikdə menyu aktivləşir və onun aşağısında WordPress.org saytındakı "
+"qoşma səhifəsinə keçidi olan kiçik istinad göstərilir."
+
+#: includes/class-real-accessability-admin.php:648
+msgid ""
+"Real Accessibility is free, and the credit helps other site owners find it."
+msgstr ""
+"Real Accessibility pulsuzdur və bu istinad digər sayt sahiblərinin onu "
+"tapmasına kömək edir."
+
+#: includes/class-real-accessability-admin.php:652
+#: includes/class-real-accessability-admin.php:1117
+#: includes/class-real-accessability-admin.php:1251
+#: includes/class-real-accessability-admin.php:1349
+msgid "Cancel"
+msgstr "İmtina"
+
+#: includes/class-real-accessability-admin.php:653
+msgid "You can also turn it on without the credit"
+msgstr "Menyunu istinadsız da aktivləşdirə bilərsiniz"
+
+#: includes/class-real-accessability-admin.php:677
+#: includes/class-real-accessability-admin.php:998
+#: includes/class-real-accessability-admin.php:1006
+msgid "Button and menu"
+msgstr "Düymə və menyu"
+
+#: includes/class-real-accessability-admin.php:678
+msgid "Features"
+msgstr "Funksiyalar"
+
+#: includes/class-real-accessability-admin.php:679
+msgid "Languages"
+msgstr "Dillər"
+
+#: includes/class-real-accessability-admin.php:680
+#: includes/class-real-accessability-i18n.php:86
+msgid "Accessibility statement"
+msgstr "Əlçatımlılıq bəyanatı"
+
+#: includes/class-real-accessability-admin.php:681
+msgid "Accessibility audit"
+msgstr "Əlçatımlılıq auditi"
+
+#: includes/class-real-accessability-admin.php:693
+#: includes/class-real-accessability-admin.php:809
+msgid "Real Accessibility"
+msgstr "Real Accessibility"
+
+#: includes/class-real-accessability-admin.php:694
+msgctxt "admin menu label"
+msgid "Real Accessibility"
+msgstr "Real Accessibility"
+
+#. translators: %s: contrast ratio, for example 1.8.
+#: includes/class-real-accessability-admin.php:755
+#, php-format
+msgid "Low contrast %s:1"
+msgstr "Aşağı kontrast %s:1"
+
+#: includes/class-real-accessability-admin.php:756
+msgid "You have unsaved changes."
+msgstr "Qeyd edilməmiş dəyişiklikləriniz var."
+
+#: includes/class-real-accessability-admin.php:762
+msgid "This field is required."
+msgstr "Bu sahə mütləqdir."
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:769
+#: includes/class-real-accessability-admin.php:1297
+#, php-format
+msgid "Flag for %s"
+msgstr "%s üçün bayraq"
+
+#: includes/class-real-accessability-admin.php:770
+msgid "Choose a flag"
+msgstr "Bayraq seçin"
+
+#: includes/class-real-accessability-admin.php:771
+msgid "Search for a country"
+msgstr "Ölkə axtarın"
+
+#: includes/class-real-accessability-admin.php:772
+msgid "Suggested"
+msgstr "Tövsiyə olunanlar"
+
+#: includes/class-real-accessability-admin.php:773
+msgid "All countries"
+msgstr "Bütün ölkələr"
+
+#: includes/class-real-accessability-admin.php:774
+msgid "No country found"
+msgstr "Ölkə tapılmadı"
+
+#. translators: %d: number of languages shown in the menu.
+#: includes/class-real-accessability-admin.php:789
+#, php-format
+msgid "%d language in the menu"
+msgid_plural "%d languages in the menu"
+msgstr[0] "Menyuda %d dil"
+msgstr[1] "Menyuda %d dil"
+
+#: includes/class-real-accessability-admin.php:813
+msgid "Settings sections"
+msgstr "Parametr bölmələri"
+
+#: includes/class-real-accessability-admin.php:815
+msgid "Legal compliance"
+msgstr "Qanuni uyğunluq"
+
+#: includes/class-real-accessability-admin.php:825
+msgid ""
+"Thank you! The credit is shown at the bottom of the accessibility menu."
+msgstr ""
+"Təşəkkür edirik! İstinad əlçatımlılıq menyusunun aşağısında göstərilir."
+
+#: includes/class-real-accessability-admin.php:832
+msgid ""
+"The accessibility menu is live on your site, with the credit at the bottom. "
+"Thank you!"
+msgstr ""
+"Əlçatımlılıq menyusu artıq saytınızda işləyir, aşağısında istinad da var. "
+"Təşəkkür edirik!"
+
+#: includes/class-real-accessability-admin.php:833
+msgid "The accessibility menu is live on your site!"
+msgstr "Əlçatımlılıq menyusu artıq saytınızda işləyir!"
+
+#: includes/class-real-accessability-admin.php:834
+msgid "View the site"
+msgstr "Sayta bax"
+
+#: includes/class-real-accessability-admin.php:896
+msgid "Desktop"
+msgstr "Masaüstü"
+
+#: includes/class-real-accessability-admin.php:897
+msgid "Show the accessibility button on desktop"
+msgstr "Əlçatımlılıq düyməsini masaüstündə göstər"
+
+#: includes/class-real-accessability-admin.php:900
+msgid "Tablet"
+msgstr "Planşet"
+
+#: includes/class-real-accessability-admin.php:901
+msgid "Show the accessibility button on tablets"
+msgstr "Əlçatımlılıq düyməsini planşetlərdə göstər"
+
+#: includes/class-real-accessability-admin.php:904
+msgid "Mobile"
+msgstr "Mobil"
+
+#: includes/class-real-accessability-admin.php:905
+msgid "Show the accessibility button on mobile"
+msgstr "Əlçatımlılıq düyməsini mobil cihazlarda göstər"
+
+#: includes/class-real-accessability-admin.php:909
+msgid "Top left"
+msgstr "Üst sol"
+
+#: includes/class-real-accessability-admin.php:910
+msgid "Top center"
+msgstr "Üst mərkəz"
+
+#: includes/class-real-accessability-admin.php:911
+msgid "Top right"
+msgstr "Üst sağ"
+
+#: includes/class-real-accessability-admin.php:912
+msgid "Middle left"
+msgstr "Orta sol"
+
+#: includes/class-real-accessability-admin.php:913
+msgid "Center"
+msgstr "Mərkəz"
+
+#: includes/class-real-accessability-admin.php:914
+msgid "Middle right"
+msgstr "Orta sağ"
+
+#: includes/class-real-accessability-admin.php:915
+msgid "Bottom left"
+msgstr "Alt sol"
+
+#: includes/class-real-accessability-admin.php:916
+msgid "Bottom center"
+msgstr "Alt mərkəz"
+
+#: includes/class-real-accessability-admin.php:917
+msgid "Bottom right"
+msgstr "Alt sağ"
+
+#: includes/class-real-accessability-admin.php:920
+msgid "From the left"
+msgstr "Soldan"
+
+#: includes/class-real-accessability-admin.php:921
+msgid "From the right"
+msgstr "Sağdan"
+
+#: includes/class-real-accessability-admin.php:922
+msgid "From the bottom"
+msgstr "Aşağıdan"
+
+#: includes/class-real-accessability-admin.php:925
+#: includes/class-real-accessability-admin.php:1051
+msgid "Circle"
+msgstr "Dairə"
+
+#: includes/class-real-accessability-admin.php:926
+msgid "Rounded"
+msgstr "Yumru künclü"
+
+#: includes/class-real-accessability-admin.php:927
+#: includes/class-real-accessability-admin.php:1051
+msgid "Square"
+msgstr "Kvadrat"
+
+#: includes/class-real-accessability-admin.php:937
+msgid "Device"
+msgstr "Cihaz"
+
+#: includes/class-real-accessability-admin.php:942
+msgid "hidden"
+msgstr "gizli"
+
+#: includes/class-real-accessability-admin.php:953
+msgid "Color"
+msgstr "Rəng"
+
+#: includes/class-real-accessability-admin.php:958
+msgid "Brand color"
+msgstr "Brend rəngi"
+
+#: includes/class-real-accessability-admin.php:959
+msgid "All the menu and button colors come from it."
+msgstr "Menyu və düymənin bütün rəngləri bu rəngdən götürülür."
+
+#: includes/class-real-accessability-admin.php:964
+msgid "Pick the brand color"
+msgstr "Brend rəngini seçin"
+
+#: includes/class-real-accessability-admin.php:969
+msgid "Button icon color"
+msgstr "Düymə ikonunun rəngi"
+
+#: includes/class-real-accessability-admin.php:970
+msgid "Automatic picks white or black, whichever has more contrast."
+msgstr ""
+"Avtomatik rejim ağ və qaradan hansı daha yüksək kontrast yaradırsa, onu "
+"seçir."
+
+#: includes/class-real-accessability-admin.php:975
+msgid "Custom icon color"
+msgstr "Xüsusi ikon rəngi"
+
+#: includes/class-real-accessability-admin.php:976
+msgid "Pick the icon color"
+msgstr "İkon rəngini seçin"
+
+#: includes/class-real-accessability-admin.php:979
+msgid "Automatic"
+msgstr "Avtomatik"
+
+#: includes/class-real-accessability-admin.php:980
+msgid "Custom"
+msgstr "Xüsusi"
+
+#: includes/class-real-accessability-admin.php:1000
+msgid "Show the button on"
+msgstr "Düymənin göstərildiyi cihazlar"
+
+#: includes/class-real-accessability-admin.php:1009
+#: includes/class-real-accessability-admin.php:1024
+msgid "Button position"
+msgstr "Düymənin yeri"
+
+#: includes/class-real-accessability-admin.php:1010
+msgid "Shape and size"
+msgstr "Forma və ölçü"
+
+#: includes/class-real-accessability-admin.php:1011
+msgid "The menu"
+msgstr "Menyu"
+
+#: includes/class-real-accessability-admin.php:1019
+msgid ""
+"The button is hidden on this device. Turn it back on with the icons above."
+msgstr ""
+"Düymə bu cihazda gizlidir. Yuxarıdakı ikonlar vasitəsilə onu yenidən göstərə"
+" bilərsiniz."
+
+#: includes/class-real-accessability-admin.php:1036
+msgid "Distance from the edge - horizontal"
+msgstr "Kənardan məsafə - üfüqi"
+
+#: includes/class-real-accessability-admin.php:1036
+#: includes/class-real-accessability-admin.php:1037
+msgid "Attached"
+msgstr "Bitişik"
+
+#: includes/class-real-accessability-admin.php:1037
+msgid "Distance from the edge - vertical"
+msgstr "Kənardan məsafə - şaquli"
+
+#: includes/class-real-accessability-admin.php:1044
+msgid "Shape"
+msgstr "Forma"
+
+#: includes/class-real-accessability-admin.php:1050
+msgid "Button size"
+msgstr "Düymənin ölçüsü"
+
+#: includes/class-real-accessability-admin.php:1051
+msgid "Corner radius"
+msgstr "Künc radiusu"
+
+#: includes/class-real-accessability-admin.php:1056
+msgid "Opens from the edge of the screen, wherever the button is."
+msgstr "Düymənin harada olmasından asılı olmayaraq ekranın kənarından açılır."
+
+#: includes/class-real-accessability-admin.php:1058
+msgid "Menu opens from"
+msgstr "Menyunun açıldığı tərəf"
+
+#: includes/class-real-accessability-admin.php:1067
+msgid "Menu corner radius"
+msgstr "Menyunun künc radiusu"
+
+#: includes/class-real-accessability-admin.php:1079
+#: includes/class-real-accessability-admin.php:1080
+#: includes/class-real-accessability-admin.php:1235
+#: includes/class-real-accessability-admin.php:1330
+msgid "Preview"
+msgstr "Ön izləmə"
+
+#: includes/class-real-accessability-admin.php:1081
+msgid "Button"
+msgstr "Düymə"
+
+#: includes/class-real-accessability-admin.php:1082
+msgid "Menu open"
+msgstr "Açıq menyu"
+
+#: includes/class-real-accessability-admin.php:1095
+#: includes/class-real-accessability-i18n.php:32
+msgid "Accessibility"
+msgstr "Əlçatımlılıq"
+
+#: includes/class-real-accessability-admin.php:1104
+msgid "The button is hidden on this device."
+msgstr "Düymə bu cihazda gizlidir."
+
+#: includes/class-real-accessability-admin.php:1116
+#: includes/class-real-accessability-admin.php:1250
+#: includes/class-real-accessability-admin.php:1348
+msgid "Save changes"
+msgstr "Dəyişiklikləri qeyd et"
+
+#: includes/class-real-accessability-admin.php:1118
+#: includes/class-real-accessability-admin.php:1252
+#: includes/class-real-accessability-admin.php:1350
+msgid "You have unsaved changes"
+msgstr "Qeyd edilməmiş dəyişiklikləriniz var"
+
+#: includes/class-real-accessability-admin.php:1193
+msgid ""
+"Choose what visitors see in the accessibility menu. Sections without any "
+"option are not shown."
+msgstr ""
+"Ziyarətçilərin əlçatımlılıq menyusunda nə görəcəyini seçin. Heç bir seçimi "
+"aktiv olmayan bölmələr göstərilmir."
+
+#: includes/class-real-accessability-admin.php:1222
+msgid "Menu footer"
+msgstr "Menyunun alt hissəsi"
+
+#: includes/class-real-accessability-admin.php:1225
+msgid "Hide button"
+msgstr "Gizlətmə düyməsi"
+
+#: includes/class-real-accessability-admin.php:1225
+msgid "Hides the accessibility button until the visitor's next visit"
+msgstr "Əlçatımlılıq düyməsini ziyarətçinin növbəti səfərinədək gizlədir"
+
+#: includes/class-real-accessability-admin.php:1226
+msgid "Plugin credit"
+msgstr "Qoşmaya istinad"
+
+#: includes/class-real-accessability-admin.php:1226
+msgid ""
+"A small credit at the bottom of the menu, with a link to the plugin page on "
+"WordPress.org"
+msgstr ""
+"Menyunun aşağısında WordPress.org saytındakı qoşma səhifəsinə keçidi olan "
+"kiçik istinad"
+
+#: includes/class-real-accessability-admin.php:1237
+msgid "Preview of the accessibility menu"
+msgstr "Əlçatımlılıq menyusunun ön izləməsi"
+
+#: includes/class-real-accessability-admin.php:1276
+msgid "Menu languages"
+msgstr "Menyu dilləri"
+
+#: includes/class-real-accessability-admin.php:1281
+msgid "Search languages"
+msgstr "Dil axtarın"
+
+#: includes/class-real-accessability-admin.php:1283
+msgid "No language found"
+msgstr "Dil tapılmadı"
+
+#: includes/class-real-accessability-admin.php:1293
+msgid "Drag to reorder"
+msgstr "Sıranı dəyişmək üçün sürükləyin"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1315
+#, php-format
+msgid "Make %s the default"
+msgstr "Əsas dil et: %s"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1316
+msgid "Default"
+msgstr "Əsas"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1319
+#, php-format
+msgid "Show %s in the menu"
+msgstr "Menyuda göstər: %s"
+
+#: includes/class-real-accessability-admin.php:1362
+msgid "Statement page"
+msgstr "Bəyanat səhifəsi"
+
+#: includes/class-real-accessability-admin.php:1370
+msgid "- Select a page -"
+msgstr "- Səhifə seçin -"
+
+#: includes/class-real-accessability-admin.php:1377
+msgid "View page"
+msgstr "Səhifəyə bax"
+
+#: includes/class-real-accessability-admin.php:1379
+msgid ""
+"The page on your site with the accessibility statement. The \"Accessibility "
+"statement\" button in the menu links to it."
+msgstr ""
+"Saytınızda əlçatımlılıq bəyanatının yerləşdiyi səhifə. Menyudakı "
+"“Əlçatımlılıq bəyanatı” düyməsi bu səhifəyə keçid verir."
+
+#: includes/class-real-accessability-admin.php:1383
+msgid "Statement button"
+msgstr "Bəyanat düyməsi"
+
+#: includes/class-real-accessability-admin.php:1385
+msgid "Show the \"Accessibility statement\" button in the menu"
+msgstr "Menyuda “Əlçatımlılıq bəyanatı” düyməsini göstər"
+
+#: includes/class-real-accessability-i18n.php:33
+msgid "Accessibility menu"
+msgstr "Əlçatımlılıq menyusu"
+
+#: includes/class-real-accessability-i18n.php:34
+msgid "Open accessibility menu"
+msgstr "Əlçatımlılıq menyusunu açın"
+
+#: includes/class-real-accessability-i18n.php:35
+msgid "Close accessibility menu (Esc)"
+msgstr "Əlçatımlılıq menyusunu bağlayın (Esc)"
+
+#: includes/class-real-accessability-i18n.php:36
+msgid "Menu language"
+msgstr "Menyu dili"
+
+#: includes/class-real-accessability-i18n.php:37
+msgid "Choose language"
+msgstr "Dil seçin"
+
+#: includes/class-real-accessability-i18n.php:38
+msgid "No adjustments active"
+msgstr "Aktiv tənzimləmə yoxdur"
+
+#: includes/class-real-accessability-i18n.php:39
+msgid "Ready-made profiles"
+msgstr "Hazır profillər"
+
+#: includes/class-real-accessability-i18n.php:40
+msgid "Seizure safe"
+msgstr "Epilepsiya üçün təhlükəsiz"
+
+#: includes/class-real-accessability-i18n.php:41
+msgid "Stops animations and flashing and dims colors"
+msgstr "Animasiyaları və yanıb-sönməni dayandırır, rəngləri yumşaldır"
+
+#: includes/class-real-accessability-i18n.php:42
+msgid "Vision impaired"
+msgstr "Zəif görmə"
+
+#: includes/class-real-accessability-i18n.php:43
+msgid "High contrast, large text and emphasized headings"
+msgstr "Yüksək kontrast, böyük mətn və vurğulanmış başlıqlar"
+
+#: includes/class-real-accessability-i18n.php:44
+msgid "ADHD and focus"
+msgstr "Diqqət çatışmazlığı"
+
+#: includes/class-real-accessability-i18n.php:45
+msgid "Fewer distractions, reading guide and line spacing"
+msgstr "Daha az diqqət yayındırma, oxu xətkeşi və sətir aralığı"
+
+#: includes/class-real-accessability-i18n.php:46
+msgid "Dyslexia"
+msgstr "Disleksiya"
+
+#: includes/class-real-accessability-i18n.php:47
+msgid "Readable font, letter spacing and reading guide"
+msgstr "Oxunaqlı şrift, hərf aralığı və oxu xətkeşi"
+
+#: includes/class-real-accessability-i18n.php:48
+msgid "Motor impaired"
+msgstr "Hərəkət məhdudiyyəti"
+
+#: includes/class-real-accessability-i18n.php:49
+msgid "Keyboard navigation, large cursor and larger text"
+msgstr "Klaviatura ilə naviqasiya, böyük kursor və daha böyük mətn"
+
+#: includes/class-real-accessability-i18n.php:50
+msgid "Screen reader"
+msgstr "Ekran oxuyucu"
+
+#: includes/class-real-accessability-i18n.php:51
+msgid "Keyboard navigation and emphasized links and headings"
+msgstr "Klaviatura ilə naviqasiya, vurğulanmış keçidlər və başlıqlar"
+
+#: includes/class-real-accessability-i18n.php:52
+msgid "Seniors"
+msgstr "Yaşlı insanlar"
+
+#: includes/class-real-accessability-i18n.php:53
+msgid "Large text, large cursor and clear links"
+msgstr "Böyük mətn, böyük kursor və aydın keçidlər"
+
+#: includes/class-real-accessability-i18n.php:54
+msgid "Display"
+msgstr "Görünüş"
+
+#: includes/class-real-accessability-i18n.php:55
+msgid "Contrast"
+msgstr "Kontrast"
+
+#: includes/class-real-accessability-i18n.php:56
+msgid "High contrast"
+msgstr "Yüksək kontrast"
+
+#: includes/class-real-accessability-i18n.php:57
+msgid "Inverted contrast"
+msgstr "Tərs kontrast"
+
+#: includes/class-real-accessability-i18n.php:58
+msgid "Grayscale"
+msgstr "Boz çalarlar"
+
+#: includes/class-real-accessability-i18n.php:59
+msgid "Readable font"
+msgstr "Oxunaqlı şrift"
+
+#: includes/class-real-accessability-i18n.php:60
+msgid "Highlight links"
+msgstr "Keçidləri vurğulayın"
+
+#: includes/class-real-accessability-i18n.php:61
+msgid "Highlight headings"
+msgstr "Başlıqları vurğulayın"
+
+#: includes/class-real-accessability-i18n.php:62
+msgid "Large cursor"
+msgstr "Böyük kursor"
+
+#: includes/class-real-accessability-i18n.php:63
+msgid "Hide images"
+msgstr "Şəkilləri gizlədin"
+
+#: includes/class-real-accessability-i18n.php:64
+msgid "Magnifier"
+msgstr "Böyüdücü"
+
+#: includes/class-real-accessability-i18n.php:65
+msgid "Text align"
+msgstr "Düzləndirmə"
+
+#: includes/class-real-accessability-i18n.php:66
+msgid "Align center"
+msgstr "Mərkəzə düzləndirmə"
+
+#: includes/class-real-accessability-i18n.php:67
+msgid "Align right"
+msgstr "Sağa düzləndirmə"
+
+#: includes/class-real-accessability-i18n.php:68
+msgid "Align left"
+msgstr "Sola düzləndirmə"
+
+#: includes/class-real-accessability-i18n.php:69
+msgid "Text"
+msgstr "Mətn"
+
+#: includes/class-real-accessability-i18n.php:70
+msgid "Text size"
+msgstr "Mətn ölçüsü"
+
+#: includes/class-real-accessability-i18n.php:71
+msgid "Line spacing"
+msgstr "Sətir aralığı"
+
+#: includes/class-real-accessability-i18n.php:72
+msgid "Letter spacing"
+msgstr "Hərf aralığı"
+
+#: includes/class-real-accessability-i18n.php:73
+msgctxt "spacing level"
+msgid "Regular"
+msgstr "Normal"
+
+#. translators: %s: setting name, for example "Text size".
+#: includes/class-real-accessability-i18n.php:75
+#, php-format
+msgid "Decrease %s"
+msgstr "Azaldın: %s"
+
+#. translators: %s: setting name, for example "Text size".
+#: includes/class-real-accessability-i18n.php:77
+#, php-format
+msgid "Increase %s"
+msgstr "Artırın: %s"
+
+#: includes/class-real-accessability-i18n.php:78
+msgid "Reading and navigation"
+msgstr "Oxu və naviqasiya"
+
+#: includes/class-real-accessability-i18n.php:79
+msgid "Reading guide"
+msgstr "Oxu xətkeşi"
+
+#: includes/class-real-accessability-i18n.php:80
+msgid "A highlight bar that follows the pointer"
+msgstr "Kursoru izləyən vurğu zolağı"
+
+#: includes/class-real-accessability-i18n.php:81
+msgid "Stop animations"
+msgstr "Animasiyaları dayandırın"
+
+#: includes/class-real-accessability-i18n.php:82
+msgid "Stops motion, flashing and video"
+msgstr "Hərəkəti, yanıb-sönməni və videonu dayandırır"
+
+#: includes/class-real-accessability-i18n.php:83
+msgid "Keyboard navigation"
+msgstr "Klaviatura ilə naviqasiya"
+
+#: includes/class-real-accessability-i18n.php:84
+msgid "A prominent focus frame on every move"
+msgstr "Hər addımda aydın görünən fokus çərçivəsi"
+
+#: includes/class-real-accessability-i18n.php:85
+msgid "Reset"
+msgstr "Sıfırlayın"
+
+#: includes/class-real-accessability-i18n.php:87
+msgid "Hide"
+msgstr "Gizlədin"
+
+#: includes/class-real-accessability-i18n.php:88
+msgid "Accessibility plugin"
+msgstr "Əlçatımlılıq qoşması"
+
+#. translators: %d: number of active accessibility adjustments.
+#: includes/class-real-accessability-i18n.php:94
+#, php-format
+msgid "%d adjustment active"
+msgid_plural "%d adjustments active"
+msgstr[0] "%d aktiv tənzimləmə"
+msgstr[1] "%d aktiv tənzimləmə"
+
+#: real-accessability.php:103
+msgid "Settings"
+msgstr "Parametrlər"

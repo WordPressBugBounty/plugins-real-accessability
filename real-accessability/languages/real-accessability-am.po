@@ -1,0 +1,1089 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Real Accessibility 2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-accessability/\n"
+"PO-Revision-Date: 2026-10-11 12:00+0300\n"
+"Last-Translator: REALMEDIA <office@realmedia.co.il>\n"
+"Language-Team: Amharic\n"
+"Language: am\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: real-accessability\n"
+
+#. Plugin URI of the plugin
+#: real-accessability.php
+msgid "https://wordpress.org/plugins/real-accessability/"
+msgstr "https://wordpress.org/plugins/real-accessability/"
+
+#. Description of the plugin
+#: real-accessability.php
+msgid ""
+"An accessibility menu for your website - ready-made profiles, contrast "
+"modes, text size and spacing, readable font, reading guide and more, styled "
+"in your brand color."
+msgstr ""
+"ለድረ-ገጽዎ የተደራሽነት ምናሌ፦ ዝግጁ መገለጫዎች፣ የንፅፅር ሁነታዎች፣ የጽሑፍ መጠን እና ክፍተት፣ ግልጽ ቅርጸ-ቁምፊ፣"
+" የንባብ መሪ መስመር እና ሌሎችም፣ ሁሉም በብራንድዎ ቀለም።"
+
+#. Author of the plugin
+#: real-accessability.php
+msgid "REALMEDIA"
+msgstr "REALMEDIA"
+
+#. Author URI of the plugin
+#: real-accessability.php
+msgid "https://realmedia.co.il"
+msgstr "https://realmedia.co.il"
+
+#: includes/class-real-accessability-admin.php:37
+#: includes/class-real-accessability-admin.php:55
+#: includes/class-real-accessability-admin.php:74
+#: includes/class-real-accessability-admin.php:515
+msgid "Sorry, you are not allowed to do that."
+msgstr "ይቅርታ፣ ይህን ለማድረግ አልተፈቀደልዎትም።"
+
+#: includes/class-real-accessability-admin.php:106
+msgid "Accessibility menu on the site"
+msgstr "የተደራሽነት ምናሌ በጣቢያው ላይ"
+
+#: includes/class-real-accessability-admin.php:109
+msgid "On"
+msgstr "በርቷል"
+
+#: includes/class-real-accessability-admin.php:109
+msgid "Off"
+msgstr "ጠፍቷል"
+
+#: includes/class-real-accessability-admin.php:140
+msgid "The accessibility menu is off."
+msgstr "የተደራሽነት ምናሌው ጠፍቷል።"
+
+#: includes/class-real-accessability-admin.php:141
+msgid "Visitors do not see it."
+msgstr "ጎብኚዎች አያዩትም።"
+
+#: includes/class-real-accessability-admin.php:142
+#: includes/class-real-accessability-admin.php:631
+#: includes/class-real-accessability-admin.php:643
+msgid "Turn on the accessibility menu"
+msgstr "የተደራሽነት ምናሌውን አብራ"
+
+#: includes/class-real-accessability-admin.php:194
+msgid ""
+"Real Accessibility 2.0 is ready. Set the brand color and the button "
+"position, and choose whether to show the plugin credit."
+msgstr ""
+"Real Accessibility 2.0 ዝግጁ ነው። የብራንድ ቀለሙን እና የአዝራሩን ቦታ ያዘጋጁ፣ እንዲሁም የተሰኪው "
+"መጠቀሻ ይታይ እንደሆነ ይምረጡ።"
+
+#: includes/class-real-accessability-admin.php:195
+msgid "Open Real Accessibility"
+msgstr "Real Accessibility ክፈት"
+
+#: includes/class-real-accessability-admin.php:206
+msgid ""
+"Show a small credit with a link to the plugin page on WordPress.org at the "
+"bottom of the accessibility menu? It helps keep the plugin free."
+msgstr ""
+"በተደራሽነት ምናሌው ግርጌ ላይ በWordPress.org ወደሚገኘው የተሰኪው ገጽ የሚወስድ አገናኝ ያለው ትንሽ መጠቀሻ "
+"ይታይ? ይህ ተሰኪው ነፃ ሆኖ እንዲቀጥል ይረዳል።"
+
+#: includes/class-real-accessability-admin.php:207
+#: includes/class-real-accessability-admin.php:651
+msgid "Approve"
+msgstr "አጽድቅ"
+
+#: includes/class-real-accessability-admin.php:208
+msgid "No thanks"
+msgstr "አይ፣ አመሰግናለሁ"
+
+#: includes/class-real-accessability-admin.php:244
+msgid "Load WooCommerce stores in 249ms"
+msgstr "WooCommerce መደብሮችን በ249 ሚሊሰከንድ ይጫኑ"
+
+#: includes/class-real-accessability-admin.php:248
+msgid "Load WordPress sites in as fast as 37ms"
+msgstr "WordPress ጣቢያዎችን በ37 ሚሊሰከንድ ብቻ ይጫኑ"
+
+#: includes/class-real-accessability-admin.php:255
+msgid "(opens in a new tab)"
+msgstr "(በአዲስ ትር ይከፈታል)"
+
+#: includes/class-real-accessability-admin.php:274
+msgid "Starting from $500"
+msgstr "ከ$500 ጀምሮ"
+
+#: includes/class-real-accessability-admin.php:304
+msgid "Professional accessibility audit"
+msgstr "የባለሙያ የተደራሽነት ኦዲት"
+
+#: includes/class-real-accessability-admin.php:305
+msgid "A report of every issue and how to fix it"
+msgstr "ስለ እያንዳንዱ ችግር እና እንዴት እንደሚስተካከል ሪፖርት"
+
+#: includes/class-real-accessability-admin.php:309
+msgid "Your request was sent. We will be in touch soon."
+msgstr "ጥያቄዎ ተልኳል። በቅርቡ እናገኝዎታለን።"
+
+#: includes/class-real-accessability-admin.php:311
+msgid "Get a quote"
+msgstr "የዋጋ ግምት ያግኙ"
+
+#: includes/class-real-accessability-admin.php:326
+#: includes/class-real-accessability-admin.php:331
+msgid "A clear report of every issue, with how to fix it"
+msgstr "ስለ እያንዳንዱ ችግር እና እንዴት እንደሚስተካከል ግልጽ ሪፖርት"
+
+#: includes/class-real-accessability-admin.php:327
+#: includes/class-real-accessability-admin.php:332
+msgid "Help with your accessibility statement and with the fixes"
+msgstr "ለተደራሽነት መግለጫዎ እና ለማስተካከያዎቹ እገዛ"
+
+#: includes/class-real-accessability-admin.php:328
+#: includes/class-real-accessability-admin.php:333
+msgid "A reply within one business day"
+msgstr "በአንድ የሥራ ቀን ውስጥ ምላሽ"
+
+#: includes/class-real-accessability-admin.php:330
+msgid "Manual and automated testing against WCAG 2.2 AA"
+msgstr "በWCAG 2.2 AA መሠረት በእጅ እና በራስ-ሰር የሚደረግ ሙከራ"
+
+#: includes/class-real-accessability-admin.php:338
+msgid "An accessibility menu alone is not enough"
+msgstr "የተደራሽነት ምናሌ ብቻውን በቂ አይደለም"
+
+#: includes/class-real-accessability-admin.php:344
+msgid ""
+"To meet WCAG 2.2 AA and laws such as the ADA, the code and content of the "
+"site need to be accessible too. Our experts audit your site and show you "
+"exactly what to fix."
+msgstr ""
+"WCAG 2.2 AA እና እንደ ADA ያሉ ሕጎችን ለማሟላት የጣቢያው ኮድ እና ይዘትም ተደራሽ መሆን አለባቸው። "
+"ባለሙያዎቻችን ጣቢያዎን ኦዲት ያደርጋሉ፤ ምን መስተካከል እንዳለበትም በትክክል ያሳዩዎታል።"
+
+#: includes/class-real-accessability-admin.php:359
+msgid "Your request was sent."
+msgstr "ጥያቄዎ ተልኳል።"
+
+#: includes/class-real-accessability-admin.php:359
+msgid "We will get back to you as soon as possible."
+msgstr "በተቻለ ፍጥነት ምላሽ እንሰጥዎታለን።"
+
+#: includes/class-real-accessability-admin.php:363
+msgid "Get a free quote for an accessibility audit"
+msgstr "ለተደራሽነት ኦዲት ነፃ የዋጋ ግምት ያግኙ"
+
+#: includes/class-real-accessability-admin.php:364
+msgid "We will get back to you with a quote for your site."
+msgstr "ለጣቢያዎ የሚሆን የዋጋ ግምት ይዘን እናገኝዎታለን።"
+
+#: includes/class-real-accessability-admin.php:370
+msgid "Leave this field empty"
+msgstr "ይህን መስክ ባዶ ይተዉት"
+
+#: includes/class-real-accessability-admin.php:374
+msgid "Full name"
+msgstr "ሙሉ ስም"
+
+#: includes/class-real-accessability-admin.php:379
+msgid "Phone"
+msgstr "ስልክ"
+
+#: includes/class-real-accessability-admin.php:381
+#: includes/class-real-accessability-admin.php:761
+msgid "Country code"
+msgstr "የአገር ኮድ"
+
+#: includes/class-real-accessability-admin.php:392
+msgid "Email"
+msgstr "ኢሜይል"
+
+#: includes/class-real-accessability-admin.php:405
+msgid "Sending..."
+msgstr "በመላክ ላይ…"
+
+#: includes/class-real-accessability-admin.php:405
+msgid "Request a quote"
+msgstr "የዋጋ ግምት ይጠይቁ"
+
+#. translators: %s: the "privacy policy" link.
+#: includes/class-real-accessability-admin.php:421
+#, php-format
+msgid ""
+"I agree that these details will be sent to Real Media Ltd. so they can "
+"contact me about an accessibility audit, in accordance with the %s."
+msgstr ""
+"እነዚህ ዝርዝሮች በ%s መሠረት ወደ Real Media Ltd. እንዲላኩ እና ስለ ተደራሽነት ኦዲት እንዲያገኙኝ "
+"እስማማለሁ።"
+
+#: includes/class-real-accessability-admin.php:423
+msgctxt "link inside the consent sentence"
+msgid "privacy policy"
+msgstr "ግላዊነት ፖሊሲ"
+
+#: includes/class-real-accessability-admin.php:430
+msgid "Who we are"
+msgstr "እኛ ማን ነን"
+
+#: includes/class-real-accessability-admin.php:431
+msgid ""
+"This form is operated by Real Media Ltd., the developer of Real "
+"Accessibility. This policy explains what happens to the details you send "
+"through it. It follows the Israeli Protection of Privacy Law, 5741-1981, "
+"including Amendment 13."
+msgstr ""
+"ይህ ቅጽ የሚተዳደረው የReal Accessibility ገንቢ በሆነው Real Media Ltd. ነው። ይህ ፖሊሲ በዚህ ቅጽ"
+" በኩል በሚልኩት መረጃ ላይ ምን እንደሚደረግ ያብራራል። ፖሊሲው ማሻሻያ 13ን ጨምሮ የእስራኤልን የግላዊነት ጥበቃ ሕግ፣"
+" 5741-1981፣ ይከተላል።"
+
+#: includes/class-real-accessability-admin.php:434
+msgid "What we collect"
+msgstr "ምን እንሰበስባለን"
+
+#: includes/class-real-accessability-admin.php:435
+msgid ""
+"Only what you type into the form: full name, phone and email, together with "
+"your site's address, your consent, the plugin version and the time of "
+"sending."
+msgstr ""
+"በቅጹ ውስጥ የሚጽፉትን ብቻ፦ ሙሉ ስም፣ ስልክ እና ኢሜይል፣ ከድረ-ገጽዎ አድራሻ፣ ከስምምነትዎ፣ ከተሰኪው ስሪት እና "
+"ከተላከበት ጊዜ ጋር።"
+
+#: includes/class-real-accessability-admin.php:436
+msgid ""
+"Your details are sent only when you click the button, together with the "
+"language and price shown here. Nothing else from your site is sent."
+msgstr ""
+"ዝርዝሮችዎ የሚላኩት አዝራሩን ሲጫኑ ብቻ ነው፤ ከእነሱም ጋር እዚህ የሚታዩት ቋንቋ እና ዋጋ ይላካሉ። ከጣቢያዎ ሌላ "
+"ምንም ነገር አይላክም።"
+
+#: includes/class-real-accessability-admin.php:439
+msgid "What we use it for"
+msgstr "ለምን እንጠቀምበታለን"
+
+#: includes/class-real-accessability-admin.php:440
+msgid ""
+"To get back to you about your request and send you a quote for an "
+"accessibility audit. We will not send you marketing messages unless you "
+"agree to receive them separately."
+msgstr ""
+"ስለ ጥያቄዎ ምላሽ ለመስጠት እና የተደራሽነት ኦዲት የዋጋ ግምት ለመላክ። በተናጠል ለመቀበል ካልተስማሙ በስተቀር "
+"የማስታወቂያ መልዕክቶችን አንልክልዎትም።"
+
+#: includes/class-real-accessability-admin.php:443
+msgid "Do you have to give it"
+msgstr "መረጃውን መስጠት ግዴታ ነውን"
+
+#: includes/class-real-accessability-admin.php:444
+msgid ""
+"You are not required by law to give us these details. Without them, we "
+"cannot get back to you about your request."
+msgstr "እነዚህን ዝርዝሮች እንዲሰጡን በሕግ አይገደዱም። ያለ እነሱ ግን ስለ ጥያቄዎ ምላሽ ልንሰጥዎ አንችልም።"
+
+#: includes/class-real-accessability-admin.php:447
+msgid "Who receives it"
+msgstr "መረጃውን ማን ይቀበላል"
+
+#: includes/class-real-accessability-admin.php:448
+msgid ""
+"The details are sent to Real Media Ltd., so it can get back to you with a "
+"quote."
+msgstr "ዝርዝሮቹ ወደ Real Media Ltd. ይላካሉ፤ ይህም የዋጋ ግምት ይዞ እንዲያገኝዎ ነው።"
+
+#: includes/class-real-accessability-admin.php:451
+msgid "How long we keep it"
+msgstr "ለምን ያህል ጊዜ እናቆየዋለን"
+
+#: includes/class-real-accessability-admin.php:452
+msgid ""
+"For as long as needed to handle your request, and for up to 24 months after "
+"our last contact, unless the law requires otherwise."
+msgstr ""
+"ጥያቄዎን ለማስተናገድ እስካስፈለገ ድረስ፣ እንዲሁም ከመጨረሻ ግንኙነታችን በኋላ እስከ 24 ወራት ድረስ፤ ሕጉ ሌላ "
+"ካላዘዘ በስተቀር።"
+
+#: includes/class-real-accessability-admin.php:455
+msgid "Security"
+msgstr "ደህንነት"
+
+#: includes/class-real-accessability-admin.php:456
+msgid ""
+"We use up-to-date measures to protect the details. No system is completely "
+"immune to unauthorized access, so we cannot guarantee absolute protection."
+msgstr ""
+"ዝርዝሮቹን ለመጠበቅ ወቅታዊ እርምጃዎችን እንጠቀማለን። ማንኛውም ሥርዓት ካልተፈቀደ መዳረሻ ሙሉ በሙሉ የተጠበቀ "
+"ስላልሆነ፣ ፍጹም ጥበቃን ማረጋገጥ አንችልም።"
+
+#: includes/class-real-accessability-admin.php:459
+msgid "Your rights"
+msgstr "መብቶችዎ"
+
+#. translators: %s: email address for privacy requests.
+#: includes/class-real-accessability-admin.php:461
+#, php-format
+msgid ""
+"You can ask at any time to see, correct or delete your details, or to "
+"withdraw your consent, by writing to %s."
+msgstr ""
+"በማንኛውም ጊዜ ወደ %s በመጻፍ ዝርዝሮችዎን ለማየት፣ ለማረም ወይም ለመሰረዝ፣ ወይም ስምምነትዎን ለማንሳት መጠየቅ "
+"ይችላሉ።"
+
+#: includes/class-real-accessability-admin.php:467
+msgid "Privacy policy for audit requests"
+msgstr "ለኦዲት ጥያቄዎች የግላዊነት ፖሊሲ"
+
+#: includes/class-real-accessability-admin.php:468
+#: includes/class-real-accessability-admin.php:477
+#: includes/class-real-accessability-admin.php:644
+msgid "Close"
+msgstr "ዝጋ"
+
+#: includes/class-real-accessability-admin.php:523
+msgid ""
+"You already sent a request in the last 24 hours. We will be in touch soon."
+msgstr "ባለፉት 24 ሰዓታት ውስጥ አስቀድመው ጥያቄ ልከዋል። በቅርቡ እናገኝዎታለን።"
+
+#: includes/class-real-accessability-admin.php:538
+#: includes/class-real-accessability-admin.php:574
+#: includes/class-real-accessability-admin.php:604
+#: includes/class-real-accessability-admin.php:757
+msgid "The request could not be sent. Please try again later."
+msgstr "ጥያቄው ሊላክ አልቻለም። እባክዎ ቆይተው እንደገና ይሞክሩ።"
+
+#: includes/class-real-accessability-admin.php:556
+msgid "Please fill in all the required fields."
+msgstr "እባክዎ ሁሉንም አስፈላጊ መስኮች ይሙሉ።"
+
+#: includes/class-real-accessability-admin.php:559
+#: includes/class-real-accessability-admin.php:763
+msgid "Please enter a valid email address."
+msgstr "እባክዎ ትክክለኛ የኢሜይል አድራሻ ያስገቡ።"
+
+#: includes/class-real-accessability-admin.php:567
+#: includes/class-real-accessability-admin.php:764
+msgid "Please enter a valid phone number."
+msgstr "እባክዎ ትክክለኛ የስልክ ቁጥር ያስገቡ።"
+
+#: includes/class-real-accessability-admin.php:570
+#: includes/class-real-accessability-admin.php:765
+msgid "Please agree to send your details."
+msgstr "እባክዎ ዝርዝሮችዎ እንዲላኩ ይስማሙ።"
+
+#: includes/class-real-accessability-admin.php:615
+msgid "Disclaimer:"
+msgstr "የኃላፊነት ማስተባበያ፦"
+
+#: includes/class-real-accessability-admin.php:616
+msgid ""
+"Real Accessibility adds an accessibility menu that helps visitors adjust how"
+" the site is displayed. On its own, it does not make a website accessible or"
+" compliant with any accessibility law or standard (such as WCAG or Israeli "
+"Standard 5568). The site owner remains solely responsible for the "
+"accessibility of the site's code and content and for meeting the legal "
+"requirements. The plugin is provided \"as is\", without warranty of any "
+"kind, and the plugin's authors are not liable for any damage resulting from "
+"its use."
+msgstr ""
+"Real Accessibility ጎብኚዎች ጣቢያው የሚታይበትን መንገድ እንዲያስተካክሉ የሚረዳ የተደራሽነት ምናሌ ያክላል። "
+"በራሱ ብቻ ድረ-ገጽን ተደራሽ አያደርግም፤ ከማንኛውም የተደራሽነት ሕግ ወይም ደረጃ (ለምሳሌ WCAG ወይም የእስራኤል "
+"ደረጃ 5568) ጋር የሚጣጣምም አያደርገውም። ለጣቢያው ኮድ እና ይዘት ተደራሽነት እንዲሁም የሕግ መስፈርቶችን ለማሟላት "
+"ብቸኛው ኃላፊነት ያለበት የጣቢያው ባለቤት ሆኖ ይቀጥላል። ተሰኪው «ባለበት ሁኔታ» ያለ ምንም ዓይነት ዋስትና ይቀርባል፤"
+" የተሰኪው አዘጋጆችም በአጠቃቀሙ ምክንያት ለሚደርስ ለማንኛውም ጉዳት ተጠያቂ አይደሉም።"
+
+#: includes/class-real-accessability-admin.php:628
+msgid "Your accessibility menu is ready"
+msgstr "የተደራሽነት ምናሌዎ ዝግጁ ነው"
+
+#: includes/class-real-accessability-admin.php:629
+msgid ""
+"Set the color and the position below, then turn the menu on. You can keep "
+"changing the settings after it is live."
+msgstr ""
+"ከታች ቀለሙን እና ቦታውን ያዘጋጁ፣ ከዚያም ምናሌውን ያብሩ። ምናሌው ሥራ ከጀመረ በኋላም ቅንብሮቹን መቀየር ይችላሉ።"
+
+#: includes/class-real-accessability-admin.php:647
+msgid ""
+"Approving turns the menu on and shows a small credit at its bottom, with a "
+"link to the plugin page on WordPress.org."
+msgstr ""
+"ማጽደቅ ምናሌውን ያበራል፤ በግርጌውም በWordPress.org ወደሚገኘው የተሰኪው ገጽ የሚወስድ አገናኝ ያለው ትንሽ "
+"መጠቀሻ ያሳያል።"
+
+#: includes/class-real-accessability-admin.php:648
+msgid ""
+"Real Accessibility is free, and the credit helps other site owners find it."
+msgstr "Real Accessibility ነፃ ነው፤ መጠቀሻውም ሌሎች የጣቢያ ባለቤቶች እንዲያገኙት ይረዳል።"
+
+#: includes/class-real-accessability-admin.php:652
+#: includes/class-real-accessability-admin.php:1117
+#: includes/class-real-accessability-admin.php:1251
+#: includes/class-real-accessability-admin.php:1349
+msgid "Cancel"
+msgstr "ይቅር"
+
+#: includes/class-real-accessability-admin.php:653
+msgid "You can also turn it on without the credit"
+msgstr "ያለ መጠቀሻው ማብራትም ይችላሉ"
+
+#: includes/class-real-accessability-admin.php:677
+#: includes/class-real-accessability-admin.php:998
+#: includes/class-real-accessability-admin.php:1006
+msgid "Button and menu"
+msgstr "አዝራር እና ምናሌ"
+
+#: includes/class-real-accessability-admin.php:678
+msgid "Features"
+msgstr "ባህሪያት"
+
+#: includes/class-real-accessability-admin.php:679
+msgid "Languages"
+msgstr "ቋንቋዎች"
+
+#: includes/class-real-accessability-admin.php:680
+#: includes/class-real-accessability-i18n.php:86
+msgid "Accessibility statement"
+msgstr "የተደራሽነት መግለጫ"
+
+#: includes/class-real-accessability-admin.php:681
+msgid "Accessibility audit"
+msgstr "የተደራሽነት ኦዲት"
+
+#: includes/class-real-accessability-admin.php:693
+#: includes/class-real-accessability-admin.php:809
+msgid "Real Accessibility"
+msgstr "Real Accessibility"
+
+#: includes/class-real-accessability-admin.php:694
+msgctxt "admin menu label"
+msgid "Real Accessibility"
+msgstr "Real Accessibility"
+
+#. translators: %s: contrast ratio, for example 1.8.
+#: includes/class-real-accessability-admin.php:755
+#, php-format
+msgid "Low contrast %s:1"
+msgstr "ዝቅተኛ ንፅፅር %s:1"
+
+#: includes/class-real-accessability-admin.php:756
+msgid "You have unsaved changes."
+msgstr "ያልተቀመጡ ለውጦች አሉዎት።"
+
+#: includes/class-real-accessability-admin.php:762
+msgid "This field is required."
+msgstr "ይህ መስክ ያስፈልጋል።"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:769
+#: includes/class-real-accessability-admin.php:1297
+#, php-format
+msgid "Flag for %s"
+msgstr "የቋንቋው ባንዲራ፦ %s"
+
+#: includes/class-real-accessability-admin.php:770
+msgid "Choose a flag"
+msgstr "ባንዲራ ይምረጡ"
+
+#: includes/class-real-accessability-admin.php:771
+msgid "Search for a country"
+msgstr "አገር ይፈልጉ"
+
+#: includes/class-real-accessability-admin.php:772
+msgid "Suggested"
+msgstr "የተጠቆሙ"
+
+#: includes/class-real-accessability-admin.php:773
+msgid "All countries"
+msgstr "ሁሉም አገሮች"
+
+#: includes/class-real-accessability-admin.php:774
+msgid "No country found"
+msgstr "ምንም አገር አልተገኘም"
+
+#. translators: %d: number of languages shown in the menu.
+#: includes/class-real-accessability-admin.php:789
+#, php-format
+msgid "%d language in the menu"
+msgid_plural "%d languages in the menu"
+msgstr[0] "በምናሌው ውስጥ %d ቋንቋ"
+msgstr[1] "በምናሌው ውስጥ %d ቋንቋዎች"
+
+#: includes/class-real-accessability-admin.php:813
+msgid "Settings sections"
+msgstr "የቅንብሮች ክፍሎች"
+
+#: includes/class-real-accessability-admin.php:815
+msgid "Legal compliance"
+msgstr "የሕግ ተገዢነት"
+
+#: includes/class-real-accessability-admin.php:825
+msgid ""
+"Thank you! The credit is shown at the bottom of the accessibility menu."
+msgstr "እናመሰግናለን! መጠቀሻው በተደራሽነት ምናሌው ግርጌ ላይ ይታያል።"
+
+#: includes/class-real-accessability-admin.php:832
+msgid ""
+"The accessibility menu is live on your site, with the credit at the bottom. "
+"Thank you!"
+msgstr "የተደራሽነት ምናሌው በጣቢያዎ ላይ ሥራ ጀምሯል፤ መጠቀሻውም በግርጌው ላይ ይታያል። እናመሰግናለን!"
+
+#: includes/class-real-accessability-admin.php:833
+msgid "The accessibility menu is live on your site!"
+msgstr "የተደራሽነት ምናሌው በጣቢያዎ ላይ ሥራ ጀምሯል!"
+
+#: includes/class-real-accessability-admin.php:834
+msgid "View the site"
+msgstr "ጣቢያውን ይመልከቱ"
+
+#: includes/class-real-accessability-admin.php:896
+msgid "Desktop"
+msgstr "ዴስክቶፕ"
+
+#: includes/class-real-accessability-admin.php:897
+msgid "Show the accessibility button on desktop"
+msgstr "የተደራሽነት አዝራሩን በዴስክቶፕ ላይ አሳይ"
+
+#: includes/class-real-accessability-admin.php:900
+msgid "Tablet"
+msgstr "ታብሌት"
+
+#: includes/class-real-accessability-admin.php:901
+msgid "Show the accessibility button on tablets"
+msgstr "የተደራሽነት አዝራሩን በታብሌቶች ላይ አሳይ"
+
+#: includes/class-real-accessability-admin.php:904
+msgid "Mobile"
+msgstr "ሞባይል"
+
+#: includes/class-real-accessability-admin.php:905
+msgid "Show the accessibility button on mobile"
+msgstr "የተደራሽነት አዝራሩን በሞባይል ላይ አሳይ"
+
+#: includes/class-real-accessability-admin.php:909
+msgid "Top left"
+msgstr "ላይ ግራ"
+
+#: includes/class-real-accessability-admin.php:910
+msgid "Top center"
+msgstr "ላይ መሃል"
+
+#: includes/class-real-accessability-admin.php:911
+msgid "Top right"
+msgstr "ላይ ቀኝ"
+
+#: includes/class-real-accessability-admin.php:912
+msgid "Middle left"
+msgstr "መሃል ግራ"
+
+#: includes/class-real-accessability-admin.php:913
+msgid "Center"
+msgstr "መሃል"
+
+#: includes/class-real-accessability-admin.php:914
+msgid "Middle right"
+msgstr "መሃል ቀኝ"
+
+#: includes/class-real-accessability-admin.php:915
+msgid "Bottom left"
+msgstr "ታች ግራ"
+
+#: includes/class-real-accessability-admin.php:916
+msgid "Bottom center"
+msgstr "ታች መሃል"
+
+#: includes/class-real-accessability-admin.php:917
+msgid "Bottom right"
+msgstr "ታች ቀኝ"
+
+#: includes/class-real-accessability-admin.php:920
+msgid "From the left"
+msgstr "ከግራ"
+
+#: includes/class-real-accessability-admin.php:921
+msgid "From the right"
+msgstr "ከቀኝ"
+
+#: includes/class-real-accessability-admin.php:922
+msgid "From the bottom"
+msgstr "ከታች"
+
+#: includes/class-real-accessability-admin.php:925
+#: includes/class-real-accessability-admin.php:1051
+msgid "Circle"
+msgstr "ክብ"
+
+#: includes/class-real-accessability-admin.php:926
+msgid "Rounded"
+msgstr "የተጠጋጋ"
+
+#: includes/class-real-accessability-admin.php:927
+#: includes/class-real-accessability-admin.php:1051
+msgid "Square"
+msgstr "ካሬ"
+
+#: includes/class-real-accessability-admin.php:937
+msgid "Device"
+msgstr "መሣሪያ"
+
+#: includes/class-real-accessability-admin.php:942
+msgid "hidden"
+msgstr "ተደብቋል"
+
+#: includes/class-real-accessability-admin.php:953
+msgid "Color"
+msgstr "ቀለም"
+
+#: includes/class-real-accessability-admin.php:958
+msgid "Brand color"
+msgstr "የብራንድ ቀለም"
+
+#: includes/class-real-accessability-admin.php:959
+msgid "All the menu and button colors come from it."
+msgstr "ሁሉም የምናሌው እና የአዝራሩ ቀለሞች ከዚህ ይመነጫሉ።"
+
+#: includes/class-real-accessability-admin.php:964
+msgid "Pick the brand color"
+msgstr "የብራንድ ቀለሙን ይምረጡ"
+
+#: includes/class-real-accessability-admin.php:969
+msgid "Button icon color"
+msgstr "የአዝራር አዶ ቀለም"
+
+#: includes/class-real-accessability-admin.php:970
+msgid "Automatic picks white or black, whichever has more contrast."
+msgstr "ራስ-ሰር ከነጭ እና ከጥቁር የበለጠ ንፅፅር ያለውን ይመርጣል።"
+
+#: includes/class-real-accessability-admin.php:975
+msgid "Custom icon color"
+msgstr "ብጁ የአዶ ቀለም"
+
+#: includes/class-real-accessability-admin.php:976
+msgid "Pick the icon color"
+msgstr "የአዶውን ቀለም ይምረጡ"
+
+#: includes/class-real-accessability-admin.php:979
+msgid "Automatic"
+msgstr "ራስ-ሰር"
+
+#: includes/class-real-accessability-admin.php:980
+msgid "Custom"
+msgstr "ብጁ"
+
+#: includes/class-real-accessability-admin.php:1000
+msgid "Show the button on"
+msgstr "አዝራሩ የሚታይባቸው መሣሪያዎች"
+
+#: includes/class-real-accessability-admin.php:1009
+#: includes/class-real-accessability-admin.php:1024
+msgid "Button position"
+msgstr "የአዝራር ቦታ"
+
+#: includes/class-real-accessability-admin.php:1010
+msgid "Shape and size"
+msgstr "ቅርጽ እና መጠን"
+
+#: includes/class-real-accessability-admin.php:1011
+msgid "The menu"
+msgstr "ምናሌው"
+
+#: includes/class-real-accessability-admin.php:1019
+msgid ""
+"The button is hidden on this device. Turn it back on with the icons above."
+msgstr "አዝራሩ በዚህ መሣሪያ ላይ ተደብቋል። ከላይ ባሉት አዶዎች መልሰው ያብሩት።"
+
+#: includes/class-real-accessability-admin.php:1036
+msgid "Distance from the edge - horizontal"
+msgstr "ከጠርዝ ያለው ርቀት - አግድም"
+
+#: includes/class-real-accessability-admin.php:1036
+#: includes/class-real-accessability-admin.php:1037
+msgid "Attached"
+msgstr "የተጣበቀ"
+
+#: includes/class-real-accessability-admin.php:1037
+msgid "Distance from the edge - vertical"
+msgstr "ከጠርዝ ያለው ርቀት - ቁልቁል"
+
+#: includes/class-real-accessability-admin.php:1044
+msgid "Shape"
+msgstr "ቅርጽ"
+
+#: includes/class-real-accessability-admin.php:1050
+msgid "Button size"
+msgstr "የአዝራር መጠን"
+
+#: includes/class-real-accessability-admin.php:1051
+msgid "Corner radius"
+msgstr "የማዕዘን ክብነት"
+
+#: includes/class-real-accessability-admin.php:1056
+msgid "Opens from the edge of the screen, wherever the button is."
+msgstr "አዝራሩ የትም ቢሆን ከማያ ገጹ ጠርዝ ይከፈታል።"
+
+#: includes/class-real-accessability-admin.php:1058
+msgid "Menu opens from"
+msgstr "ምናሌው የሚከፈትበት አቅጣጫ"
+
+#: includes/class-real-accessability-admin.php:1067
+msgid "Menu corner radius"
+msgstr "የምናሌ ማዕዘን ክብነት"
+
+#: includes/class-real-accessability-admin.php:1079
+#: includes/class-real-accessability-admin.php:1080
+#: includes/class-real-accessability-admin.php:1235
+#: includes/class-real-accessability-admin.php:1330
+msgid "Preview"
+msgstr "ቅድመ እይታ"
+
+#: includes/class-real-accessability-admin.php:1081
+msgid "Button"
+msgstr "አዝራር"
+
+#: includes/class-real-accessability-admin.php:1082
+msgid "Menu open"
+msgstr "የተከፈተ ምናሌ"
+
+#: includes/class-real-accessability-admin.php:1095
+#: includes/class-real-accessability-i18n.php:32
+msgid "Accessibility"
+msgstr "ተደራሽነት"
+
+#: includes/class-real-accessability-admin.php:1104
+msgid "The button is hidden on this device."
+msgstr "አዝራሩ በዚህ መሣሪያ ላይ ተደብቋል።"
+
+#: includes/class-real-accessability-admin.php:1116
+#: includes/class-real-accessability-admin.php:1250
+#: includes/class-real-accessability-admin.php:1348
+msgid "Save changes"
+msgstr "ለውጦችን አስቀምጥ"
+
+#: includes/class-real-accessability-admin.php:1118
+#: includes/class-real-accessability-admin.php:1252
+#: includes/class-real-accessability-admin.php:1350
+msgid "You have unsaved changes"
+msgstr "ያልተቀመጡ ለውጦች አሉዎት"
+
+#: includes/class-real-accessability-admin.php:1193
+msgid ""
+"Choose what visitors see in the accessibility menu. Sections without any "
+"option are not shown."
+msgstr "ጎብኚዎች በተደራሽነት ምናሌው ውስጥ ምን እንደሚያዩ ይምረጡ። ምንም አማራጭ የሌላቸው ክፍሎች አይታዩም።"
+
+#: includes/class-real-accessability-admin.php:1222
+msgid "Menu footer"
+msgstr "የምናሌ ግርጌ"
+
+#: includes/class-real-accessability-admin.php:1225
+msgid "Hide button"
+msgstr "የመደበቂያ አዝራር"
+
+#: includes/class-real-accessability-admin.php:1225
+msgid "Hides the accessibility button until the visitor's next visit"
+msgstr "የተደራሽነት አዝራሩን እስከ ጎብኚው ቀጣይ ጉብኝት ድረስ ይደብቃል"
+
+#: includes/class-real-accessability-admin.php:1226
+msgid "Plugin credit"
+msgstr "የተሰኪ መጠቀሻ"
+
+#: includes/class-real-accessability-admin.php:1226
+msgid ""
+"A small credit at the bottom of the menu, with a link to the plugin page on "
+"WordPress.org"
+msgstr "በምናሌው ግርጌ ላይ በWordPress.org ወደሚገኘው የተሰኪው ገጽ የሚወስድ አገናኝ ያለው ትንሽ መጠቀሻ"
+
+#: includes/class-real-accessability-admin.php:1237
+msgid "Preview of the accessibility menu"
+msgstr "የተደራሽነት ምናሌ ቅድመ እይታ"
+
+#: includes/class-real-accessability-admin.php:1276
+msgid "Menu languages"
+msgstr "የምናሌ ቋንቋዎች"
+
+#: includes/class-real-accessability-admin.php:1281
+msgid "Search languages"
+msgstr "ቋንቋዎችን ይፈልጉ"
+
+#: includes/class-real-accessability-admin.php:1283
+msgid "No language found"
+msgstr "ምንም ቋንቋ አልተገኘም"
+
+#: includes/class-real-accessability-admin.php:1293
+msgid "Drag to reorder"
+msgstr "ቅደም ተከተሉን ለመቀየር ይጎትቱ"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1315
+#, php-format
+msgid "Make %s the default"
+msgstr "ነባሪ ቋንቋ አድርግ፦ %s"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1316
+msgid "Default"
+msgstr "ነባሪ"
+
+#. translators: %s: language name.
+#: includes/class-real-accessability-admin.php:1319
+#, php-format
+msgid "Show %s in the menu"
+msgstr "በምናሌው ውስጥ አሳይ፦ %s"
+
+#: includes/class-real-accessability-admin.php:1362
+msgid "Statement page"
+msgstr "የመግለጫ ገጽ"
+
+#: includes/class-real-accessability-admin.php:1370
+msgid "- Select a page -"
+msgstr "- ገጽ ይምረጡ -"
+
+#: includes/class-real-accessability-admin.php:1377
+msgid "View page"
+msgstr "ገጹን ይመልከቱ"
+
+#: includes/class-real-accessability-admin.php:1379
+msgid ""
+"The page on your site with the accessibility statement. The \"Accessibility "
+"statement\" button in the menu links to it."
+msgstr ""
+"በጣቢያዎ ላይ የተደራሽነት መግለጫው ያለበት ገጽ። በምናሌው ውስጥ ያለው «የተደራሽነት መግለጫ» አዝራር ወደዚህ ገጽ "
+"ይወስዳል።"
+
+#: includes/class-real-accessability-admin.php:1383
+msgid "Statement button"
+msgstr "የመግለጫ አዝራር"
+
+#: includes/class-real-accessability-admin.php:1385
+msgid "Show the \"Accessibility statement\" button in the menu"
+msgstr "«የተደራሽነት መግለጫ» አዝራሩን በምናሌው ውስጥ አሳይ"
+
+#: includes/class-real-accessability-i18n.php:33
+msgid "Accessibility menu"
+msgstr "የተደራሽነት ምናሌ"
+
+#: includes/class-real-accessability-i18n.php:34
+msgid "Open accessibility menu"
+msgstr "የተደራሽነት ምናሌን ክፈት"
+
+#: includes/class-real-accessability-i18n.php:35
+msgid "Close accessibility menu (Esc)"
+msgstr "የተደራሽነት ምናሌን ዝጋ (Esc)"
+
+#: includes/class-real-accessability-i18n.php:36
+msgid "Menu language"
+msgstr "የምናሌ ቋንቋ"
+
+#: includes/class-real-accessability-i18n.php:37
+msgid "Choose language"
+msgstr "ቋንቋ ይምረጡ"
+
+#: includes/class-real-accessability-i18n.php:38
+msgid "No adjustments active"
+msgstr "ምንም ንቁ ማስተካከያ የለም"
+
+#: includes/class-real-accessability-i18n.php:39
+msgid "Ready-made profiles"
+msgstr "ዝግጁ መገለጫዎች"
+
+#: includes/class-real-accessability-i18n.php:40
+msgid "Seizure safe"
+msgstr "ለሚጥል በሽታ አስተማማኝ"
+
+#: includes/class-real-accessability-i18n.php:41
+msgid "Stops animations and flashing and dims colors"
+msgstr "እነማዎችን እና ብልጭታዎችን ያቆማል፣ ቀለሞችን ያደበዝዛል"
+
+#: includes/class-real-accessability-i18n.php:42
+msgid "Vision impaired"
+msgstr "የማየት እክል"
+
+#: includes/class-real-accessability-i18n.php:43
+msgid "High contrast, large text and emphasized headings"
+msgstr "ከፍተኛ ንፅፅር፣ ትልቅ ጽሑፍ እና የደመቁ ርዕሶች"
+
+#: includes/class-real-accessability-i18n.php:44
+msgid "ADHD and focus"
+msgstr "የትኩረት እክል"
+
+#: includes/class-real-accessability-i18n.php:45
+msgid "Fewer distractions, reading guide and line spacing"
+msgstr "ጥቂት ትኩረት የሚከፋፍሉ ነገሮች፣ የንባብ መሪ መስመር እና የመስመር ክፍተት"
+
+#: includes/class-real-accessability-i18n.php:46
+msgid "Dyslexia"
+msgstr "ዲስሌክሲያ"
+
+#: includes/class-real-accessability-i18n.php:47
+msgid "Readable font, letter spacing and reading guide"
+msgstr "ግልጽ ቅርጸ-ቁምፊ፣ የፊደል ክፍተት እና የንባብ መሪ መስመር"
+
+#: includes/class-real-accessability-i18n.php:48
+msgid "Motor impaired"
+msgstr "የእንቅስቃሴ እክል"
+
+#: includes/class-real-accessability-i18n.php:49
+msgid "Keyboard navigation, large cursor and larger text"
+msgstr "በቁልፍ ሰሌዳ ማሰስ፣ ትልቅ ጠቋሚ እና የበለጠ ትልቅ ጽሑፍ"
+
+#: includes/class-real-accessability-i18n.php:50
+msgid "Screen reader"
+msgstr "የማያ ገጽ አንባቢ"
+
+#: includes/class-real-accessability-i18n.php:51
+msgid "Keyboard navigation and emphasized links and headings"
+msgstr "በቁልፍ ሰሌዳ ማሰስ፣ የደመቁ አገናኞች እና ርዕሶች"
+
+#: includes/class-real-accessability-i18n.php:52
+msgid "Seniors"
+msgstr "አረጋውያን"
+
+#: includes/class-real-accessability-i18n.php:53
+msgid "Large text, large cursor and clear links"
+msgstr "ትልቅ ጽሑፍ፣ ትልቅ ጠቋሚ እና ግልጽ አገናኞች"
+
+#: includes/class-real-accessability-i18n.php:54
+msgid "Display"
+msgstr "ማሳያ"
+
+#: includes/class-real-accessability-i18n.php:55
+msgid "Contrast"
+msgstr "ንፅፅር"
+
+#: includes/class-real-accessability-i18n.php:56
+msgid "High contrast"
+msgstr "ከፍተኛ ንፅፅር"
+
+#: includes/class-real-accessability-i18n.php:57
+msgid "Inverted contrast"
+msgstr "የተገለበጠ ንፅፅር"
+
+#: includes/class-real-accessability-i18n.php:58
+msgid "Grayscale"
+msgstr "ግራጫማ"
+
+#: includes/class-real-accessability-i18n.php:59
+msgid "Readable font"
+msgstr "ግልጽ ቅርጸ-ቁምፊ"
+
+#: includes/class-real-accessability-i18n.php:60
+msgid "Highlight links"
+msgstr "አገናኞችን አድምቅ"
+
+#: includes/class-real-accessability-i18n.php:61
+msgid "Highlight headings"
+msgstr "ርዕሶችን አድምቅ"
+
+#: includes/class-real-accessability-i18n.php:62
+msgid "Large cursor"
+msgstr "ትልቅ ጠቋሚ"
+
+#: includes/class-real-accessability-i18n.php:63
+msgid "Hide images"
+msgstr "ምስሎችን ደብቅ"
+
+#: includes/class-real-accessability-i18n.php:64
+msgid "Magnifier"
+msgstr "ማጉያ"
+
+#: includes/class-real-accessability-i18n.php:65
+msgid "Text align"
+msgstr "የጽሑፍ አሰላለፍ"
+
+#: includes/class-real-accessability-i18n.php:66
+msgid "Align center"
+msgstr "መሃል ላይ"
+
+#: includes/class-real-accessability-i18n.php:67
+msgid "Align right"
+msgstr "ወደ ቀኝ"
+
+#: includes/class-real-accessability-i18n.php:68
+msgid "Align left"
+msgstr "ወደ ግራ"
+
+#: includes/class-real-accessability-i18n.php:69
+msgid "Text"
+msgstr "ጽሑፍ"
+
+#: includes/class-real-accessability-i18n.php:70
+msgid "Text size"
+msgstr "የጽሑፍ መጠን"
+
+#: includes/class-real-accessability-i18n.php:71
+msgid "Line spacing"
+msgstr "የመስመር ክፍተት"
+
+#: includes/class-real-accessability-i18n.php:72
+msgid "Letter spacing"
+msgstr "የፊደል ክፍተት"
+
+#: includes/class-real-accessability-i18n.php:73
+msgctxt "spacing level"
+msgid "Regular"
+msgstr "መደበኛ"
+
+#. translators: %s: setting name, for example "Text size".
+#: includes/class-real-accessability-i18n.php:75
+#, php-format
+msgid "Decrease %s"
+msgstr "%s ቀንስ"
+
+#. translators: %s: setting name, for example "Text size".
+#: includes/class-real-accessability-i18n.php:77
+#, php-format
+msgid "Increase %s"
+msgstr "%s ጨምር"
+
+#: includes/class-real-accessability-i18n.php:78
+msgid "Reading and navigation"
+msgstr "ንባብ እና አሰሳ"
+
+#: includes/class-real-accessability-i18n.php:79
+msgid "Reading guide"
+msgstr "የንባብ መሪ መስመር"
+
+#: includes/class-real-accessability-i18n.php:80
+msgid "A highlight bar that follows the pointer"
+msgstr "ጠቋሚውን የሚከተል የደመቀ አሞሌ"
+
+#: includes/class-real-accessability-i18n.php:81
+msgid "Stop animations"
+msgstr "እነማዎችን አቁም"
+
+#: includes/class-real-accessability-i18n.php:82
+msgid "Stops motion, flashing and video"
+msgstr "እንቅስቃሴን፣ ብልጭታን እና ቪዲዮን ያቆማል"
+
+#: includes/class-real-accessability-i18n.php:83
+msgid "Keyboard navigation"
+msgstr "በቁልፍ ሰሌዳ ማሰስ"
+
+#: includes/class-real-accessability-i18n.php:84
+msgid "A prominent focus frame on every move"
+msgstr "በእያንዳንዱ እርምጃ ጎልቶ የሚታይ የትኩረት ክፈፍ"
+
+#: includes/class-real-accessability-i18n.php:85
+msgid "Reset"
+msgstr "ዳግም አስጀምር"
+
+#: includes/class-real-accessability-i18n.php:87
+msgid "Hide"
+msgstr "ደብቅ"
+
+#: includes/class-real-accessability-i18n.php:88
+msgid "Accessibility plugin"
+msgstr "የተደራሽነት ተሰኪ"
+
+#. translators: %d: number of active accessibility adjustments.
+#: includes/class-real-accessability-i18n.php:94
+#, php-format
+msgid "%d adjustment active"
+msgid_plural "%d adjustments active"
+msgstr[0] "%d ንቁ ማስተካከያ"
+msgstr[1] "%d ንቁ ማስተካከያዎች"
+
+#: real-accessability.php:103
+msgid "Settings"
+msgstr "ቅንብሮች"

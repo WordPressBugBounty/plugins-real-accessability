@@ -1,0 +1,157 @@
+/*
+ * Real Accessibility - page adjustments.
+ * Each adjustment is a class on <html>. The widget itself lives in a shadow root
+ * (#real-accessibility), so none of these rules reach it.
+ */
+
+/* Contrast: high. :not(#real-accessibility) also lifts these rules above most theme rules. */
+html.ra-c-high,
+html.ra-c-high body {
+	background: #000 !important;
+}
+
+html.ra-c-high body *:not(#real-accessibility):not(img):not(video):not(picture):not(source):not(canvas):not(iframe):not(svg):not(svg *) {
+	background-color: #000 !important;
+	background-image: none !important;
+	color: #fff !important;
+	border-color: #fff !important;
+	text-shadow: none !important;
+	box-shadow: none !important;
+}
+
+html.ra-c-high body a[href]:not(#real-accessibility),
+html.ra-c-high body a[href] *:not(#real-accessibility) {
+	color: #ffe600 !important;
+}
+
+html.ra-c-high body :is(button, input[type="submit"], input[type="button"], .button, .wp-element-button, .wp-block-button__link):not(#real-accessibility),
+html.ra-c-high body :is(button, .button, .wp-element-button, .wp-block-button__link) *:not(#real-accessibility) {
+	background-color: #ffe600 !important;
+	color: #000 !important;
+}
+
+/* Contrast: inverted and grayscale. The widget draws these with an overlay; this is the
+   fallback until it loads and for browsers without backdrop-filter. */
+html.ra-c-invert:not(.ra-fx-ready) {
+	filter: invert(1) hue-rotate(180deg);
+}
+
+html.ra-c-gray:not(.ra-fx-ready) {
+	filter: grayscale(1);
+}
+
+/* Keep photos and video looking right when the page is inverted */
+html.ra-c-invert body :is(img, video, canvas, iframe) {
+	filter: invert(1) hue-rotate(180deg) !important;
+}
+
+/* Readable font - icon fonts keep their own font */
+html.ra-font body,
+html.ra-font body *:not(#real-accessibility):not(i):not([class*="icon"]):not([class*="Icon"]):not([class*="fa-"]):not(.fa):not(.fas):not(.far):not(.fab):not(.dashicons):not(.material-icons):not(.material-symbols-outlined) {
+	font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/* Highlight links */
+html.ra-links body a[href]:not(#real-accessibility) {
+	text-decoration: underline !important;
+	text-decoration-thickness: 2px !important;
+	text-underline-offset: 3px !important;
+	background-color: #fff3b0 !important;
+	color: #1a1a1a !important;
+}
+
+html.ra-links body a[href] *:not(#real-accessibility) {
+	color: #1a1a1a !important;
+}
+
+html.ra-c-high.ra-links body a[href]:not(#real-accessibility),
+html.ra-c-high.ra-links body a[href] *:not(#real-accessibility) {
+	background-color: #000 !important;
+	color: #ffe600 !important;
+}
+
+/* Highlight headings */
+html.ra-headings body :is(h1, h2, h3, h4, h5, h6, [role="heading"]):not(#real-accessibility) {
+	text-decoration: underline !important;
+	text-decoration-thickness: 3px !important;
+	text-underline-offset: 6px !important;
+}
+
+/* Large cursor */
+html.ra-cursor,
+html.ra-cursor body * {
+	cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cpath d='M9 4v35l9-8.5 6.5 14 6-2.8-6.4-13.7H37z' fill='%23000' stroke='%23fff' stroke-width='2.5' stroke-linejoin='round'/%3E%3C/svg%3E") 9 4, auto !important;
+}
+
+/* Hide images - keep their space so the layout does not jump */
+html.ra-noimg body img {
+	object-position: -99999px -99999px !important;
+	background: #e6e8ed !important;
+	outline: 1px dashed #aeb4c0 !important;
+	outline-offset: -1px !important;
+}
+
+html.ra-noimg body :is(video, picture source) {
+	visibility: hidden !important;
+}
+
+html.ra-noimg body *:not(#real-accessibility) {
+	background-image: none !important;
+}
+
+/* Text align */
+html.ra-align-center body *:not(#real-accessibility) {
+	text-align: center !important;
+}
+
+html.ra-align-right body *:not(#real-accessibility) {
+	text-align: right !important;
+}
+
+html.ra-align-left body *:not(#real-accessibility) {
+	text-align: left !important;
+}
+
+/* Line spacing */
+html.ra-lh-1 body *:not(#real-accessibility) {
+	line-height: 1.8 !important;
+}
+
+html.ra-lh-2 body *:not(#real-accessibility) {
+	line-height: 2 !important;
+}
+
+html.ra-lh-3 body *:not(#real-accessibility) {
+	line-height: 2.2 !important;
+}
+
+/* Letter spacing */
+html.ra-ls-1 body *:not(#real-accessibility) {
+	letter-spacing: 0.5px !important;
+}
+
+html.ra-ls-2 body *:not(#real-accessibility) {
+	letter-spacing: 1px !important;
+}
+
+html.ra-ls-3 body *:not(#real-accessibility) {
+	letter-spacing: 1.5px !important;
+}
+
+/* Stop animations */
+html.ra-motion *,
+html.ra-motion *::before,
+html.ra-motion *::after {
+	animation-duration: 0.001ms !important;
+	animation-delay: 0s !important;
+	animation-iteration-count: 1 !important;
+	transition-duration: 0.001ms !important;
+	transition-delay: 0s !important;
+	scroll-behavior: auto !important;
+}
+
+/* Keyboard navigation */
+html.ra-keys body *:focus {
+	outline: 3px solid var(--ra-accent, #003cff) !important;
+	outline-offset: 2px !important;
+}

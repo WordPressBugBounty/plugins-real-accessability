@@ -1,119 +1,106 @@
 <?php
 /**
- * Plugin Name: Real Accessibility
+ * Plugin Name: Real Accessibility: Accessibility Widget & Toolbar
  * Plugin URI: https://wordpress.org/plugins/real-accessability/
- * Description: Adds an accessibility toolbar to your website - font resizer, color inverse, black & white view, link highlighting, readable font and a page reader.
- * Version: 1.1
- * Requires at least: 5.0
- * Requires PHP: 7.0
+ * Description: An accessibility menu for your website - ready-made profiles, contrast modes, text size and spacing, readable font, reading guide and more, styled in your brand color.
+ * Version: 2.0.1
+ * Requires at least: 6.0
+ * Requires PHP: 7.4
  * Author: REALMEDIA
  * Author URI: https://realmedia.co.il
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: real-accessability
  * Domain Path: /languages
+ *
+ * @package Real_Accessability
+ *
+ * Copyright (C) 2026 REALMEDIA (https://realmedia.co.il)
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program (license.txt). If not, see https://www.gnu.org/licenses/.
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'REAL_ACCESSABILITY_VERSION', '1.1' );
+define( 'REAL_ACCESSABILITY_VERSION', '2.0.1' );
+define( 'REAL_ACCESSABILITY_FILE', __FILE__ );
+define( 'REAL_ACCESSABILITY_DIR', plugin_dir_path( __FILE__ ) );
+define( 'REAL_ACCESSABILITY_URL', plugin_dir_url( __FILE__ ) );
 
-// Load Localization
+// The plugin version plus the file's change time, so browsers never keep a stale copy of a file.
+function real_accessability_asset_version( $file ) {
+	$path = REAL_ACCESSABILITY_DIR . $file;
+	return REAL_ACCESSABILITY_VERSION . ( file_exists( $path ) ? '.' . filemtime( $path ) : '' );
+}
+
+require_once REAL_ACCESSABILITY_DIR . 'includes/class-real-accessability-settings.php';
+require_once REAL_ACCESSABILITY_DIR . 'includes/class-real-accessability-i18n.php';
+require_once REAL_ACCESSABILITY_DIR . 'includes/class-real-accessability-frontend.php';
+
+if ( is_admin() ) {
+	require_once REAL_ACCESSABILITY_DIR . 'includes/class-real-accessability-admin.php';
+}
+
+// Load Localization. Kept even though WordPress.org language packs load automatically,
+// because the plugin ships its own translations for languages without a language pack.
 function real_accessability_load_textdomain() {
 	load_plugin_textdomain( 'real-accessability', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 }
 add_action( 'init', 'real_accessability_load_textdomain' );
 
-// Load all the needed scripts
-function real_accessability_assets() {
-	wp_enqueue_style( 'real-accessability', plugin_dir_url( __FILE__ ) . 'real-accessability.css', array(), REAL_ACCESSABILITY_VERSION );
-	wp_enqueue_script( 'real-accessability', plugin_dir_url( __FILE__ ) . 'real-accessability.js', array( 'jquery' ), REAL_ACCESSABILITY_VERSION, true );
-	wp_add_inline_script( 'real-accessability', 'jQuery(function(){ jQuery.RealAccessability({ hideOnScroll: false }); });' );
+// A new install waits for the owner to turn the menu on from the settings screen.
+// Updates do not run this, so sites that already use the plugin keep their menu.
+function real_accessability_activate( $network_wide = false ) {
+	if ( is_multisite() && $network_wide ) {
+		foreach ( get_sites( array( 'fields' => 'ids', 'number' => 0 ) ) as $site_id ) {
+			switch_to_blog( $site_id );
+			real_accessability_start_off();
+			restore_current_blog();
+		}
+		return;
+	}
+	real_accessability_start_off();
 }
-add_action( 'wp_enqueue_scripts', 'real_accessability_assets' );
+register_activation_hook( __FILE__, 'real_accessability_activate' );
 
-// Read the visitor's saved settings from the cookie
-function real_accessability_get_settings() {
-	$settings = array(
-		'effect'        => null,
-		'linkHighlight' => false,
-		'regularFont'   => false,
-	);
-
-	if ( empty( $_COOKIE['real-accessability'] ) || ! is_string( $_COOKIE['real-accessability'] ) ) {
-		return $settings;
+function real_accessability_start_off() {
+	if ( false === get_option( Real_Accessability_Settings::OPTION ) ) {
+		Real_Accessability_Settings::save( array( 'live' => 0, 'off_since' => time() ) );
 	}
-
-	$cookie = json_decode( sanitize_text_field( wp_unslash( $_COOKIE['real-accessability'] ) ), true );
-
-	if ( ! is_array( $cookie ) ) {
-		return $settings;
-	}
-
-	$effects = array( 'real-accessability-grayscale', 'real-accessability-invert' );
-
-	if ( isset( $cookie['effect'] ) && in_array( $cookie['effect'], $effects, true ) ) {
-		$settings['effect'] = $cookie['effect'];
-	}
-
-	$settings['linkHighlight'] = ! empty( $cookie['linkHighlight'] );
-	$settings['regularFont']   = ! empty( $cookie['regularFont'] );
-
-	return $settings;
 }
 
-// Add accessability class to body
-function real_accessability_body_class( $classes ) {
-	$settings = real_accessability_get_settings();
-
-	$classes[] = 'real-accessability-body';
-
-	if ( $settings['effect'] ) {
-		$classes[] = $settings['effect'];
+// Sites updated from 1.x have no saved settings and run on the defaults, with the menu on.
+// Saving them once keeps the menu on if the plugin is later deactivated and activated again.
+function real_accessability_keep_updated_sites_on() {
+	if ( false === get_option( Real_Accessability_Settings::OPTION ) ) {
+		Real_Accessability_Settings::save( array( 'live' => 1 ) );
 	}
-
-	if ( $settings['linkHighlight'] ) {
-		$classes[] = 'real-accessability-linkHighlight';
-	}
-
-	if ( $settings['regularFont'] ) {
-		$classes[] = 'real-accessability-regularFont';
-	}
-
-	return $classes;
 }
-add_filter( 'body_class', 'real_accessability_body_class' );
+add_action( 'admin_init', 'real_accessability_keep_updated_sites_on' );
 
-// Toolbar HTML
-function real_accessability_html() {
-	$images = plugin_dir_url( __FILE__ ) . 'images/';
-	?>
-	<div id="real-accessability">
-		<a href="#" id="real-accessability-btn" role="button" aria-expanded="false" aria-controls="real-accessability-panel" aria-label="<?php esc_attr_e( 'Accessibility toolbar', 'real-accessability' ); ?>"><i class="real-accessability-loading" aria-hidden="true"></i><i class="real-accessability-icon" aria-hidden="true"></i></a>
-		<div id="real-accessability-panel">
-			<ul>
-				<li><a href="#" role="button" id="real-accessability-biggerFont"><?php esc_html_e( 'Increase Font', 'real-accessability' ); ?></a></li>
-				<li><a href="#" role="button" id="real-accessability-smallerFont"><?php esc_html_e( 'Decrease Font', 'real-accessability' ); ?></a></li>
-				<li><a href="#" role="button" aria-pressed="false" id="real-accessability-grayscale" class="real-accessability-effect"><?php esc_html_e( 'Black & White', 'real-accessability' ); ?></a></li>
-				<li><a href="#" role="button" aria-pressed="false" id="real-accessability-invert" class="real-accessability-effect"><?php esc_html_e( 'Inverse Colors', 'real-accessability' ); ?></a></li>
-				<li><a href="#" role="button" aria-pressed="false" id="real-accessability-linkHighlight"><?php esc_html_e( 'Highlight Links', 'real-accessability' ); ?></a></li>
-				<li><a href="#" role="button" aria-pressed="false" id="real-accessability-regularFont"><?php esc_html_e( 'Regular Font', 'real-accessability' ); ?></a></li>
-				<li><a href="#" role="button" id="real-accessability-reset"><?php esc_html_e( 'Reset', 'real-accessability' ); ?></a></li>
-			</ul>
+Real_Accessability_Frontend::init();
 
-			<div id="real-accessability-player" hidden>
-				<span><?php esc_html_e( 'Page Reader', 'real-accessability' ); ?></span>
-				<button type="button" id="real-accessability-play"><img src="<?php echo esc_url( $images . 'play-blue.gif' ); ?>" alt="<?php esc_attr_e( 'Read page content out loud', 'real-accessability' ); ?>"></button>
-				<button type="button" id="real-accessability-pause"><img src="<?php echo esc_url( $images . 'pause-gray.gif' ); ?>" alt="<?php esc_attr_e( 'Pause reading', 'real-accessability' ); ?>"></button>
-				<button type="button" id="real-accessability-stop"><img src="<?php echo esc_url( $images . 'stop-gray.gif' ); ?>" alt="<?php esc_attr_e( 'Stop reading', 'real-accessability' ); ?>"></button>
-				<a href="<?php echo esc_url( plugin_dir_url( __FILE__ ) . 'support.html' ); ?>" id="real-accessability-support" target="_blank" rel="noopener nofollow"><img src="<?php echo esc_url( $images . 'user-blue.gif' ); ?>" alt="<?php esc_attr_e( 'Screen reader support (opens in a new tab)', 'real-accessability' ); ?>"></a>
-			</div>
-
-			<div id="real-accessability-copyright"><span>Real Accessibility</span></div>
-		</div>
-	</div>
-	<?php
+if ( is_admin() ) {
+	Real_Accessability_Admin::init();
 }
-add_action( 'wp_footer', 'real_accessability_html' );
+
+// Add a "Settings" link on the Plugins screen.
+function real_accessability_action_links( $links ) {
+	$url = admin_url( 'admin.php?page=real-accessability' );
+	array_unshift( $links, '<a href="' . esc_url( $url ) . '">' . esc_html__( 'Settings', 'real-accessability' ) . '</a>' );
+	return $links;
+}
+add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'real_accessability_action_links' );

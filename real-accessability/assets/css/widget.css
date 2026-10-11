@@ -1,0 +1,922 @@
+/*
+ * Real Accessibility - widget styles.
+ * Loaded inside the widget's shadow root, so the theme's CSS cannot reach it.
+ * Colors come from variables set by widget.js from the brand color.
+ */
+
+:host {
+	all: initial !important;
+	position: fixed !important;
+	top: 0 !important;
+	left: 0 !important;
+	width: 0 !important;
+	height: 0 !important;
+	z-index: 2147483647 !important;
+	display: block !important;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+[hidden] {
+	display: none !important;
+}
+
+.ra-ui {
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.4;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-align: start;
+	text-transform: none;
+	color: #171717;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+button,
+a {
+	font: inherit;
+	color: inherit;
+	margin: 0;
+	text-transform: none;
+	letter-spacing: inherit;
+	-webkit-tap-highlight-color: transparent;
+}
+
+button {
+	appearance: none;
+	background: none;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+}
+
+svg {
+	display: block;
+	flex: none;
+}
+
+h2,
+h3 {
+	font: inherit;
+	margin: 0;
+}
+
+:focus {
+	outline: none;
+}
+
+:focus-visible {
+	outline: 2px solid var(--ink);
+	outline-offset: 2px;
+}
+
+/* Stacking inside the widget: the open menu always covers the button, the button stays above the dimmed page */
+.ra-fx {
+	z-index: 1;
+}
+
+.ra-guide {
+	z-index: 2;
+}
+
+.ra-mag {
+	z-index: 3;
+}
+
+.ra-scrim {
+	z-index: 4;
+}
+
+.ra-fab {
+	z-index: 5;
+}
+
+.ra-drawer {
+	z-index: 6;
+}
+
+/* Floating button */
+.ra-fab {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--fab-icon);
+	background: radial-gradient(90% 150% at 100% 0%, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0) 55%), linear-gradient(225deg, var(--hl) 0%, var(--a) 50%, var(--hd) 100%);
+	box-shadow: 0 10px 24px -8px var(--a70), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+	transition: scale 0.15s ease;
+}
+
+.ra-fab:hover {
+	scale: 1.05;
+}
+
+.ra-fab:focus-visible {
+	outline: 3px solid var(--ink);
+	outline-offset: 3px;
+}
+
+.ra-fab svg {
+	width: 58%;
+	height: auto;
+}
+
+.ra-hidden .ra-fab {
+	display: none !important;
+}
+
+/* Admin preview: the menu alone */
+.ra-preview .ra-fab,
+.ra-preview .ra-scrim {
+	display: none !important;
+}
+
+.ra-preview .ra-drawer {
+	width: 100% !important;
+	transition: none !important;
+}
+
+/* The item that was just turned on in the settings */
+.ra-preview .ra-flash {
+	animation: ra-flash 1.6s ease-out;
+}
+
+@keyframes ra-flash {
+	0%,
+	45% {
+		outline: 2px solid var(--a);
+		outline-offset: -2px;
+	}
+
+	100% {
+		outline: 2px solid transparent;
+		outline-offset: -2px;
+	}
+}
+
+/* Page dimming behind the menu */
+.ra-scrim {
+	position: fixed;
+	inset: 0;
+	background: rgba(17, 17, 17, 0.14);
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.2s ease;
+}
+
+.ra-open .ra-scrim {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+/* Menu */
+.ra-drawer {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	background: #f5f5f5;
+	color: #171717;
+	overflow: hidden;
+	visibility: hidden;
+	transition: transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1), visibility 0s linear 0.28s;
+}
+
+.ra-ui.ra-open .ra-drawer {
+	visibility: visible;
+	transform: none;
+	transition: transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1), visibility 0s;
+}
+
+/* Header */
+.ra-head {
+	position: relative;
+	z-index: 5;
+	flex: none;
+	padding-block: 20px 22px;
+	padding-inline: 28px 18px;
+	color: var(--on);
+	background: radial-gradient(90% 150% at 100% 0%, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0) 55%), linear-gradient(225deg, var(--hl) 0%, var(--a) 50%, var(--hd) 100%);
+}
+
+.ra-head :focus-visible {
+	outline-color: var(--on);
+}
+
+.ra-head-row {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 12px;
+}
+
+.ra-titles {
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+	min-width: 0;
+}
+
+/* The title gets focus when the menu opens, so screen readers start there - no ring needed */
+.ra-title:focus,
+.ra-title:focus-visible {
+	outline: none;
+}
+
+.ra-title {
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: -0.01em;
+	line-height: 1.1;
+}
+
+.ra-status {
+	display: inline-flex;
+	align-items: center;
+	gap: 7px;
+	font-size: 12.5px;
+	font-weight: 500;
+	color: var(--on-soft);
+}
+
+.ra-dot {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: var(--dot-off);
+	box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1);
+	flex: none;
+}
+
+.ra-active .ra-dot {
+	background: #3ddc97;
+}
+
+.ra-ctrls {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	flex: none;
+}
+
+.ra-hbtn {
+	height: 32px;
+	border-radius: 999px;
+	background: #fff;
+	color: #171717;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 4px 10px -4px rgba(0, 16, 64, 0.35);
+}
+
+.ra-langbtn {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	padding-inline: 8px 9px;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+}
+
+.ra-close {
+	width: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #d92d20;
+}
+
+.ra-flag {
+	display: inline-flex;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 0 0 1.5px #e5e5e5;
+	flex: none;
+	background: #f0f0f0;
+}
+
+.ra-flag img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.ra-langmenu {
+	position: absolute;
+	top: 60px;
+	inset-inline-end: 58px;
+	width: 240px;
+	max-width: calc(100% - 36px);
+	/* About six languages, then it scrolls */
+	max-height: min(276px, 60vh);
+	overflow-y: auto;
+	overscroll-behavior: contain;
+	scrollbar-width: thin;
+	scrollbar-color: #858585 transparent;
+	display: flex;
+	flex-direction: column;
+	padding: 6px;
+	background: #fff;
+	color: #171717;
+	border-radius: 12px;
+	box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(0, 0, 0, 0.06);
+}
+
+.ra-langmenu::-webkit-scrollbar {
+	width: 6px;
+}
+
+.ra-langmenu::-webkit-scrollbar-thumb {
+	border-radius: 3px;
+	background: #858585;
+}
+
+.ra-langmenu::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.ra-opt {
+	display: flex;
+	flex: none;
+	align-items: center;
+	gap: 10px;
+	width: 100%;
+	min-height: 44px;
+	padding: 0 10px;
+	border-radius: 8px;
+	text-align: start;
+	font-size: 13px;
+}
+
+/* A line between languages */
+.ra-opt + .ra-opt {
+	position: relative;
+}
+
+.ra-opt + .ra-opt::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 10px;
+	right: 10px;
+	height: 1px;
+	background: #efefef;
+}
+
+.ra-opt:hover::before,
+.ra-opt:hover + .ra-opt::before,
+.ra-opt[aria-selected="true"]::before,
+.ra-opt[aria-selected="true"] + .ra-opt::before {
+	opacity: 0;
+}
+
+.ra-opt:hover {
+	background: #f7f7f7;
+}
+
+.ra-opt[aria-selected="true"] {
+	background: #f2f2f2;
+}
+
+.ra-opt .ra-flag {
+	width: 22px;
+	height: 22px;
+}
+
+.ra-opt-text {
+	display: flex;
+	flex-direction: column;
+	gap: 1px;
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+.ra-opt-name {
+	font-weight: 600;
+}
+
+/* Names keep their own direction but line up at the start of the menu */
+.ra-opt-text {
+	align-items: flex-start;
+}
+
+.ra-opt-check {
+	color: var(--ink);
+	visibility: hidden;
+}
+
+.ra-opt[aria-selected="true"] .ra-opt-check {
+	visibility: visible;
+}
+
+/* Scrolling body - the scrollbar sits on the side facing the site */
+.ra-vs {
+	flex: 1 1 auto;
+	min-height: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	scrollbar-gutter: stable;
+	overscroll-behavior: contain;
+}
+
+.ra-rtl .ra-vs {
+	direction: ltr;
+}
+
+.ra-ltr .ra-vs {
+	direction: rtl;
+}
+
+.ra-rtl .ra-body {
+	direction: rtl;
+}
+
+.ra-ltr .ra-body {
+	direction: ltr;
+}
+
+.ra-vs::-webkit-scrollbar {
+	width: 10px;
+}
+
+.ra-vs::-webkit-scrollbar-track {
+	background: #e8e8e8;
+}
+
+.ra-vs::-webkit-scrollbar-thumb {
+	background: #858585;
+	border-radius: 0;
+}
+
+.ra-vs::-webkit-scrollbar-thumb:hover {
+	background: #6e6e6e;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+	.ra-vs {
+		scrollbar-color: #858585 #e8e8e8;
+	}
+}
+
+.ra-body {
+	display: flex;
+	flex-direction: column;
+	gap: 22px;
+	padding: 18px 16px 20px;
+}
+
+.ra-sec {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.ra-h3 {
+	padding: 0 2px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #171717;
+}
+
+/* Profiles */
+.ra-hs {
+	display: flex;
+	gap: 10px;
+	overflow-x: auto;
+	scrollbar-width: none;
+	padding: 4px 16px 10px;
+	margin: -4px -16px -6px;
+	scroll-snap-type: x mandatory;
+	scroll-padding-inline: 16px;
+}
+
+.ra-hs::-webkit-scrollbar {
+	display: none;
+}
+
+.ra-prof {
+	flex: 0 0 152px;
+	/* Grows with longer translations - the row keeps every card at the height of the tallest */
+	min-height: 128px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 10px;
+	padding: 12px;
+	overflow-wrap: break-word;
+	border-radius: 12px;
+	background: #fff;
+	color: #171717;
+	text-align: start;
+	scroll-snap-align: start;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.07);
+	transition: box-shadow 0.15s, background-color 0.15s;
+}
+
+.ra-prof[aria-pressed="true"] {
+	background: var(--tint);
+	box-shadow: 0 0 0 2px var(--a), 0 12px 24px -14px var(--a70);
+}
+
+.ra-prof-top {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.ra-prof-ic {
+	width: 36px;
+	height: 36px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	background: linear-gradient(135deg, var(--c1) 0%, var(--c2) 100%);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.28), 0 4px 10px -4px var(--c2);
+}
+
+.ra-prof-check {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	background: var(--a);
+	color: var(--on);
+}
+
+.ra-prof[aria-pressed="true"] .ra-prof-check {
+	display: flex;
+}
+
+.ra-prof-text {
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+}
+
+.ra-prof-name {
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 1.25;
+}
+
+.ra-prof-desc {
+	font-size: 11px;
+	line-height: 1.4;
+	color: #737373;
+}
+
+.ra-prof[aria-pressed="true"] .ra-prof-desc {
+	color: #525252;
+}
+
+.ra-track {
+	position: relative;
+	height: 4px;
+	margin: 0 2px;
+	border-radius: 2px;
+	background: rgba(0, 0, 0, 0.08);
+}
+
+.ra-thumb {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	inset-inline-start: 0;
+	width: 40%;
+	border-radius: 2px;
+	background: var(--a);
+}
+
+/* Display tiles */
+.ra-tiles {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 10px;
+}
+
+.ra-tile {
+	min-height: 88px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	padding: 10px 8px;
+	border-radius: 12px;
+	background: #fff;
+	color: #171717;
+	font-size: 11.5px;
+	font-weight: 600;
+	line-height: 1.2;
+	text-align: center;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.07);
+	transition: box-shadow 0.15s, background-color 0.15s, color 0.15s;
+}
+
+.ra-tile svg {
+	width: 24px;
+	height: 24px;
+	color: var(--ink);
+}
+
+.ra-tile[aria-pressed="true"] {
+	background: var(--a);
+	color: var(--on);
+	box-shadow: 0 10px 20px -10px var(--a85), inset 0 1px 0 rgba(255, 255, 255, 0.16);
+}
+
+.ra-tile[aria-pressed="true"] svg {
+	color: var(--on);
+}
+
+/* Cards with rows */
+.ra-card {
+	padding: 0 14px;
+	border-radius: 12px;
+	background: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.07);
+}
+
+.ra-row {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	min-height: 60px;
+}
+
+.ra-row + .ra-row {
+	border-top: 1px solid #efefef;
+}
+
+.ra-row-sw {
+	min-height: 64px;
+	cursor: pointer;
+}
+
+.ra-row-ic {
+	width: 32px;
+	height: 32px;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--a);
+	color: var(--on);
+	flex: none;
+}
+
+.ra-row-ic svg {
+	width: 20px;
+	height: 20px;
+}
+
+.ra-row-text {
+	flex: 1 1 auto;
+	min-width: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.ra-row-label {
+	font-size: 13.5px;
+	font-weight: 700;
+}
+
+.ra-row-desc {
+	font-size: 11.5px;
+	color: #737373;
+}
+
+/* - value + */
+/* Long single words in some languages (Выравнивание) break with a hyphen instead of touching the edges */
+.ra-tile-label {
+	max-width: 100%;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+	overflow-wrap: break-word;
+}
+
+.ra-step {
+	display: inline-flex;
+	align-items: center;
+	gap: 2px;
+	padding: 3px;
+	border-radius: 999px;
+	background: #f0f0f0;
+	flex: none;
+}
+
+.ra-sbtn {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+	color: #171717;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14), 0 0 0 0.5px rgba(0, 0, 0, 0.08);
+}
+
+.ra-sbtn[aria-disabled="true"] {
+	opacity: 0.4;
+	cursor: default;
+}
+
+.ra-sval {
+	min-width: 58px;
+	padding-inline: 6px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 700;
+	color: var(--ink);
+}
+
+/* Switch */
+.ra-switch {
+	position: relative;
+	width: 44px;
+	height: 26px;
+	border-radius: 999px;
+	background: #e5e5e5;
+	flex: none;
+	transition: background-color 0.15s;
+}
+
+.ra-knob {
+	position: absolute;
+	top: 2px;
+	inset-inline-start: 2px;
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background: #fff;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+	transition: inset-inline-start 0.15s;
+}
+
+.ra-switch[aria-checked="true"] {
+	background: var(--a);
+}
+
+.ra-switch[aria-checked="true"] .ra-knob {
+	inset-inline-start: 20px;
+}
+
+/* Footer */
+.ra-foot {
+	position: relative;
+	z-index: 2;
+	flex: none;
+	padding-block: 12px;
+	padding-inline: 26px 16px;
+	background: #fff;
+	box-shadow: 0 -1px 0 #efefef, 0 -8px 24px -16px rgba(0, 0, 0, 0.18);
+}
+
+.ra-foot-btns {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.ra-fbtn {
+	/* Each button starts at its narrowest (its longest word) and the spare room is shared, so a long
+	   label (Declaración de accesibilidad) gets more. Only when even that does not fit, they wrap to a second row */
+	flex: 1 1 0;
+	min-width: min-content;
+	/* Long labels (Accessibility statement) wrap to a second line instead of being cut */
+	min-height: 42px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 7px;
+	padding: 6px 8px;
+	border-radius: 10px;
+	background: #f2f2f2;
+	color: #171717;
+	font-size: 12.5px;
+	font-weight: 600;
+	line-height: 1.2;
+	text-align: center;
+	text-decoration: none;
+}
+
+.ra-fbtn:hover {
+	background: #e9e9e9;
+}
+
+/* The accessibility statement: its own row, full width */
+.ra-fbtn.ra-fbtn-wide {
+	flex-basis: 100%;
+}
+
+.ra-fbtn svg {
+	flex: none;
+	width: 16px;
+	height: 16px;
+}
+
+.ra-credit {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 5px;
+	margin-top: 10px;
+	font-size: 11px;
+	font-weight: 500;
+	color: #171717;
+	text-decoration: none;
+}
+
+.ra-credit span {
+	position: relative;
+	top: -1.5px;
+}
+
+.ra-credit img {
+	display: block;
+	width: 93px;
+	height: 16px;
+}
+
+/* Reading guide, magnifier and the color overlay */
+.ra-guide {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 64px;
+	background: rgba(255, 214, 0, 0.3);
+	border-top: 2px solid #e04f16;
+	border-bottom: 2px solid #e04f16;
+	pointer-events: none;
+	will-change: transform;
+}
+
+.ra-mag {
+	position: fixed;
+	top: 0;
+	left: 0;
+	max-width: min(440px, 90vw);
+	padding: 12px 16px;
+	border-radius: 12px;
+	background: #171717;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.35;
+	box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+	pointer-events: none;
+	overflow-wrap: anywhere;
+	display: -webkit-box;
+	-webkit-line-clamp: 6;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.ra-fx {
+	position: fixed;
+	inset: 0;
+	pointer-events: none;
+}
+
+.ra-fx-invert {
+	-webkit-backdrop-filter: invert(1) hue-rotate(180deg);
+	backdrop-filter: invert(1) hue-rotate(180deg);
+}
+
+.ra-fx-gray {
+	-webkit-backdrop-filter: grayscale(1);
+	backdrop-filter: grayscale(1);
+}
+
+/* No motion inside the widget when animations are stopped or the visitor prefers less motion */
+.ra-nomotion *,
+.ra-nomotion *::before,
+.ra-nomotion *::after {
+	transition: none !important;
+	animation: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		transition: none !important;
+		animation: none !important;
+	}
+}
