@@ -48,6 +48,7 @@ class Real_Accessability_Settings {
 		return array(
 			'color'            => '#003CFF',
 			'icon_color'       => '',
+			'flat'             => 0,
 			'devices'          => array(
 				'desktop' => $device,
 				'tablet'  => array_merge( $device, array( 'offset_x' => 20, 'offset_y' => 20 ) ),
@@ -155,10 +156,11 @@ class Real_Accessability_Settings {
 		if ( 'button' === $tab ) {
 			$settings['color']      = self::sanitize_hex( $input['color'] ?? '', $settings['color'] );
 			$settings['icon_color'] = ( isset( $input['icon_mode'] ) && 'custom' === $input['icon_mode'] ) ? self::sanitize_hex( $input['icon_color'] ?? '', '' ) : '';
+			$settings['flat']       = empty( $input['flat'] ) ? 0 : 1;
 
 			foreach ( self::devices() as $device ) {
 				$in   = isset( $input['devices'][ $device ] ) && is_array( $input['devices'][ $device ] ) ? $input['devices'][ $device ] : array();
-				$size = self::int_between( $in['size'] ?? 52, 40, 72 );
+				$size = self::int_between( $in['size'] ?? 52, 28, 72 );
 
 				$settings['devices'][ $device ] = array(
 					'show'          => empty( $in['show'] ) ? 0 : 1,

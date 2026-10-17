@@ -2,7 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Real Accessibility 2.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-accessability/\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-"
+"accessability\n"
+"POT-Creation-Date: 2026-10-15T00:01:02+00:00\n"
 "PO-Revision-Date: 2026-10-11 12:00+0300\n"
 "Last-Translator: REALMEDIA <office@realmedia.co.il>\n"
 "Language-Team: Slovak\n"
@@ -10,8 +12,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=((n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2));\n"
+"Plural-Forms: nplurals=3; plural=((n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : "
+"2));\n"
 "X-Domain: real-accessability\n"
+
+#. Plugin Name of the plugin
+#: real-accessability.php
+msgid "Real Accessibility: Accessibility Widget & Toolbar"
+msgstr ""
 
 #. Plugin URI of the plugin
 #: real-accessability.php
@@ -77,8 +85,8 @@ msgid ""
 "Real Accessibility 2.0 is ready. Set the brand color and the button "
 "position, and choose whether to show the plugin credit."
 msgstr ""
-"Plugin Real Accessibility 2.0 je pripravený. Nastavte farbu značky a pozíciu"
-" tlačidla a zvoľte, či sa má zobrazovať zmienka o plugine."
+"Plugin Real Accessibility 2.0 je pripravený. Nastavte farbu značky a pozíciu "
+"tlačidla a zvoľte, či sa má zobrazovať zmienka o plugine."
 
 #: includes/class-real-accessability-admin.php:195
 msgid "Open Real Accessibility"
@@ -101,6 +109,10 @@ msgstr "Schváliť"
 msgid "No thanks"
 msgstr "Nie, ďakujem"
 
+#: includes/class-real-accessability-admin.php:225
+msgid "Real Media - website accessibility services"
+msgstr ""
+
 #: includes/class-real-accessability-admin.php:244
 msgid "Load WooCommerce stores in 249ms"
 msgstr "Načítanie obchodov WooCommerce za 249 ms"
@@ -112,6 +124,10 @@ msgstr "Načítanie webov WordPress už za 37 ms"
 #: includes/class-real-accessability-admin.php:255
 msgid "(opens in a new tab)"
 msgstr "(otvára sa na novej karte)"
+
+#: includes/class-real-accessability-admin.php:274
+msgid "From ₪2,000 + VAT"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:274
 msgid "Starting from $500"
@@ -132,6 +148,11 @@ msgstr "Žiadosť bola odoslaná. Čoskoro sa vám ozveme."
 #: includes/class-real-accessability-admin.php:311
 msgid "Get a quote"
 msgstr "Získať ponuku"
+
+#: includes/class-real-accessability-admin.php:325
+msgid ""
+"Manual and automated testing against Israeli Standard 5568 and WCAG 2.1 AA"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:326
 #: includes/class-real-accessability-admin.php:331
@@ -156,6 +177,12 @@ msgstr "Manuálne aj automatizované testovanie podľa WCAG 2.2 AA"
 #: includes/class-real-accessability-admin.php:338
 msgid "An accessibility menu alone is not enough"
 msgstr "Samotná ponuka prístupnosti nestačí"
+
+#: includes/class-real-accessability-admin.php:343
+msgid ""
+"To meet Israeli Standard 5568, the code and content of the site need to be "
+"accessible too. Our experts audit your site and show you exactly what to fix."
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:344
 msgid ""
@@ -219,8 +246,8 @@ msgid ""
 "I agree that these details will be sent to Real Media Ltd. so they can "
 "contact me about an accessibility audit, in accordance with the %s."
 msgstr ""
-"Súhlasím so zaslaním týchto údajov spoločnosti Real Media Ltd., aby ma mohla"
-" kontaktovať v súvislosti s auditom prístupnosti, v súlade so %s."
+"Súhlasím so zaslaním týchto údajov spoločnosti Real Media Ltd., aby ma mohla "
+"kontaktovať v súvislosti s auditom prístupnosti, v súlade so %s."
 
 #: includes/class-real-accessability-admin.php:423
 msgctxt "link inside the consent sentence"
@@ -253,8 +280,8 @@ msgid ""
 "your site's address, your consent, the plugin version and the time of "
 "sending."
 msgstr ""
-"Iba to, čo zadáte do formulára: meno a priezvisko, telefón a e-mail, spolu s"
-" adresou vášho webu, vaším súhlasom, verziou pluginu a časom odoslania."
+"Iba to, čo zadáte do formulára: meno a priezvisko, telefón a e-mail, spolu s "
+"adresou vášho webu, vaším súhlasom, verziou pluginu a časom odoslania."
 
 #: includes/class-real-accessability-admin.php:436
 msgid ""
@@ -299,8 +326,8 @@ msgid ""
 "The details are sent to Real Media Ltd., so it can get back to you with a "
 "quote."
 msgstr ""
-"Údaje sa odosielajú spoločnosti Real Media Ltd., aby vám mohla zaslať cenovú"
-" ponuku."
+"Údaje sa odosielajú spoločnosti Real Media Ltd., aby vám mohla zaslať cenovú "
+"ponuku."
 
 #: includes/class-real-accessability-admin.php:451
 msgid "How long we keep it"
@@ -389,9 +416,9 @@ msgstr "Vylúčenie zodpovednosti:"
 
 #: includes/class-real-accessability-admin.php:616
 msgid ""
-"Real Accessibility adds an accessibility menu that helps visitors adjust how"
-" the site is displayed. On its own, it does not make a website accessible or"
-" compliant with any accessibility law or standard (such as WCAG or Israeli "
+"Real Accessibility adds an accessibility menu that helps visitors adjust how "
+"the site is displayed. On its own, it does not make a website accessible or "
+"compliant with any accessibility law or standard (such as WCAG or Israeli "
 "Standard 5568). The site owner remains solely responsible for the "
 "accessibility of the site's code and content and for meeting the legal "
 "requirements. The plugin is provided \"as is\", without warranty of any "
@@ -399,12 +426,12 @@ msgid ""
 "its use."
 msgstr ""
 "Real Accessibility pridáva ponuku prístupnosti, ktorá návštevníkom pomáha "
-"upraviť zobrazenie webu. Plugin sám osebe nezabezpečí, aby bol web prístupný"
-" alebo v súlade s akýmkoľvek zákonom či normou o prístupnosti (napríklad "
-"WCAG alebo izraelskou normou 5568). Výhradnú zodpovednosť za prístupnosť "
-"kódu a obsahu webu a za splnenie právnych požiadaviek naďalej nesie vlastník"
-" webu. Plugin sa poskytuje „tak, ako je“, bez akejkoľvek záruky, a autori "
-"pluginu nezodpovedajú za žiadne škody vzniknuté v dôsledku jeho používania."
+"upraviť zobrazenie webu. Plugin sám osebe nezabezpečí, aby bol web prístupný "
+"alebo v súlade s akýmkoľvek zákonom či normou o prístupnosti (napríklad WCAG "
+"alebo izraelskou normou 5568). Výhradnú zodpovednosť za prístupnosť kódu a "
+"obsahu webu a za splnenie právnych požiadaviek naďalej nesie vlastník webu. "
+"Plugin sa poskytuje „tak, ako je“, bez akejkoľvek záruky, a autori pluginu "
+"nezodpovedajú za žiadne škody vzniknuté v dôsledku jeho používania."
 
 #: includes/class-real-accessability-admin.php:628
 msgid "Your accessibility menu is ready"
@@ -434,9 +461,9 @@ msgstr ""
 "webov ho nájsť."
 
 #: includes/class-real-accessability-admin.php:652
-#: includes/class-real-accessability-admin.php:1117
-#: includes/class-real-accessability-admin.php:1251
-#: includes/class-real-accessability-admin.php:1349
+#: includes/class-real-accessability-admin.php:1124
+#: includes/class-real-accessability-admin.php:1258
+#: includes/class-real-accessability-admin.php:1356
 msgid "Cancel"
 msgstr "Zrušiť"
 
@@ -445,8 +472,8 @@ msgid "You can also turn it on without the credit"
 msgstr "Môžete ju zapnúť aj bez zmienky"
 
 #: includes/class-real-accessability-admin.php:677
-#: includes/class-real-accessability-admin.php:998
-#: includes/class-real-accessability-admin.php:1006
+#: includes/class-real-accessability-admin.php:1005
+#: includes/class-real-accessability-admin.php:1013
 msgid "Button and menu"
 msgstr "Tlačidlo a ponuka"
 
@@ -493,7 +520,7 @@ msgstr "Toto pole je povinné."
 
 #. translators: %s: language name.
 #: includes/class-real-accessability-admin.php:769
-#: includes/class-real-accessability-admin.php:1297
+#: includes/class-real-accessability-admin.php:1304
 #, php-format
 msgid "Flag for %s"
 msgstr "Vlajka pre jazyk %s"
@@ -536,8 +563,7 @@ msgid "Legal compliance"
 msgstr "Súlad so zákonom"
 
 #: includes/class-real-accessability-admin.php:825
-msgid ""
-"Thank you! The credit is shown at the bottom of the accessibility menu."
+msgid "Thank you! The credit is shown at the bottom of the accessibility menu."
 msgstr "Ďakujeme! Zmienka sa zobrazuje v spodnej časti ponuky prístupnosti."
 
 #: includes/class-real-accessability-admin.php:832
@@ -629,7 +655,7 @@ msgid "From the bottom"
 msgstr "Zdola"
 
 #: includes/class-real-accessability-admin.php:925
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Circle"
 msgstr "Kruh"
 
@@ -638,7 +664,7 @@ msgid "Rounded"
 msgstr "Zaoblený"
 
 #: includes/class-real-accessability-admin.php:927
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Square"
 msgstr "Štvorec"
 
@@ -692,103 +718,111 @@ msgstr "Automatická"
 msgid "Custom"
 msgstr "Vlastná"
 
-#: includes/class-real-accessability-admin.php:1000
+#: includes/class-real-accessability-admin.php:986
+msgid "Flat button color"
+msgstr "Jednofarebné tlačidlo"
+
+#: includes/class-real-accessability-admin.php:987
+msgid "One solid color, without a gradient or shadow."
+msgstr "Jedna plná farba bez prechodu a tieňa."
+
+#: includes/class-real-accessability-admin.php:1007
 msgid "Show the button on"
 msgstr "Zobraziť tlačidlo na"
 
-#: includes/class-real-accessability-admin.php:1009
-#: includes/class-real-accessability-admin.php:1024
+#: includes/class-real-accessability-admin.php:1016
+#: includes/class-real-accessability-admin.php:1031
 msgid "Button position"
 msgstr "Pozícia tlačidla"
 
-#: includes/class-real-accessability-admin.php:1010
+#: includes/class-real-accessability-admin.php:1017
 msgid "Shape and size"
 msgstr "Tvar a veľkosť"
 
-#: includes/class-real-accessability-admin.php:1011
+#: includes/class-real-accessability-admin.php:1018
 msgid "The menu"
 msgstr "Ponuka"
 
-#: includes/class-real-accessability-admin.php:1019
+#: includes/class-real-accessability-admin.php:1026
 msgid ""
 "The button is hidden on this device. Turn it back on with the icons above."
 msgstr ""
 "Tlačidlo je na tomto zariadení skryté. Znova ho zapnete pomocou ikon vyššie."
 
-#: includes/class-real-accessability-admin.php:1036
+#: includes/class-real-accessability-admin.php:1043
 msgid "Distance from the edge - horizontal"
 msgstr "Vodorovná vzdialenosť od okraja"
 
-#: includes/class-real-accessability-admin.php:1036
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1043
+#: includes/class-real-accessability-admin.php:1044
 msgid "Attached"
 msgstr "Pri okraji"
 
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1044
 msgid "Distance from the edge - vertical"
 msgstr "Zvislá vzdialenosť od okraja"
 
-#: includes/class-real-accessability-admin.php:1044
+#: includes/class-real-accessability-admin.php:1051
 msgid "Shape"
 msgstr "Tvar"
 
-#: includes/class-real-accessability-admin.php:1050
+#: includes/class-real-accessability-admin.php:1057
 msgid "Button size"
 msgstr "Veľkosť tlačidla"
 
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Corner radius"
 msgstr "Zaoblenie rohov"
 
-#: includes/class-real-accessability-admin.php:1056
+#: includes/class-real-accessability-admin.php:1063
 msgid "Opens from the edge of the screen, wherever the button is."
 msgstr "Otvára sa od okraja obrazovky bez ohľadu na umiestnenie tlačidla."
 
-#: includes/class-real-accessability-admin.php:1058
+#: includes/class-real-accessability-admin.php:1065
 msgid "Menu opens from"
 msgstr "Ponuka sa otvára"
 
-#: includes/class-real-accessability-admin.php:1067
+#: includes/class-real-accessability-admin.php:1074
 msgid "Menu corner radius"
 msgstr "Zaoblenie rohov ponuky"
 
-#: includes/class-real-accessability-admin.php:1079
-#: includes/class-real-accessability-admin.php:1080
-#: includes/class-real-accessability-admin.php:1235
-#: includes/class-real-accessability-admin.php:1330
+#: includes/class-real-accessability-admin.php:1086
+#: includes/class-real-accessability-admin.php:1087
+#: includes/class-real-accessability-admin.php:1242
+#: includes/class-real-accessability-admin.php:1337
 msgid "Preview"
 msgstr "Náhľad"
 
-#: includes/class-real-accessability-admin.php:1081
+#: includes/class-real-accessability-admin.php:1088
 msgid "Button"
 msgstr "Tlačidlo"
 
-#: includes/class-real-accessability-admin.php:1082
+#: includes/class-real-accessability-admin.php:1089
 msgid "Menu open"
 msgstr "Otvorená ponuka"
 
-#: includes/class-real-accessability-admin.php:1095
+#: includes/class-real-accessability-admin.php:1102
 #: includes/class-real-accessability-i18n.php:32
 msgid "Accessibility"
 msgstr "Prístupnosť"
 
-#: includes/class-real-accessability-admin.php:1104
+#: includes/class-real-accessability-admin.php:1111
 msgid "The button is hidden on this device."
 msgstr "Tlačidlo je na tomto zariadení skryté."
 
-#: includes/class-real-accessability-admin.php:1116
-#: includes/class-real-accessability-admin.php:1250
-#: includes/class-real-accessability-admin.php:1348
+#: includes/class-real-accessability-admin.php:1123
+#: includes/class-real-accessability-admin.php:1257
+#: includes/class-real-accessability-admin.php:1355
 msgid "Save changes"
 msgstr "Uložiť zmeny"
 
-#: includes/class-real-accessability-admin.php:1118
-#: includes/class-real-accessability-admin.php:1252
-#: includes/class-real-accessability-admin.php:1350
+#: includes/class-real-accessability-admin.php:1125
+#: includes/class-real-accessability-admin.php:1259
+#: includes/class-real-accessability-admin.php:1357
 msgid "You have unsaved changes"
 msgstr "Máte neuložené zmeny"
 
-#: includes/class-real-accessability-admin.php:1193
+#: includes/class-real-accessability-admin.php:1200
 msgid ""
 "Choose what visitors see in the accessibility menu. Sections without any "
 "option are not shown."
@@ -796,23 +830,23 @@ msgstr ""
 "Vyberte, čo návštevníci uvidia v ponuke prístupnosti. Sekcie bez zapnutých "
 "možností sa nezobrazia."
 
-#: includes/class-real-accessability-admin.php:1222
+#: includes/class-real-accessability-admin.php:1229
 msgid "Menu footer"
 msgstr "Päta ponuky"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hide button"
 msgstr "Tlačidlo „Skryť“"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hides the accessibility button until the visitor's next visit"
 msgstr "Skryje tlačidlo prístupnosti až do ďalšej návštevy"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid "Plugin credit"
 msgstr "Zmienka o plugine"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid ""
 "A small credit at the bottom of the menu, with a link to the plugin page on "
 "WordPress.org"
@@ -820,56 +854,56 @@ msgstr ""
 "Malá zmienka v spodnej časti ponuky s odkazom na stránku pluginu na "
 "WordPress.org"
 
-#: includes/class-real-accessability-admin.php:1237
+#: includes/class-real-accessability-admin.php:1244
 msgid "Preview of the accessibility menu"
 msgstr "Náhľad ponuky prístupnosti"
 
-#: includes/class-real-accessability-admin.php:1276
+#: includes/class-real-accessability-admin.php:1283
 msgid "Menu languages"
 msgstr "Jazyky ponuky"
 
-#: includes/class-real-accessability-admin.php:1281
+#: includes/class-real-accessability-admin.php:1288
 msgid "Search languages"
 msgstr "Hľadať jazyky"
 
-#: includes/class-real-accessability-admin.php:1283
+#: includes/class-real-accessability-admin.php:1290
 msgid "No language found"
 msgstr "Nenašiel sa žiadny jazyk"
 
-#: includes/class-real-accessability-admin.php:1293
+#: includes/class-real-accessability-admin.php:1300
 msgid "Drag to reorder"
 msgstr "Presunutím zmeníte poradie"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1315
+#: includes/class-real-accessability-admin.php:1322
 #, php-format
 msgid "Make %s the default"
 msgstr "Nastaviť jazyk %s ako predvolený"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1316
+#: includes/class-real-accessability-admin.php:1323
 msgid "Default"
 msgstr "Predvolený"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1319
+#: includes/class-real-accessability-admin.php:1326
 #, php-format
 msgid "Show %s in the menu"
 msgstr "Zobraziť jazyk %s v ponuke"
 
-#: includes/class-real-accessability-admin.php:1362
+#: includes/class-real-accessability-admin.php:1369
 msgid "Statement page"
 msgstr "Stránka s vyhlásením"
 
-#: includes/class-real-accessability-admin.php:1370
+#: includes/class-real-accessability-admin.php:1377
 msgid "- Select a page -"
 msgstr "- Vyberte stránku -"
 
-#: includes/class-real-accessability-admin.php:1377
+#: includes/class-real-accessability-admin.php:1384
 msgid "View page"
 msgstr "Zobraziť stránku"
 
-#: includes/class-real-accessability-admin.php:1379
+#: includes/class-real-accessability-admin.php:1386
 msgid ""
 "The page on your site with the accessibility statement. The \"Accessibility "
 "statement\" button in the menu links to it."
@@ -877,11 +911,11 @@ msgstr ""
 "Stránka na vašom webe s vyhlásením o prístupnosti. Odkazuje na ňu tlačidlo "
 "„Vyhlásenie o prístupnosti“ v ponuke."
 
-#: includes/class-real-accessability-admin.php:1383
+#: includes/class-real-accessability-admin.php:1390
 msgid "Statement button"
 msgstr "Tlačidlo vyhlásenia"
 
-#: includes/class-real-accessability-admin.php:1385
+#: includes/class-real-accessability-admin.php:1392
 msgid "Show the \"Accessibility statement\" button in the menu"
 msgstr "Zobraziť v ponuke tlačidlo „Vyhlásenie o prístupnosti“"
 

@@ -2,7 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Real Accessibility 2.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-accessability/\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-"
+"accessability\n"
+"POT-Creation-Date: 2026-10-15T00:01:02+00:00\n"
 "PO-Revision-Date: 2026-10-11 12:00+0300\n"
 "Last-Translator: REALMEDIA <office@realmedia.co.il>\n"
 "Language-Team: Chinese (China)\n"
@@ -12,6 +14,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=(0);\n"
 "X-Domain: real-accessability\n"
+
+#. Plugin Name of the plugin
+#: real-accessability.php
+msgid "Real Accessibility: Accessibility Widget & Toolbar"
+msgstr ""
 
 #. Plugin URI of the plugin
 #: real-accessability.php
@@ -24,7 +31,9 @@ msgid ""
 "An accessibility menu for your website - ready-made profiles, contrast "
 "modes, text size and spacing, readable font, reading guide and more, styled "
 "in your brand color."
-msgstr "为您的网站提供无障碍菜单，包含预设方案、对比度模式、文字大小与间距、易读字体、阅读引导线等功能，并以您的品牌色呈现。"
+msgstr ""
+"为您的网站提供无障碍菜单，包含预设方案、对比度模式、文字大小与间距、易读字"
+"体、阅读引导线等功能，并以您的品牌色呈现。"
 
 #. Author of the plugin
 #: real-accessability.php
@@ -73,7 +82,9 @@ msgstr "开启无障碍菜单"
 msgid ""
 "Real Accessibility 2.0 is ready. Set the brand color and the button "
 "position, and choose whether to show the plugin credit."
-msgstr "Real Accessibility 2.0 已就绪。请设置品牌色和按钮位置，并选择是否显示插件署名。"
+msgstr ""
+"Real Accessibility 2.0 已就绪。请设置品牌色和按钮位置，并选择是否显示插件署"
+"名。"
 
 #: includes/class-real-accessability-admin.php:195
 msgid "Open Real Accessibility"
@@ -83,7 +94,9 @@ msgstr "打开 Real Accessibility"
 msgid ""
 "Show a small credit with a link to the plugin page on WordPress.org at the "
 "bottom of the accessibility menu? It helps keep the plugin free."
-msgstr "要在无障碍菜单底部显示一个小型署名，并附上指向 WordPress.org 插件页面的链接吗？这有助于让插件保持免费。"
+msgstr ""
+"要在无障碍菜单底部显示一个小型署名，并附上指向 WordPress.org 插件页面的链接"
+"吗？这有助于让插件保持免费。"
 
 #: includes/class-real-accessability-admin.php:207
 #: includes/class-real-accessability-admin.php:651
@@ -93,6 +106,10 @@ msgstr "同意"
 #: includes/class-real-accessability-admin.php:208
 msgid "No thanks"
 msgstr "不用了，谢谢"
+
+#: includes/class-real-accessability-admin.php:225
+msgid "Real Media - website accessibility services"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:244
 msgid "Load WooCommerce stores in 249ms"
@@ -105,6 +122,10 @@ msgstr "WordPress 站点加载最快仅需 37ms"
 #: includes/class-real-accessability-admin.php:255
 msgid "(opens in a new tab)"
 msgstr "（在新标签页中打开）"
+
+#: includes/class-real-accessability-admin.php:274
+msgid "From ₪2,000 + VAT"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:274
 msgid "Starting from $500"
@@ -125,6 +146,11 @@ msgstr "您的申请已提交，我们会尽快与您联系。"
 #: includes/class-real-accessability-admin.php:311
 msgid "Get a quote"
 msgstr "获取报价"
+
+#: includes/class-real-accessability-admin.php:325
+msgid ""
+"Manual and automated testing against Israeli Standard 5568 and WCAG 2.1 AA"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:326
 #: includes/class-real-accessability-admin.php:331
@@ -149,13 +175,20 @@ msgstr "依据 WCAG 2.2 AA 进行人工和自动化测试"
 msgid "An accessibility menu alone is not enough"
 msgstr "仅有无障碍菜单是不够的"
 
+#: includes/class-real-accessability-admin.php:343
+msgid ""
+"To meet Israeli Standard 5568, the code and content of the site need to be "
+"accessible too. Our experts audit your site and show you exactly what to fix."
+msgstr ""
+
 #: includes/class-real-accessability-admin.php:344
 msgid ""
 "To meet WCAG 2.2 AA and laws such as the ADA, the code and content of the "
 "site need to be accessible too. Our experts audit your site and show you "
 "exactly what to fix."
 msgstr ""
-"要符合 WCAG 2.2 AA 以及 ADA 等法律的要求，站点的代码和内容本身也必须无障碍。我们的专家会检测您的站点，并明确告诉您需要修复哪些地方。"
+"要符合 WCAG 2.2 AA 以及 ADA 等法律的要求，站点的代码和内容本身也必须无障碍。"
+"我们的专家会检测您的站点，并明确告诉您需要修复哪些地方。"
 
 #: includes/class-real-accessability-admin.php:359
 msgid "Your request was sent."
@@ -208,7 +241,8 @@ msgstr "申请报价"
 msgid ""
 "I agree that these details will be sent to Real Media Ltd. so they can "
 "contact me about an accessibility audit, in accordance with the %s."
-msgstr "我同意按照%s将这些信息发送给 Real Media Ltd. 以便其就无障碍检测事宜与我联系。"
+msgstr ""
+"我同意按照%s将这些信息发送给 Real Media Ltd. 以便其就无障碍检测事宜与我联系。"
 
 #: includes/class-real-accessability-admin.php:423
 msgctxt "link inside the consent sentence"
@@ -226,8 +260,9 @@ msgid ""
 "through it. It follows the Israeli Protection of Privacy Law, 5741-1981, "
 "including Amendment 13."
 msgstr ""
-"本表单由 Real Accessibility 的开发者 Real Media Ltd. "
-"运营。本政策说明您通过本表单发送的信息将如何处理。本政策遵循以色列《隐私保护法》（5741-1981），包括第 13 号修正案。"
+"本表单由 Real Accessibility 的开发者 Real Media Ltd. 运营。本政策说明您通过本"
+"表单发送的信息将如何处理。本政策遵循以色列《隐私保护法》（5741-1981），包括"
+"第 13 号修正案。"
 
 #: includes/class-real-accessability-admin.php:434
 msgid "What we collect"
@@ -238,13 +273,17 @@ msgid ""
 "Only what you type into the form: full name, phone and email, together with "
 "your site's address, your consent, the plugin version and the time of "
 "sending."
-msgstr "仅收集您在表单中填写的内容：姓名、电话和电子邮箱，以及您的站点地址、您的同意、插件版本和发送时间。"
+msgstr ""
+"仅收集您在表单中填写的内容：姓名、电话和电子邮箱，以及您的站点地址、您的同"
+"意、插件版本和发送时间。"
 
 #: includes/class-real-accessability-admin.php:436
 msgid ""
 "Your details are sent only when you click the button, together with the "
 "language and price shown here. Nothing else from your site is sent."
-msgstr "仅当您点击按钮时，您的信息才会连同此处显示的语言和价格一起发送。不会发送您站点上的任何其他内容。"
+msgstr ""
+"仅当您点击按钮时，您的信息才会连同此处显示的语言和价格一起发送。不会发送您站"
+"点上的任何其他内容。"
 
 #: includes/class-real-accessability-admin.php:439
 msgid "What we use it for"
@@ -255,7 +294,9 @@ msgid ""
 "To get back to you about your request and send you a quote for an "
 "accessibility audit. We will not send you marketing messages unless you "
 "agree to receive them separately."
-msgstr "用于就您的申请与您联系，并向您发送无障碍检测报价。除非您另行同意接收，否则我们不会向您发送营销信息。"
+msgstr ""
+"用于就您的申请与您联系，并向您发送无障碍检测报价。除非您另行同意接收，否则我"
+"们不会向您发送营销信息。"
 
 #: includes/class-real-accessability-admin.php:443
 msgid "Do you have to give it"
@@ -265,7 +306,9 @@ msgstr "您是否必须提供"
 msgid ""
 "You are not required by law to give us these details. Without them, we "
 "cannot get back to you about your request."
-msgstr "法律并未要求您向我们提供这些信息。但如果没有这些信息，我们将无法就您的申请与您联系。"
+msgstr ""
+"法律并未要求您向我们提供这些信息。但如果没有这些信息，我们将无法就您的申请与"
+"您联系。"
 
 #: includes/class-real-accessability-admin.php:447
 msgid "Who receives it"
@@ -285,7 +328,9 @@ msgstr "保留期限"
 msgid ""
 "For as long as needed to handle your request, and for up to 24 months after "
 "our last contact, unless the law requires otherwise."
-msgstr "在处理您的申请所需的期间内保留，并在我们最后一次联系后最多保留 24 个月，法律另有规定的除外。"
+msgstr ""
+"在处理您的申请所需的期间内保留，并在我们最后一次联系后最多保留 24 个月，法律"
+"另有规定的除外。"
 
 #: includes/class-real-accessability-admin.php:455
 msgid "Security"
@@ -295,7 +340,9 @@ msgstr "安全"
 msgid ""
 "We use up-to-date measures to protect the details. No system is completely "
 "immune to unauthorized access, so we cannot guarantee absolute protection."
-msgstr "我们采用最新的措施保护这些信息。但没有任何系统能完全杜绝未经授权的访问，因此我们无法保证绝对安全。"
+msgstr ""
+"我们采用最新的措施保护这些信息。但没有任何系统能完全杜绝未经授权的访问，因此"
+"我们无法保证绝对安全。"
 
 #: includes/class-real-accessability-admin.php:459
 msgid "Your rights"
@@ -307,7 +354,8 @@ msgstr "您的权利"
 msgid ""
 "You can ask at any time to see, correct or delete your details, or to "
 "withdraw your consent, by writing to %s."
-msgstr "您可以随时发送邮件至 %s，要求查看、更正或删除您的信息，或撤回您的同意。"
+msgstr ""
+"您可以随时发送邮件至 %s，要求查看、更正或删除您的信息，或撤回您的同意。"
 
 #: includes/class-real-accessability-admin.php:467
 msgid "Privacy policy for audit requests"
@@ -356,19 +404,20 @@ msgstr "免责声明："
 
 #: includes/class-real-accessability-admin.php:616
 msgid ""
-"Real Accessibility adds an accessibility menu that helps visitors adjust how"
-" the site is displayed. On its own, it does not make a website accessible or"
-" compliant with any accessibility law or standard (such as WCAG or Israeli "
+"Real Accessibility adds an accessibility menu that helps visitors adjust how "
+"the site is displayed. On its own, it does not make a website accessible or "
+"compliant with any accessibility law or standard (such as WCAG or Israeli "
 "Standard 5568). The site owner remains solely responsible for the "
 "accessibility of the site's code and content and for meeting the legal "
 "requirements. The plugin is provided \"as is\", without warranty of any "
 "kind, and the plugin's authors are not liable for any damage resulting from "
 "its use."
 msgstr ""
-"Real Accessibility "
-"会添加一个无障碍菜单，帮助访客调整站点的显示方式。仅凭本插件本身，并不能使网站实现无障碍，也不能使其符合任何无障碍法律或标准（例如 WCAG "
-"或以色列标准 "
-"5568）。站点所有者仍须独自对站点代码和内容的无障碍性以及满足法律要求承担责任。本插件按“原样”提供，不附带任何形式的担保，插件作者对因使用本插件而造成的任何损害概不负责。"
+"Real Accessibility 会添加一个无障碍菜单，帮助访客调整站点的显示方式。仅凭本插"
+"件本身，并不能使网站实现无障碍，也不能使其符合任何无障碍法律或标准（例如 "
+"WCAG 或以色列标准 5568）。站点所有者仍须独自对站点代码和内容的无障碍性以及满"
+"足法律要求承担责任。本插件按“原样”提供，不附带任何形式的担保，插件作者对因使"
+"用本插件而造成的任何损害概不负责。"
 
 #: includes/class-real-accessability-admin.php:628
 msgid "Your accessibility menu is ready"
@@ -384,7 +433,9 @@ msgstr "请在下方设置颜色和位置，然后开启菜单。菜单上线后
 msgid ""
 "Approving turns the menu on and shows a small credit at its bottom, with a "
 "link to the plugin page on WordPress.org."
-msgstr "同意后，菜单将会开启，并在菜单底部显示一个小型署名，附有指向 WordPress.org 插件页面的链接。"
+msgstr ""
+"同意后，菜单将会开启，并在菜单底部显示一个小型署名，附有指向 WordPress.org 插"
+"件页面的链接。"
 
 #: includes/class-real-accessability-admin.php:648
 msgid ""
@@ -392,9 +443,9 @@ msgid ""
 msgstr "Real Accessibility 是免费的，署名可以帮助其他站点所有者找到它。"
 
 #: includes/class-real-accessability-admin.php:652
-#: includes/class-real-accessability-admin.php:1117
-#: includes/class-real-accessability-admin.php:1251
-#: includes/class-real-accessability-admin.php:1349
+#: includes/class-real-accessability-admin.php:1124
+#: includes/class-real-accessability-admin.php:1258
+#: includes/class-real-accessability-admin.php:1356
 msgid "Cancel"
 msgstr "取消"
 
@@ -403,8 +454,8 @@ msgid "You can also turn it on without the credit"
 msgstr "也可以不显示署名直接开启"
 
 #: includes/class-real-accessability-admin.php:677
-#: includes/class-real-accessability-admin.php:998
-#: includes/class-real-accessability-admin.php:1006
+#: includes/class-real-accessability-admin.php:1005
+#: includes/class-real-accessability-admin.php:1013
 msgid "Button and menu"
 msgstr "按钮和菜单"
 
@@ -451,7 +502,7 @@ msgstr "此字段为必填项。"
 
 #. translators: %s: language name.
 #: includes/class-real-accessability-admin.php:769
-#: includes/class-real-accessability-admin.php:1297
+#: includes/class-real-accessability-admin.php:1304
 #, php-format
 msgid "Flag for %s"
 msgstr "%s 的旗帜"
@@ -492,8 +543,7 @@ msgid "Legal compliance"
 msgstr "法律合规"
 
 #: includes/class-real-accessability-admin.php:825
-msgid ""
-"Thank you! The credit is shown at the bottom of the accessibility menu."
+msgid "Thank you! The credit is shown at the bottom of the accessibility menu."
 msgstr "谢谢！署名已显示在无障碍菜单底部。"
 
 #: includes/class-real-accessability-admin.php:832
@@ -583,7 +633,7 @@ msgid "From the bottom"
 msgstr "从底部"
 
 #: includes/class-real-accessability-admin.php:925
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Circle"
 msgstr "圆形"
 
@@ -592,7 +642,7 @@ msgid "Rounded"
 msgstr "圆角"
 
 #: includes/class-real-accessability-admin.php:927
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Square"
 msgstr "方形"
 
@@ -644,189 +694,198 @@ msgstr "自动"
 msgid "Custom"
 msgstr "自定义"
 
-#: includes/class-real-accessability-admin.php:1000
+#: includes/class-real-accessability-admin.php:986
+msgid "Flat button color"
+msgstr "按钮使用纯色"
+
+#: includes/class-real-accessability-admin.php:987
+msgid "One solid color, without a gradient or shadow."
+msgstr "单一纯色，无渐变和阴影。"
+
+#: includes/class-real-accessability-admin.php:1007
 msgid "Show the button on"
 msgstr "按钮显示于"
 
-#: includes/class-real-accessability-admin.php:1009
-#: includes/class-real-accessability-admin.php:1024
+#: includes/class-real-accessability-admin.php:1016
+#: includes/class-real-accessability-admin.php:1031
 msgid "Button position"
 msgstr "按钮位置"
 
-#: includes/class-real-accessability-admin.php:1010
+#: includes/class-real-accessability-admin.php:1017
 msgid "Shape and size"
 msgstr "形状和大小"
 
-#: includes/class-real-accessability-admin.php:1011
+#: includes/class-real-accessability-admin.php:1018
 msgid "The menu"
 msgstr "菜单"
 
-#: includes/class-real-accessability-admin.php:1019
+#: includes/class-real-accessability-admin.php:1026
 msgid ""
 "The button is hidden on this device. Turn it back on with the icons above."
 msgstr "此设备上的按钮已隐藏。可通过上方的图标重新显示。"
 
-#: includes/class-real-accessability-admin.php:1036
+#: includes/class-real-accessability-admin.php:1043
 msgid "Distance from the edge - horizontal"
 msgstr "距边缘的水平距离"
 
-#: includes/class-real-accessability-admin.php:1036
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1043
+#: includes/class-real-accessability-admin.php:1044
 msgid "Attached"
 msgstr "贴边"
 
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1044
 msgid "Distance from the edge - vertical"
 msgstr "距边缘的垂直距离"
 
-#: includes/class-real-accessability-admin.php:1044
+#: includes/class-real-accessability-admin.php:1051
 msgid "Shape"
 msgstr "形状"
 
-#: includes/class-real-accessability-admin.php:1050
+#: includes/class-real-accessability-admin.php:1057
 msgid "Button size"
 msgstr "按钮大小"
 
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Corner radius"
 msgstr "圆角半径"
 
-#: includes/class-real-accessability-admin.php:1056
+#: includes/class-real-accessability-admin.php:1063
 msgid "Opens from the edge of the screen, wherever the button is."
 msgstr "无论按钮位于何处，菜单都会从屏幕边缘打开。"
 
-#: includes/class-real-accessability-admin.php:1058
+#: includes/class-real-accessability-admin.php:1065
 msgid "Menu opens from"
 msgstr "菜单打开方向"
 
-#: includes/class-real-accessability-admin.php:1067
+#: includes/class-real-accessability-admin.php:1074
 msgid "Menu corner radius"
 msgstr "菜单圆角半径"
 
-#: includes/class-real-accessability-admin.php:1079
-#: includes/class-real-accessability-admin.php:1080
-#: includes/class-real-accessability-admin.php:1235
-#: includes/class-real-accessability-admin.php:1330
+#: includes/class-real-accessability-admin.php:1086
+#: includes/class-real-accessability-admin.php:1087
+#: includes/class-real-accessability-admin.php:1242
+#: includes/class-real-accessability-admin.php:1337
 msgid "Preview"
 msgstr "预览"
 
-#: includes/class-real-accessability-admin.php:1081
+#: includes/class-real-accessability-admin.php:1088
 msgid "Button"
 msgstr "按钮"
 
-#: includes/class-real-accessability-admin.php:1082
+#: includes/class-real-accessability-admin.php:1089
 msgid "Menu open"
 msgstr "菜单展开"
 
-#: includes/class-real-accessability-admin.php:1095
+#: includes/class-real-accessability-admin.php:1102
 #: includes/class-real-accessability-i18n.php:32
 msgid "Accessibility"
 msgstr "无障碍"
 
-#: includes/class-real-accessability-admin.php:1104
+#: includes/class-real-accessability-admin.php:1111
 msgid "The button is hidden on this device."
 msgstr "此设备上的按钮已隐藏。"
 
-#: includes/class-real-accessability-admin.php:1116
-#: includes/class-real-accessability-admin.php:1250
-#: includes/class-real-accessability-admin.php:1348
+#: includes/class-real-accessability-admin.php:1123
+#: includes/class-real-accessability-admin.php:1257
+#: includes/class-real-accessability-admin.php:1355
 msgid "Save changes"
 msgstr "保存更改"
 
-#: includes/class-real-accessability-admin.php:1118
-#: includes/class-real-accessability-admin.php:1252
-#: includes/class-real-accessability-admin.php:1350
+#: includes/class-real-accessability-admin.php:1125
+#: includes/class-real-accessability-admin.php:1259
+#: includes/class-real-accessability-admin.php:1357
 msgid "You have unsaved changes"
 msgstr "您有未保存的更改"
 
-#: includes/class-real-accessability-admin.php:1193
+#: includes/class-real-accessability-admin.php:1200
 msgid ""
 "Choose what visitors see in the accessibility menu. Sections without any "
 "option are not shown."
 msgstr "选择访客在无障碍菜单中可以看到的内容。未启用任何选项的分区不会显示。"
 
-#: includes/class-real-accessability-admin.php:1222
+#: includes/class-real-accessability-admin.php:1229
 msgid "Menu footer"
 msgstr "菜单页脚"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hide button"
 msgstr "隐藏按钮"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hides the accessibility button until the visitor's next visit"
 msgstr "在访客下次访问前隐藏无障碍按钮"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid "Plugin credit"
 msgstr "插件署名"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid ""
 "A small credit at the bottom of the menu, with a link to the plugin page on "
 "WordPress.org"
 msgstr "菜单底部的小型署名，附有指向 WordPress.org 插件页面的链接"
 
-#: includes/class-real-accessability-admin.php:1237
+#: includes/class-real-accessability-admin.php:1244
 msgid "Preview of the accessibility menu"
 msgstr "无障碍菜单预览"
 
-#: includes/class-real-accessability-admin.php:1276
+#: includes/class-real-accessability-admin.php:1283
 msgid "Menu languages"
 msgstr "菜单语言"
 
-#: includes/class-real-accessability-admin.php:1281
+#: includes/class-real-accessability-admin.php:1288
 msgid "Search languages"
 msgstr "搜索语言"
 
-#: includes/class-real-accessability-admin.php:1283
+#: includes/class-real-accessability-admin.php:1290
 msgid "No language found"
 msgstr "未找到语言"
 
-#: includes/class-real-accessability-admin.php:1293
+#: includes/class-real-accessability-admin.php:1300
 msgid "Drag to reorder"
 msgstr "拖曳以重新排序"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1315
+#: includes/class-real-accessability-admin.php:1322
 #, php-format
 msgid "Make %s the default"
 msgstr "将 %s 设为默认"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1316
+#: includes/class-real-accessability-admin.php:1323
 msgid "Default"
 msgstr "默认"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1319
+#: includes/class-real-accessability-admin.php:1326
 #, php-format
 msgid "Show %s in the menu"
 msgstr "在菜单中显示 %s"
 
-#: includes/class-real-accessability-admin.php:1362
+#: includes/class-real-accessability-admin.php:1369
 msgid "Statement page"
 msgstr "声明页面"
 
-#: includes/class-real-accessability-admin.php:1370
+#: includes/class-real-accessability-admin.php:1377
 msgid "- Select a page -"
 msgstr "- 选择页面 -"
 
-#: includes/class-real-accessability-admin.php:1377
+#: includes/class-real-accessability-admin.php:1384
 msgid "View page"
 msgstr "查看页面"
 
-#: includes/class-real-accessability-admin.php:1379
+#: includes/class-real-accessability-admin.php:1386
 msgid ""
 "The page on your site with the accessibility statement. The \"Accessibility "
 "statement\" button in the menu links to it."
-msgstr "您站点上包含无障碍声明的页面。菜单中的「无障碍声明」按钮会链接到此页面。"
+msgstr ""
+"您站点上包含无障碍声明的页面。菜单中的「无障碍声明」按钮会链接到此页面。"
 
-#: includes/class-real-accessability-admin.php:1383
+#: includes/class-real-accessability-admin.php:1390
 msgid "Statement button"
 msgstr "声明按钮"
 
-#: includes/class-real-accessability-admin.php:1385
+#: includes/class-real-accessability-admin.php:1392
 msgid "Show the \"Accessibility statement\" button in the menu"
 msgstr "在菜单中显示「无障碍声明」按钮"
 

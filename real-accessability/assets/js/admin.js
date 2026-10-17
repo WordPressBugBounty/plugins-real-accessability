@@ -206,14 +206,15 @@
 			var dradius = parseInt($panel.find('.ra-dradius').val(), 10) || 0;
 			var show = $root.find('#ra-show-' + device).val() === '1';
 			var color = brand();
+			var flat = $('#ra-flat').is(':checked');
 			var gradient = 'radial-gradient(90% 150% at 100% 0%, rgba(255,255,255,.16) 0%, rgba(255,255,255,0) 55%), linear-gradient(225deg, ' + mix(color, '#ffffff', 0.22) + ' 0%, ' + color + ' 50%, ' + mix(color, '#000000', 0.22) + ' 100%)';
 
 			var s = Math.max(8, size * scale), r = Math.min(radius, size / 2) * scale;
 			var css = {
 				width: s, height: s, top: 'auto', bottom: 'auto', left: 'auto', right: 'auto',
 				translate: (h === 'center' ? '-50%' : '0') + ' ' + (v === 'middle' ? '-50%' : '0'),
-				borderRadius: r + 'px', background: gradient, color: iconColor(),
-				boxShadow: '0 ' + Math.round(6 * scale + 2) + 'px ' + Math.round(14 * scale + 4) + 'px -4px ' + rgba(color, 0.7)
+				borderRadius: r + 'px', background: flat ? color : gradient, color: iconColor(),
+				boxShadow: flat ? 'none' : '0 ' + Math.round(6 * scale + 2) + 'px ' + Math.round(14 * scale + 4) + 'px -4px ' + rgba(color, 0.7)
 			};
 
 			if (v === 'top') { css.top = y * scale; } else if (v === 'bottom') { css.bottom = y * scale; } else { css.top = '50%'; }
@@ -392,6 +393,8 @@
 			updateColor();
 			updatePreview();
 		});
+
+		$root.on('change', '#ra-flat', updatePreview);
 
 		$form.on('input change', function () { setDirty(); });
 		$form.on('submit', function () { submitting = true; });

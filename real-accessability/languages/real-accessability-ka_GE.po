@@ -2,7 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Real Accessibility 2.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-accessability/\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-"
+"accessability\n"
+"POT-Creation-Date: 2026-10-15T00:01:02+00:00\n"
 "PO-Revision-Date: 2026-10-11 12:00+0300\n"
 "Last-Translator: REALMEDIA <office@realmedia.co.il>\n"
 "Language-Team: Georgian\n"
@@ -12,6 +14,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=(0);\n"
 "X-Domain: real-accessability\n"
+
+#. Plugin Name of the plugin
+#: real-accessability.php
+msgid "Real Accessibility: Accessibility Widget & Toolbar"
+msgstr ""
 
 #. Plugin URI of the plugin
 #: real-accessability.php
@@ -77,8 +84,8 @@ msgid ""
 "Real Accessibility 2.0 is ready. Set the brand color and the button "
 "position, and choose whether to show the plugin credit."
 msgstr ""
-"Real Accessibility 2.0 მზადაა. აირჩიეთ ბრენდის ფერი და ღილაკის მდებარეობა და"
-" გადაწყვიტეთ, გამოჩნდეს თუ არა პლაგინის მითითება."
+"Real Accessibility 2.0 მზადაა. აირჩიეთ ბრენდის ფერი და ღილაკის მდებარეობა და "
+"გადაწყვიტეთ, გამოჩნდეს თუ არა პლაგინის მითითება."
 
 #: includes/class-real-accessability-admin.php:195
 msgid "Open Real Accessibility"
@@ -101,6 +108,10 @@ msgstr "დადასტურება"
 msgid "No thanks"
 msgstr "არა, გმადლობთ"
 
+#: includes/class-real-accessability-admin.php:225
+msgid "Real Media - website accessibility services"
+msgstr ""
+
 #: includes/class-real-accessability-admin.php:244
 msgid "Load WooCommerce stores in 249ms"
 msgstr "ჩატვირთეთ WooCommerce მაღაზიები 249 მილიწამში"
@@ -112,6 +123,10 @@ msgstr "ჩატვირთეთ WordPress საიტები სულ �
 #: includes/class-real-accessability-admin.php:255
 msgid "(opens in a new tab)"
 msgstr "(იხსნება ახალ ჩანართში)"
+
+#: includes/class-real-accessability-admin.php:274
+msgid "From ₪2,000 + VAT"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:274
 msgid "Starting from $500"
@@ -132,6 +147,11 @@ msgstr "თქვენი მოთხოვნა გაიგზავნა.
 #: includes/class-real-accessability-admin.php:311
 msgid "Get a quote"
 msgstr "შეთავაზების მიღება"
+
+#: includes/class-real-accessability-admin.php:325
+msgid ""
+"Manual and automated testing against Israeli Standard 5568 and WCAG 2.1 AA"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:326
 #: includes/class-real-accessability-admin.php:331
@@ -155,6 +175,12 @@ msgstr "მანუალური და ავტომატიზებუ�
 #: includes/class-real-accessability-admin.php:338
 msgid "An accessibility menu alone is not enough"
 msgstr "მხოლოდ ხელმისაწვდომობის მენიუ საკმარისი არ არის"
+
+#: includes/class-real-accessability-admin.php:343
+msgid ""
+"To meet Israeli Standard 5568, the code and content of the site need to be "
+"accessible too. Our experts audit your site and show you exactly what to fix."
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:344
 msgid ""
@@ -253,8 +279,8 @@ msgid ""
 "sending."
 msgstr ""
 "მხოლოდ იმას, რასაც ფორმაში შეიყვანთ: სახელსა და გვარს, ტელეფონსა და "
-"ელფოსტას, ასევე თქვენი საიტის მისამართს, თქვენს თანხმობას, პლაგინის ვერსიასა"
-" და გაგზავნის დროს."
+"ელფოსტას, ასევე თქვენი საიტის მისამართს, თქვენს თანხმობას, პლაგინის ვერსიასა "
+"და გაგზავნის დროს."
 
 #: includes/class-real-accessability-admin.php:436
 msgid ""
@@ -324,8 +350,8 @@ msgid ""
 "immune to unauthorized access, so we cannot guarantee absolute protection."
 msgstr ""
 "მონაცემების დასაცავად თანამედროვე ზომებს ვიყენებთ. არცერთი სისტემა არ არის "
-"სრულად დაცული არასანქცირებული წვდომისგან, ამიტომ აბსოლუტური დაცვის გარანტიას"
-" ვერ მოგცემთ."
+"სრულად დაცული არასანქცირებული წვდომისგან, ამიტომ აბსოლუტური დაცვის გარანტიას "
+"ვერ მოგცემთ."
 
 #: includes/class-real-accessability-admin.php:459
 msgid "Your rights"
@@ -388,9 +414,9 @@ msgstr "პასუხისმგებლობის უარყოფა:"
 
 #: includes/class-real-accessability-admin.php:616
 msgid ""
-"Real Accessibility adds an accessibility menu that helps visitors adjust how"
-" the site is displayed. On its own, it does not make a website accessible or"
-" compliant with any accessibility law or standard (such as WCAG or Israeli "
+"Real Accessibility adds an accessibility menu that helps visitors adjust how "
+"the site is displayed. On its own, it does not make a website accessible or "
+"compliant with any accessibility law or standard (such as WCAG or Israeli "
 "Standard 5568). The site owner remains solely responsible for the "
 "accessibility of the site's code and content and for meeting the legal "
 "requirements. The plugin is provided \"as is\", without warranty of any "
@@ -399,8 +425,8 @@ msgid ""
 msgstr ""
 "Real Accessibility ამატებს ხელმისაწვდომობის მენიუს, რომელიც ვიზიტორებს "
 "ეხმარება საიტის ჩვენების მორგებაში. თავისთავად ის საიტს ხელმისაწვდომს არ "
-"ხდის და არ უზრუნველყოფს მის შესაბამისობას ხელმისაწვდომობის რომელიმე კანონთან"
-" ან სტანდარტთან (მაგალითად, WCAG ან ისრაელის სტანდარტი 5568). საიტის კოდისა "
+"ხდის და არ უზრუნველყოფს მის შესაბამისობას ხელმისაწვდომობის რომელიმე კანონთან "
+"ან სტანდარტთან (მაგალითად, WCAG ან ისრაელის სტანდარტი 5568). საიტის კოდისა "
 "და კონტენტის ხელმისაწვდომობაზე, ასევე კანონის მოთხოვნების შესრულებაზე "
 "პასუხისმგებელი კვლავ მხოლოდ საიტის მფლობელია. პლაგინი მოწოდებულია „როგორც "
 "არის“, ყოველგვარი გარანტიის გარეშე, და პლაგინის ავტორები არ არიან "
@@ -434,9 +460,9 @@ msgstr ""
 "პოვნაში ეხმარება."
 
 #: includes/class-real-accessability-admin.php:652
-#: includes/class-real-accessability-admin.php:1117
-#: includes/class-real-accessability-admin.php:1251
-#: includes/class-real-accessability-admin.php:1349
+#: includes/class-real-accessability-admin.php:1124
+#: includes/class-real-accessability-admin.php:1258
+#: includes/class-real-accessability-admin.php:1356
 msgid "Cancel"
 msgstr "გაუქმება"
 
@@ -445,8 +471,8 @@ msgid "You can also turn it on without the credit"
 msgstr "შეგიძლიათ მენიუ მითითების გარეშეც ჩართოთ"
 
 #: includes/class-real-accessability-admin.php:677
-#: includes/class-real-accessability-admin.php:998
-#: includes/class-real-accessability-admin.php:1006
+#: includes/class-real-accessability-admin.php:1005
+#: includes/class-real-accessability-admin.php:1013
 msgid "Button and menu"
 msgstr "ღილაკი და მენიუ"
 
@@ -493,7 +519,7 @@ msgstr "ეს ველი სავალდებულოა."
 
 #. translators: %s: language name.
 #: includes/class-real-accessability-admin.php:769
-#: includes/class-real-accessability-admin.php:1297
+#: includes/class-real-accessability-admin.php:1304
 #, php-format
 msgid "Flag for %s"
 msgstr "დროშა: %s"
@@ -534,8 +560,7 @@ msgid "Legal compliance"
 msgstr "კანონთან შესაბამისობა"
 
 #: includes/class-real-accessability-admin.php:825
-msgid ""
-"Thank you! The credit is shown at the bottom of the accessibility menu."
+msgid "Thank you! The credit is shown at the bottom of the accessibility menu."
 msgstr "გმადლობთ! მითითება ჩანს ხელმისაწვდომობის მენიუს ბოლოში."
 
 #: includes/class-real-accessability-admin.php:832
@@ -627,7 +652,7 @@ msgid "From the bottom"
 msgstr "ქვემოდან"
 
 #: includes/class-real-accessability-admin.php:925
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Circle"
 msgstr "წრე"
 
@@ -636,7 +661,7 @@ msgid "Rounded"
 msgstr "მომრგვალებული"
 
 #: includes/class-real-accessability-admin.php:927
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Square"
 msgstr "კვადრატი"
 
@@ -690,104 +715,112 @@ msgstr "ავტომატური"
 msgid "Custom"
 msgstr "მორგებული"
 
-#: includes/class-real-accessability-admin.php:1000
+#: includes/class-real-accessability-admin.php:986
+msgid "Flat button color"
+msgstr "ღილაკის ერთფეროვანი ფერი"
+
+#: includes/class-real-accessability-admin.php:987
+msgid "One solid color, without a gradient or shadow."
+msgstr "ერთი მყარი ფერი, გრადიენტისა და ჩრდილის გარეშე."
+
+#: includes/class-real-accessability-admin.php:1007
 msgid "Show the button on"
 msgstr "ღილაკის ჩვენება მოწყობილობებზე"
 
-#: includes/class-real-accessability-admin.php:1009
-#: includes/class-real-accessability-admin.php:1024
+#: includes/class-real-accessability-admin.php:1016
+#: includes/class-real-accessability-admin.php:1031
 msgid "Button position"
 msgstr "ღილაკის მდებარეობა"
 
-#: includes/class-real-accessability-admin.php:1010
+#: includes/class-real-accessability-admin.php:1017
 msgid "Shape and size"
 msgstr "ფორმა და ზომა"
 
-#: includes/class-real-accessability-admin.php:1011
+#: includes/class-real-accessability-admin.php:1018
 msgid "The menu"
 msgstr "მენიუ"
 
-#: includes/class-real-accessability-admin.php:1019
+#: includes/class-real-accessability-admin.php:1026
 msgid ""
 "The button is hidden on this device. Turn it back on with the icons above."
 msgstr ""
 "ამ მოწყობილობაზე ღილაკი დამალულია. ხელახლა ჩასართავად გამოიყენეთ ზემოთ "
 "მოცემული ხატულები."
 
-#: includes/class-real-accessability-admin.php:1036
+#: includes/class-real-accessability-admin.php:1043
 msgid "Distance from the edge - horizontal"
 msgstr "დაშორება კიდიდან - ჰორიზონტალურად"
 
-#: includes/class-real-accessability-admin.php:1036
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1043
+#: includes/class-real-accessability-admin.php:1044
 msgid "Attached"
 msgstr "კიდესთან"
 
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1044
 msgid "Distance from the edge - vertical"
 msgstr "დაშორება კიდიდან - ვერტიკალურად"
 
-#: includes/class-real-accessability-admin.php:1044
+#: includes/class-real-accessability-admin.php:1051
 msgid "Shape"
 msgstr "ფორმა"
 
-#: includes/class-real-accessability-admin.php:1050
+#: includes/class-real-accessability-admin.php:1057
 msgid "Button size"
 msgstr "ღილაკის ზომა"
 
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Corner radius"
 msgstr "კუთხეების მომრგვალება"
 
-#: includes/class-real-accessability-admin.php:1056
+#: includes/class-real-accessability-admin.php:1063
 msgid "Opens from the edge of the screen, wherever the button is."
 msgstr "იხსნება ეკრანის კიდიდან, სადაც არ უნდა იყოს ღილაკი."
 
-#: includes/class-real-accessability-admin.php:1058
+#: includes/class-real-accessability-admin.php:1065
 msgid "Menu opens from"
 msgstr "საიდან იხსნება მენიუ"
 
-#: includes/class-real-accessability-admin.php:1067
+#: includes/class-real-accessability-admin.php:1074
 msgid "Menu corner radius"
 msgstr "მენიუს კუთხეების მომრგვალება"
 
-#: includes/class-real-accessability-admin.php:1079
-#: includes/class-real-accessability-admin.php:1080
-#: includes/class-real-accessability-admin.php:1235
-#: includes/class-real-accessability-admin.php:1330
+#: includes/class-real-accessability-admin.php:1086
+#: includes/class-real-accessability-admin.php:1087
+#: includes/class-real-accessability-admin.php:1242
+#: includes/class-real-accessability-admin.php:1337
 msgid "Preview"
 msgstr "გადახედვა"
 
-#: includes/class-real-accessability-admin.php:1081
+#: includes/class-real-accessability-admin.php:1088
 msgid "Button"
 msgstr "ღილაკი"
 
-#: includes/class-real-accessability-admin.php:1082
+#: includes/class-real-accessability-admin.php:1089
 msgid "Menu open"
 msgstr "გახსნილი მენიუ"
 
-#: includes/class-real-accessability-admin.php:1095
+#: includes/class-real-accessability-admin.php:1102
 #: includes/class-real-accessability-i18n.php:32
 msgid "Accessibility"
 msgstr "ხელმისაწვდომობა"
 
-#: includes/class-real-accessability-admin.php:1104
+#: includes/class-real-accessability-admin.php:1111
 msgid "The button is hidden on this device."
 msgstr "ამ მოწყობილობაზე ღილაკი დამალულია."
 
-#: includes/class-real-accessability-admin.php:1116
-#: includes/class-real-accessability-admin.php:1250
-#: includes/class-real-accessability-admin.php:1348
+#: includes/class-real-accessability-admin.php:1123
+#: includes/class-real-accessability-admin.php:1257
+#: includes/class-real-accessability-admin.php:1355
 msgid "Save changes"
 msgstr "ცვლილებების შენახვა"
 
-#: includes/class-real-accessability-admin.php:1118
-#: includes/class-real-accessability-admin.php:1252
-#: includes/class-real-accessability-admin.php:1350
+#: includes/class-real-accessability-admin.php:1125
+#: includes/class-real-accessability-admin.php:1259
+#: includes/class-real-accessability-admin.php:1357
 msgid "You have unsaved changes"
 msgstr "გაქვთ შეუნახავი ცვლილებები"
 
-#: includes/class-real-accessability-admin.php:1193
+#: includes/class-real-accessability-admin.php:1200
 msgid ""
 "Choose what visitors see in the accessibility menu. Sections without any "
 "option are not shown."
@@ -795,79 +828,79 @@ msgstr ""
 "აირჩიეთ, რას დაინახავენ ვიზიტორები ხელმისაწვდომობის მენიუში. განყოფილებები, "
 "რომლებშიც არცერთი ვარიანტი არ არის ჩართული, არ ჩანს."
 
-#: includes/class-real-accessability-admin.php:1222
+#: includes/class-real-accessability-admin.php:1229
 msgid "Menu footer"
 msgstr "მენიუს ბოლოსართი"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hide button"
 msgstr "დამალვის ღილაკი"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hides the accessibility button until the visitor's next visit"
 msgstr "მალავს ხელმისაწვდომობის ღილაკს ვიზიტორის შემდეგ ვიზიტამდე"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid "Plugin credit"
 msgstr "პლაგინის მითითება"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid ""
 "A small credit at the bottom of the menu, with a link to the plugin page on "
 "WordPress.org"
 msgstr ""
 "პატარა მითითება მენიუს ბოლოში, WordPress.org-ზე პლაგინის გვერდის ბმულით"
 
-#: includes/class-real-accessability-admin.php:1237
+#: includes/class-real-accessability-admin.php:1244
 msgid "Preview of the accessibility menu"
 msgstr "ხელმისაწვდომობის მენიუს გადახედვა"
 
-#: includes/class-real-accessability-admin.php:1276
+#: includes/class-real-accessability-admin.php:1283
 msgid "Menu languages"
 msgstr "მენიუს ენები"
 
-#: includes/class-real-accessability-admin.php:1281
+#: includes/class-real-accessability-admin.php:1288
 msgid "Search languages"
 msgstr "ენების ძიება"
 
-#: includes/class-real-accessability-admin.php:1283
+#: includes/class-real-accessability-admin.php:1290
 msgid "No language found"
 msgstr "ენა ვერ მოიძებნა"
 
-#: includes/class-real-accessability-admin.php:1293
+#: includes/class-real-accessability-admin.php:1300
 msgid "Drag to reorder"
 msgstr "გადაათრიეთ თანმიმდევრობის შესაცვლელად"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1315
+#: includes/class-real-accessability-admin.php:1322
 #, php-format
 msgid "Make %s the default"
 msgstr "ნაგულისხმევ ენად დაყენება: %s"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1316
+#: includes/class-real-accessability-admin.php:1323
 msgid "Default"
 msgstr "ნაგულისხმევი"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1319
+#: includes/class-real-accessability-admin.php:1326
 #, php-format
 msgid "Show %s in the menu"
 msgstr "მენიუში ჩვენება: %s"
 
-#: includes/class-real-accessability-admin.php:1362
+#: includes/class-real-accessability-admin.php:1369
 msgid "Statement page"
 msgstr "განცხადების გვერდი"
 
-#: includes/class-real-accessability-admin.php:1370
+#: includes/class-real-accessability-admin.php:1377
 msgid "- Select a page -"
 msgstr "- აირჩიეთ გვერდი -"
 
-#: includes/class-real-accessability-admin.php:1377
+#: includes/class-real-accessability-admin.php:1384
 msgid "View page"
 msgstr "გვერდის ნახვა"
 
-#: includes/class-real-accessability-admin.php:1379
+#: includes/class-real-accessability-admin.php:1386
 msgid ""
 "The page on your site with the accessibility statement. The \"Accessibility "
 "statement\" button in the menu links to it."
@@ -875,11 +908,11 @@ msgstr ""
 "თქვენი საიტის გვერდი ხელმისაწვდომობის განცხადებით. მენიუს ღილაკი "
 "„ხელმისაწვდომობის განცხადება“ ამ გვერდზე გადადის."
 
-#: includes/class-real-accessability-admin.php:1383
+#: includes/class-real-accessability-admin.php:1390
 msgid "Statement button"
 msgstr "განცხადების ღილაკი"
 
-#: includes/class-real-accessability-admin.php:1385
+#: includes/class-real-accessability-admin.php:1392
 msgid "Show the \"Accessibility statement\" button in the menu"
 msgstr "ღილაკის „ხელმისაწვდომობის განცხადება“ ჩვენება მენიუში"
 
@@ -933,8 +966,7 @@ msgstr "ყურადღების დეფიციტი"
 
 #: includes/class-real-accessability-i18n.php:45
 msgid "Fewer distractions, reading guide and line spacing"
-msgstr ""
-"ნაკლები ყურადღების გაფანტვა, კითხვის სახაზავი და სტრიქონების ინტერვალი"
+msgstr "ნაკლები ყურადღების გაფანტვა, კითხვის სახაზავი და სტრიქონების ინტერვალი"
 
 #: includes/class-real-accessability-i18n.php:46
 msgid "Dyslexia"

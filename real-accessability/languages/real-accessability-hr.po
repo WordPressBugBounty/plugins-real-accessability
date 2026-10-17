@@ -2,7 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Real Accessibility 2.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-accessability/\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-"
+"accessability\n"
+"POT-Creation-Date: 2026-10-15T00:01:02+00:00\n"
 "PO-Revision-Date: 2026-10-11 12:00+0300\n"
 "Last-Translator: REALMEDIA <office@realmedia.co.il>\n"
 "Language-Team: Croatian\n"
@@ -10,8 +12,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=((n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2));\n"
+"Plural-Forms: nplurals=3; plural=((n % 10 == 1 && n % 100 != 11) ? 0 : ((n % "
+"10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2));\n"
 "X-Domain: real-accessability\n"
+
+#. Plugin Name of the plugin
+#: real-accessability.php
+msgid "Real Accessibility: Accessibility Widget & Toolbar"
+msgstr ""
 
 #. Plugin URI of the plugin
 #: real-accessability.php
@@ -89,9 +97,8 @@ msgid ""
 "Show a small credit with a link to the plugin page on WordPress.org at the "
 "bottom of the accessibility menu? It helps keep the plugin free."
 msgstr ""
-"Želite li na dnu izbornika pristupačnosti prikazati mali potpis s poveznicom"
-" na stranicu dodatka na WordPress.org? To pomaže da dodatak ostane "
-"besplatan."
+"Želite li na dnu izbornika pristupačnosti prikazati mali potpis s poveznicom "
+"na stranicu dodatka na WordPress.org? To pomaže da dodatak ostane besplatan."
 
 #: includes/class-real-accessability-admin.php:207
 #: includes/class-real-accessability-admin.php:651
@@ -101,6 +108,10 @@ msgstr "Prihvati"
 #: includes/class-real-accessability-admin.php:208
 msgid "No thanks"
 msgstr "Ne, hvala"
+
+#: includes/class-real-accessability-admin.php:225
+msgid "Real Media - website accessibility services"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:244
 msgid "Load WooCommerce stores in 249ms"
@@ -113,6 +124,10 @@ msgstr "Učitavajte WordPress web-stranice za samo 37 ms"
 #: includes/class-real-accessability-admin.php:255
 msgid "(opens in a new tab)"
 msgstr "(otvara se u novoj kartici)"
+
+#: includes/class-real-accessability-admin.php:274
+msgid "From ₪2,000 + VAT"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:274
 msgid "Starting from $500"
@@ -133,6 +148,11 @@ msgstr "Vaš je zahtjev poslan. Uskoro ćemo vam se javiti."
 #: includes/class-real-accessability-admin.php:311
 msgid "Get a quote"
 msgstr "Zatraži ponudu"
+
+#: includes/class-real-accessability-admin.php:325
+msgid ""
+"Manual and automated testing against Israeli Standard 5568 and WCAG 2.1 AA"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:326
 #: includes/class-real-accessability-admin.php:331
@@ -157,6 +177,12 @@ msgstr "Ručno i automatizirano testiranje prema WCAG 2.2 AA"
 msgid "An accessibility menu alone is not enough"
 msgstr "Sam izbornik pristupačnosti nije dovoljan"
 
+#: includes/class-real-accessability-admin.php:343
+msgid ""
+"To meet Israeli Standard 5568, the code and content of the site need to be "
+"accessible too. Our experts audit your site and show you exactly what to fix."
+msgstr ""
+
 #: includes/class-real-accessability-admin.php:344
 msgid ""
 "To meet WCAG 2.2 AA and laws such as the ADA, the code and content of the "
@@ -164,8 +190,8 @@ msgid ""
 "exactly what to fix."
 msgstr ""
 "Da bi web-stranica bila usklađena s WCAG 2.2 AA i zakonima kao što je ADA, "
-"pristupačni moraju biti i njezin kôd i sadržaj. Naši stručnjaci provjerit će"
-" vašu web-stranicu i pokazati vam što točno treba ispraviti."
+"pristupačni moraju biti i njezin kôd i sadržaj. Naši stručnjaci provjerit će "
+"vašu web-stranicu i pokazati vam što točno treba ispraviti."
 
 #: includes/class-real-accessability-admin.php:359
 msgid "Your request was sent."
@@ -263,8 +289,7 @@ msgid ""
 "language and price shown here. Nothing else from your site is sent."
 msgstr ""
 "Vaši se podaci šalju samo kada kliknete na dugme, zajedno s jezikom i "
-"cijenom koji su ovdje prikazani. Ništa se drugo s vaše web-stranice ne "
-"šalje."
+"cijenom koji su ovdje prikazani. Ništa se drugo s vaše web-stranice ne šalje."
 
 #: includes/class-real-accessability-admin.php:439
 msgid "What we use it for"
@@ -289,8 +314,8 @@ msgid ""
 "You are not required by law to give us these details. Without them, we "
 "cannot get back to you about your request."
 msgstr ""
-"Zakonom niste obvezni dati nam ove podatke. Bez njih ne možemo odgovoriti na"
-" vaš zahtjev."
+"Zakonom niste obvezni dati nam ove podatke. Bez njih ne možemo odgovoriti na "
+"vaš zahtjev."
 
 #: includes/class-real-accessability-admin.php:447
 msgid "Who receives it"
@@ -340,8 +365,8 @@ msgid ""
 "You can ask at any time to see, correct or delete your details, or to "
 "withdraw your consent, by writing to %s."
 msgstr ""
-"U bilo kojem trenutku možete zatražiti uvid u svoje podatke, njihov ispravak"
-" ili brisanje te povući svoju privolu tako da nam pišete na %s."
+"U bilo kojem trenutku možete zatražiti uvid u svoje podatke, njihov ispravak "
+"ili brisanje te povući svoju privolu tako da nam pišete na %s."
 
 #: includes/class-real-accessability-admin.php:467
 msgid "Privacy policy for audit requests"
@@ -391,17 +416,17 @@ msgstr "Odricanje od odgovornosti:"
 
 #: includes/class-real-accessability-admin.php:616
 msgid ""
-"Real Accessibility adds an accessibility menu that helps visitors adjust how"
-" the site is displayed. On its own, it does not make a website accessible or"
-" compliant with any accessibility law or standard (such as WCAG or Israeli "
+"Real Accessibility adds an accessibility menu that helps visitors adjust how "
+"the site is displayed. On its own, it does not make a website accessible or "
+"compliant with any accessibility law or standard (such as WCAG or Israeli "
 "Standard 5568). The site owner remains solely responsible for the "
 "accessibility of the site's code and content and for meeting the legal "
 "requirements. The plugin is provided \"as is\", without warranty of any "
 "kind, and the plugin's authors are not liable for any damage resulting from "
 "its use."
 msgstr ""
-"Real Accessibility dodaje izbornik pristupačnosti koji posjetiteljima pomaže"
-" prilagoditi prikaz web-stranice. Sam po sebi dodatak ne čini web-stranicu "
+"Real Accessibility dodaje izbornik pristupačnosti koji posjetiteljima pomaže "
+"prilagoditi prikaz web-stranice. Sam po sebi dodatak ne čini web-stranicu "
 "pristupačnom niti usklađenom s bilo kojim zakonom ili normom o "
 "pristupačnosti (kao što su WCAG ili izraelska norma 5568). Vlasnik web-"
 "stranice i dalje je isključivo odgovoran za pristupačnost kôda i sadržaja "
@@ -437,9 +462,9 @@ msgstr ""
 "stranica da ga pronađu."
 
 #: includes/class-real-accessability-admin.php:652
-#: includes/class-real-accessability-admin.php:1117
-#: includes/class-real-accessability-admin.php:1251
-#: includes/class-real-accessability-admin.php:1349
+#: includes/class-real-accessability-admin.php:1124
+#: includes/class-real-accessability-admin.php:1258
+#: includes/class-real-accessability-admin.php:1356
 msgid "Cancel"
 msgstr "Odustani"
 
@@ -448,8 +473,8 @@ msgid "You can also turn it on without the credit"
 msgstr "Možete ga uključiti i bez potpisa"
 
 #: includes/class-real-accessability-admin.php:677
-#: includes/class-real-accessability-admin.php:998
-#: includes/class-real-accessability-admin.php:1006
+#: includes/class-real-accessability-admin.php:1005
+#: includes/class-real-accessability-admin.php:1013
 msgid "Button and menu"
 msgstr "Dugme i izbornik"
 
@@ -496,7 +521,7 @@ msgstr "Ovo polje je obavezno."
 
 #. translators: %s: language name.
 #: includes/class-real-accessability-admin.php:769
-#: includes/class-real-accessability-admin.php:1297
+#: includes/class-real-accessability-admin.php:1304
 #, php-format
 msgid "Flag for %s"
 msgstr "Zastava: %s"
@@ -539,8 +564,7 @@ msgid "Legal compliance"
 msgstr "Zakonska usklađenost"
 
 #: includes/class-real-accessability-admin.php:825
-msgid ""
-"Thank you! The credit is shown at the bottom of the accessibility menu."
+msgid "Thank you! The credit is shown at the bottom of the accessibility menu."
 msgstr "Hvala! Potpis se sada prikazuje na dnu izbornika pristupačnosti."
 
 #: includes/class-real-accessability-admin.php:832
@@ -632,7 +656,7 @@ msgid "From the bottom"
 msgstr "Odozdo"
 
 #: includes/class-real-accessability-admin.php:925
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Circle"
 msgstr "Krug"
 
@@ -641,7 +665,7 @@ msgid "Rounded"
 msgstr "Zaobljen"
 
 #: includes/class-real-accessability-admin.php:927
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Square"
 msgstr "Kvadrat"
 
@@ -694,103 +718,111 @@ msgstr "Automatski"
 msgid "Custom"
 msgstr "Prilagođeno"
 
-#: includes/class-real-accessability-admin.php:1000
+#: includes/class-real-accessability-admin.php:986
+msgid "Flat button color"
+msgstr "Jednobojni gumb"
+
+#: includes/class-real-accessability-admin.php:987
+msgid "One solid color, without a gradient or shadow."
+msgstr "Jedna puna boja, bez prijelaza i sjene."
+
+#: includes/class-real-accessability-admin.php:1007
 msgid "Show the button on"
 msgstr "Prikaži dugme na"
 
-#: includes/class-real-accessability-admin.php:1009
-#: includes/class-real-accessability-admin.php:1024
+#: includes/class-real-accessability-admin.php:1016
+#: includes/class-real-accessability-admin.php:1031
 msgid "Button position"
 msgstr "Položaj dugmeta"
 
-#: includes/class-real-accessability-admin.php:1010
+#: includes/class-real-accessability-admin.php:1017
 msgid "Shape and size"
 msgstr "Oblik i veličina"
 
-#: includes/class-real-accessability-admin.php:1011
+#: includes/class-real-accessability-admin.php:1018
 msgid "The menu"
 msgstr "Izbornik"
 
-#: includes/class-real-accessability-admin.php:1019
+#: includes/class-real-accessability-admin.php:1026
 msgid ""
 "The button is hidden on this device. Turn it back on with the icons above."
 msgstr ""
 "Dugme je skriveno na ovom uređaju. Ponovno ga uključite pomoću ikona iznad."
 
-#: includes/class-real-accessability-admin.php:1036
+#: includes/class-real-accessability-admin.php:1043
 msgid "Distance from the edge - horizontal"
 msgstr "Vodoravni razmak od ruba"
 
-#: includes/class-real-accessability-admin.php:1036
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1043
+#: includes/class-real-accessability-admin.php:1044
 msgid "Attached"
 msgstr "Uz rub"
 
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1044
 msgid "Distance from the edge - vertical"
 msgstr "Okomiti razmak od ruba"
 
-#: includes/class-real-accessability-admin.php:1044
+#: includes/class-real-accessability-admin.php:1051
 msgid "Shape"
 msgstr "Oblik"
 
-#: includes/class-real-accessability-admin.php:1050
+#: includes/class-real-accessability-admin.php:1057
 msgid "Button size"
 msgstr "Veličina dugmeta"
 
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Corner radius"
 msgstr "Zaobljenost kutova"
 
-#: includes/class-real-accessability-admin.php:1056
+#: includes/class-real-accessability-admin.php:1063
 msgid "Opens from the edge of the screen, wherever the button is."
 msgstr "Otvara se s ruba zaslona, gdje god se dugme nalazilo."
 
-#: includes/class-real-accessability-admin.php:1058
+#: includes/class-real-accessability-admin.php:1065
 msgid "Menu opens from"
 msgstr "Odakle se otvara izbornik"
 
-#: includes/class-real-accessability-admin.php:1067
+#: includes/class-real-accessability-admin.php:1074
 msgid "Menu corner radius"
 msgstr "Zaobljenost kutova izbornika"
 
-#: includes/class-real-accessability-admin.php:1079
-#: includes/class-real-accessability-admin.php:1080
-#: includes/class-real-accessability-admin.php:1235
-#: includes/class-real-accessability-admin.php:1330
+#: includes/class-real-accessability-admin.php:1086
+#: includes/class-real-accessability-admin.php:1087
+#: includes/class-real-accessability-admin.php:1242
+#: includes/class-real-accessability-admin.php:1337
 msgid "Preview"
 msgstr "Pretpregled"
 
-#: includes/class-real-accessability-admin.php:1081
+#: includes/class-real-accessability-admin.php:1088
 msgid "Button"
 msgstr "Dugme"
 
-#: includes/class-real-accessability-admin.php:1082
+#: includes/class-real-accessability-admin.php:1089
 msgid "Menu open"
 msgstr "Otvoren izbornik"
 
-#: includes/class-real-accessability-admin.php:1095
+#: includes/class-real-accessability-admin.php:1102
 #: includes/class-real-accessability-i18n.php:32
 msgid "Accessibility"
 msgstr "Pristupačnost"
 
-#: includes/class-real-accessability-admin.php:1104
+#: includes/class-real-accessability-admin.php:1111
 msgid "The button is hidden on this device."
 msgstr "Dugme je skriveno na ovom uređaju."
 
-#: includes/class-real-accessability-admin.php:1116
-#: includes/class-real-accessability-admin.php:1250
-#: includes/class-real-accessability-admin.php:1348
+#: includes/class-real-accessability-admin.php:1123
+#: includes/class-real-accessability-admin.php:1257
+#: includes/class-real-accessability-admin.php:1355
 msgid "Save changes"
 msgstr "Spremi promjene"
 
-#: includes/class-real-accessability-admin.php:1118
-#: includes/class-real-accessability-admin.php:1252
-#: includes/class-real-accessability-admin.php:1350
+#: includes/class-real-accessability-admin.php:1125
+#: includes/class-real-accessability-admin.php:1259
+#: includes/class-real-accessability-admin.php:1357
 msgid "You have unsaved changes"
 msgstr "Imate nespremljene promjene"
 
-#: includes/class-real-accessability-admin.php:1193
+#: includes/class-real-accessability-admin.php:1200
 msgid ""
 "Choose what visitors see in the accessibility menu. Sections without any "
 "option are not shown."
@@ -798,23 +830,23 @@ msgstr ""
 "Odaberite što posjetitelji vide u izborniku pristupačnosti. Odjeljci bez "
 "ijedne uključene opcije ne prikazuju se."
 
-#: includes/class-real-accessability-admin.php:1222
+#: includes/class-real-accessability-admin.php:1229
 msgid "Menu footer"
 msgstr "Podnožje izbornika"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hide button"
 msgstr "Dugme „Sakrij”"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hides the accessibility button until the visitor's next visit"
 msgstr "Skriva dugme pristupačnosti do sljedećeg dolaska posjetitelja"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid "Plugin credit"
 msgstr "Potpis dodatka"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid ""
 "A small credit at the bottom of the menu, with a link to the plugin page on "
 "WordPress.org"
@@ -822,68 +854,68 @@ msgstr ""
 "Mali potpis na dnu izbornika s poveznicom na stranicu dodatka na "
 "WordPress.org"
 
-#: includes/class-real-accessability-admin.php:1237
+#: includes/class-real-accessability-admin.php:1244
 msgid "Preview of the accessibility menu"
 msgstr "Pretpregled izbornika pristupačnosti"
 
-#: includes/class-real-accessability-admin.php:1276
+#: includes/class-real-accessability-admin.php:1283
 msgid "Menu languages"
 msgstr "Jezici izbornika"
 
-#: includes/class-real-accessability-admin.php:1281
+#: includes/class-real-accessability-admin.php:1288
 msgid "Search languages"
 msgstr "Pretraži jezike"
 
-#: includes/class-real-accessability-admin.php:1283
+#: includes/class-real-accessability-admin.php:1290
 msgid "No language found"
 msgstr "Nije pronađen nijedan jezik"
 
-#: includes/class-real-accessability-admin.php:1293
+#: includes/class-real-accessability-admin.php:1300
 msgid "Drag to reorder"
 msgstr "Povucite za promjenu redoslijeda"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1315
+#: includes/class-real-accessability-admin.php:1322
 #, php-format
 msgid "Make %s the default"
 msgstr "Postavi kao zadani jezik: %s"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1316
+#: includes/class-real-accessability-admin.php:1323
 msgid "Default"
 msgstr "Zadani"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1319
+#: includes/class-real-accessability-admin.php:1326
 #, php-format
 msgid "Show %s in the menu"
 msgstr "Prikaži u izborniku: %s"
 
-#: includes/class-real-accessability-admin.php:1362
+#: includes/class-real-accessability-admin.php:1369
 msgid "Statement page"
 msgstr "Stranica izjave"
 
-#: includes/class-real-accessability-admin.php:1370
+#: includes/class-real-accessability-admin.php:1377
 msgid "- Select a page -"
 msgstr "- Odaberite stranicu -"
 
-#: includes/class-real-accessability-admin.php:1377
+#: includes/class-real-accessability-admin.php:1384
 msgid "View page"
 msgstr "Prikaži stranicu"
 
-#: includes/class-real-accessability-admin.php:1379
+#: includes/class-real-accessability-admin.php:1386
 msgid ""
 "The page on your site with the accessibility statement. The \"Accessibility "
 "statement\" button in the menu links to it."
 msgstr ""
-"Stranica s izjavom o pristupačnosti na vašoj web-stranici. Na nju vodi dugme"
-" „Izjava o pristupačnosti” u izborniku."
+"Stranica s izjavom o pristupačnosti na vašoj web-stranici. Na nju vodi dugme "
+"„Izjava o pristupačnosti” u izborniku."
 
-#: includes/class-real-accessability-admin.php:1383
+#: includes/class-real-accessability-admin.php:1390
 msgid "Statement button"
 msgstr "Dugme izjave"
 
-#: includes/class-real-accessability-admin.php:1385
+#: includes/class-real-accessability-admin.php:1392
 msgid "Show the \"Accessibility statement\" button in the menu"
 msgstr "Prikaži dugme „Izjava o pristupačnosti” u izborniku"
 

@@ -2,7 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Real Accessibility 2.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-accessability/\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-"
+"accessability\n"
+"POT-Creation-Date: 2026-10-15T00:01:02+00:00\n"
 "PO-Revision-Date: 2026-10-11 12:00+0300\n"
 "Last-Translator: REALMEDIA <office@realmedia.co.il>\n"
 "Language-Team: Armenian\n"
@@ -12,6 +14,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Domain: real-accessability\n"
+
+#. Plugin Name of the plugin
+#: real-accessability.php
+msgid "Real Accessibility: Accessibility Widget & Toolbar"
+msgstr ""
 
 #. Plugin URI of the plugin
 #: real-accessability.php
@@ -26,8 +33,8 @@ msgid ""
 "in your brand color."
 msgstr ""
 "Մատչելիության ընտրացանկ ձեր կայքի համար՝ պատրաստի պրոֆիլներ, կոնտրաստի "
-"ռեժիմներ, տեքստի չափ և միջակայքեր, ընթեռնելի տառատեսակ, ընթերցանության քանոն"
-" և ավելին՝ ձեր բրենդի գույնով։"
+"ռեժիմներ, տեքստի չափ և միջակայքեր, ընթեռնելի տառատեսակ, ընթերցանության քանոն "
+"և ավելին՝ ձեր բրենդի գույնով։"
 
 #. Author of the plugin
 #: real-accessability.php
@@ -101,6 +108,10 @@ msgstr "Հաստատել"
 msgid "No thanks"
 msgstr "Ոչ, շնորհակալություն"
 
+#: includes/class-real-accessability-admin.php:225
+msgid "Real Media - website accessibility services"
+msgstr ""
+
 #: includes/class-real-accessability-admin.php:244
 msgid "Load WooCommerce stores in 249ms"
 msgstr "Բեռնեք WooCommerce խանութները 249 միլիվայրկյանում"
@@ -112,6 +123,10 @@ msgstr "Բեռնեք WordPress կայքերը ընդամենը 37 միլիվայ
 #: includes/class-real-accessability-admin.php:255
 msgid "(opens in a new tab)"
 msgstr "(բացվում է նոր ներդիրում)"
+
+#: includes/class-real-accessability-admin.php:274
+msgid "From ₪2,000 + VAT"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:274
 msgid "Starting from $500"
@@ -132,6 +147,11 @@ msgstr "Ձեր հայտն ուղարկվեց։ Շուտով կկապվենք ձ�
 #: includes/class-real-accessability-admin.php:311
 msgid "Get a quote"
 msgstr "Ստանալ գնային առաջարկ"
+
+#: includes/class-real-accessability-admin.php:325
+msgid ""
+"Manual and automated testing against Israeli Standard 5568 and WCAG 2.1 AA"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:326
 #: includes/class-real-accessability-admin.php:331
@@ -156,14 +176,20 @@ msgstr "Ձեռքով և ավտոմատ թեստավորում WCAG 2.2 AA-ի հ�
 msgid "An accessibility menu alone is not enough"
 msgstr "Միայն մատչելիության ընտրացանկը բավարար չէ"
 
+#: includes/class-real-accessability-admin.php:343
+msgid ""
+"To meet Israeli Standard 5568, the code and content of the site need to be "
+"accessible too. Our experts audit your site and show you exactly what to fix."
+msgstr ""
+
 #: includes/class-real-accessability-admin.php:344
 msgid ""
 "To meet WCAG 2.2 AA and laws such as the ADA, the code and content of the "
 "site need to be accessible too. Our experts audit your site and show you "
 "exactly what to fix."
 msgstr ""
-"WCAG 2.2 AA-ի և ADA-ի նման օրենքների պահանջները բավարարելու համար կայքի կոդը"
-" և բովանդակությունը նույնպես պետք է մատչելի լինեն։ Մեր փորձագետները "
+"WCAG 2.2 AA-ի և ADA-ի նման օրենքների պահանջները բավարարելու համար կայքի կոդը "
+"և բովանդակությունը նույնպես պետք է մատչելի լինեն։ Մեր փորձագետները "
 "կանցկացնեն ձեր կայքի աուդիտը և հստակ ցույց կտան, թե ինչ է պետք շտկել։"
 
 #: includes/class-real-accessability-admin.php:359
@@ -262,8 +288,8 @@ msgid ""
 "Your details are sent only when you click the button, together with the "
 "language and price shown here. Nothing else from your site is sent."
 msgstr ""
-"Ձեր տվյալներն ուղարկվում են միայն կոճակը սեղմելիս՝ այստեղ ցուցադրված լեզվի և"
-" գնի հետ միասին։ Ձեր կայքից ուրիշ ոչինչ չի ուղարկվում։"
+"Ձեր տվյալներն ուղարկվում են միայն կոճակը սեղմելիս՝ այստեղ ցուցադրված լեզվի և "
+"գնի հետ միասին։ Ձեր կայքից ուրիշ ոչինչ չի ուղարկվում։"
 
 #: includes/class-real-accessability-admin.php:439
 msgid "What we use it for"
@@ -275,9 +301,9 @@ msgid ""
 "accessibility audit. We will not send you marketing messages unless you "
 "agree to receive them separately."
 msgstr ""
-"Ձեր հայտի վերաբերյալ ձեզ պատասխանելու և մատչելիության աուդիտի գնային առաջարկ"
-" ուղարկելու համար։ Մենք ձեզ գովազդային հաղորդագրություններ չենք ուղարկի, եթե"
-" առանձին համաձայնություն չտաք դրանք ստանալու համար։"
+"Ձեր հայտի վերաբերյալ ձեզ պատասխանելու և մատչելիության աուդիտի գնային առաջարկ "
+"ուղարկելու համար։ Մենք ձեզ գովազդային հաղորդագրություններ չենք ուղարկի, եթե "
+"առանձին համաձայնություն չտաք դրանք ստանալու համար։"
 
 #: includes/class-real-accessability-admin.php:443
 msgid "Do you have to give it"
@@ -288,8 +314,8 @@ msgid ""
 "You are not required by law to give us these details. Without them, we "
 "cannot get back to you about your request."
 msgstr ""
-"Օրենքով դուք պարտավոր չեք մեզ տրամադրել այս տվյալները։ Առանց դրանց մենք չենք"
-" կարող պատասխանել ձեր հայտին։"
+"Օրենքով դուք պարտավոր չեք մեզ տրամադրել այս տվյալները։ Առանց դրանց մենք չենք "
+"կարող պատասխանել ձեր հայտին։"
 
 #: includes/class-real-accessability-admin.php:447
 msgid "Who receives it"
@@ -391,9 +417,9 @@ msgstr "Պատասխանատվությունից հրաժարում՝"
 
 #: includes/class-real-accessability-admin.php:616
 msgid ""
-"Real Accessibility adds an accessibility menu that helps visitors adjust how"
-" the site is displayed. On its own, it does not make a website accessible or"
-" compliant with any accessibility law or standard (such as WCAG or Israeli "
+"Real Accessibility adds an accessibility menu that helps visitors adjust how "
+"the site is displayed. On its own, it does not make a website accessible or "
+"compliant with any accessibility law or standard (such as WCAG or Israeli "
 "Standard 5568). The site owner remains solely responsible for the "
 "accessibility of the site's code and content and for meeting the legal "
 "requirements. The plugin is provided \"as is\", without warranty of any "
@@ -403,10 +429,10 @@ msgstr ""
 "Real Accessibility-ն ավելացնում է մատչելիության ընտրացանկ, որն օգնում է "
 "այցելուներին կարգավորել կայքի ցուցադրումը։ Ինքնին այն կայքը մատչելի չի "
 "դարձնում և չի ապահովում դրա համապատասխանությունը մատչելիության որևէ օրենքին "
-"կամ ստանդարտին (օրինակ՝ WCAG-ին կամ Իսրայելական 5568 ստանդարտին)։ Կայքի կոդի"
-" և բովանդակության մատչելիության, ինչպես նաև օրենքի պահանջների կատարման համար"
-" պատասխանատու է մնում միայն կայքի սեփականատերը։ Փլագինը տրամադրվում է "
-"«ինչպես կա» սկզբունքով՝ առանց որևէ տեսակի երաշխիքի, և փլագինի հեղինակները "
+"կամ ստանդարտին (օրինակ՝ WCAG-ին կամ Իսրայելական 5568 ստանդարտին)։ Կայքի կոդի "
+"և բովանդակության մատչելիության, ինչպես նաև օրենքի պահանջների կատարման համար "
+"պատասխանատու է մնում միայն կայքի սեփականատերը։ Փլագինը տրամադրվում է «ինչպես "
+"կա» սկզբունքով՝ առանց որևէ տեսակի երաշխիքի, և փլագինի հեղինակները "
 "պատասխանատվություն չեն կրում դրա օգտագործման հետևանքով առաջացած որևէ վնասի "
 "համար։"
 
@@ -438,9 +464,9 @@ msgstr ""
 "սեփականատերերին գտնել այն։"
 
 #: includes/class-real-accessability-admin.php:652
-#: includes/class-real-accessability-admin.php:1117
-#: includes/class-real-accessability-admin.php:1251
-#: includes/class-real-accessability-admin.php:1349
+#: includes/class-real-accessability-admin.php:1124
+#: includes/class-real-accessability-admin.php:1258
+#: includes/class-real-accessability-admin.php:1356
 msgid "Cancel"
 msgstr "Չեղարկել"
 
@@ -449,8 +475,8 @@ msgid "You can also turn it on without the credit"
 msgstr "Կարող եք միացնել նաև առանց հղման"
 
 #: includes/class-real-accessability-admin.php:677
-#: includes/class-real-accessability-admin.php:998
-#: includes/class-real-accessability-admin.php:1006
+#: includes/class-real-accessability-admin.php:1005
+#: includes/class-real-accessability-admin.php:1013
 msgid "Button and menu"
 msgstr "Կոճակ և ընտրացանկ"
 
@@ -497,7 +523,7 @@ msgstr "Այս դաշտը պարտադիր է։"
 
 #. translators: %s: language name.
 #: includes/class-real-accessability-admin.php:769
-#: includes/class-real-accessability-admin.php:1297
+#: includes/class-real-accessability-admin.php:1304
 #, php-format
 msgid "Flag for %s"
 msgstr "Դրոշ՝ %s"
@@ -539,8 +565,7 @@ msgid "Legal compliance"
 msgstr "Իրավական համապատասխանություն"
 
 #: includes/class-real-accessability-admin.php:825
-msgid ""
-"Thank you! The credit is shown at the bottom of the accessibility menu."
+msgid "Thank you! The credit is shown at the bottom of the accessibility menu."
 msgstr ""
 "Շնորհակալություն։ Հղումը ցուցադրվում է մատչելիության ընտրացանկի ներքևում։"
 
@@ -633,7 +658,7 @@ msgid "From the bottom"
 msgstr "Ներքևից"
 
 #: includes/class-real-accessability-admin.php:925
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Circle"
 msgstr "Շրջան"
 
@@ -642,7 +667,7 @@ msgid "Rounded"
 msgstr "Կլորացված"
 
 #: includes/class-real-accessability-admin.php:927
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Square"
 msgstr "Քառակուսի"
 
@@ -694,102 +719,110 @@ msgstr "Ավտոմատ"
 msgid "Custom"
 msgstr "Հատուկ"
 
-#: includes/class-real-accessability-admin.php:1000
+#: includes/class-real-accessability-admin.php:986
+msgid "Flat button color"
+msgstr "Կոճակի միագույն գույն"
+
+#: includes/class-real-accessability-admin.php:987
+msgid "One solid color, without a gradient or shadow."
+msgstr "Մեկ ամբողջական գույն՝ առանց գրադիենտի և ստվերի։"
+
+#: includes/class-real-accessability-admin.php:1007
 msgid "Show the button on"
 msgstr "Կոճակի ցուցադրում"
 
-#: includes/class-real-accessability-admin.php:1009
-#: includes/class-real-accessability-admin.php:1024
+#: includes/class-real-accessability-admin.php:1016
+#: includes/class-real-accessability-admin.php:1031
 msgid "Button position"
 msgstr "Կոճակի դիրք"
 
-#: includes/class-real-accessability-admin.php:1010
+#: includes/class-real-accessability-admin.php:1017
 msgid "Shape and size"
 msgstr "Ձև և չափ"
 
-#: includes/class-real-accessability-admin.php:1011
+#: includes/class-real-accessability-admin.php:1018
 msgid "The menu"
 msgstr "Ընտրացանկ"
 
-#: includes/class-real-accessability-admin.php:1019
+#: includes/class-real-accessability-admin.php:1026
 msgid ""
 "The button is hidden on this device. Turn it back on with the icons above."
 msgstr "Այս սարքում կոճակը թաքցված է։ Կրկին միացրեք այն վերևի պատկերակներով։"
 
-#: includes/class-real-accessability-admin.php:1036
+#: includes/class-real-accessability-admin.php:1043
 msgid "Distance from the edge - horizontal"
 msgstr "Հեռավորություն եզրից - հորիզոնական"
 
-#: includes/class-real-accessability-admin.php:1036
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1043
+#: includes/class-real-accessability-admin.php:1044
 msgid "Attached"
 msgstr "Կից"
 
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1044
 msgid "Distance from the edge - vertical"
 msgstr "Հեռավորություն եզրից - ուղղահայաց"
 
-#: includes/class-real-accessability-admin.php:1044
+#: includes/class-real-accessability-admin.php:1051
 msgid "Shape"
 msgstr "Ձև"
 
-#: includes/class-real-accessability-admin.php:1050
+#: includes/class-real-accessability-admin.php:1057
 msgid "Button size"
 msgstr "Կոճակի չափ"
 
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Corner radius"
 msgstr "Անկյունների կլորացում"
 
-#: includes/class-real-accessability-admin.php:1056
+#: includes/class-real-accessability-admin.php:1063
 msgid "Opens from the edge of the screen, wherever the button is."
 msgstr "Բացվում է էկրանի եզրից՝ անկախ կոճակի դիրքից։"
 
-#: includes/class-real-accessability-admin.php:1058
+#: includes/class-real-accessability-admin.php:1065
 msgid "Menu opens from"
 msgstr "Որտեղից է բացվում ընտրացանկը"
 
-#: includes/class-real-accessability-admin.php:1067
+#: includes/class-real-accessability-admin.php:1074
 msgid "Menu corner radius"
 msgstr "Ընտրացանկի անկյունների կլորացում"
 
-#: includes/class-real-accessability-admin.php:1079
-#: includes/class-real-accessability-admin.php:1080
-#: includes/class-real-accessability-admin.php:1235
-#: includes/class-real-accessability-admin.php:1330
+#: includes/class-real-accessability-admin.php:1086
+#: includes/class-real-accessability-admin.php:1087
+#: includes/class-real-accessability-admin.php:1242
+#: includes/class-real-accessability-admin.php:1337
 msgid "Preview"
 msgstr "Նախադիտում"
 
-#: includes/class-real-accessability-admin.php:1081
+#: includes/class-real-accessability-admin.php:1088
 msgid "Button"
 msgstr "Կոճակ"
 
-#: includes/class-real-accessability-admin.php:1082
+#: includes/class-real-accessability-admin.php:1089
 msgid "Menu open"
 msgstr "Բաց ընտրացանկ"
 
-#: includes/class-real-accessability-admin.php:1095
+#: includes/class-real-accessability-admin.php:1102
 #: includes/class-real-accessability-i18n.php:32
 msgid "Accessibility"
 msgstr "Մատչելիություն"
 
-#: includes/class-real-accessability-admin.php:1104
+#: includes/class-real-accessability-admin.php:1111
 msgid "The button is hidden on this device."
 msgstr "Այս սարքում կոճակը թաքցված է։"
 
-#: includes/class-real-accessability-admin.php:1116
-#: includes/class-real-accessability-admin.php:1250
-#: includes/class-real-accessability-admin.php:1348
+#: includes/class-real-accessability-admin.php:1123
+#: includes/class-real-accessability-admin.php:1257
+#: includes/class-real-accessability-admin.php:1355
 msgid "Save changes"
 msgstr "Պահպանել փոփոխությունները"
 
-#: includes/class-real-accessability-admin.php:1118
-#: includes/class-real-accessability-admin.php:1252
-#: includes/class-real-accessability-admin.php:1350
+#: includes/class-real-accessability-admin.php:1125
+#: includes/class-real-accessability-admin.php:1259
+#: includes/class-real-accessability-admin.php:1357
 msgid "You have unsaved changes"
 msgstr "Ունեք չպահպանված փոփոխություններ"
 
-#: includes/class-real-accessability-admin.php:1193
+#: includes/class-real-accessability-admin.php:1200
 msgid ""
 "Choose what visitors see in the accessibility menu. Sections without any "
 "option are not shown."
@@ -797,78 +830,78 @@ msgstr ""
 "Ընտրեք, թե ինչ կտեսնեն այցելուները մատչելիության ընտրացանկում։ Այն "
 "բաժինները, որոնցում ոչ մի տարբերակ միացված չէ, չեն ցուցադրվում։"
 
-#: includes/class-real-accessability-admin.php:1222
+#: includes/class-real-accessability-admin.php:1229
 msgid "Menu footer"
 msgstr "Ընտրացանկի ստորին հատված"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hide button"
 msgstr "Թաքցնելու կոճակ"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hides the accessibility button until the visitor's next visit"
 msgstr "Թաքցնում է մատչելիության կոճակը մինչև այցելուի հաջորդ այցը"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid "Plugin credit"
 msgstr "Հղում փլագինին"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid ""
 "A small credit at the bottom of the menu, with a link to the plugin page on "
 "WordPress.org"
 msgstr "Փոքր հղում ընտրացանկի ներքևում՝ դեպի WordPress.org-ում փլագինի էջը"
 
-#: includes/class-real-accessability-admin.php:1237
+#: includes/class-real-accessability-admin.php:1244
 msgid "Preview of the accessibility menu"
 msgstr "Մատչելիության ընտրացանկի նախադիտում"
 
-#: includes/class-real-accessability-admin.php:1276
+#: includes/class-real-accessability-admin.php:1283
 msgid "Menu languages"
 msgstr "Ընտրացանկի լեզուներ"
 
-#: includes/class-real-accessability-admin.php:1281
+#: includes/class-real-accessability-admin.php:1288
 msgid "Search languages"
 msgstr "Որոնել լեզուներ"
 
-#: includes/class-real-accessability-admin.php:1283
+#: includes/class-real-accessability-admin.php:1290
 msgid "No language found"
 msgstr "Լեզու չի գտնվել"
 
-#: includes/class-real-accessability-admin.php:1293
+#: includes/class-real-accessability-admin.php:1300
 msgid "Drag to reorder"
 msgstr "Քաշեք՝ հերթականությունը փոխելու համար"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1315
+#: includes/class-real-accessability-admin.php:1322
 #, php-format
 msgid "Make %s the default"
 msgstr "Դարձնել լռելյայն՝ %s"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1316
+#: includes/class-real-accessability-admin.php:1323
 msgid "Default"
 msgstr "Լռելյայն"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1319
+#: includes/class-real-accessability-admin.php:1326
 #, php-format
 msgid "Show %s in the menu"
 msgstr "Ցուցադրել ընտրացանկում՝ %s"
 
-#: includes/class-real-accessability-admin.php:1362
+#: includes/class-real-accessability-admin.php:1369
 msgid "Statement page"
 msgstr "Հայտարարության էջ"
 
-#: includes/class-real-accessability-admin.php:1370
+#: includes/class-real-accessability-admin.php:1377
 msgid "- Select a page -"
 msgstr "- Ընտրեք էջը -"
 
-#: includes/class-real-accessability-admin.php:1377
+#: includes/class-real-accessability-admin.php:1384
 msgid "View page"
 msgstr "Դիտել էջը"
 
-#: includes/class-real-accessability-admin.php:1379
+#: includes/class-real-accessability-admin.php:1386
 msgid ""
 "The page on your site with the accessibility statement. The \"Accessibility "
 "statement\" button in the menu links to it."
@@ -876,11 +909,11 @@ msgstr ""
 "Ձեր կայքի էջը՝ մատչելիության հայտարարությամբ։ Ընտրացանկի «Մատչելիության "
 "հայտարարություն» կոճակը հղում է այդ էջին։"
 
-#: includes/class-real-accessability-admin.php:1383
+#: includes/class-real-accessability-admin.php:1390
 msgid "Statement button"
 msgstr "Հայտարարության կոճակ"
 
-#: includes/class-real-accessability-admin.php:1385
+#: includes/class-real-accessability-admin.php:1392
 msgid "Show the \"Accessibility statement\" button in the menu"
 msgstr "Ցուցադրել «Մատչելիության հայտարարություն» կոճակը ընտրացանկում"
 
@@ -934,8 +967,7 @@ msgstr "Ուշադրության դեֆիցիտ"
 
 #: includes/class-real-accessability-i18n.php:45
 msgid "Fewer distractions, reading guide and line spacing"
-msgstr ""
-"Ավելի քիչ շեղող տարրեր, ընթերցանության քանոն և տողամիջյան տարածություն"
+msgstr "Ավելի քիչ շեղող տարրեր, ընթերցանության քանոն և տողամիջյան տարածություն"
 
 #: includes/class-real-accessability-i18n.php:46
 msgid "Dyslexia"

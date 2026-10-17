@@ -2,7 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Real Accessibility 2.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-accessability/\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-"
+"accessability\n"
+"POT-Creation-Date: 2026-10-15T00:01:02+00:00\n"
 "PO-Revision-Date: 2026-10-11 12:00+0300\n"
 "Last-Translator: REALMEDIA <office@realmedia.co.il>\n"
 "Language-Team: Danish\n"
@@ -12,6 +14,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Domain: real-accessability\n"
+
+#. Plugin Name of the plugin
+#: real-accessability.php
+msgid "Real Accessibility: Accessibility Widget & Toolbar"
+msgstr ""
 
 #. Plugin URI of the plugin
 #: real-accessability.php
@@ -102,6 +109,10 @@ msgstr "Godkend"
 msgid "No thanks"
 msgstr "Nej tak"
 
+#: includes/class-real-accessability-admin.php:225
+msgid "Real Media - website accessibility services"
+msgstr ""
+
 #: includes/class-real-accessability-admin.php:244
 msgid "Load WooCommerce stores in 249ms"
 msgstr "Indlæs WooCommerce-butikker på 249 ms"
@@ -113,6 +124,10 @@ msgstr "Indlæs WordPress-websteder på helt ned til 37 ms"
 #: includes/class-real-accessability-admin.php:255
 msgid "(opens in a new tab)"
 msgstr "(åbner i en ny fane)"
+
+#: includes/class-real-accessability-admin.php:274
+msgid "From ₪2,000 + VAT"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:274
 msgid "Starting from $500"
@@ -133,6 +148,11 @@ msgstr "Din forespørgsel er sendt. Vi kontakter dig snart."
 #: includes/class-real-accessability-admin.php:311
 msgid "Get a quote"
 msgstr "Få et tilbud"
+
+#: includes/class-real-accessability-admin.php:325
+msgid ""
+"Manual and automated testing against Israeli Standard 5568 and WCAG 2.1 AA"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:326
 #: includes/class-real-accessability-admin.php:331
@@ -159,14 +179,20 @@ msgstr "Manuel og automatiseret test op imod WCAG 2.2 AA"
 msgid "An accessibility menu alone is not enough"
 msgstr "En tilgængelighedsmenu alene er ikke nok"
 
+#: includes/class-real-accessability-admin.php:343
+msgid ""
+"To meet Israeli Standard 5568, the code and content of the site need to be "
+"accessible too. Our experts audit your site and show you exactly what to fix."
+msgstr ""
+
 #: includes/class-real-accessability-admin.php:344
 msgid ""
 "To meet WCAG 2.2 AA and laws such as the ADA, the code and content of the "
 "site need to be accessible too. Our experts audit your site and show you "
 "exactly what to fix."
 msgstr ""
-"For at overholde WCAG 2.2 AA og love som ADA skal webstedets kode og indhold"
-" også være tilgængelige. Vores eksperter gennemgår dit websted og viser dig "
+"For at overholde WCAG 2.2 AA og love som ADA skal webstedets kode og indhold "
+"også være tilgængelige. Vores eksperter gennemgår dit websted og viser dig "
 "præcis, hvad der skal rettes."
 
 #: includes/class-real-accessability-admin.php:359
@@ -241,8 +267,8 @@ msgid ""
 "through it. It follows the Israeli Protection of Privacy Law, 5741-1981, "
 "including Amendment 13."
 msgstr ""
-"Formularen drives af Real Media Ltd., der udvikler Real Accessibility. Denne"
-" politik forklarer, hvad der sker med de oplysninger, du sender via "
+"Formularen drives af Real Media Ltd., der udvikler Real Accessibility. Denne "
+"politik forklarer, hvad der sker med de oplysninger, du sender via "
 "formularen. Den følger den israelske lov om beskyttelse af privatlivets "
 "fred, 5741-1981, herunder ændring nr. 13."
 
@@ -256,8 +282,8 @@ msgid ""
 "your site's address, your consent, the plugin version and the time of "
 "sending."
 msgstr ""
-"Kun det, du skriver i formularen: fulde navn, telefonnummer og "
-"e-mailadresse, sammen med dit websteds adresse, dit samtykke, pluginets "
+"Kun det, du skriver i formularen: fulde navn, telefonnummer og e-"
+"mailadresse, sammen med dit websteds adresse, dit samtykke, pluginets "
 "version og tidspunktet for afsendelsen."
 
 #: includes/class-real-accessability-admin.php:436
@@ -265,8 +291,8 @@ msgid ""
 "Your details are sent only when you click the button, together with the "
 "language and price shown here. Nothing else from your site is sent."
 msgstr ""
-"Dine oplysninger sendes kun, når du klikker på knappen, sammen med det sprog"
-" og den pris, der vises her. Intet andet fra dit websted sendes."
+"Dine oplysninger sendes kun, når du klikker på knappen, sammen med det sprog "
+"og den pris, der vises her. Intet andet fra dit websted sendes."
 
 #: includes/class-real-accessability-admin.php:439
 msgid "What we use it for"
@@ -291,8 +317,8 @@ msgid ""
 "You are not required by law to give us these details. Without them, we "
 "cannot get back to you about your request."
 msgstr ""
-"Du har ikke pligt efter loven til at give os disse oplysninger. Uden dem kan"
-" vi ikke vende tilbage til dig om din forespørgsel."
+"Du har ikke pligt efter loven til at give os disse oplysninger. Uden dem kan "
+"vi ikke vende tilbage til dig om din forespørgsel."
 
 #: includes/class-real-accessability-admin.php:447
 msgid "Who receives it"
@@ -327,8 +353,8 @@ msgid ""
 "We use up-to-date measures to protect the details. No system is completely "
 "immune to unauthorized access, so we cannot guarantee absolute protection."
 msgstr ""
-"Vi bruger tidssvarende foranstaltninger til at beskytte oplysningerne. Intet"
-" system er fuldstændig sikret mod uautoriseret adgang, så vi kan ikke "
+"Vi bruger tidssvarende foranstaltninger til at beskytte oplysningerne. Intet "
+"system er fuldstændig sikret mod uautoriseret adgang, så vi kan ikke "
 "garantere absolut beskyttelse."
 
 #: includes/class-real-accessability-admin.php:459
@@ -394,9 +420,9 @@ msgstr "Ansvarsfraskrivelse:"
 
 #: includes/class-real-accessability-admin.php:616
 msgid ""
-"Real Accessibility adds an accessibility menu that helps visitors adjust how"
-" the site is displayed. On its own, it does not make a website accessible or"
-" compliant with any accessibility law or standard (such as WCAG or Israeli "
+"Real Accessibility adds an accessibility menu that helps visitors adjust how "
+"the site is displayed. On its own, it does not make a website accessible or "
+"compliant with any accessibility law or standard (such as WCAG or Israeli "
 "Standard 5568). The site owner remains solely responsible for the "
 "accessibility of the site's code and content and for meeting the legal "
 "requirements. The plugin is provided \"as is\", without warranty of any "
@@ -429,8 +455,8 @@ msgid ""
 "Approving turns the menu on and shows a small credit at its bottom, with a "
 "link to the plugin page on WordPress.org."
 msgstr ""
-"Når du godkender, slås menuen til, og der vises en lille kreditering nederst"
-" i den med et link til pluginets side på WordPress.org."
+"Når du godkender, slås menuen til, og der vises en lille kreditering nederst "
+"i den med et link til pluginets side på WordPress.org."
 
 #: includes/class-real-accessability-admin.php:648
 msgid ""
@@ -440,9 +466,9 @@ msgstr ""
 "med at finde pluginet."
 
 #: includes/class-real-accessability-admin.php:652
-#: includes/class-real-accessability-admin.php:1117
-#: includes/class-real-accessability-admin.php:1251
-#: includes/class-real-accessability-admin.php:1349
+#: includes/class-real-accessability-admin.php:1124
+#: includes/class-real-accessability-admin.php:1258
+#: includes/class-real-accessability-admin.php:1356
 msgid "Cancel"
 msgstr "Annuller"
 
@@ -451,8 +477,8 @@ msgid "You can also turn it on without the credit"
 msgstr "Du kan også slå den til uden kreditering"
 
 #: includes/class-real-accessability-admin.php:677
-#: includes/class-real-accessability-admin.php:998
-#: includes/class-real-accessability-admin.php:1006
+#: includes/class-real-accessability-admin.php:1005
+#: includes/class-real-accessability-admin.php:1013
 msgid "Button and menu"
 msgstr "Knap og menu"
 
@@ -499,7 +525,7 @@ msgstr "Dette felt skal udfyldes."
 
 #. translators: %s: language name.
 #: includes/class-real-accessability-admin.php:769
-#: includes/class-real-accessability-admin.php:1297
+#: includes/class-real-accessability-admin.php:1304
 #, php-format
 msgid "Flag for %s"
 msgstr "Flag for %s"
@@ -541,8 +567,7 @@ msgid "Legal compliance"
 msgstr "Lovkrav"
 
 #: includes/class-real-accessability-admin.php:825
-msgid ""
-"Thank you! The credit is shown at the bottom of the accessibility menu."
+msgid "Thank you! The credit is shown at the bottom of the accessibility menu."
 msgstr "Tak! Krediteringen vises nederst i tilgængelighedsmenuen."
 
 #: includes/class-real-accessability-admin.php:832
@@ -634,7 +659,7 @@ msgid "From the bottom"
 msgstr "Nedefra"
 
 #: includes/class-real-accessability-admin.php:925
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Circle"
 msgstr "Rund"
 
@@ -643,7 +668,7 @@ msgid "Rounded"
 msgstr "Afrundet"
 
 #: includes/class-real-accessability-admin.php:927
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Square"
 msgstr "Firkantet"
 
@@ -696,103 +721,111 @@ msgstr "Automatisk"
 msgid "Custom"
 msgstr "Brugerdefineret"
 
-#: includes/class-real-accessability-admin.php:1000
+#: includes/class-real-accessability-admin.php:986
+msgid "Flat button color"
+msgstr "Ensfarvet knap"
+
+#: includes/class-real-accessability-admin.php:987
+msgid "One solid color, without a gradient or shadow."
+msgstr "Én fast farve uden overgang eller skygge."
+
+#: includes/class-real-accessability-admin.php:1007
 msgid "Show the button on"
 msgstr "Vis knappen på"
 
-#: includes/class-real-accessability-admin.php:1009
-#: includes/class-real-accessability-admin.php:1024
+#: includes/class-real-accessability-admin.php:1016
+#: includes/class-real-accessability-admin.php:1031
 msgid "Button position"
 msgstr "Knappens placering"
 
-#: includes/class-real-accessability-admin.php:1010
+#: includes/class-real-accessability-admin.php:1017
 msgid "Shape and size"
 msgstr "Form og størrelse"
 
-#: includes/class-real-accessability-admin.php:1011
+#: includes/class-real-accessability-admin.php:1018
 msgid "The menu"
 msgstr "Menuen"
 
-#: includes/class-real-accessability-admin.php:1019
+#: includes/class-real-accessability-admin.php:1026
 msgid ""
 "The button is hidden on this device. Turn it back on with the icons above."
 msgstr ""
 "Knappen er skjult på denne enhed. Slå den til igen med ikonerne ovenfor."
 
-#: includes/class-real-accessability-admin.php:1036
+#: includes/class-real-accessability-admin.php:1043
 msgid "Distance from the edge - horizontal"
 msgstr "Afstand fra kanten - vandret"
 
-#: includes/class-real-accessability-admin.php:1036
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1043
+#: includes/class-real-accessability-admin.php:1044
 msgid "Attached"
 msgstr "Ved kanten"
 
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1044
 msgid "Distance from the edge - vertical"
 msgstr "Afstand fra kanten - lodret"
 
-#: includes/class-real-accessability-admin.php:1044
+#: includes/class-real-accessability-admin.php:1051
 msgid "Shape"
 msgstr "Form"
 
-#: includes/class-real-accessability-admin.php:1050
+#: includes/class-real-accessability-admin.php:1057
 msgid "Button size"
 msgstr "Knapstørrelse"
 
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Corner radius"
 msgstr "Hjørneradius"
 
-#: includes/class-real-accessability-admin.php:1056
+#: includes/class-real-accessability-admin.php:1063
 msgid "Opens from the edge of the screen, wherever the button is."
 msgstr "Åbner fra skærmens kant, uanset hvor knappen er placeret."
 
-#: includes/class-real-accessability-admin.php:1058
+#: includes/class-real-accessability-admin.php:1065
 msgid "Menu opens from"
 msgstr "Menuen åbner"
 
-#: includes/class-real-accessability-admin.php:1067
+#: includes/class-real-accessability-admin.php:1074
 msgid "Menu corner radius"
 msgstr "Menuens hjørneradius"
 
-#: includes/class-real-accessability-admin.php:1079
-#: includes/class-real-accessability-admin.php:1080
-#: includes/class-real-accessability-admin.php:1235
-#: includes/class-real-accessability-admin.php:1330
+#: includes/class-real-accessability-admin.php:1086
+#: includes/class-real-accessability-admin.php:1087
+#: includes/class-real-accessability-admin.php:1242
+#: includes/class-real-accessability-admin.php:1337
 msgid "Preview"
 msgstr "Forhåndsvisning"
 
-#: includes/class-real-accessability-admin.php:1081
+#: includes/class-real-accessability-admin.php:1088
 msgid "Button"
 msgstr "Knap"
 
-#: includes/class-real-accessability-admin.php:1082
+#: includes/class-real-accessability-admin.php:1089
 msgid "Menu open"
 msgstr "Menu åben"
 
-#: includes/class-real-accessability-admin.php:1095
+#: includes/class-real-accessability-admin.php:1102
 #: includes/class-real-accessability-i18n.php:32
 msgid "Accessibility"
 msgstr "Tilgængelighed"
 
-#: includes/class-real-accessability-admin.php:1104
+#: includes/class-real-accessability-admin.php:1111
 msgid "The button is hidden on this device."
 msgstr "Knappen er skjult på denne enhed."
 
-#: includes/class-real-accessability-admin.php:1116
-#: includes/class-real-accessability-admin.php:1250
-#: includes/class-real-accessability-admin.php:1348
+#: includes/class-real-accessability-admin.php:1123
+#: includes/class-real-accessability-admin.php:1257
+#: includes/class-real-accessability-admin.php:1355
 msgid "Save changes"
 msgstr "Gem ændringer"
 
-#: includes/class-real-accessability-admin.php:1118
-#: includes/class-real-accessability-admin.php:1252
-#: includes/class-real-accessability-admin.php:1350
+#: includes/class-real-accessability-admin.php:1125
+#: includes/class-real-accessability-admin.php:1259
+#: includes/class-real-accessability-admin.php:1357
 msgid "You have unsaved changes"
 msgstr "Du har ændringer, der ikke er gemt"
 
-#: includes/class-real-accessability-admin.php:1193
+#: includes/class-real-accessability-admin.php:1200
 msgid ""
 "Choose what visitors see in the accessibility menu. Sections without any "
 "option are not shown."
@@ -800,23 +833,23 @@ msgstr ""
 "Vælg, hvad besøgende ser i tilgængelighedsmenuen. Afsnit uden aktiverede "
 "valgmuligheder vises ikke."
 
-#: includes/class-real-accessability-admin.php:1222
+#: includes/class-real-accessability-admin.php:1229
 msgid "Menu footer"
 msgstr "Bunden af menuen"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hide button"
 msgstr "Skjul knap"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hides the accessibility button until the visitor's next visit"
 msgstr "Skjuler tilgængelighedsknappen indtil den besøgendes næste besøg"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid "Plugin credit"
 msgstr "Kreditering af pluginet"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid ""
 "A small credit at the bottom of the menu, with a link to the plugin page on "
 "WordPress.org"
@@ -824,56 +857,56 @@ msgstr ""
 "En lille kreditering nederst i menuen med et link til pluginets side på "
 "WordPress.org"
 
-#: includes/class-real-accessability-admin.php:1237
+#: includes/class-real-accessability-admin.php:1244
 msgid "Preview of the accessibility menu"
 msgstr "Forhåndsvisning af tilgængelighedsmenuen"
 
-#: includes/class-real-accessability-admin.php:1276
+#: includes/class-real-accessability-admin.php:1283
 msgid "Menu languages"
 msgstr "Menusprog"
 
-#: includes/class-real-accessability-admin.php:1281
+#: includes/class-real-accessability-admin.php:1288
 msgid "Search languages"
 msgstr "Søg efter sprog"
 
-#: includes/class-real-accessability-admin.php:1283
+#: includes/class-real-accessability-admin.php:1290
 msgid "No language found"
 msgstr "Intet sprog fundet"
 
-#: includes/class-real-accessability-admin.php:1293
+#: includes/class-real-accessability-admin.php:1300
 msgid "Drag to reorder"
 msgstr "Træk for at ændre rækkefølgen"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1315
+#: includes/class-real-accessability-admin.php:1322
 #, php-format
 msgid "Make %s the default"
 msgstr "Gør %s til standard"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1316
+#: includes/class-real-accessability-admin.php:1323
 msgid "Default"
 msgstr "Standard"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1319
+#: includes/class-real-accessability-admin.php:1326
 #, php-format
 msgid "Show %s in the menu"
 msgstr "Vis %s i menuen"
 
-#: includes/class-real-accessability-admin.php:1362
+#: includes/class-real-accessability-admin.php:1369
 msgid "Statement page"
 msgstr "Side med erklæringen"
 
-#: includes/class-real-accessability-admin.php:1370
+#: includes/class-real-accessability-admin.php:1377
 msgid "- Select a page -"
 msgstr "- Vælg en side -"
 
-#: includes/class-real-accessability-admin.php:1377
+#: includes/class-real-accessability-admin.php:1384
 msgid "View page"
 msgstr "Se side"
 
-#: includes/class-real-accessability-admin.php:1379
+#: includes/class-real-accessability-admin.php:1386
 msgid ""
 "The page on your site with the accessibility statement. The \"Accessibility "
 "statement\" button in the menu links to it."
@@ -881,11 +914,11 @@ msgstr ""
 "Siden på dit websted med tilgængelighedserklæringen. Knappen "
 "»Tilgængelighedserklæring« i menuen linker til den."
 
-#: includes/class-real-accessability-admin.php:1383
+#: includes/class-real-accessability-admin.php:1390
 msgid "Statement button"
 msgstr "Knap til erklæringen"
 
-#: includes/class-real-accessability-admin.php:1385
+#: includes/class-real-accessability-admin.php:1392
 msgid "Show the \"Accessibility statement\" button in the menu"
 msgstr "Vis knappen »Tilgængelighedserklæring« i menuen"
 

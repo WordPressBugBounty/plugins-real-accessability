@@ -2,7 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Real Accessibility 2.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-accessability/\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-"
+"accessability\n"
+"POT-Creation-Date: 2026-10-15T00:01:02+00:00\n"
 "PO-Revision-Date: 2026-10-11 12:00+0300\n"
 "Last-Translator: REALMEDIA <office@realmedia.co.il>\n"
 "Language-Team: Amharic\n"
@@ -12,6 +14,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Domain: real-accessability\n"
+
+#. Plugin Name of the plugin
+#: real-accessability.php
+msgid "Real Accessibility: Accessibility Widget & Toolbar"
+msgstr ""
 
 #. Plugin URI of the plugin
 #: real-accessability.php
@@ -25,8 +32,8 @@ msgid ""
 "modes, text size and spacing, readable font, reading guide and more, styled "
 "in your brand color."
 msgstr ""
-"ለድረ-ገጽዎ የተደራሽነት ምናሌ፦ ዝግጁ መገለጫዎች፣ የንፅፅር ሁነታዎች፣ የጽሑፍ መጠን እና ክፍተት፣ ግልጽ ቅርጸ-ቁምፊ፣"
-" የንባብ መሪ መስመር እና ሌሎችም፣ ሁሉም በብራንድዎ ቀለም።"
+"ለድረ-ገጽዎ የተደራሽነት ምናሌ፦ ዝግጁ መገለጫዎች፣ የንፅፅር ሁነታዎች፣ የጽሑፍ መጠን እና ክፍተት፣ ግልጽ ቅርጸ-ቁምፊ፣ "
+"የንባብ መሪ መስመር እና ሌሎችም፣ ሁሉም በብራንድዎ ቀለም።"
 
 #. Author of the plugin
 #: real-accessability.php
@@ -100,6 +107,10 @@ msgstr "አጽድቅ"
 msgid "No thanks"
 msgstr "አይ፣ አመሰግናለሁ"
 
+#: includes/class-real-accessability-admin.php:225
+msgid "Real Media - website accessibility services"
+msgstr ""
+
 #: includes/class-real-accessability-admin.php:244
 msgid "Load WooCommerce stores in 249ms"
 msgstr "WooCommerce መደብሮችን በ249 ሚሊሰከንድ ይጫኑ"
@@ -111,6 +122,10 @@ msgstr "WordPress ጣቢያዎችን በ37 ሚሊሰከንድ ብቻ ይጫኑ"
 #: includes/class-real-accessability-admin.php:255
 msgid "(opens in a new tab)"
 msgstr "(በአዲስ ትር ይከፈታል)"
+
+#: includes/class-real-accessability-admin.php:274
+msgid "From ₪2,000 + VAT"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:274
 msgid "Starting from $500"
@@ -131,6 +146,11 @@ msgstr "ጥያቄዎ ተልኳል። በቅርቡ እናገኝዎታለን።"
 #: includes/class-real-accessability-admin.php:311
 msgid "Get a quote"
 msgstr "የዋጋ ግምት ያግኙ"
+
+#: includes/class-real-accessability-admin.php:325
+msgid ""
+"Manual and automated testing against Israeli Standard 5568 and WCAG 2.1 AA"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:326
 #: includes/class-real-accessability-admin.php:331
@@ -154,6 +174,12 @@ msgstr "በWCAG 2.2 AA መሠረት በእጅ እና በራስ-ሰር የሚደ�
 #: includes/class-real-accessability-admin.php:338
 msgid "An accessibility menu alone is not enough"
 msgstr "የተደራሽነት ምናሌ ብቻውን በቂ አይደለም"
+
+#: includes/class-real-accessability-admin.php:343
+msgid ""
+"To meet Israeli Standard 5568, the code and content of the site need to be "
+"accessible too. Our experts audit your site and show you exactly what to fix."
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:344
 msgid ""
@@ -216,8 +242,7 @@ msgid ""
 "I agree that these details will be sent to Real Media Ltd. so they can "
 "contact me about an accessibility audit, in accordance with the %s."
 msgstr ""
-"እነዚህ ዝርዝሮች በ%s መሠረት ወደ Real Media Ltd. እንዲላኩ እና ስለ ተደራሽነት ኦዲት እንዲያገኙኝ "
-"እስማማለሁ።"
+"እነዚህ ዝርዝሮች በ%s መሠረት ወደ Real Media Ltd. እንዲላኩ እና ስለ ተደራሽነት ኦዲት እንዲያገኙኝ እስማማለሁ።"
 
 #: includes/class-real-accessability-admin.php:423
 msgctxt "link inside the consent sentence"
@@ -235,9 +260,9 @@ msgid ""
 "through it. It follows the Israeli Protection of Privacy Law, 5741-1981, "
 "including Amendment 13."
 msgstr ""
-"ይህ ቅጽ የሚተዳደረው የReal Accessibility ገንቢ በሆነው Real Media Ltd. ነው። ይህ ፖሊሲ በዚህ ቅጽ"
-" በኩል በሚልኩት መረጃ ላይ ምን እንደሚደረግ ያብራራል። ፖሊሲው ማሻሻያ 13ን ጨምሮ የእስራኤልን የግላዊነት ጥበቃ ሕግ፣"
-" 5741-1981፣ ይከተላል።"
+"ይህ ቅጽ የሚተዳደረው የReal Accessibility ገንቢ በሆነው Real Media Ltd. ነው። ይህ ፖሊሲ በዚህ ቅጽ "
+"በኩል በሚልኩት መረጃ ላይ ምን እንደሚደረግ ያብራራል። ፖሊሲው ማሻሻያ 13ን ጨምሮ የእስራኤልን የግላዊነት ጥበቃ ሕግ፣ "
+"5741-1981፣ ይከተላል።"
 
 #: includes/class-real-accessability-admin.php:434
 msgid "What we collect"
@@ -378,9 +403,9 @@ msgstr "የኃላፊነት ማስተባበያ፦"
 
 #: includes/class-real-accessability-admin.php:616
 msgid ""
-"Real Accessibility adds an accessibility menu that helps visitors adjust how"
-" the site is displayed. On its own, it does not make a website accessible or"
-" compliant with any accessibility law or standard (such as WCAG or Israeli "
+"Real Accessibility adds an accessibility menu that helps visitors adjust how "
+"the site is displayed. On its own, it does not make a website accessible or "
+"compliant with any accessibility law or standard (such as WCAG or Israeli "
 "Standard 5568). The site owner remains solely responsible for the "
 "accessibility of the site's code and content and for meeting the legal "
 "requirements. The plugin is provided \"as is\", without warranty of any "
@@ -390,8 +415,8 @@ msgstr ""
 "Real Accessibility ጎብኚዎች ጣቢያው የሚታይበትን መንገድ እንዲያስተካክሉ የሚረዳ የተደራሽነት ምናሌ ያክላል። "
 "በራሱ ብቻ ድረ-ገጽን ተደራሽ አያደርግም፤ ከማንኛውም የተደራሽነት ሕግ ወይም ደረጃ (ለምሳሌ WCAG ወይም የእስራኤል "
 "ደረጃ 5568) ጋር የሚጣጣምም አያደርገውም። ለጣቢያው ኮድ እና ይዘት ተደራሽነት እንዲሁም የሕግ መስፈርቶችን ለማሟላት "
-"ብቸኛው ኃላፊነት ያለበት የጣቢያው ባለቤት ሆኖ ይቀጥላል። ተሰኪው «ባለበት ሁኔታ» ያለ ምንም ዓይነት ዋስትና ይቀርባል፤"
-" የተሰኪው አዘጋጆችም በአጠቃቀሙ ምክንያት ለሚደርስ ለማንኛውም ጉዳት ተጠያቂ አይደሉም።"
+"ብቸኛው ኃላፊነት ያለበት የጣቢያው ባለቤት ሆኖ ይቀጥላል። ተሰኪው «ባለበት ሁኔታ» ያለ ምንም ዓይነት ዋስትና ይቀርባል፤ "
+"የተሰኪው አዘጋጆችም በአጠቃቀሙ ምክንያት ለሚደርስ ለማንኛውም ጉዳት ተጠያቂ አይደሉም።"
 
 #: includes/class-real-accessability-admin.php:628
 msgid "Your accessibility menu is ready"
@@ -418,9 +443,9 @@ msgid ""
 msgstr "Real Accessibility ነፃ ነው፤ መጠቀሻውም ሌሎች የጣቢያ ባለቤቶች እንዲያገኙት ይረዳል።"
 
 #: includes/class-real-accessability-admin.php:652
-#: includes/class-real-accessability-admin.php:1117
-#: includes/class-real-accessability-admin.php:1251
-#: includes/class-real-accessability-admin.php:1349
+#: includes/class-real-accessability-admin.php:1124
+#: includes/class-real-accessability-admin.php:1258
+#: includes/class-real-accessability-admin.php:1356
 msgid "Cancel"
 msgstr "ይቅር"
 
@@ -429,8 +454,8 @@ msgid "You can also turn it on without the credit"
 msgstr "ያለ መጠቀሻው ማብራትም ይችላሉ"
 
 #: includes/class-real-accessability-admin.php:677
-#: includes/class-real-accessability-admin.php:998
-#: includes/class-real-accessability-admin.php:1006
+#: includes/class-real-accessability-admin.php:1005
+#: includes/class-real-accessability-admin.php:1013
 msgid "Button and menu"
 msgstr "አዝራር እና ምናሌ"
 
@@ -477,7 +502,7 @@ msgstr "ይህ መስክ ያስፈልጋል።"
 
 #. translators: %s: language name.
 #: includes/class-real-accessability-admin.php:769
-#: includes/class-real-accessability-admin.php:1297
+#: includes/class-real-accessability-admin.php:1304
 #, php-format
 msgid "Flag for %s"
 msgstr "የቋንቋው ባንዲራ፦ %s"
@@ -519,8 +544,7 @@ msgid "Legal compliance"
 msgstr "የሕግ ተገዢነት"
 
 #: includes/class-real-accessability-admin.php:825
-msgid ""
-"Thank you! The credit is shown at the bottom of the accessibility menu."
+msgid "Thank you! The credit is shown at the bottom of the accessibility menu."
 msgstr "እናመሰግናለን! መጠቀሻው በተደራሽነት ምናሌው ግርጌ ላይ ይታያል።"
 
 #: includes/class-real-accessability-admin.php:832
@@ -610,7 +634,7 @@ msgid "From the bottom"
 msgstr "ከታች"
 
 #: includes/class-real-accessability-admin.php:925
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Circle"
 msgstr "ክብ"
 
@@ -619,7 +643,7 @@ msgid "Rounded"
 msgstr "የተጠጋጋ"
 
 #: includes/class-real-accessability-admin.php:927
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Square"
 msgstr "ካሬ"
 
@@ -671,179 +695,187 @@ msgstr "ራስ-ሰር"
 msgid "Custom"
 msgstr "ብጁ"
 
-#: includes/class-real-accessability-admin.php:1000
+#: includes/class-real-accessability-admin.php:986
+msgid "Flat button color"
+msgstr "አንድ ዓይነት የአዝራር ቀለም"
+
+#: includes/class-real-accessability-admin.php:987
+msgid "One solid color, without a gradient or shadow."
+msgstr "አንድ ሙሉ ቀለም፣ ያለ ቀለም ቅልመት ወይም ጥላ።"
+
+#: includes/class-real-accessability-admin.php:1007
 msgid "Show the button on"
 msgstr "አዝራሩ የሚታይባቸው መሣሪያዎች"
 
-#: includes/class-real-accessability-admin.php:1009
-#: includes/class-real-accessability-admin.php:1024
+#: includes/class-real-accessability-admin.php:1016
+#: includes/class-real-accessability-admin.php:1031
 msgid "Button position"
 msgstr "የአዝራር ቦታ"
 
-#: includes/class-real-accessability-admin.php:1010
+#: includes/class-real-accessability-admin.php:1017
 msgid "Shape and size"
 msgstr "ቅርጽ እና መጠን"
 
-#: includes/class-real-accessability-admin.php:1011
+#: includes/class-real-accessability-admin.php:1018
 msgid "The menu"
 msgstr "ምናሌው"
 
-#: includes/class-real-accessability-admin.php:1019
+#: includes/class-real-accessability-admin.php:1026
 msgid ""
 "The button is hidden on this device. Turn it back on with the icons above."
 msgstr "አዝራሩ በዚህ መሣሪያ ላይ ተደብቋል። ከላይ ባሉት አዶዎች መልሰው ያብሩት።"
 
-#: includes/class-real-accessability-admin.php:1036
+#: includes/class-real-accessability-admin.php:1043
 msgid "Distance from the edge - horizontal"
 msgstr "ከጠርዝ ያለው ርቀት - አግድም"
 
-#: includes/class-real-accessability-admin.php:1036
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1043
+#: includes/class-real-accessability-admin.php:1044
 msgid "Attached"
 msgstr "የተጣበቀ"
 
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1044
 msgid "Distance from the edge - vertical"
 msgstr "ከጠርዝ ያለው ርቀት - ቁልቁል"
 
-#: includes/class-real-accessability-admin.php:1044
+#: includes/class-real-accessability-admin.php:1051
 msgid "Shape"
 msgstr "ቅርጽ"
 
-#: includes/class-real-accessability-admin.php:1050
+#: includes/class-real-accessability-admin.php:1057
 msgid "Button size"
 msgstr "የአዝራር መጠን"
 
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Corner radius"
 msgstr "የማዕዘን ክብነት"
 
-#: includes/class-real-accessability-admin.php:1056
+#: includes/class-real-accessability-admin.php:1063
 msgid "Opens from the edge of the screen, wherever the button is."
 msgstr "አዝራሩ የትም ቢሆን ከማያ ገጹ ጠርዝ ይከፈታል።"
 
-#: includes/class-real-accessability-admin.php:1058
+#: includes/class-real-accessability-admin.php:1065
 msgid "Menu opens from"
 msgstr "ምናሌው የሚከፈትበት አቅጣጫ"
 
-#: includes/class-real-accessability-admin.php:1067
+#: includes/class-real-accessability-admin.php:1074
 msgid "Menu corner radius"
 msgstr "የምናሌ ማዕዘን ክብነት"
 
-#: includes/class-real-accessability-admin.php:1079
-#: includes/class-real-accessability-admin.php:1080
-#: includes/class-real-accessability-admin.php:1235
-#: includes/class-real-accessability-admin.php:1330
+#: includes/class-real-accessability-admin.php:1086
+#: includes/class-real-accessability-admin.php:1087
+#: includes/class-real-accessability-admin.php:1242
+#: includes/class-real-accessability-admin.php:1337
 msgid "Preview"
 msgstr "ቅድመ እይታ"
 
-#: includes/class-real-accessability-admin.php:1081
+#: includes/class-real-accessability-admin.php:1088
 msgid "Button"
 msgstr "አዝራር"
 
-#: includes/class-real-accessability-admin.php:1082
+#: includes/class-real-accessability-admin.php:1089
 msgid "Menu open"
 msgstr "የተከፈተ ምናሌ"
 
-#: includes/class-real-accessability-admin.php:1095
+#: includes/class-real-accessability-admin.php:1102
 #: includes/class-real-accessability-i18n.php:32
 msgid "Accessibility"
 msgstr "ተደራሽነት"
 
-#: includes/class-real-accessability-admin.php:1104
+#: includes/class-real-accessability-admin.php:1111
 msgid "The button is hidden on this device."
 msgstr "አዝራሩ በዚህ መሣሪያ ላይ ተደብቋል።"
 
-#: includes/class-real-accessability-admin.php:1116
-#: includes/class-real-accessability-admin.php:1250
-#: includes/class-real-accessability-admin.php:1348
+#: includes/class-real-accessability-admin.php:1123
+#: includes/class-real-accessability-admin.php:1257
+#: includes/class-real-accessability-admin.php:1355
 msgid "Save changes"
 msgstr "ለውጦችን አስቀምጥ"
 
-#: includes/class-real-accessability-admin.php:1118
-#: includes/class-real-accessability-admin.php:1252
-#: includes/class-real-accessability-admin.php:1350
+#: includes/class-real-accessability-admin.php:1125
+#: includes/class-real-accessability-admin.php:1259
+#: includes/class-real-accessability-admin.php:1357
 msgid "You have unsaved changes"
 msgstr "ያልተቀመጡ ለውጦች አሉዎት"
 
-#: includes/class-real-accessability-admin.php:1193
+#: includes/class-real-accessability-admin.php:1200
 msgid ""
 "Choose what visitors see in the accessibility menu. Sections without any "
 "option are not shown."
 msgstr "ጎብኚዎች በተደራሽነት ምናሌው ውስጥ ምን እንደሚያዩ ይምረጡ። ምንም አማራጭ የሌላቸው ክፍሎች አይታዩም።"
 
-#: includes/class-real-accessability-admin.php:1222
+#: includes/class-real-accessability-admin.php:1229
 msgid "Menu footer"
 msgstr "የምናሌ ግርጌ"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hide button"
 msgstr "የመደበቂያ አዝራር"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hides the accessibility button until the visitor's next visit"
 msgstr "የተደራሽነት አዝራሩን እስከ ጎብኚው ቀጣይ ጉብኝት ድረስ ይደብቃል"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid "Plugin credit"
 msgstr "የተሰኪ መጠቀሻ"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid ""
 "A small credit at the bottom of the menu, with a link to the plugin page on "
 "WordPress.org"
 msgstr "በምናሌው ግርጌ ላይ በWordPress.org ወደሚገኘው የተሰኪው ገጽ የሚወስድ አገናኝ ያለው ትንሽ መጠቀሻ"
 
-#: includes/class-real-accessability-admin.php:1237
+#: includes/class-real-accessability-admin.php:1244
 msgid "Preview of the accessibility menu"
 msgstr "የተደራሽነት ምናሌ ቅድመ እይታ"
 
-#: includes/class-real-accessability-admin.php:1276
+#: includes/class-real-accessability-admin.php:1283
 msgid "Menu languages"
 msgstr "የምናሌ ቋንቋዎች"
 
-#: includes/class-real-accessability-admin.php:1281
+#: includes/class-real-accessability-admin.php:1288
 msgid "Search languages"
 msgstr "ቋንቋዎችን ይፈልጉ"
 
-#: includes/class-real-accessability-admin.php:1283
+#: includes/class-real-accessability-admin.php:1290
 msgid "No language found"
 msgstr "ምንም ቋንቋ አልተገኘም"
 
-#: includes/class-real-accessability-admin.php:1293
+#: includes/class-real-accessability-admin.php:1300
 msgid "Drag to reorder"
 msgstr "ቅደም ተከተሉን ለመቀየር ይጎትቱ"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1315
+#: includes/class-real-accessability-admin.php:1322
 #, php-format
 msgid "Make %s the default"
 msgstr "ነባሪ ቋንቋ አድርግ፦ %s"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1316
+#: includes/class-real-accessability-admin.php:1323
 msgid "Default"
 msgstr "ነባሪ"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1319
+#: includes/class-real-accessability-admin.php:1326
 #, php-format
 msgid "Show %s in the menu"
 msgstr "በምናሌው ውስጥ አሳይ፦ %s"
 
-#: includes/class-real-accessability-admin.php:1362
+#: includes/class-real-accessability-admin.php:1369
 msgid "Statement page"
 msgstr "የመግለጫ ገጽ"
 
-#: includes/class-real-accessability-admin.php:1370
+#: includes/class-real-accessability-admin.php:1377
 msgid "- Select a page -"
 msgstr "- ገጽ ይምረጡ -"
 
-#: includes/class-real-accessability-admin.php:1377
+#: includes/class-real-accessability-admin.php:1384
 msgid "View page"
 msgstr "ገጹን ይመልከቱ"
 
-#: includes/class-real-accessability-admin.php:1379
+#: includes/class-real-accessability-admin.php:1386
 msgid ""
 "The page on your site with the accessibility statement. The \"Accessibility "
 "statement\" button in the menu links to it."
@@ -851,11 +883,11 @@ msgstr ""
 "በጣቢያዎ ላይ የተደራሽነት መግለጫው ያለበት ገጽ። በምናሌው ውስጥ ያለው «የተደራሽነት መግለጫ» አዝራር ወደዚህ ገጽ "
 "ይወስዳል።"
 
-#: includes/class-real-accessability-admin.php:1383
+#: includes/class-real-accessability-admin.php:1390
 msgid "Statement button"
 msgstr "የመግለጫ አዝራር"
 
-#: includes/class-real-accessability-admin.php:1385
+#: includes/class-real-accessability-admin.php:1392
 msgid "Show the \"Accessibility statement\" button in the menu"
 msgstr "«የተደራሽነት መግለጫ» አዝራሩን በምናሌው ውስጥ አሳይ"
 

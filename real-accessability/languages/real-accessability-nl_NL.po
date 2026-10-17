@@ -2,7 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Real Accessibility 2.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-accessability/\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-"
+"accessability\n"
+"POT-Creation-Date: 2026-10-15T00:01:02+00:00\n"
 "PO-Revision-Date: 2026-10-11 12:00+0300\n"
 "Last-Translator: REALMEDIA <office@realmedia.co.il>\n"
 "Language-Team: Dutch\n"
@@ -12,6 +14,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Domain: real-accessability\n"
+
+#. Plugin Name of the plugin
+#: real-accessability.php
+msgid "Real Accessibility: Accessibility Widget & Toolbar"
+msgstr ""
 
 #. Plugin URI of the plugin
 #: real-accessability.php
@@ -77,8 +84,8 @@ msgid ""
 "Real Accessibility 2.0 is ready. Set the brand color and the button "
 "position, and choose whether to show the plugin credit."
 msgstr ""
-"Real Accessibility 2.0 is klaar. Stel de merkkleur en de positie van de knop"
-" in, en kies of de pluginvermelding wordt getoond."
+"Real Accessibility 2.0 is klaar. Stel de merkkleur en de positie van de knop "
+"in, en kies of de pluginvermelding wordt getoond."
 
 #: includes/class-real-accessability-admin.php:195
 msgid "Open Real Accessibility"
@@ -102,6 +109,10 @@ msgstr "Akkoord"
 msgid "No thanks"
 msgstr "Nee, bedankt"
 
+#: includes/class-real-accessability-admin.php:225
+msgid "Real Media - website accessibility services"
+msgstr ""
+
 #: includes/class-real-accessability-admin.php:244
 msgid "Load WooCommerce stores in 249ms"
 msgstr "WooCommerce-winkels laden in 249 ms"
@@ -113,6 +124,10 @@ msgstr "WordPress-sites laden in slechts 37 ms"
 #: includes/class-real-accessability-admin.php:255
 msgid "(opens in a new tab)"
 msgstr "(opent in een nieuwe tab)"
+
+#: includes/class-real-accessability-admin.php:274
+msgid "From ₪2,000 + VAT"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:274
 msgid "Starting from $500"
@@ -133,6 +148,11 @@ msgstr "Je aanvraag is verzonden. We nemen snel contact met je op."
 #: includes/class-real-accessability-admin.php:311
 msgid "Get a quote"
 msgstr "Offerte aanvragen"
+
+#: includes/class-real-accessability-admin.php:325
+msgid ""
+"Manual and automated testing against Israeli Standard 5568 and WCAG 2.1 AA"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:326
 #: includes/class-real-accessability-admin.php:331
@@ -157,6 +177,12 @@ msgstr "Handmatige en geautomatiseerde tests volgens WCAG 2.2 AA"
 msgid "An accessibility menu alone is not enough"
 msgstr "Alleen een toegankelijkheidsmenu is niet genoeg"
 
+#: includes/class-real-accessability-admin.php:343
+msgid ""
+"To meet Israeli Standard 5568, the code and content of the site need to be "
+"accessible too. Our experts audit your site and show you exactly what to fix."
+msgstr ""
+
 #: includes/class-real-accessability-admin.php:344
 msgid ""
 "To meet WCAG 2.2 AA and laws such as the ADA, the code and content of the "
@@ -164,8 +190,8 @@ msgid ""
 "exactly what to fix."
 msgstr ""
 "Om te voldoen aan WCAG 2.2 AA en wetten zoals de ADA, moeten ook de code en "
-"de inhoud van de site toegankelijk zijn. Onze experts onderzoeken je site en"
-" laten je precies zien wat je moet verbeteren."
+"de inhoud van de site toegankelijk zijn. Onze experts onderzoeken je site en "
+"laten je precies zien wat je moet verbeteren."
 
 #: includes/class-real-accessability-admin.php:359
 msgid "Your request was sent."
@@ -219,8 +245,8 @@ msgid ""
 "I agree that these details will be sent to Real Media Ltd. so they can "
 "contact me about an accessibility audit, in accordance with the %s."
 msgstr ""
-"Ik ga ermee akkoord dat deze gegevens naar Real Media Ltd. worden verzonden,"
-" zodat er contact met mij kan worden opgenomen over een "
+"Ik ga ermee akkoord dat deze gegevens naar Real Media Ltd. worden verzonden, "
+"zodat er contact met mij kan worden opgenomen over een "
 "toegankelijkheidsonderzoek, in overeenstemming met het %s."
 
 #: includes/class-real-accessability-admin.php:423
@@ -240,9 +266,9 @@ msgid ""
 "including Amendment 13."
 msgstr ""
 "Dit formulier wordt beheerd door Real Media Ltd., de ontwikkelaar van Real "
-"Accessibility. Dit beleid legt uit wat er gebeurt met de gegevens die je via"
-" het formulier verstuurt. Het volgt de Israëlische Wet op de bescherming van"
-" de privacy, 5741-1981, inclusief amendement 13."
+"Accessibility. Dit beleid legt uit wat er gebeurt met de gegevens die je via "
+"het formulier verstuurt. Het volgt de Israëlische Wet op de bescherming van "
+"de privacy, 5741-1981, inclusief amendement 13."
 
 #: includes/class-real-accessability-admin.php:434
 msgid "What we collect"
@@ -254,8 +280,8 @@ msgid ""
 "your site's address, your consent, the plugin version and the time of "
 "sending."
 msgstr ""
-"Alleen wat je in het formulier invult: volledige naam, telefoonnummer en "
-"e-mailadres, samen met het adres van je website, je toestemming, de "
+"Alleen wat je in het formulier invult: volledige naam, telefoonnummer en e-"
+"mailadres, samen met het adres van je website, je toestemming, de "
 "pluginversie en het tijdstip van verzending."
 
 #: includes/class-real-accessability-admin.php:436
@@ -290,8 +316,8 @@ msgid ""
 "You are not required by law to give us these details. Without them, we "
 "cannot get back to you about your request."
 msgstr ""
-"Je bent wettelijk niet verplicht om ons deze gegevens te verstrekken. Zonder"
-" deze gegevens kunnen we niet op je aanvraag reageren."
+"Je bent wettelijk niet verplicht om ons deze gegevens te verstrekken. Zonder "
+"deze gegevens kunnen we niet op je aanvraag reageren."
 
 #: includes/class-real-accessability-admin.php:447
 msgid "Who receives it"
@@ -393,9 +419,9 @@ msgstr "Disclaimer:"
 
 #: includes/class-real-accessability-admin.php:616
 msgid ""
-"Real Accessibility adds an accessibility menu that helps visitors adjust how"
-" the site is displayed. On its own, it does not make a website accessible or"
-" compliant with any accessibility law or standard (such as WCAG or Israeli "
+"Real Accessibility adds an accessibility menu that helps visitors adjust how "
+"the site is displayed. On its own, it does not make a website accessible or "
+"compliant with any accessibility law or standard (such as WCAG or Israeli "
 "Standard 5568). The site owner remains solely responsible for the "
 "accessibility of the site's code and content and for meeting the legal "
 "requirements. The plugin is provided \"as is\", without warranty of any "
@@ -441,9 +467,9 @@ msgstr ""
 "de plugin te vinden."
 
 #: includes/class-real-accessability-admin.php:652
-#: includes/class-real-accessability-admin.php:1117
-#: includes/class-real-accessability-admin.php:1251
-#: includes/class-real-accessability-admin.php:1349
+#: includes/class-real-accessability-admin.php:1124
+#: includes/class-real-accessability-admin.php:1258
+#: includes/class-real-accessability-admin.php:1356
 msgid "Cancel"
 msgstr "Annuleren"
 
@@ -452,8 +478,8 @@ msgid "You can also turn it on without the credit"
 msgstr "Je kunt het menu ook inschakelen zonder vermelding"
 
 #: includes/class-real-accessability-admin.php:677
-#: includes/class-real-accessability-admin.php:998
-#: includes/class-real-accessability-admin.php:1006
+#: includes/class-real-accessability-admin.php:1005
+#: includes/class-real-accessability-admin.php:1013
 msgid "Button and menu"
 msgstr "Knop en menu"
 
@@ -500,7 +526,7 @@ msgstr "Dit veld is verplicht."
 
 #. translators: %s: language name.
 #: includes/class-real-accessability-admin.php:769
-#: includes/class-real-accessability-admin.php:1297
+#: includes/class-real-accessability-admin.php:1304
 #, php-format
 msgid "Flag for %s"
 msgstr "Vlag voor %s"
@@ -542,8 +568,7 @@ msgid "Legal compliance"
 msgstr "Wettelijke eisen"
 
 #: includes/class-real-accessability-admin.php:825
-msgid ""
-"Thank you! The credit is shown at the bottom of the accessibility menu."
+msgid "Thank you! The credit is shown at the bottom of the accessibility menu."
 msgstr ""
 "Bedankt! De vermelding wordt onderaan het toegankelijkheidsmenu getoond."
 
@@ -552,8 +577,8 @@ msgid ""
 "The accessibility menu is live on your site, with the credit at the bottom. "
 "Thank you!"
 msgstr ""
-"Het toegankelijkheidsmenu staat live op je site, met de vermelding onderaan."
-" Bedankt!"
+"Het toegankelijkheidsmenu staat live op je site, met de vermelding onderaan. "
+"Bedankt!"
 
 #: includes/class-real-accessability-admin.php:833
 msgid "The accessibility menu is live on your site!"
@@ -636,7 +661,7 @@ msgid "From the bottom"
 msgstr "Van onderen"
 
 #: includes/class-real-accessability-admin.php:925
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Circle"
 msgstr "Rond"
 
@@ -645,7 +670,7 @@ msgid "Rounded"
 msgstr "Afgerond"
 
 #: includes/class-real-accessability-admin.php:927
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Square"
 msgstr "Vierkant"
 
@@ -699,104 +724,112 @@ msgstr "Automatisch"
 msgid "Custom"
 msgstr "Aangepast"
 
-#: includes/class-real-accessability-admin.php:1000
+#: includes/class-real-accessability-admin.php:986
+msgid "Flat button color"
+msgstr "Effen knopkleur"
+
+#: includes/class-real-accessability-admin.php:987
+msgid "One solid color, without a gradient or shadow."
+msgstr "Eén effen kleur, zonder kleurverloop of schaduw."
+
+#: includes/class-real-accessability-admin.php:1007
 msgid "Show the button on"
 msgstr "Knop tonen op"
 
-#: includes/class-real-accessability-admin.php:1009
-#: includes/class-real-accessability-admin.php:1024
+#: includes/class-real-accessability-admin.php:1016
+#: includes/class-real-accessability-admin.php:1031
 msgid "Button position"
 msgstr "Knoppositie"
 
-#: includes/class-real-accessability-admin.php:1010
+#: includes/class-real-accessability-admin.php:1017
 msgid "Shape and size"
 msgstr "Vorm en grootte"
 
-#: includes/class-real-accessability-admin.php:1011
+#: includes/class-real-accessability-admin.php:1018
 msgid "The menu"
 msgstr "Menu"
 
-#: includes/class-real-accessability-admin.php:1019
+#: includes/class-real-accessability-admin.php:1026
 msgid ""
 "The button is hidden on this device. Turn it back on with the icons above."
 msgstr ""
 "De knop is verborgen op dit apparaat. Zet hem weer aan met de iconen "
 "hierboven."
 
-#: includes/class-real-accessability-admin.php:1036
+#: includes/class-real-accessability-admin.php:1043
 msgid "Distance from the edge - horizontal"
 msgstr "Afstand tot de rand - horizontaal"
 
-#: includes/class-real-accessability-admin.php:1036
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1043
+#: includes/class-real-accessability-admin.php:1044
 msgid "Attached"
 msgstr "Tegen de rand"
 
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1044
 msgid "Distance from the edge - vertical"
 msgstr "Afstand tot de rand - verticaal"
 
-#: includes/class-real-accessability-admin.php:1044
+#: includes/class-real-accessability-admin.php:1051
 msgid "Shape"
 msgstr "Vorm"
 
-#: includes/class-real-accessability-admin.php:1050
+#: includes/class-real-accessability-admin.php:1057
 msgid "Button size"
 msgstr "Knopgrootte"
 
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Corner radius"
 msgstr "Hoekradius"
 
-#: includes/class-real-accessability-admin.php:1056
+#: includes/class-real-accessability-admin.php:1063
 msgid "Opens from the edge of the screen, wherever the button is."
 msgstr "Opent vanaf de rand van het scherm, waar de knop ook staat."
 
-#: includes/class-real-accessability-admin.php:1058
+#: includes/class-real-accessability-admin.php:1065
 msgid "Menu opens from"
 msgstr "Menu opent"
 
-#: includes/class-real-accessability-admin.php:1067
+#: includes/class-real-accessability-admin.php:1074
 msgid "Menu corner radius"
 msgstr "Hoekradius van het menu"
 
-#: includes/class-real-accessability-admin.php:1079
-#: includes/class-real-accessability-admin.php:1080
-#: includes/class-real-accessability-admin.php:1235
-#: includes/class-real-accessability-admin.php:1330
+#: includes/class-real-accessability-admin.php:1086
+#: includes/class-real-accessability-admin.php:1087
+#: includes/class-real-accessability-admin.php:1242
+#: includes/class-real-accessability-admin.php:1337
 msgid "Preview"
 msgstr "Voorbeeld"
 
-#: includes/class-real-accessability-admin.php:1081
+#: includes/class-real-accessability-admin.php:1088
 msgid "Button"
 msgstr "Knop"
 
-#: includes/class-real-accessability-admin.php:1082
+#: includes/class-real-accessability-admin.php:1089
 msgid "Menu open"
 msgstr "Menu open"
 
-#: includes/class-real-accessability-admin.php:1095
+#: includes/class-real-accessability-admin.php:1102
 #: includes/class-real-accessability-i18n.php:32
 msgid "Accessibility"
 msgstr "Toegankelijkheid"
 
-#: includes/class-real-accessability-admin.php:1104
+#: includes/class-real-accessability-admin.php:1111
 msgid "The button is hidden on this device."
 msgstr "De knop is verborgen op dit apparaat."
 
-#: includes/class-real-accessability-admin.php:1116
-#: includes/class-real-accessability-admin.php:1250
-#: includes/class-real-accessability-admin.php:1348
+#: includes/class-real-accessability-admin.php:1123
+#: includes/class-real-accessability-admin.php:1257
+#: includes/class-real-accessability-admin.php:1355
 msgid "Save changes"
 msgstr "Wijzigingen opslaan"
 
-#: includes/class-real-accessability-admin.php:1118
-#: includes/class-real-accessability-admin.php:1252
-#: includes/class-real-accessability-admin.php:1350
+#: includes/class-real-accessability-admin.php:1125
+#: includes/class-real-accessability-admin.php:1259
+#: includes/class-real-accessability-admin.php:1357
 msgid "You have unsaved changes"
 msgstr "Je hebt niet-opgeslagen wijzigingen"
 
-#: includes/class-real-accessability-admin.php:1193
+#: includes/class-real-accessability-admin.php:1200
 msgid ""
 "Choose what visitors see in the accessibility menu. Sections without any "
 "option are not shown."
@@ -804,23 +837,23 @@ msgstr ""
 "Kies wat bezoekers in het toegankelijkheidsmenu zien. Secties zonder "
 "ingeschakelde opties worden niet getoond."
 
-#: includes/class-real-accessability-admin.php:1222
+#: includes/class-real-accessability-admin.php:1229
 msgid "Menu footer"
 msgstr "Onderkant van het menu"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hide button"
 msgstr "Knop verbergen"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hides the accessibility button until the visitor's next visit"
 msgstr "Verbergt de toegankelijkheidsknop tot het volgende bezoek"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid "Plugin credit"
 msgstr "Pluginvermelding"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid ""
 "A small credit at the bottom of the menu, with a link to the plugin page on "
 "WordPress.org"
@@ -828,56 +861,56 @@ msgstr ""
 "Een kleine vermelding onderaan het menu, met een link naar de pluginpagina "
 "op WordPress.org"
 
-#: includes/class-real-accessability-admin.php:1237
+#: includes/class-real-accessability-admin.php:1244
 msgid "Preview of the accessibility menu"
 msgstr "Voorbeeld van het toegankelijkheidsmenu"
 
-#: includes/class-real-accessability-admin.php:1276
+#: includes/class-real-accessability-admin.php:1283
 msgid "Menu languages"
 msgstr "Menutalen"
 
-#: includes/class-real-accessability-admin.php:1281
+#: includes/class-real-accessability-admin.php:1288
 msgid "Search languages"
 msgstr "Talen zoeken"
 
-#: includes/class-real-accessability-admin.php:1283
+#: includes/class-real-accessability-admin.php:1290
 msgid "No language found"
 msgstr "Geen taal gevonden"
 
-#: includes/class-real-accessability-admin.php:1293
+#: includes/class-real-accessability-admin.php:1300
 msgid "Drag to reorder"
 msgstr "Sleep om de volgorde te wijzigen"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1315
+#: includes/class-real-accessability-admin.php:1322
 #, php-format
 msgid "Make %s the default"
 msgstr "%s als standaard instellen"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1316
+#: includes/class-real-accessability-admin.php:1323
 msgid "Default"
 msgstr "Standaard"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1319
+#: includes/class-real-accessability-admin.php:1326
 #, php-format
 msgid "Show %s in the menu"
 msgstr "%s in het menu tonen"
 
-#: includes/class-real-accessability-admin.php:1362
+#: includes/class-real-accessability-admin.php:1369
 msgid "Statement page"
 msgstr "Pagina met de verklaring"
 
-#: includes/class-real-accessability-admin.php:1370
+#: includes/class-real-accessability-admin.php:1377
 msgid "- Select a page -"
 msgstr "- Selecteer een pagina -"
 
-#: includes/class-real-accessability-admin.php:1377
+#: includes/class-real-accessability-admin.php:1384
 msgid "View page"
 msgstr "Pagina bekijken"
 
-#: includes/class-real-accessability-admin.php:1379
+#: includes/class-real-accessability-admin.php:1386
 msgid ""
 "The page on your site with the accessibility statement. The \"Accessibility "
 "statement\" button in the menu links to it."
@@ -885,11 +918,11 @@ msgstr ""
 "De pagina op je site met de toegankelijkheidsverklaring. De knop "
 "‘Toegankelijkheidsverklaring’ in het menu linkt hiernaar."
 
-#: includes/class-real-accessability-admin.php:1383
+#: includes/class-real-accessability-admin.php:1390
 msgid "Statement button"
 msgstr "Knop voor de verklaring"
 
-#: includes/class-real-accessability-admin.php:1385
+#: includes/class-real-accessability-admin.php:1392
 msgid "Show the \"Accessibility statement\" button in the menu"
 msgstr "Knop ‘Toegankelijkheidsverklaring’ in het menu tonen"
 

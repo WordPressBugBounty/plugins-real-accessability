@@ -2,7 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Real Accessibility 2.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-accessability/\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-"
+"accessability\n"
+"POT-Creation-Date: 2026-10-15T00:01:02+00:00\n"
 "PO-Revision-Date: 2026-10-11 12:00+0300\n"
 "Last-Translator: REALMEDIA <office@realmedia.co.il>\n"
 "Language-Team: Japanese\n"
@@ -12,6 +14,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=(0);\n"
 "X-Domain: real-accessability\n"
+
+#. Plugin Name of the plugin
+#: real-accessability.php
+msgid "Real Accessibility: Accessibility Widget & Toolbar"
+msgstr ""
 
 #. Plugin URI of the plugin
 #: real-accessability.php
@@ -25,7 +32,9 @@ msgid ""
 "modes, text size and spacing, readable font, reading guide and more, styled "
 "in your brand color."
 msgstr ""
-"ウェブサイトにアクセシビリティメニューを追加します。プリセットプロファイル、コントラストモード、文字サイズと間隔、読みやすいフォント、リーディングガイドなどを備え、ブランドカラーに合わせたデザインで表示されます。"
+"ウェブサイトにアクセシビリティメニューを追加します。プリセットプロファイル、"
+"コントラストモード、文字サイズと間隔、読みやすいフォント、リーディングガイド"
+"などを備え、ブランドカラーに合わせたデザインで表示されます。"
 
 #. Author of the plugin
 #: real-accessability.php
@@ -75,8 +84,8 @@ msgid ""
 "Real Accessibility 2.0 is ready. Set the brand color and the button "
 "position, and choose whether to show the plugin credit."
 msgstr ""
-"Real Accessibility 2.0 "
-"の準備ができました。ブランドカラーとボタンの位置を設定し、プラグインのクレジット表記を表示するかどうかを選択してください。"
+"Real Accessibility 2.0 の準備ができました。ブランドカラーとボタンの位置を設定"
+"し、プラグインのクレジット表記を表示するかどうかを選択してください。"
 
 #: includes/class-real-accessability-admin.php:195
 msgid "Open Real Accessibility"
@@ -87,8 +96,9 @@ msgid ""
 "Show a small credit with a link to the plugin page on WordPress.org at the "
 "bottom of the accessibility menu? It helps keep the plugin free."
 msgstr ""
-"アクセシビリティメニューの下部に、WordPress.org "
-"のプラグインページへのリンク付きの小さなクレジット表記を表示しますか？プラグインを今後も無料で提供するための支えになります。"
+"アクセシビリティメニューの下部に、WordPress.org のプラグインページへのリンク"
+"付きの小さなクレジット表記を表示しますか？プラグインを今後も無料で提供するた"
+"めの支えになります。"
 
 #: includes/class-real-accessability-admin.php:207
 #: includes/class-real-accessability-admin.php:651
@@ -98,6 +108,10 @@ msgstr "同意する"
 #: includes/class-real-accessability-admin.php:208
 msgid "No thanks"
 msgstr "同意しない"
+
+#: includes/class-real-accessability-admin.php:225
+msgid "Real Media - website accessibility services"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:244
 msgid "Load WooCommerce stores in 249ms"
@@ -110,6 +124,10 @@ msgstr "WordPress サイトを最速 37ms で読み込み"
 #: includes/class-real-accessability-admin.php:255
 msgid "(opens in a new tab)"
 msgstr "(新しいタブで開く)"
+
+#: includes/class-real-accessability-admin.php:274
+msgid "From ₪2,000 + VAT"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:274
 msgid "Starting from $500"
@@ -130,6 +148,11 @@ msgstr "ご依頼を送信しました。近日中にご連絡いたします。
 #: includes/class-real-accessability-admin.php:311
 msgid "Get a quote"
 msgstr "見積もりを依頼"
+
+#: includes/class-real-accessability-admin.php:325
+msgid ""
+"Manual and automated testing against Israeli Standard 5568 and WCAG 2.1 AA"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:326
 #: includes/class-real-accessability-admin.php:331
@@ -154,14 +177,21 @@ msgstr "WCAG 2.2 AA に基づく手動テストと自動テスト"
 msgid "An accessibility menu alone is not enough"
 msgstr "アクセシビリティメニューだけでは不十分です"
 
+#: includes/class-real-accessability-admin.php:343
+msgid ""
+"To meet Israeli Standard 5568, the code and content of the site need to be "
+"accessible too. Our experts audit your site and show you exactly what to fix."
+msgstr ""
+
 #: includes/class-real-accessability-admin.php:344
 msgid ""
 "To meet WCAG 2.2 AA and laws such as the ADA, the code and content of the "
 "site need to be accessible too. Our experts audit your site and show you "
 "exactly what to fix."
 msgstr ""
-"WCAG 2.2 AA や、ADA "
-"などの法律の要件を満たすには、サイトのコードとコンテンツ自体もアクセシブルである必要があります。専門家がサイトを診断し、修正すべき箇所を具体的にお伝えします。"
+"WCAG 2.2 AA や、ADA などの法律の要件を満たすには、サイトのコードとコンテンツ"
+"自体もアクセシブルである必要があります。専門家がサイトを診断し、修正すべき箇"
+"所を具体的にお伝えします。"
 
 #: includes/class-real-accessability-admin.php:359
 msgid "Your request was sent."
@@ -215,7 +245,8 @@ msgid ""
 "I agree that these details will be sent to Real Media Ltd. so they can "
 "contact me about an accessibility audit, in accordance with the %s."
 msgstr ""
-"Real Media Ltd. からアクセシビリティ診断に関する連絡を受けるため、%sに従ってこれらの情報が同社に送信されることに同意します。"
+"Real Media Ltd. からアクセシビリティ診断に関する連絡を受けるため、%sに従って"
+"これらの情報が同社に送信されることに同意します。"
 
 #: includes/class-real-accessability-admin.php:423
 msgctxt "link inside the consent sentence"
@@ -233,9 +264,10 @@ msgid ""
 "through it. It follows the Israeli Protection of Privacy Law, 5741-1981, "
 "including Amendment 13."
 msgstr ""
-"このフォームは、Real Accessibility の開発元である Real Media Ltd. "
-"が運営しています。本ポリシーは、このフォームから送信された情報がどのように取り扱われるかを説明するものです。本ポリシーは、第 13 "
-"次改正を含むイスラエルのプライバシー保護法 (5741-1981) に準拠しています。"
+"このフォームは、Real Accessibility の開発元である Real Media Ltd. が運営して"
+"います。本ポリシーは、このフォームから送信された情報がどのように取り扱われる"
+"かを説明するものです。本ポリシーは、第 13 次改正を含むイスラエルのプライバ"
+"シー保護法 (5741-1981) に準拠しています。"
 
 #: includes/class-real-accessability-admin.php:434
 msgid "What we collect"
@@ -247,14 +279,16 @@ msgid ""
 "your site's address, your consent, the plugin version and the time of "
 "sending."
 msgstr ""
-"フォームに入力された情報 (氏名、電話番号、メールアドレス) "
-"と、あわせて送信されるサイトのアドレス、同意の記録、プラグインのバージョン、送信日時のみです。"
+"フォームに入力された情報 (氏名、電話番号、メールアドレス) と、あわせて送信さ"
+"れるサイトのアドレス、同意の記録、プラグインのバージョン、送信日時のみです。"
 
 #: includes/class-real-accessability-admin.php:436
 msgid ""
 "Your details are sent only when you click the button, together with the "
 "language and price shown here. Nothing else from your site is sent."
-msgstr "情報は、ボタンをクリックしたときにのみ、この画面に表示されている言語と価格とともに送信されます。サイトのその他の情報は一切送信されません。"
+msgstr ""
+"情報は、ボタンをクリックしたときにのみ、この画面に表示されている言語と価格と"
+"ともに送信されます。サイトのその他の情報は一切送信されません。"
 
 #: includes/class-real-accessability-admin.php:439
 msgid "What we use it for"
@@ -266,7 +300,9 @@ msgid ""
 "accessibility audit. We will not send you marketing messages unless you "
 "agree to receive them separately."
 msgstr ""
-"ご依頼についてご連絡し、アクセシビリティ診断のお見積もりをお送りするためです。別途受信に同意いただかない限り、マーケティング目的のメッセージはお送りしません。"
+"ご依頼についてご連絡し、アクセシビリティ診断のお見積もりをお送りするためで"
+"す。別途受信に同意いただかない限り、マーケティング目的のメッセージはお送りし"
+"ません。"
 
 #: includes/class-real-accessability-admin.php:443
 msgid "Do you have to give it"
@@ -276,7 +312,9 @@ msgstr "提供の任意性"
 msgid ""
 "You are not required by law to give us these details. Without them, we "
 "cannot get back to you about your request."
-msgstr "これらの情報の提供は法律上の義務ではありません。ただし、ご提供いただけない場合、ご依頼についてご連絡することができません。"
+msgstr ""
+"これらの情報の提供は法律上の義務ではありません。ただし、ご提供いただけない場"
+"合、ご依頼についてご連絡することができません。"
 
 #: includes/class-real-accessability-admin.php:447
 msgid "Who receives it"
@@ -297,7 +335,8 @@ msgid ""
 "For as long as needed to handle your request, and for up to 24 months after "
 "our last contact, unless the law requires otherwise."
 msgstr ""
-"ご依頼への対応に必要な期間、および最後のやり取りから最長 24 か月間保存します。ただし、法令に別段の定めがある場合はこの限りではありません。"
+"ご依頼への対応に必要な期間、および最後のやり取りから最長 24 か月間保存しま"
+"す。ただし、法令に別段の定めがある場合はこの限りではありません。"
 
 #: includes/class-real-accessability-admin.php:455
 msgid "Security"
@@ -308,7 +347,8 @@ msgid ""
 "We use up-to-date measures to protect the details. No system is completely "
 "immune to unauthorized access, so we cannot guarantee absolute protection."
 msgstr ""
-"情報の保護には最新の対策を講じています。ただし、不正アクセスを完全に防げるシステムは存在しないため、絶対的な安全を保証することはできません。"
+"情報の保護には最新の対策を講じています。ただし、不正アクセスを完全に防げるシ"
+"ステムは存在しないため、絶対的な安全を保証することはできません。"
 
 #: includes/class-real-accessability-admin.php:459
 msgid "Your rights"
@@ -320,7 +360,9 @@ msgstr "お客様の権利"
 msgid ""
 "You can ask at any time to see, correct or delete your details, or to "
 "withdraw your consent, by writing to %s."
-msgstr "いつでも %s 宛てにご連絡いただくことで、ご自身の情報の開示、訂正、削除、または同意の撤回を請求できます。"
+msgstr ""
+"いつでも %s 宛てにご連絡いただくことで、ご自身の情報の開示、訂正、削除、また"
+"は同意の撤回を請求できます。"
 
 #: includes/class-real-accessability-admin.php:467
 msgid "Privacy policy for audit requests"
@@ -335,7 +377,8 @@ msgstr "閉じる"
 #: includes/class-real-accessability-admin.php:523
 msgid ""
 "You already sent a request in the last 24 hours. We will be in touch soon."
-msgstr "過去 24 時間以内にすでにご依頼を送信済みです。近日中にご連絡いたします。"
+msgstr ""
+"過去 24 時間以内にすでにご依頼を送信済みです。近日中にご連絡いたします。"
 
 #: includes/class-real-accessability-admin.php:538
 #: includes/class-real-accessability-admin.php:574
@@ -369,19 +412,23 @@ msgstr "免責事項:"
 
 #: includes/class-real-accessability-admin.php:616
 msgid ""
-"Real Accessibility adds an accessibility menu that helps visitors adjust how"
-" the site is displayed. On its own, it does not make a website accessible or"
-" compliant with any accessibility law or standard (such as WCAG or Israeli "
+"Real Accessibility adds an accessibility menu that helps visitors adjust how "
+"the site is displayed. On its own, it does not make a website accessible or "
+"compliant with any accessibility law or standard (such as WCAG or Israeli "
 "Standard 5568). The site owner remains solely responsible for the "
 "accessibility of the site's code and content and for meeting the legal "
 "requirements. The plugin is provided \"as is\", without warranty of any "
 "kind, and the plugin's authors are not liable for any damage resulting from "
 "its use."
 msgstr ""
-"Real Accessibility "
-"は、訪問者がサイトの表示を調整できるアクセシビリティメニューを追加するものです。本プラグインのみによって、ウェブサイトがアクセシブルになることも、いかなるアクセシビリティ関連の法律または規格"
-" (WCAG やイスラエル規格 5568 など) "
-"に準拠することもありません。サイトのコードとコンテンツのアクセシビリティ、および法的要件の遵守については、引き続きサイト所有者のみが責任を負います。本プラグインは「現状のまま」提供され、いかなる種類の保証もありません。また、本プラグインの作成者は、その使用に起因するいかなる損害についても責任を負いません。"
+"Real Accessibility は、訪問者がサイトの表示を調整できるアクセシビリティメ"
+"ニューを追加するものです。本プラグインのみによって、ウェブサイトがアクセシブ"
+"ルになることも、いかなるアクセシビリティ関連の法律または規格 (WCAG やイスラエ"
+"ル規格 5568 など) に準拠することもありません。サイトのコードとコンテンツのア"
+"クセシビリティ、および法的要件の遵守については、引き続きサイト所有者のみが責"
+"任を負います。本プラグインは「現状のまま」提供され、いかなる種類の保証もあり"
+"ません。また、本プラグインの作成者は、その使用に起因するいかなる損害について"
+"も責任を負いません。"
 
 #: includes/class-real-accessability-admin.php:628
 msgid "Your accessibility menu is ready"
@@ -391,24 +438,29 @@ msgstr "アクセシビリティメニューの準備ができました"
 msgid ""
 "Set the color and the position below, then turn the menu on. You can keep "
 "changing the settings after it is live."
-msgstr "以下で色と位置を設定してから、メニューをオンにしてください。公開後も設定はいつでも変更できます。"
+msgstr ""
+"以下で色と位置を設定してから、メニューをオンにしてください。公開後も設定はい"
+"つでも変更できます。"
 
 #: includes/class-real-accessability-admin.php:647
 msgid ""
 "Approving turns the menu on and shows a small credit at its bottom, with a "
 "link to the plugin page on WordPress.org."
 msgstr ""
-"同意すると、メニューがオンになり、メニューの下部に WordPress.org のプラグインページへのリンク付きの小さなクレジット表記が表示されます。"
+"同意すると、メニューがオンになり、メニューの下部に WordPress.org のプラグイン"
+"ページへのリンク付きの小さなクレジット表記が表示されます。"
 
 #: includes/class-real-accessability-admin.php:648
 msgid ""
 "Real Accessibility is free, and the credit helps other site owners find it."
-msgstr "Real Accessibility は無料です。クレジット表記は、ほかのサイト運営者がこのプラグインを見つける助けになります。"
+msgstr ""
+"Real Accessibility は無料です。クレジット表記は、ほかのサイト運営者がこのプラ"
+"グインを見つける助けになります。"
 
 #: includes/class-real-accessability-admin.php:652
-#: includes/class-real-accessability-admin.php:1117
-#: includes/class-real-accessability-admin.php:1251
-#: includes/class-real-accessability-admin.php:1349
+#: includes/class-real-accessability-admin.php:1124
+#: includes/class-real-accessability-admin.php:1258
+#: includes/class-real-accessability-admin.php:1356
 msgid "Cancel"
 msgstr "キャンセル"
 
@@ -417,8 +469,8 @@ msgid "You can also turn it on without the credit"
 msgstr "クレジット表記なしでオンにすることもできます"
 
 #: includes/class-real-accessability-admin.php:677
-#: includes/class-real-accessability-admin.php:998
-#: includes/class-real-accessability-admin.php:1006
+#: includes/class-real-accessability-admin.php:1005
+#: includes/class-real-accessability-admin.php:1013
 msgid "Button and menu"
 msgstr "ボタンとメニュー"
 
@@ -465,7 +517,7 @@ msgstr "この項目は必須です。"
 
 #. translators: %s: language name.
 #: includes/class-real-accessability-admin.php:769
-#: includes/class-real-accessability-admin.php:1297
+#: includes/class-real-accessability-admin.php:1304
 #, php-format
 msgid "Flag for %s"
 msgstr "%s の国旗"
@@ -506,15 +558,18 @@ msgid "Legal compliance"
 msgstr "法令対応"
 
 #: includes/class-real-accessability-admin.php:825
-msgid ""
-"Thank you! The credit is shown at the bottom of the accessibility menu."
-msgstr "ありがとうございます！アクセシビリティメニューの下部にクレジット表記が表示されるようになりました。"
+msgid "Thank you! The credit is shown at the bottom of the accessibility menu."
+msgstr ""
+"ありがとうございます！アクセシビリティメニューの下部にクレジット表記が表示さ"
+"れるようになりました。"
 
 #: includes/class-real-accessability-admin.php:832
 msgid ""
 "The accessibility menu is live on your site, with the credit at the bottom. "
 "Thank you!"
-msgstr "アクセシビリティメニューがサイトで公開され、下部にクレジット表記が表示されています。ありがとうございます！"
+msgstr ""
+"アクセシビリティメニューがサイトで公開され、下部にクレジット表記が表示されて"
+"います。ありがとうございます！"
 
 #: includes/class-real-accessability-admin.php:833
 msgid "The accessibility menu is live on your site!"
@@ -597,7 +652,7 @@ msgid "From the bottom"
 msgstr "下から"
 
 #: includes/class-real-accessability-admin.php:925
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Circle"
 msgstr "円形"
 
@@ -606,7 +661,7 @@ msgid "Rounded"
 msgstr "角丸"
 
 #: includes/class-real-accessability-admin.php:927
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Square"
 msgstr "四角形"
 
@@ -658,189 +713,205 @@ msgstr "自動"
 msgid "Custom"
 msgstr "カスタム"
 
-#: includes/class-real-accessability-admin.php:1000
+#: includes/class-real-accessability-admin.php:986
+msgid "Flat button color"
+msgstr "ボタンを単色にする"
+
+#: includes/class-real-accessability-admin.php:987
+msgid "One solid color, without a gradient or shadow."
+msgstr "グラデーションや影のない単色で表示します。"
+
+#: includes/class-real-accessability-admin.php:1007
 msgid "Show the button on"
 msgstr "表示するデバイス"
 
-#: includes/class-real-accessability-admin.php:1009
-#: includes/class-real-accessability-admin.php:1024
+#: includes/class-real-accessability-admin.php:1016
+#: includes/class-real-accessability-admin.php:1031
 msgid "Button position"
 msgstr "ボタンの位置"
 
-#: includes/class-real-accessability-admin.php:1010
+#: includes/class-real-accessability-admin.php:1017
 msgid "Shape and size"
 msgstr "形状とサイズ"
 
-#: includes/class-real-accessability-admin.php:1011
+#: includes/class-real-accessability-admin.php:1018
 msgid "The menu"
 msgstr "メニュー"
 
-#: includes/class-real-accessability-admin.php:1019
+#: includes/class-real-accessability-admin.php:1026
 msgid ""
 "The button is hidden on this device. Turn it back on with the icons above."
-msgstr "このデバイスではボタンが非表示になっています。上のアイコンから再び表示できます。"
+msgstr ""
+"このデバイスではボタンが非表示になっています。上のアイコンから再び表示できま"
+"す。"
 
-#: includes/class-real-accessability-admin.php:1036
+#: includes/class-real-accessability-admin.php:1043
 msgid "Distance from the edge - horizontal"
 msgstr "端からの距離 (水平方向)"
 
-#: includes/class-real-accessability-admin.php:1036
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1043
+#: includes/class-real-accessability-admin.php:1044
 msgid "Attached"
 msgstr "端に密着"
 
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1044
 msgid "Distance from the edge - vertical"
 msgstr "端からの距離 (垂直方向)"
 
-#: includes/class-real-accessability-admin.php:1044
+#: includes/class-real-accessability-admin.php:1051
 msgid "Shape"
 msgstr "形状"
 
-#: includes/class-real-accessability-admin.php:1050
+#: includes/class-real-accessability-admin.php:1057
 msgid "Button size"
 msgstr "ボタンのサイズ"
 
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Corner radius"
 msgstr "角の丸み"
 
-#: includes/class-real-accessability-admin.php:1056
+#: includes/class-real-accessability-admin.php:1063
 msgid "Opens from the edge of the screen, wherever the button is."
 msgstr "ボタンの位置に関係なく、画面の端から開きます。"
 
-#: includes/class-real-accessability-admin.php:1058
+#: includes/class-real-accessability-admin.php:1065
 msgid "Menu opens from"
 msgstr "メニューが開く方向"
 
-#: includes/class-real-accessability-admin.php:1067
+#: includes/class-real-accessability-admin.php:1074
 msgid "Menu corner radius"
 msgstr "メニューの角の丸み"
 
-#: includes/class-real-accessability-admin.php:1079
-#: includes/class-real-accessability-admin.php:1080
-#: includes/class-real-accessability-admin.php:1235
-#: includes/class-real-accessability-admin.php:1330
+#: includes/class-real-accessability-admin.php:1086
+#: includes/class-real-accessability-admin.php:1087
+#: includes/class-real-accessability-admin.php:1242
+#: includes/class-real-accessability-admin.php:1337
 msgid "Preview"
 msgstr "プレビュー"
 
-#: includes/class-real-accessability-admin.php:1081
+#: includes/class-real-accessability-admin.php:1088
 msgid "Button"
 msgstr "ボタン"
 
-#: includes/class-real-accessability-admin.php:1082
+#: includes/class-real-accessability-admin.php:1089
 msgid "Menu open"
 msgstr "メニュー展開"
 
-#: includes/class-real-accessability-admin.php:1095
+#: includes/class-real-accessability-admin.php:1102
 #: includes/class-real-accessability-i18n.php:32
 msgid "Accessibility"
 msgstr "アクセシビリティ"
 
-#: includes/class-real-accessability-admin.php:1104
+#: includes/class-real-accessability-admin.php:1111
 msgid "The button is hidden on this device."
 msgstr "このデバイスではボタンが非表示になっています。"
 
-#: includes/class-real-accessability-admin.php:1116
-#: includes/class-real-accessability-admin.php:1250
-#: includes/class-real-accessability-admin.php:1348
+#: includes/class-real-accessability-admin.php:1123
+#: includes/class-real-accessability-admin.php:1257
+#: includes/class-real-accessability-admin.php:1355
 msgid "Save changes"
 msgstr "変更を保存"
 
-#: includes/class-real-accessability-admin.php:1118
-#: includes/class-real-accessability-admin.php:1252
-#: includes/class-real-accessability-admin.php:1350
+#: includes/class-real-accessability-admin.php:1125
+#: includes/class-real-accessability-admin.php:1259
+#: includes/class-real-accessability-admin.php:1357
 msgid "You have unsaved changes"
 msgstr "保存されていない変更があります"
 
-#: includes/class-real-accessability-admin.php:1193
+#: includes/class-real-accessability-admin.php:1200
 msgid ""
 "Choose what visitors see in the accessibility menu. Sections without any "
 "option are not shown."
-msgstr "アクセシビリティメニューで訪問者に表示する項目を選択します。有効な項目が 1 つもないセクションは表示されません。"
+msgstr ""
+"アクセシビリティメニューで訪問者に表示する項目を選択します。有効な項目が 1 つ"
+"もないセクションは表示されません。"
 
-#: includes/class-real-accessability-admin.php:1222
+#: includes/class-real-accessability-admin.php:1229
 msgid "Menu footer"
 msgstr "メニューのフッター"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hide button"
 msgstr "非表示ボタン"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hides the accessibility button until the visitor's next visit"
 msgstr "訪問者が次回サイトを訪れるまで、アクセシビリティボタンを非表示にします"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid "Plugin credit"
 msgstr "プラグインのクレジット表記"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid ""
 "A small credit at the bottom of the menu, with a link to the plugin page on "
 "WordPress.org"
-msgstr "メニュー下部に表示される小さなクレジット表記 (WordPress.org のプラグインページへのリンク付き)"
+msgstr ""
+"メニュー下部に表示される小さなクレジット表記 (WordPress.org のプラグインペー"
+"ジへのリンク付き)"
 
-#: includes/class-real-accessability-admin.php:1237
+#: includes/class-real-accessability-admin.php:1244
 msgid "Preview of the accessibility menu"
 msgstr "アクセシビリティメニューのプレビュー"
 
-#: includes/class-real-accessability-admin.php:1276
+#: includes/class-real-accessability-admin.php:1283
 msgid "Menu languages"
 msgstr "メニューの言語"
 
-#: includes/class-real-accessability-admin.php:1281
+#: includes/class-real-accessability-admin.php:1288
 msgid "Search languages"
 msgstr "言語を検索"
 
-#: includes/class-real-accessability-admin.php:1283
+#: includes/class-real-accessability-admin.php:1290
 msgid "No language found"
 msgstr "言語が見つかりません"
 
-#: includes/class-real-accessability-admin.php:1293
+#: includes/class-real-accessability-admin.php:1300
 msgid "Drag to reorder"
 msgstr "ドラッグして並べ替え"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1315
+#: includes/class-real-accessability-admin.php:1322
 #, php-format
 msgid "Make %s the default"
 msgstr "%s をデフォルトにする"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1316
+#: includes/class-real-accessability-admin.php:1323
 msgid "Default"
 msgstr "デフォルト"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1319
+#: includes/class-real-accessability-admin.php:1326
 #, php-format
 msgid "Show %s in the menu"
 msgstr "%s をメニューに表示"
 
-#: includes/class-real-accessability-admin.php:1362
+#: includes/class-real-accessability-admin.php:1369
 msgid "Statement page"
 msgstr "方針ページ"
 
-#: includes/class-real-accessability-admin.php:1370
+#: includes/class-real-accessability-admin.php:1377
 msgid "- Select a page -"
 msgstr "- 固定ページを選択 -"
 
-#: includes/class-real-accessability-admin.php:1377
+#: includes/class-real-accessability-admin.php:1384
 msgid "View page"
 msgstr "固定ページを表示"
 
-#: includes/class-real-accessability-admin.php:1379
+#: includes/class-real-accessability-admin.php:1386
 msgid ""
 "The page on your site with the accessibility statement. The \"Accessibility "
 "statement\" button in the menu links to it."
-msgstr "アクセシビリティ方針を掲載しているサイト内のページです。メニューの「アクセシビリティ方針」ボタンは、このページにリンクします。"
+msgstr ""
+"アクセシビリティ方針を掲載しているサイト内のページです。メニューの「アクセシ"
+"ビリティ方針」ボタンは、このページにリンクします。"
 
-#: includes/class-real-accessability-admin.php:1383
+#: includes/class-real-accessability-admin.php:1390
 msgid "Statement button"
 msgstr "方針ボタン"
 
-#: includes/class-real-accessability-admin.php:1385
+#: includes/class-real-accessability-admin.php:1392
 msgid "Show the \"Accessibility statement\" button in the menu"
 msgstr "メニューに「アクセシビリティ方針」ボタンを表示"
 

@@ -4,7 +4,7 @@ Tags: accessibility, accessibility widget, accessibility toolbar, wcag, ada
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.0.1
+Stable tag: 2.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -218,6 +218,10 @@ It was removed in version 2.0. Screen readers, and the reading features that com
 6. Menu languages: 46 languages, each with the flag you choose.
 
 == Changelog ==
+
+= 2.1 =
+* New option: Flat button color. The button is drawn in one solid color, without a gradient or shadow.
+* The button can now be as small as 28px (it was 40px).
 
 = 2.0.1 =
 * The plugin name now says what it is: Real Accessibility: Accessibility Widget & Toolbar.

@@ -118,6 +118,12 @@ h3 {
 	scale: 1.05;
 }
 
+/* Flat button: one solid color, no gradient or shadow */
+.ra-flat .ra-fab {
+	background: var(--a);
+	box-shadow: none;
+}
+
 .ra-fab:focus-visible {
 	outline: 3px solid var(--ink);
 	outline-offset: 3px;

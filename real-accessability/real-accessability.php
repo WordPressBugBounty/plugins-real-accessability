@@ -3,7 +3,7 @@
  * Plugin Name: Real Accessibility: Accessibility Widget & Toolbar
  * Plugin URI: https://wordpress.org/plugins/real-accessability/
  * Description: An accessibility menu for your website - ready-made profiles, contrast modes, text size and spacing, readable font, reading guide and more, styled in your brand color.
- * Version: 2.0.1
+ * Version: 2.1
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: REALMEDIA
@@ -35,7 +35,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'REAL_ACCESSABILITY_VERSION', '2.0.1' );
+define( 'REAL_ACCESSABILITY_VERSION', '2.1' );
 define( 'REAL_ACCESSABILITY_FILE', __FILE__ );
 define( 'REAL_ACCESSABILITY_DIR', plugin_dir_path( __FILE__ ) );
 define( 'REAL_ACCESSABILITY_URL', plugin_dir_url( __FILE__ ) );

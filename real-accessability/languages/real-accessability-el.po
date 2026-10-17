@@ -2,7 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Real Accessibility 2.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-accessability/\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-"
+"accessability\n"
+"POT-Creation-Date: 2026-10-15T00:01:02+00:00\n"
 "PO-Revision-Date: 2026-10-11 12:00+0300\n"
 "Last-Translator: REALMEDIA <office@realmedia.co.il>\n"
 "Language-Team: Greek\n"
@@ -12,6 +14,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Domain: real-accessability\n"
+
+#. Plugin Name of the plugin
+#: real-accessability.php
+msgid "Real Accessibility: Accessibility Widget & Toolbar"
+msgstr ""
 
 #. Plugin URI of the plugin
 #: real-accessability.php
@@ -77,8 +84,8 @@ msgid ""
 "Real Accessibility 2.0 is ready. Set the brand color and the button "
 "position, and choose whether to show the plugin credit."
 msgstr ""
-"Το Real Accessibility 2.0 είναι έτοιμο. Ορίστε το εταιρικό χρώμα και τη θέση"
-" του κουμπιού και επιλέξτε αν θα εμφανίζεται η μνεία του πρόσθετου."
+"Το Real Accessibility 2.0 είναι έτοιμο. Ορίστε το εταιρικό χρώμα και τη θέση "
+"του κουμπιού και επιλέξτε αν θα εμφανίζεται η μνεία του πρόσθετου."
 
 #: includes/class-real-accessability-admin.php:195
 msgid "Open Real Accessibility"
@@ -90,8 +97,8 @@ msgid ""
 "bottom of the accessibility menu? It helps keep the plugin free."
 msgstr ""
 "Να εμφανίζεται στο κάτω μέρος του μενού προσβασιμότητας μια μικρή μνεία με "
-"σύνδεσμο προς τη σελίδα του πρόσθετου στο WordPress.org; Βοηθά να παραμείνει"
-" το πρόσθετο δωρεάν."
+"σύνδεσμο προς τη σελίδα του πρόσθετου στο WordPress.org; Βοηθά να παραμείνει "
+"το πρόσθετο δωρεάν."
 
 #: includes/class-real-accessability-admin.php:207
 #: includes/class-real-accessability-admin.php:651
@@ -101,6 +108,10 @@ msgstr "Αποδοχή"
 #: includes/class-real-accessability-admin.php:208
 msgid "No thanks"
 msgstr "Όχι, ευχαριστώ"
+
+#: includes/class-real-accessability-admin.php:225
+msgid "Real Media - website accessibility services"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:244
 msgid "Load WooCommerce stores in 249ms"
@@ -113,6 +124,10 @@ msgstr "Φόρτωση ιστοτόπων WordPress σε μόλις 37 ms"
 #: includes/class-real-accessability-admin.php:255
 msgid "(opens in a new tab)"
 msgstr "(ανοίγει σε μία νέα καρτέλα)"
+
+#: includes/class-real-accessability-admin.php:274
+msgid "From ₪2,000 + VAT"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:274
 msgid "Starting from $500"
@@ -133,6 +148,11 @@ msgstr "Το αίτημά σας στάλθηκε. Θα επικοινωνήσο
 #: includes/class-real-accessability-admin.php:311
 msgid "Get a quote"
 msgstr "Ζητήστε προσφορά"
+
+#: includes/class-real-accessability-admin.php:325
+msgid ""
+"Manual and automated testing against Israeli Standard 5568 and WCAG 2.1 AA"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:326
 #: includes/class-real-accessability-admin.php:331
@@ -156,6 +176,12 @@ msgstr "Χειροκίνητος και αυτοματοποιημένος έλ�
 #: includes/class-real-accessability-admin.php:338
 msgid "An accessibility menu alone is not enough"
 msgstr "Ένα μενού προσβασιμότητας από μόνο του δεν αρκεί"
+
+#: includes/class-real-accessability-admin.php:343
+msgid ""
+"To meet Israeli Standard 5568, the code and content of the site need to be "
+"accessible too. Our experts audit your site and show you exactly what to fix."
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:344
 msgid ""
@@ -238,11 +264,11 @@ msgid ""
 "through it. It follows the Israeli Protection of Privacy Law, 5741-1981, "
 "including Amendment 13."
 msgstr ""
-"Τη φόρμα αυτή τη διαχειρίζεται η Real Media Ltd., η εταιρεία που ανέπτυξε το"
-" Real Accessibility. Η παρούσα πολιτική εξηγεί τι γίνεται με τα στοιχεία που"
-" αποστέλλετε μέσω αυτής. Είναι σύμφωνη με τον ισραηλινό Νόμο για την "
-"Προστασία της Ιδιωτικότητας, 5741-1981, συμπεριλαμβανομένης της Τροποποίησης"
-" 13."
+"Τη φόρμα αυτή τη διαχειρίζεται η Real Media Ltd., η εταιρεία που ανέπτυξε το "
+"Real Accessibility. Η παρούσα πολιτική εξηγεί τι γίνεται με τα στοιχεία που "
+"αποστέλλετε μέσω αυτής. Είναι σύμφωνη με τον ισραηλινό Νόμο για την "
+"Προστασία της Ιδιωτικότητας, 5741-1981, συμπεριλαμβανομένης της Τροποποίησης "
+"13."
 
 #: includes/class-real-accessability-admin.php:434
 msgid "What we collect"
@@ -314,8 +340,8 @@ msgid ""
 "For as long as needed to handle your request, and for up to 24 months after "
 "our last contact, unless the law requires otherwise."
 msgstr ""
-"Για όσο διάστημα απαιτείται για τη διεκπεραίωση του αιτήματός σας και έως 24"
-" μήνες μετά την τελευταία μας επικοινωνία, εκτός αν ο νόμος ορίζει "
+"Για όσο διάστημα απαιτείται για τη διεκπεραίωση του αιτήματός σας και έως 24 "
+"μήνες μετά την τελευταία μας επικοινωνία, εκτός αν ο νόμος ορίζει "
 "διαφορετικά."
 
 #: includes/class-real-accessability-admin.php:455
@@ -342,9 +368,9 @@ msgid ""
 "You can ask at any time to see, correct or delete your details, or to "
 "withdraw your consent, by writing to %s."
 msgstr ""
-"Μπορείτε ανά πάσα στιγμή να ζητήσετε να δείτε, να διορθώσετε ή να διαγράψετε"
-" τα στοιχεία σας ή να ανακαλέσετε τη συγκατάθεσή σας, γράφοντας στη "
-"διεύθυνση %s."
+"Μπορείτε ανά πάσα στιγμή να ζητήσετε να δείτε, να διορθώσετε ή να διαγράψετε "
+"τα στοιχεία σας ή να ανακαλέσετε τη συγκατάθεσή σας, γράφοντας στη διεύθυνση "
+"%s."
 
 #: includes/class-real-accessability-admin.php:467
 msgid "Privacy policy for audit requests"
@@ -360,8 +386,8 @@ msgstr "Κλείσιμο"
 msgid ""
 "You already sent a request in the last 24 hours. We will be in touch soon."
 msgstr ""
-"Έχετε ήδη στείλει αίτημα τις τελευταίες 24 ώρες. Θα επικοινωνήσουμε μαζί σας"
-" σύντομα."
+"Έχετε ήδη στείλει αίτημα τις τελευταίες 24 ώρες. Θα επικοινωνήσουμε μαζί σας "
+"σύντομα."
 
 #: includes/class-real-accessability-admin.php:538
 #: includes/class-real-accessability-admin.php:574
@@ -395,9 +421,9 @@ msgstr "Αποποίηση ευθύνης:"
 
 #: includes/class-real-accessability-admin.php:616
 msgid ""
-"Real Accessibility adds an accessibility menu that helps visitors adjust how"
-" the site is displayed. On its own, it does not make a website accessible or"
-" compliant with any accessibility law or standard (such as WCAG or Israeli "
+"Real Accessibility adds an accessibility menu that helps visitors adjust how "
+"the site is displayed. On its own, it does not make a website accessible or "
+"compliant with any accessibility law or standard (such as WCAG or Israeli "
 "Standard 5568). The site owner remains solely responsible for the "
 "accessibility of the site's code and content and for meeting the legal "
 "requirements. The plugin is provided \"as is\", without warranty of any "
@@ -443,9 +469,9 @@ msgstr ""
 "ιστοτόπων να το βρουν."
 
 #: includes/class-real-accessability-admin.php:652
-#: includes/class-real-accessability-admin.php:1117
-#: includes/class-real-accessability-admin.php:1251
-#: includes/class-real-accessability-admin.php:1349
+#: includes/class-real-accessability-admin.php:1124
+#: includes/class-real-accessability-admin.php:1258
+#: includes/class-real-accessability-admin.php:1356
 msgid "Cancel"
 msgstr "Ακύρωση"
 
@@ -454,8 +480,8 @@ msgid "You can also turn it on without the credit"
 msgstr "Μπορείτε επίσης να το ενεργοποιήσετε χωρίς τη μνεία"
 
 #: includes/class-real-accessability-admin.php:677
-#: includes/class-real-accessability-admin.php:998
-#: includes/class-real-accessability-admin.php:1006
+#: includes/class-real-accessability-admin.php:1005
+#: includes/class-real-accessability-admin.php:1013
 msgid "Button and menu"
 msgstr "Κουμπί και μενού"
 
@@ -502,7 +528,7 @@ msgstr "Αυτό το πεδίο είναι υποχρεωτικό."
 
 #. translators: %s: language name.
 #: includes/class-real-accessability-admin.php:769
-#: includes/class-real-accessability-admin.php:1297
+#: includes/class-real-accessability-admin.php:1304
 #, php-format
 msgid "Flag for %s"
 msgstr "Σημαία γλώσσας: %s"
@@ -544,8 +570,7 @@ msgid "Legal compliance"
 msgstr "Νομική συμμόρφωση"
 
 #: includes/class-real-accessability-admin.php:825
-msgid ""
-"Thank you! The credit is shown at the bottom of the accessibility menu."
+msgid "Thank you! The credit is shown at the bottom of the accessibility menu."
 msgstr ""
 "Ευχαριστούμε! Η μνεία εμφανίζεται στο κάτω μέρος του μενού προσβασιμότητας."
 
@@ -638,7 +663,7 @@ msgid "From the bottom"
 msgstr "Από κάτω"
 
 #: includes/class-real-accessability-admin.php:925
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Circle"
 msgstr "Κύκλος"
 
@@ -647,7 +672,7 @@ msgid "Rounded"
 msgstr "Στρογγυλεμένο"
 
 #: includes/class-real-accessability-admin.php:927
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Square"
 msgstr "Τετράγωνο"
 
@@ -701,104 +726,112 @@ msgstr "Αυτόματο"
 msgid "Custom"
 msgstr "Προσαρμοσμένο"
 
-#: includes/class-real-accessability-admin.php:1000
+#: includes/class-real-accessability-admin.php:986
+msgid "Flat button color"
+msgstr "Ενιαίο χρώμα κουμπιού"
+
+#: includes/class-real-accessability-admin.php:987
+msgid "One solid color, without a gradient or shadow."
+msgstr "Ένα συμπαγές χρώμα, χωρίς διαβάθμιση ή σκιά."
+
+#: includes/class-real-accessability-admin.php:1007
 msgid "Show the button on"
 msgstr "Εμφάνιση κουμπιού σε"
 
-#: includes/class-real-accessability-admin.php:1009
-#: includes/class-real-accessability-admin.php:1024
+#: includes/class-real-accessability-admin.php:1016
+#: includes/class-real-accessability-admin.php:1031
 msgid "Button position"
 msgstr "Θέση κουμπιού"
 
-#: includes/class-real-accessability-admin.php:1010
+#: includes/class-real-accessability-admin.php:1017
 msgid "Shape and size"
 msgstr "Σχήμα και μέγεθος"
 
-#: includes/class-real-accessability-admin.php:1011
+#: includes/class-real-accessability-admin.php:1018
 msgid "The menu"
 msgstr "Μενού"
 
-#: includes/class-real-accessability-admin.php:1019
+#: includes/class-real-accessability-admin.php:1026
 msgid ""
 "The button is hidden on this device. Turn it back on with the icons above."
 msgstr ""
 "Το κουμπί είναι κρυφό σε αυτή τη συσκευή. Ενεργοποιήστε το ξανά από τα "
 "εικονίδια παραπάνω."
 
-#: includes/class-real-accessability-admin.php:1036
+#: includes/class-real-accessability-admin.php:1043
 msgid "Distance from the edge - horizontal"
 msgstr "Απόσταση από την άκρη - οριζόντια"
 
-#: includes/class-real-accessability-admin.php:1036
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1043
+#: includes/class-real-accessability-admin.php:1044
 msgid "Attached"
 msgstr "Στην άκρη"
 
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1044
 msgid "Distance from the edge - vertical"
 msgstr "Απόσταση από την άκρη - κατακόρυφα"
 
-#: includes/class-real-accessability-admin.php:1044
+#: includes/class-real-accessability-admin.php:1051
 msgid "Shape"
 msgstr "Σχήμα"
 
-#: includes/class-real-accessability-admin.php:1050
+#: includes/class-real-accessability-admin.php:1057
 msgid "Button size"
 msgstr "Μέγεθος κουμπιού"
 
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Corner radius"
 msgstr "Ακτίνα γωνιών"
 
-#: includes/class-real-accessability-admin.php:1056
+#: includes/class-real-accessability-admin.php:1063
 msgid "Opens from the edge of the screen, wherever the button is."
 msgstr "Ανοίγει από την άκρη της οθόνης, όπου κι αν βρίσκεται το κουμπί."
 
-#: includes/class-real-accessability-admin.php:1058
+#: includes/class-real-accessability-admin.php:1065
 msgid "Menu opens from"
 msgstr "Άνοιγμα μενού"
 
-#: includes/class-real-accessability-admin.php:1067
+#: includes/class-real-accessability-admin.php:1074
 msgid "Menu corner radius"
 msgstr "Ακτίνα γωνιών μενού"
 
-#: includes/class-real-accessability-admin.php:1079
-#: includes/class-real-accessability-admin.php:1080
-#: includes/class-real-accessability-admin.php:1235
-#: includes/class-real-accessability-admin.php:1330
+#: includes/class-real-accessability-admin.php:1086
+#: includes/class-real-accessability-admin.php:1087
+#: includes/class-real-accessability-admin.php:1242
+#: includes/class-real-accessability-admin.php:1337
 msgid "Preview"
 msgstr "Προεπισκόπηση"
 
-#: includes/class-real-accessability-admin.php:1081
+#: includes/class-real-accessability-admin.php:1088
 msgid "Button"
 msgstr "Κουμπί"
 
-#: includes/class-real-accessability-admin.php:1082
+#: includes/class-real-accessability-admin.php:1089
 msgid "Menu open"
 msgstr "Ανοιχτό μενού"
 
-#: includes/class-real-accessability-admin.php:1095
+#: includes/class-real-accessability-admin.php:1102
 #: includes/class-real-accessability-i18n.php:32
 msgid "Accessibility"
 msgstr "Προσβασιμότητα"
 
-#: includes/class-real-accessability-admin.php:1104
+#: includes/class-real-accessability-admin.php:1111
 msgid "The button is hidden on this device."
 msgstr "Το κουμπί είναι κρυφό σε αυτή τη συσκευή."
 
-#: includes/class-real-accessability-admin.php:1116
-#: includes/class-real-accessability-admin.php:1250
-#: includes/class-real-accessability-admin.php:1348
+#: includes/class-real-accessability-admin.php:1123
+#: includes/class-real-accessability-admin.php:1257
+#: includes/class-real-accessability-admin.php:1355
 msgid "Save changes"
 msgstr "Αποθήκευση αλλαγών"
 
-#: includes/class-real-accessability-admin.php:1118
-#: includes/class-real-accessability-admin.php:1252
-#: includes/class-real-accessability-admin.php:1350
+#: includes/class-real-accessability-admin.php:1125
+#: includes/class-real-accessability-admin.php:1259
+#: includes/class-real-accessability-admin.php:1357
 msgid "You have unsaved changes"
 msgstr "Έχετε μη αποθηκευμένες αλλαγές"
 
-#: includes/class-real-accessability-admin.php:1193
+#: includes/class-real-accessability-admin.php:1200
 msgid ""
 "Choose what visitors see in the accessibility menu. Sections without any "
 "option are not shown."
@@ -806,23 +839,23 @@ msgstr ""
 "Επιλέξτε τι βλέπουν οι επισκέπτες στο μενού προσβασιμότητας. Οι ενότητες "
 "χωρίς καμία επιλογή δεν εμφανίζονται."
 
-#: includes/class-real-accessability-admin.php:1222
+#: includes/class-real-accessability-admin.php:1229
 msgid "Menu footer"
 msgstr "Υποσέλιδο μενού"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hide button"
 msgstr "Κουμπί απόκρυψης"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hides the accessibility button until the visitor's next visit"
 msgstr "Κρύβει το κουμπί προσβασιμότητας έως την επόμενη επίσκεψη"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid "Plugin credit"
 msgstr "Μνεία πρόσθετου"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid ""
 "A small credit at the bottom of the menu, with a link to the plugin page on "
 "WordPress.org"
@@ -830,56 +863,56 @@ msgstr ""
 "Μια μικρή μνεία στο κάτω μέρος του μενού, με σύνδεσμο προς τη σελίδα του "
 "πρόσθετου στο WordPress.org"
 
-#: includes/class-real-accessability-admin.php:1237
+#: includes/class-real-accessability-admin.php:1244
 msgid "Preview of the accessibility menu"
 msgstr "Προεπισκόπηση του μενού προσβασιμότητας"
 
-#: includes/class-real-accessability-admin.php:1276
+#: includes/class-real-accessability-admin.php:1283
 msgid "Menu languages"
 msgstr "Γλώσσες μενού"
 
-#: includes/class-real-accessability-admin.php:1281
+#: includes/class-real-accessability-admin.php:1288
 msgid "Search languages"
 msgstr "Αναζήτηση γλωσσών"
 
-#: includes/class-real-accessability-admin.php:1283
+#: includes/class-real-accessability-admin.php:1290
 msgid "No language found"
 msgstr "Δεν βρέθηκε γλώσσα"
 
-#: includes/class-real-accessability-admin.php:1293
+#: includes/class-real-accessability-admin.php:1300
 msgid "Drag to reorder"
 msgstr "Σύρετε για αναδιάταξη"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1315
+#: includes/class-real-accessability-admin.php:1322
 #, php-format
 msgid "Make %s the default"
 msgstr "Ορισμός ως προεπιλογής: %s"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1316
+#: includes/class-real-accessability-admin.php:1323
 msgid "Default"
 msgstr "Προεπιλογή"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1319
+#: includes/class-real-accessability-admin.php:1326
 #, php-format
 msgid "Show %s in the menu"
 msgstr "Εμφάνιση στο μενού: %s"
 
-#: includes/class-real-accessability-admin.php:1362
+#: includes/class-real-accessability-admin.php:1369
 msgid "Statement page"
 msgstr "Σελίδα δήλωσης"
 
-#: includes/class-real-accessability-admin.php:1370
+#: includes/class-real-accessability-admin.php:1377
 msgid "- Select a page -"
 msgstr "- Επιλέξτε σελίδα -"
 
-#: includes/class-real-accessability-admin.php:1377
+#: includes/class-real-accessability-admin.php:1384
 msgid "View page"
 msgstr "Προβολή σελίδας"
 
-#: includes/class-real-accessability-admin.php:1379
+#: includes/class-real-accessability-admin.php:1386
 msgid ""
 "The page on your site with the accessibility statement. The \"Accessibility "
 "statement\" button in the menu links to it."
@@ -887,11 +920,11 @@ msgstr ""
 "Η σελίδα του ιστοτόπου σας με τη δήλωση προσβασιμότητας. Το κουμπί «Δήλωση "
 "προσβασιμότητας» στο μενού παραπέμπει σε αυτήν."
 
-#: includes/class-real-accessability-admin.php:1383
+#: includes/class-real-accessability-admin.php:1390
 msgid "Statement button"
 msgstr "Κουμπί δήλωσης"
 
-#: includes/class-real-accessability-admin.php:1385
+#: includes/class-real-accessability-admin.php:1392
 msgid "Show the \"Accessibility statement\" button in the menu"
 msgstr "Εμφάνιση του κουμπιού «Δήλωση προσβασιμότητας» στο μενού"
 

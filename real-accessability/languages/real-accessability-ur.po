@@ -2,7 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Real Accessibility 2.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-accessability/\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-"
+"accessability\n"
+"POT-Creation-Date: 2026-10-15T00:01:02+00:00\n"
 "PO-Revision-Date: 2026-10-11 12:00+0300\n"
 "Last-Translator: REALMEDIA <office@realmedia.co.il>\n"
 "Language-Team: Urdu\n"
@@ -12,6 +14,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Domain: real-accessability\n"
+
+#. Plugin Name of the plugin
+#: real-accessability.php
+msgid "Real Accessibility: Accessibility Widget & Toolbar"
+msgstr ""
 
 #. Plugin URI of the plugin
 #: real-accessability.php
@@ -100,6 +107,10 @@ msgstr "منظور کریں"
 msgid "No thanks"
 msgstr "نہیں، شکریہ"
 
+#: includes/class-real-accessability-admin.php:225
+msgid "Real Media - website accessibility services"
+msgstr ""
+
 #: includes/class-real-accessability-admin.php:244
 msgid "Load WooCommerce stores in 249ms"
 msgstr "WooCommerce اسٹورز 249 ملی سیکنڈ میں لوڈ کریں"
@@ -111,6 +122,10 @@ msgstr "WordPress سائٹس صرف 37 ملی سیکنڈ میں لوڈ کریں"
 #: includes/class-real-accessability-admin.php:255
 msgid "(opens in a new tab)"
 msgstr "(نئے ٹیب میں کھلتا ہے)"
+
+#: includes/class-real-accessability-admin.php:274
+msgid "From ₪2,000 + VAT"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:274
 msgid "Starting from $500"
@@ -131,6 +146,11 @@ msgstr "آپ کی درخواست بھیج دی گئی ہے۔ ہم جلد آپ س
 #: includes/class-real-accessability-admin.php:311
 msgid "Get a quote"
 msgstr "کوٹیشن حاصل کریں"
+
+#: includes/class-real-accessability-admin.php:325
+msgid ""
+"Manual and automated testing against Israeli Standard 5568 and WCAG 2.1 AA"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:326
 #: includes/class-real-accessability-admin.php:331
@@ -154,6 +174,12 @@ msgstr "WCAG 2.2 AA کے مطابق دستی اور خودکار جانچ"
 #: includes/class-real-accessability-admin.php:338
 msgid "An accessibility menu alone is not enough"
 msgstr "صرف رسائی مینو کافی نہیں"
+
+#: includes/class-real-accessability-admin.php:343
+msgid ""
+"To meet Israeli Standard 5568, the code and content of the site need to be "
+"accessible too. Our experts audit your site and show you exactly what to fix."
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:344
 msgid ""
@@ -322,8 +348,8 @@ msgid ""
 "immune to unauthorized access, so we cannot guarantee absolute protection."
 msgstr ""
 "ہم تفصیلات کے تحفظ کے لیے جدید اقدامات استعمال کرتے ہیں۔ کوئی بھی نظام غیر "
-"مجاز رسائی سے مکمل طور پر محفوظ نہیں ہوتا، اس لیے ہم مکمل تحفظ کی ضمانت نہیں"
-" دے سکتے۔"
+"مجاز رسائی سے مکمل طور پر محفوظ نہیں ہوتا، اس لیے ہم مکمل تحفظ کی ضمانت نہیں "
+"دے سکتے۔"
 
 #: includes/class-real-accessability-admin.php:459
 msgid "Your rights"
@@ -388,9 +414,9 @@ msgstr "اعلان دستبرداری:"
 
 #: includes/class-real-accessability-admin.php:616
 msgid ""
-"Real Accessibility adds an accessibility menu that helps visitors adjust how"
-" the site is displayed. On its own, it does not make a website accessible or"
-" compliant with any accessibility law or standard (such as WCAG or Israeli "
+"Real Accessibility adds an accessibility menu that helps visitors adjust how "
+"the site is displayed. On its own, it does not make a website accessible or "
+"compliant with any accessibility law or standard (such as WCAG or Israeli "
 "Standard 5568). The site owner remains solely responsible for the "
 "accessibility of the site's code and content and for meeting the legal "
 "requirements. The plugin is provided \"as is\", without warranty of any "
@@ -399,8 +425,8 @@ msgid ""
 msgstr ""
 "Real Accessibility ایک رسائی مینو شامل کرتا ہے جو وزیٹرز کو سائٹ کے دکھائی "
 "دینے کا انداز اپنی ضرورت کے مطابق بدلنے میں مدد دیتا ہے۔ یہ اکیلا کسی ویب "
-"سائٹ کو قابل رسائی نہیں بناتا، نہ ہی رسائی سے متعلق کسی قانون یا معیار (جیسے"
-" WCAG یا اسرائیلی معیار 5568) کے مطابق بناتا ہے۔ سائٹ کے کوڈ اور مواد کی "
+"سائٹ کو قابل رسائی نہیں بناتا، نہ ہی رسائی سے متعلق کسی قانون یا معیار (جیسے "
+"WCAG یا اسرائیلی معیار 5568) کے مطابق بناتا ہے۔ سائٹ کے کوڈ اور مواد کی "
 "رسائی اور قانونی تقاضے پورے کرنے کی واحد ذمہ داری سائٹ کے مالک ہی پر رہتی "
 "ہے۔ پلگ ان “جیسا ہے” کی بنیاد پر، کسی بھی قسم کی وارنٹی کے بغیر فراہم کیا "
 "جاتا ہے، اور پلگ ان کے مصنفین اس کے استعمال سے ہونے والے کسی بھی نقصان کے "
@@ -434,9 +460,9 @@ msgstr ""
 "میں مدد ملتی ہے۔"
 
 #: includes/class-real-accessability-admin.php:652
-#: includes/class-real-accessability-admin.php:1117
-#: includes/class-real-accessability-admin.php:1251
-#: includes/class-real-accessability-admin.php:1349
+#: includes/class-real-accessability-admin.php:1124
+#: includes/class-real-accessability-admin.php:1258
+#: includes/class-real-accessability-admin.php:1356
 msgid "Cancel"
 msgstr "منسوخ کریں"
 
@@ -445,8 +471,8 @@ msgid "You can also turn it on without the credit"
 msgstr "آپ اسے کریڈٹ کے بغیر بھی آن کر سکتے ہیں"
 
 #: includes/class-real-accessability-admin.php:677
-#: includes/class-real-accessability-admin.php:998
-#: includes/class-real-accessability-admin.php:1006
+#: includes/class-real-accessability-admin.php:1005
+#: includes/class-real-accessability-admin.php:1013
 msgid "Button and menu"
 msgstr "بٹن اور مینو"
 
@@ -493,7 +519,7 @@ msgstr "یہ فیلڈ لازمی ہے۔"
 
 #. translators: %s: language name.
 #: includes/class-real-accessability-admin.php:769
-#: includes/class-real-accessability-admin.php:1297
+#: includes/class-real-accessability-admin.php:1304
 #, php-format
 msgid "Flag for %s"
 msgstr "%s کا جھنڈا"
@@ -535,8 +561,7 @@ msgid "Legal compliance"
 msgstr "قانونی تعمیل"
 
 #: includes/class-real-accessability-admin.php:825
-msgid ""
-"Thank you! The credit is shown at the bottom of the accessibility menu."
+msgid "Thank you! The credit is shown at the bottom of the accessibility menu."
 msgstr "شکریہ! کریڈٹ رسائی مینو کے نیچے دکھایا جا رہا ہے۔"
 
 #: includes/class-real-accessability-admin.php:832
@@ -626,7 +651,7 @@ msgid "From the bottom"
 msgstr "نیچے سے"
 
 #: includes/class-real-accessability-admin.php:925
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Circle"
 msgstr "دائرہ"
 
@@ -635,7 +660,7 @@ msgid "Rounded"
 msgstr "گول کونے"
 
 #: includes/class-real-accessability-admin.php:927
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Square"
 msgstr "مربع"
 
@@ -687,102 +712,110 @@ msgstr "خودکار"
 msgid "Custom"
 msgstr "حسب ضرورت"
 
-#: includes/class-real-accessability-admin.php:1000
+#: includes/class-real-accessability-admin.php:986
+msgid "Flat button color"
+msgstr "بٹن کا سادہ رنگ"
+
+#: includes/class-real-accessability-admin.php:987
+msgid "One solid color, without a gradient or shadow."
+msgstr "ایک ٹھوس رنگ، بغیر گریڈیئنٹ یا سائے کے۔"
+
+#: includes/class-real-accessability-admin.php:1007
 msgid "Show the button on"
 msgstr "ان ڈیوائسز پر بٹن دکھائیں"
 
-#: includes/class-real-accessability-admin.php:1009
-#: includes/class-real-accessability-admin.php:1024
+#: includes/class-real-accessability-admin.php:1016
+#: includes/class-real-accessability-admin.php:1031
 msgid "Button position"
 msgstr "بٹن کی جگہ"
 
-#: includes/class-real-accessability-admin.php:1010
+#: includes/class-real-accessability-admin.php:1017
 msgid "Shape and size"
 msgstr "شکل اور سائز"
 
-#: includes/class-real-accessability-admin.php:1011
+#: includes/class-real-accessability-admin.php:1018
 msgid "The menu"
 msgstr "مینو"
 
-#: includes/class-real-accessability-admin.php:1019
+#: includes/class-real-accessability-admin.php:1026
 msgid ""
 "The button is hidden on this device. Turn it back on with the icons above."
 msgstr "اس ڈیوائس پر بٹن چھپا ہوا ہے۔ اوپر والے آئیکنز سے اسے دوبارہ آن کریں۔"
 
-#: includes/class-real-accessability-admin.php:1036
+#: includes/class-real-accessability-admin.php:1043
 msgid "Distance from the edge - horizontal"
 msgstr "کنارے سے فاصلہ - افقی"
 
-#: includes/class-real-accessability-admin.php:1036
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1043
+#: includes/class-real-accessability-admin.php:1044
 msgid "Attached"
 msgstr "متصل"
 
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1044
 msgid "Distance from the edge - vertical"
 msgstr "کنارے سے فاصلہ - عمودی"
 
-#: includes/class-real-accessability-admin.php:1044
+#: includes/class-real-accessability-admin.php:1051
 msgid "Shape"
 msgstr "شکل"
 
-#: includes/class-real-accessability-admin.php:1050
+#: includes/class-real-accessability-admin.php:1057
 msgid "Button size"
 msgstr "بٹن کا سائز"
 
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Corner radius"
 msgstr "کونوں کی گولائی"
 
-#: includes/class-real-accessability-admin.php:1056
+#: includes/class-real-accessability-admin.php:1063
 msgid "Opens from the edge of the screen, wherever the button is."
 msgstr "اسکرین کے کنارے سے کھلتا ہے، بٹن چاہے کہیں بھی ہو۔"
 
-#: includes/class-real-accessability-admin.php:1058
+#: includes/class-real-accessability-admin.php:1065
 msgid "Menu opens from"
 msgstr "مینو کہاں سے کھلے"
 
-#: includes/class-real-accessability-admin.php:1067
+#: includes/class-real-accessability-admin.php:1074
 msgid "Menu corner radius"
 msgstr "مینو کے کونوں کی گولائی"
 
-#: includes/class-real-accessability-admin.php:1079
-#: includes/class-real-accessability-admin.php:1080
-#: includes/class-real-accessability-admin.php:1235
-#: includes/class-real-accessability-admin.php:1330
+#: includes/class-real-accessability-admin.php:1086
+#: includes/class-real-accessability-admin.php:1087
+#: includes/class-real-accessability-admin.php:1242
+#: includes/class-real-accessability-admin.php:1337
 msgid "Preview"
 msgstr "پیش منظر"
 
-#: includes/class-real-accessability-admin.php:1081
+#: includes/class-real-accessability-admin.php:1088
 msgid "Button"
 msgstr "بٹن"
 
-#: includes/class-real-accessability-admin.php:1082
+#: includes/class-real-accessability-admin.php:1089
 msgid "Menu open"
 msgstr "کھلا مینو"
 
-#: includes/class-real-accessability-admin.php:1095
+#: includes/class-real-accessability-admin.php:1102
 #: includes/class-real-accessability-i18n.php:32
 msgid "Accessibility"
 msgstr "رسائی"
 
-#: includes/class-real-accessability-admin.php:1104
+#: includes/class-real-accessability-admin.php:1111
 msgid "The button is hidden on this device."
 msgstr "اس ڈیوائس پر بٹن چھپا ہوا ہے۔"
 
-#: includes/class-real-accessability-admin.php:1116
-#: includes/class-real-accessability-admin.php:1250
-#: includes/class-real-accessability-admin.php:1348
+#: includes/class-real-accessability-admin.php:1123
+#: includes/class-real-accessability-admin.php:1257
+#: includes/class-real-accessability-admin.php:1355
 msgid "Save changes"
 msgstr "تبدیلیاں محفوظ کریں"
 
-#: includes/class-real-accessability-admin.php:1118
-#: includes/class-real-accessability-admin.php:1252
-#: includes/class-real-accessability-admin.php:1350
+#: includes/class-real-accessability-admin.php:1125
+#: includes/class-real-accessability-admin.php:1259
+#: includes/class-real-accessability-admin.php:1357
 msgid "You have unsaved changes"
 msgstr "آپ کی تبدیلیاں ابھی محفوظ نہیں ہوئیں"
 
-#: includes/class-real-accessability-admin.php:1193
+#: includes/class-real-accessability-admin.php:1200
 msgid ""
 "Choose what visitors see in the accessibility menu. Sections without any "
 "option are not shown."
@@ -790,23 +823,23 @@ msgstr ""
 "منتخب کریں کہ وزیٹرز رسائی مینو میں کیا دیکھیں۔ جن حصوں میں کوئی آپشن نہ ہو "
 "وہ نہیں دکھائے جاتے۔"
 
-#: includes/class-real-accessability-admin.php:1222
+#: includes/class-real-accessability-admin.php:1229
 msgid "Menu footer"
 msgstr "مینو کا فوٹر"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hide button"
 msgstr "چھپانے کا بٹن"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hides the accessibility button until the visitor's next visit"
 msgstr "وزیٹر کے اگلے وزٹ تک رسائی بٹن چھپا دیتا ہے"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid "Plugin credit"
 msgstr "پلگ ان کا کریڈٹ"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid ""
 "A small credit at the bottom of the menu, with a link to the plugin page on "
 "WordPress.org"
@@ -814,68 +847,68 @@ msgstr ""
 "مینو کے نیچے ایک چھوٹا سا کریڈٹ، WordPress.org پر پلگ ان کے صفحے کے لنک کے "
 "ساتھ"
 
-#: includes/class-real-accessability-admin.php:1237
+#: includes/class-real-accessability-admin.php:1244
 msgid "Preview of the accessibility menu"
 msgstr "رسائی مینو کا پیش منظر"
 
-#: includes/class-real-accessability-admin.php:1276
+#: includes/class-real-accessability-admin.php:1283
 msgid "Menu languages"
 msgstr "مینو کی زبانیں"
 
-#: includes/class-real-accessability-admin.php:1281
+#: includes/class-real-accessability-admin.php:1288
 msgid "Search languages"
 msgstr "زبانیں تلاش کریں"
 
-#: includes/class-real-accessability-admin.php:1283
+#: includes/class-real-accessability-admin.php:1290
 msgid "No language found"
 msgstr "کوئی زبان نہیں ملی"
 
-#: includes/class-real-accessability-admin.php:1293
+#: includes/class-real-accessability-admin.php:1300
 msgid "Drag to reorder"
 msgstr "ترتیب بدلنے کے لیے گھسیٹیں"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1315
+#: includes/class-real-accessability-admin.php:1322
 #, php-format
 msgid "Make %s the default"
 msgstr "%s کو طے شدہ بنائیں"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1316
+#: includes/class-real-accessability-admin.php:1323
 msgid "Default"
 msgstr "طے شدہ"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1319
+#: includes/class-real-accessability-admin.php:1326
 #, php-format
 msgid "Show %s in the menu"
 msgstr "%s کو مینو میں دکھائیں"
 
-#: includes/class-real-accessability-admin.php:1362
+#: includes/class-real-accessability-admin.php:1369
 msgid "Statement page"
 msgstr "بیان کا صفحہ"
 
-#: includes/class-real-accessability-admin.php:1370
+#: includes/class-real-accessability-admin.php:1377
 msgid "- Select a page -"
 msgstr "- صفحہ منتخب کریں -"
 
-#: includes/class-real-accessability-admin.php:1377
+#: includes/class-real-accessability-admin.php:1384
 msgid "View page"
 msgstr "صفحہ دیکھیں"
 
-#: includes/class-real-accessability-admin.php:1379
+#: includes/class-real-accessability-admin.php:1386
 msgid ""
 "The page on your site with the accessibility statement. The \"Accessibility "
 "statement\" button in the menu links to it."
 msgstr ""
-"آپ کی سائٹ کا وہ صفحہ جس پر رسائی کا بیان موجود ہے۔ مینو میں “رسائی کا بیان”"
-" بٹن اسی صفحے سے لنک ہوتا ہے۔"
+"آپ کی سائٹ کا وہ صفحہ جس پر رسائی کا بیان موجود ہے۔ مینو میں “رسائی کا بیان” "
+"بٹن اسی صفحے سے لنک ہوتا ہے۔"
 
-#: includes/class-real-accessability-admin.php:1383
+#: includes/class-real-accessability-admin.php:1390
 msgid "Statement button"
 msgstr "بیان کا بٹن"
 
-#: includes/class-real-accessability-admin.php:1385
+#: includes/class-real-accessability-admin.php:1392
 msgid "Show the \"Accessibility statement\" button in the menu"
 msgstr "مینو میں “رسائی کا بیان” بٹن دکھائیں"
 

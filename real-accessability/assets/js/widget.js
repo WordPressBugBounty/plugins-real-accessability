@@ -472,7 +472,7 @@
 		var info = languageInfo(lang) || {};
 		ui.setAttribute('dir', info.dir || 'ltr');
 		ui.setAttribute('lang', String(lang).replace('_', '-'));
-		ui.className = 'ra-ui ' + (info.dir === 'rtl' ? 'ra-rtl' : 'ra-ltr') + (isOpen ? ' ra-open' : '') + (PREVIEW ? ' ra-preview' : '') + (!PREVIEW && read('sessionStorage', HIDDEN_STORE) ? ' ra-hidden' : '');
+		ui.className = 'ra-ui ' + (info.dir === 'rtl' ? 'ra-rtl' : 'ra-ltr') + (isOpen ? ' ra-open' : '') + (PREVIEW ? ' ra-preview' : '') + (C.flat ? ' ra-flat' : '') + (!PREVIEW && read('sessionStorage', HIDDEN_STORE) ? ' ra-hidden' : '');
 
 		ui.innerHTML = '<div class="ra-fx" aria-hidden="true"></div>' +
 			'<div class="ra-guide" aria-hidden="true" hidden></div>' +

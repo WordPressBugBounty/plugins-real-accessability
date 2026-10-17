@@ -981,6 +981,13 @@ class Real_Accessability_Admin {
 									</span>
 								</div>
 							</div>
+							<div class="ra-line">
+								<div>
+									<label class="ra-label" for="ra-flat"><?php esc_html_e( 'Flat button color', 'real-accessability' ); ?></label>
+									<p class="ra-sub"><?php esc_html_e( 'One solid color, without a gradient or shadow.', 'real-accessability' ); ?></p>
+								</div>
+								<input type="checkbox" class="ra-flat-check" id="ra-flat" name="<?php echo esc_attr( self::field_name( '[flat]' ) ); ?>" value="1" <?php checked( ! empty( $settings['flat'] ) ); ?>>
+							</div>
 						</div>
 					</section>
 
@@ -1047,7 +1054,7 @@ class Real_Accessability_Admin {
 											<?php endforeach; ?>
 										</div>
 										<?php
-										self::slider( $id . 'size', self::field_name( $base . '[size]' ), __( 'Button size', 'real-accessability' ), $d['size'], 40, 72, 2, '40px', '72px', 'ra-size' );
+										self::slider( $id . 'size', self::field_name( $base . '[size]' ), __( 'Button size', 'real-accessability' ), $d['size'], 28, 72, 2, '28px', '72px', 'ra-size' );
 										self::slider( $id . 'radius', self::field_name( $base . '[radius]' ), __( 'Corner radius', 'real-accessability' ), $d['radius'], 0, $max, 1, __( 'Square', 'real-accessability' ), __( 'Circle', 'real-accessability' ), 'ra-radius' );
 										?>
 									</div>

@@ -94,6 +94,7 @@ class Real_Accessability_Frontend {
 			'profiles'   => array_keys( array_filter( $settings['profiles'] ) ),
 			'features'   => array_keys( array_filter( $settings['features'] ) ),
 			'hideButton' => (bool) $settings['hide_button'],
+			'flat'       => ! empty( $settings['flat'] ),
 			'statement'  => $statement ? esc_url_raw( $statement ) : '',
 			'credit'     => $settings['credit'] ? array(
 				'url'  => 'https://wordpress.org/plugins/real-accessability/',

@@ -2,7 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Real Accessibility 2.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-accessability/\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/real-"
+"accessability\n"
+"POT-Creation-Date: 2026-10-15T00:01:02+00:00\n"
 "PO-Revision-Date: 2026-10-11 12:00+0300\n"
 "Last-Translator: REALMEDIA <office@realmedia.co.il>\n"
 "Language-Team: Vietnamese\n"
@@ -12,6 +14,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=(0);\n"
 "X-Domain: real-accessability\n"
+
+#. Plugin Name of the plugin
+#: real-accessability.php
+msgid "Real Accessibility: Accessibility Widget & Toolbar"
+msgstr ""
 
 #. Plugin URI of the plugin
 #: real-accessability.php
@@ -25,8 +32,8 @@ msgid ""
 "modes, text size and spacing, readable font, reading guide and more, styled "
 "in your brand color."
 msgstr ""
-"Menu trợ năng cho trang web của bạn: hồ sơ có sẵn, chế độ tương phản, cỡ chữ"
-" và khoảng cách, phông chữ dễ đọc, thước đọc và nhiều tính năng khác, theo "
+"Menu trợ năng cho trang web của bạn: hồ sơ có sẵn, chế độ tương phản, cỡ chữ "
+"và khoảng cách, phông chữ dễ đọc, thước đọc và nhiều tính năng khác, theo "
 "màu thương hiệu của bạn."
 
 #. Author of the plugin
@@ -101,6 +108,10 @@ msgstr "Chấp nhận"
 msgid "No thanks"
 msgstr "Không, cảm ơn"
 
+#: includes/class-real-accessability-admin.php:225
+msgid "Real Media - website accessibility services"
+msgstr ""
+
 #: includes/class-real-accessability-admin.php:244
 msgid "Load WooCommerce stores in 249ms"
 msgstr "Tải cửa hàng WooCommerce chỉ trong 249 ms"
@@ -112,6 +123,10 @@ msgstr "Tải trang web WordPress chỉ từ 37 ms"
 #: includes/class-real-accessability-admin.php:255
 msgid "(opens in a new tab)"
 msgstr "(mở trong tab mới)"
+
+#: includes/class-real-accessability-admin.php:274
+msgid "From ₪2,000 + VAT"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:274
 msgid "Starting from $500"
@@ -132,6 +147,11 @@ msgstr "Yêu cầu của bạn đã được gửi. Chúng tôi sẽ sớm liên
 #: includes/class-real-accessability-admin.php:311
 msgid "Get a quote"
 msgstr "Nhận báo giá"
+
+#: includes/class-real-accessability-admin.php:325
+msgid ""
+"Manual and automated testing against Israeli Standard 5568 and WCAG 2.1 AA"
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:326
 #: includes/class-real-accessability-admin.php:331
@@ -155,6 +175,12 @@ msgstr "Kiểm tra thủ công và tự động theo WCAG 2.2 AA"
 #: includes/class-real-accessability-admin.php:338
 msgid "An accessibility menu alone is not enough"
 msgstr "Chỉ có menu trợ năng là chưa đủ"
+
+#: includes/class-real-accessability-admin.php:343
+msgid ""
+"To meet Israeli Standard 5568, the code and content of the site need to be "
+"accessible too. Our experts audit your site and show you exactly what to fix."
+msgstr ""
 
 #: includes/class-real-accessability-admin.php:344
 msgid ""
@@ -218,8 +244,8 @@ msgid ""
 "I agree that these details will be sent to Real Media Ltd. so they can "
 "contact me about an accessibility audit, in accordance with the %s."
 msgstr ""
-"Tôi đồng ý rằng các thông tin này sẽ được gửi đến Real Media Ltd. để công ty"
-" liên hệ với tôi về việc đánh giá khả năng tiếp cận, theo %s."
+"Tôi đồng ý rằng các thông tin này sẽ được gửi đến Real Media Ltd. để công ty "
+"liên hệ với tôi về việc đánh giá khả năng tiếp cận, theo %s."
 
 #: includes/class-real-accessability-admin.php:423
 msgctxt "link inside the consent sentence"
@@ -252,9 +278,9 @@ msgid ""
 "your site's address, your consent, the plugin version and the time of "
 "sending."
 msgstr ""
-"Chỉ những gì bạn nhập vào biểu mẫu: họ và tên, điện thoại và email, cùng với"
-" địa chỉ trang web của bạn, sự đồng ý của bạn, phiên bản plugin và thời điểm"
-" gửi."
+"Chỉ những gì bạn nhập vào biểu mẫu: họ và tên, điện thoại và email, cùng với "
+"địa chỉ trang web của bạn, sự đồng ý của bạn, phiên bản plugin và thời điểm "
+"gửi."
 
 #: includes/class-real-accessability-admin.php:436
 msgid ""
@@ -274,9 +300,9 @@ msgid ""
 "accessibility audit. We will not send you marketing messages unless you "
 "agree to receive them separately."
 msgstr ""
-"Để phản hồi yêu cầu của bạn và gửi báo giá đánh giá khả năng tiếp cận. Chúng"
-" tôi sẽ không gửi tin nhắn tiếp thị cho bạn, trừ khi bạn đồng ý riêng để "
-"nhận các tin nhắn đó."
+"Để phản hồi yêu cầu của bạn và gửi báo giá đánh giá khả năng tiếp cận. Chúng "
+"tôi sẽ không gửi tin nhắn tiếp thị cho bạn, trừ khi bạn đồng ý riêng để nhận "
+"các tin nhắn đó."
 
 #: includes/class-real-accessability-admin.php:443
 msgid "Do you have to give it"
@@ -299,8 +325,7 @@ msgid ""
 "The details are sent to Real Media Ltd., so it can get back to you with a "
 "quote."
 msgstr ""
-"Thông tin được gửi đến Real Media Ltd. để công ty có thể gửi báo giá cho "
-"bạn."
+"Thông tin được gửi đến Real Media Ltd. để công ty có thể gửi báo giá cho bạn."
 
 #: includes/class-real-accessability-admin.php:451
 msgid "How long we keep it"
@@ -323,9 +348,9 @@ msgid ""
 "We use up-to-date measures to protect the details. No system is completely "
 "immune to unauthorized access, so we cannot guarantee absolute protection."
 msgstr ""
-"Chúng tôi áp dụng các biện pháp hiện đại để bảo vệ thông tin. Không hệ thống"
-" nào miễn nhiễm hoàn toàn với truy cập trái phép, vì vậy chúng tôi không thể"
-" đảm bảo bảo vệ tuyệt đối."
+"Chúng tôi áp dụng các biện pháp hiện đại để bảo vệ thông tin. Không hệ thống "
+"nào miễn nhiễm hoàn toàn với truy cập trái phép, vì vậy chúng tôi không thể "
+"đảm bảo bảo vệ tuyệt đối."
 
 #: includes/class-real-accessability-admin.php:459
 msgid "Your rights"
@@ -389,9 +414,9 @@ msgstr "Tuyên bố miễn trừ trách nhiệm:"
 
 #: includes/class-real-accessability-admin.php:616
 msgid ""
-"Real Accessibility adds an accessibility menu that helps visitors adjust how"
-" the site is displayed. On its own, it does not make a website accessible or"
-" compliant with any accessibility law or standard (such as WCAG or Israeli "
+"Real Accessibility adds an accessibility menu that helps visitors adjust how "
+"the site is displayed. On its own, it does not make a website accessible or "
+"compliant with any accessibility law or standard (such as WCAG or Israeli "
 "Standard 5568). The site owner remains solely responsible for the "
 "accessibility of the site's code and content and for meeting the legal "
 "requirements. The plugin is provided \"as is\", without warranty of any "
@@ -399,9 +424,9 @@ msgid ""
 "its use."
 msgstr ""
 "Real Accessibility thêm một menu trợ năng giúp khách truy cập điều chỉnh "
-"cách hiển thị trang web. Bản thân plugin không làm cho trang web đáp ứng khả"
-" năng tiếp cận hoặc tuân thủ bất kỳ luật hay tiêu chuẩn nào về khả năng tiếp"
-" cận (chẳng hạn WCAG hoặc Tiêu chuẩn Israel 5568). Chủ sở hữu trang web vẫn "
+"cách hiển thị trang web. Bản thân plugin không làm cho trang web đáp ứng khả "
+"năng tiếp cận hoặc tuân thủ bất kỳ luật hay tiêu chuẩn nào về khả năng tiếp "
+"cận (chẳng hạn WCAG hoặc Tiêu chuẩn Israel 5568). Chủ sở hữu trang web vẫn "
 "là người duy nhất chịu trách nhiệm về khả năng tiếp cận của mã nguồn và nội "
 "dung trang web cũng như việc đáp ứng các yêu cầu pháp lý. Plugin được cung "
 "cấp “nguyên trạng”, không kèm bất kỳ hình thức bảo đảm nào, và các tác giả "
@@ -436,9 +461,9 @@ msgstr ""
 "tìm thấy plugin."
 
 #: includes/class-real-accessability-admin.php:652
-#: includes/class-real-accessability-admin.php:1117
-#: includes/class-real-accessability-admin.php:1251
-#: includes/class-real-accessability-admin.php:1349
+#: includes/class-real-accessability-admin.php:1124
+#: includes/class-real-accessability-admin.php:1258
+#: includes/class-real-accessability-admin.php:1356
 msgid "Cancel"
 msgstr "Hủy"
 
@@ -447,8 +472,8 @@ msgid "You can also turn it on without the credit"
 msgstr "Bạn cũng có thể bật menu mà không có dòng ghi công"
 
 #: includes/class-real-accessability-admin.php:677
-#: includes/class-real-accessability-admin.php:998
-#: includes/class-real-accessability-admin.php:1006
+#: includes/class-real-accessability-admin.php:1005
+#: includes/class-real-accessability-admin.php:1013
 msgid "Button and menu"
 msgstr "Nút và menu"
 
@@ -495,7 +520,7 @@ msgstr "Trường này là bắt buộc."
 
 #. translators: %s: language name.
 #: includes/class-real-accessability-admin.php:769
-#: includes/class-real-accessability-admin.php:1297
+#: includes/class-real-accessability-admin.php:1304
 #, php-format
 msgid "Flag for %s"
 msgstr "Cờ cho %s"
@@ -536,8 +561,7 @@ msgid "Legal compliance"
 msgstr "Tuân thủ pháp luật"
 
 #: includes/class-real-accessability-admin.php:825
-msgid ""
-"Thank you! The credit is shown at the bottom of the accessibility menu."
+msgid "Thank you! The credit is shown at the bottom of the accessibility menu."
 msgstr "Cảm ơn bạn! Dòng ghi công được hiển thị ở cuối menu trợ năng."
 
 #: includes/class-real-accessability-admin.php:832
@@ -545,8 +569,8 @@ msgid ""
 "The accessibility menu is live on your site, with the credit at the bottom. "
 "Thank you!"
 msgstr ""
-"Menu trợ năng đã hoạt động trên trang web của bạn, kèm dòng ghi công ở cuối."
-" Cảm ơn bạn!"
+"Menu trợ năng đã hoạt động trên trang web của bạn, kèm dòng ghi công ở cuối. "
+"Cảm ơn bạn!"
 
 #: includes/class-real-accessability-admin.php:833
 msgid "The accessibility menu is live on your site!"
@@ -629,7 +653,7 @@ msgid "From the bottom"
 msgstr "Từ phía dưới"
 
 #: includes/class-real-accessability-admin.php:925
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Circle"
 msgstr "Hình tròn"
 
@@ -638,7 +662,7 @@ msgid "Rounded"
 msgstr "Bo góc"
 
 #: includes/class-real-accessability-admin.php:927
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Square"
 msgstr "Hình vuông"
 
@@ -691,103 +715,111 @@ msgstr "Tự động"
 msgid "Custom"
 msgstr "Tùy chỉnh"
 
-#: includes/class-real-accessability-admin.php:1000
+#: includes/class-real-accessability-admin.php:986
+msgid "Flat button color"
+msgstr "Màu nút phẳng"
+
+#: includes/class-real-accessability-admin.php:987
+msgid "One solid color, without a gradient or shadow."
+msgstr "Một màu đặc duy nhất, không có chuyển màu hay bóng đổ."
+
+#: includes/class-real-accessability-admin.php:1007
 msgid "Show the button on"
 msgstr "Hiển thị nút trên"
 
-#: includes/class-real-accessability-admin.php:1009
-#: includes/class-real-accessability-admin.php:1024
+#: includes/class-real-accessability-admin.php:1016
+#: includes/class-real-accessability-admin.php:1031
 msgid "Button position"
 msgstr "Vị trí nút"
 
-#: includes/class-real-accessability-admin.php:1010
+#: includes/class-real-accessability-admin.php:1017
 msgid "Shape and size"
 msgstr "Hình dạng và kích thước"
 
-#: includes/class-real-accessability-admin.php:1011
+#: includes/class-real-accessability-admin.php:1018
 msgid "The menu"
 msgstr "Menu"
 
-#: includes/class-real-accessability-admin.php:1019
+#: includes/class-real-accessability-admin.php:1026
 msgid ""
 "The button is hidden on this device. Turn it back on with the icons above."
 msgstr ""
 "Nút đang ẩn trên thiết bị này. Hãy bật lại bằng các biểu tượng phía trên."
 
-#: includes/class-real-accessability-admin.php:1036
+#: includes/class-real-accessability-admin.php:1043
 msgid "Distance from the edge - horizontal"
 msgstr "Khoảng cách từ mép - ngang"
 
-#: includes/class-real-accessability-admin.php:1036
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1043
+#: includes/class-real-accessability-admin.php:1044
 msgid "Attached"
 msgstr "Sát mép"
 
-#: includes/class-real-accessability-admin.php:1037
+#: includes/class-real-accessability-admin.php:1044
 msgid "Distance from the edge - vertical"
 msgstr "Khoảng cách từ mép - dọc"
 
-#: includes/class-real-accessability-admin.php:1044
+#: includes/class-real-accessability-admin.php:1051
 msgid "Shape"
 msgstr "Hình dạng"
 
-#: includes/class-real-accessability-admin.php:1050
+#: includes/class-real-accessability-admin.php:1057
 msgid "Button size"
 msgstr "Kích thước nút"
 
-#: includes/class-real-accessability-admin.php:1051
+#: includes/class-real-accessability-admin.php:1058
 msgid "Corner radius"
 msgstr "Độ bo góc"
 
-#: includes/class-real-accessability-admin.php:1056
+#: includes/class-real-accessability-admin.php:1063
 msgid "Opens from the edge of the screen, wherever the button is."
 msgstr "Mở ra từ mép màn hình, bất kể nút nằm ở đâu."
 
-#: includes/class-real-accessability-admin.php:1058
+#: includes/class-real-accessability-admin.php:1065
 msgid "Menu opens from"
 msgstr "Menu mở từ"
 
-#: includes/class-real-accessability-admin.php:1067
+#: includes/class-real-accessability-admin.php:1074
 msgid "Menu corner radius"
 msgstr "Độ bo góc menu"
 
-#: includes/class-real-accessability-admin.php:1079
-#: includes/class-real-accessability-admin.php:1080
-#: includes/class-real-accessability-admin.php:1235
-#: includes/class-real-accessability-admin.php:1330
+#: includes/class-real-accessability-admin.php:1086
+#: includes/class-real-accessability-admin.php:1087
+#: includes/class-real-accessability-admin.php:1242
+#: includes/class-real-accessability-admin.php:1337
 msgid "Preview"
 msgstr "Xem trước"
 
-#: includes/class-real-accessability-admin.php:1081
+#: includes/class-real-accessability-admin.php:1088
 msgid "Button"
 msgstr "Nút"
 
-#: includes/class-real-accessability-admin.php:1082
+#: includes/class-real-accessability-admin.php:1089
 msgid "Menu open"
 msgstr "Menu mở"
 
-#: includes/class-real-accessability-admin.php:1095
+#: includes/class-real-accessability-admin.php:1102
 #: includes/class-real-accessability-i18n.php:32
 msgid "Accessibility"
 msgstr "Trợ năng"
 
-#: includes/class-real-accessability-admin.php:1104
+#: includes/class-real-accessability-admin.php:1111
 msgid "The button is hidden on this device."
 msgstr "Nút đang ẩn trên thiết bị này."
 
-#: includes/class-real-accessability-admin.php:1116
-#: includes/class-real-accessability-admin.php:1250
-#: includes/class-real-accessability-admin.php:1348
+#: includes/class-real-accessability-admin.php:1123
+#: includes/class-real-accessability-admin.php:1257
+#: includes/class-real-accessability-admin.php:1355
 msgid "Save changes"
 msgstr "Lưu thay đổi"
 
-#: includes/class-real-accessability-admin.php:1118
-#: includes/class-real-accessability-admin.php:1252
-#: includes/class-real-accessability-admin.php:1350
+#: includes/class-real-accessability-admin.php:1125
+#: includes/class-real-accessability-admin.php:1259
+#: includes/class-real-accessability-admin.php:1357
 msgid "You have unsaved changes"
 msgstr "Bạn có thay đổi chưa được lưu"
 
-#: includes/class-real-accessability-admin.php:1193
+#: includes/class-real-accessability-admin.php:1200
 msgid ""
 "Choose what visitors see in the accessibility menu. Sections without any "
 "option are not shown."
@@ -795,23 +827,23 @@ msgstr ""
 "Chọn những gì khách truy cập thấy trong menu trợ năng. Các mục không có tùy "
 "chọn nào được bật sẽ không hiển thị."
 
-#: includes/class-real-accessability-admin.php:1222
+#: includes/class-real-accessability-admin.php:1229
 msgid "Menu footer"
 msgstr "Chân menu"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hide button"
 msgstr "Nút “Ẩn”"
 
-#: includes/class-real-accessability-admin.php:1225
+#: includes/class-real-accessability-admin.php:1232
 msgid "Hides the accessibility button until the visitor's next visit"
 msgstr "Ẩn nút trợ năng cho đến lần truy cập tiếp theo của khách"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid "Plugin credit"
 msgstr "Ghi công plugin"
 
-#: includes/class-real-accessability-admin.php:1226
+#: includes/class-real-accessability-admin.php:1233
 msgid ""
 "A small credit at the bottom of the menu, with a link to the plugin page on "
 "WordPress.org"
@@ -819,56 +851,56 @@ msgstr ""
 "Dòng ghi công nhỏ ở cuối menu, kèm liên kết đến trang plugin trên "
 "WordPress.org"
 
-#: includes/class-real-accessability-admin.php:1237
+#: includes/class-real-accessability-admin.php:1244
 msgid "Preview of the accessibility menu"
 msgstr "Xem trước menu trợ năng"
 
-#: includes/class-real-accessability-admin.php:1276
+#: includes/class-real-accessability-admin.php:1283
 msgid "Menu languages"
 msgstr "Ngôn ngữ của menu"
 
-#: includes/class-real-accessability-admin.php:1281
+#: includes/class-real-accessability-admin.php:1288
 msgid "Search languages"
 msgstr "Tìm ngôn ngữ"
 
-#: includes/class-real-accessability-admin.php:1283
+#: includes/class-real-accessability-admin.php:1290
 msgid "No language found"
 msgstr "Không tìm thấy ngôn ngữ"
 
-#: includes/class-real-accessability-admin.php:1293
+#: includes/class-real-accessability-admin.php:1300
 msgid "Drag to reorder"
 msgstr "Kéo để sắp xếp lại"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1315
+#: includes/class-real-accessability-admin.php:1322
 #, php-format
 msgid "Make %s the default"
 msgstr "Đặt %s làm mặc định"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1316
+#: includes/class-real-accessability-admin.php:1323
 msgid "Default"
 msgstr "Mặc định"
 
 #. translators: %s: language name.
-#: includes/class-real-accessability-admin.php:1319
+#: includes/class-real-accessability-admin.php:1326
 #, php-format
 msgid "Show %s in the menu"
 msgstr "Hiển thị %s trong menu"
 
-#: includes/class-real-accessability-admin.php:1362
+#: includes/class-real-accessability-admin.php:1369
 msgid "Statement page"
 msgstr "Trang tuyên bố"
 
-#: includes/class-real-accessability-admin.php:1370
+#: includes/class-real-accessability-admin.php:1377
 msgid "- Select a page -"
 msgstr "- Chọn trang -"
 
-#: includes/class-real-accessability-admin.php:1377
+#: includes/class-real-accessability-admin.php:1384
 msgid "View page"
 msgstr "Xem trang"
 
-#: includes/class-real-accessability-admin.php:1379
+#: includes/class-real-accessability-admin.php:1386
 msgid ""
 "The page on your site with the accessibility statement. The \"Accessibility "
 "statement\" button in the menu links to it."
@@ -876,11 +908,11 @@ msgstr ""
 "Trang có nội dung tuyên bố về khả năng tiếp cận trên trang web của bạn. Nút "
 "“Tuyên bố về khả năng tiếp cận” trong menu liên kết đến trang này."
 
-#: includes/class-real-accessability-admin.php:1383
+#: includes/class-real-accessability-admin.php:1390
 msgid "Statement button"
 msgstr "Nút tuyên bố"
 
-#: includes/class-real-accessability-admin.php:1385
+#: includes/class-real-accessability-admin.php:1392
 msgid "Show the \"Accessibility statement\" button in the menu"
 msgstr "Hiển thị nút “Tuyên bố về khả năng tiếp cận” trong menu"
 
